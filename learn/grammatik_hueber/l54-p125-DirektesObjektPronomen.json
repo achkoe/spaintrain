@@ -1,0 +1,733 @@
+{
+    "image": "images/l54-p125-DirektesObjektPronomen.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s-p181-loesung.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-07 (1)", 
+            "textlist": [
+                {
+                    "y": 143, 
+                    "x": 553, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Lo alquilaron."
+                }, 
+                {
+                    "y": 177, 
+                    "x": 549, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Las vamos a pasar en Italia./Vamos a pasarlas en Italia."
+                }, 
+                {
+                    "y": 209, 
+                    "x": 547, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La he comprado para mi madre."
+                }, 
+                {
+                    "y": 240, 
+                    "x": 548, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No la podemos comprar./No podemos comprarla."
+                }, 
+                {
+                    "y": 275, 
+                    "x": 548, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfYa los has devuelto?"
+                }, 
+                {
+                    "y": 306, 
+                    "x": 563, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPor qu\u00e9 no la tom\u00e1is?"
+                }, 
+                {
+                    "y": 402, 
+                    "x": 272, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 435, 
+                    "x": 337, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "5"
+                }, 
+                {
+                    "y": 467, 
+                    "x": 384, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "6"
+                }, 
+                {
+                    "y": 501, 
+                    "x": 378, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 537, 
+                    "x": 295, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 571, 
+                    "x": 362, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 729, 
+                    "x": 553, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Los aperititivos los traen Jos\u00e9 y Teresa."
+                }, 
+                {
+                    "y": 763, 
+                    "x": 550, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La cerveza la trae Manuel."
+                }, 
+                {
+                    "y": 797, 
+                    "x": 550, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El agua mineral la trae Luis."
+                }, 
+                {
+                    "y": 825, 
+                    "x": 553, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Las servilletas las trae Laura."
+                }, 
+                {
+                    "y": 860, 
+                    "x": 555, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El pan y el queso los traen Isabel y Sandra."
+                }, 
+                {
+                    "y": 893, 
+                    "x": 557, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La tortilla y la fruta las traen Paco y Carmen."
+                }, 
+                {
+                    "y": 1025, 
+                    "x": 61, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Le/Les gustan estas flores?"
+                }, 
+                {
+                    "y": 1025, 
+                    "x": 320, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Las compr\u00e9 ayer en el mercado. "
+                }, 
+                {
+                    "y": 1093, 
+                    "x": 217, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Antonio ha estudiado mucho para el examen."
+                }, 
+                {
+                    "y": 1091, 
+                    "x": 580, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Estoy seguro que lo aprobar\u00e1."
+                }, 
+                {
+                    "y": 1156, 
+                    "x": 178, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfSabes d\u00f3nde estan mis guantes?"
+                }, 
+                {
+                    "y": 1153, 
+                    "x": 475, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No, a lo mejor los has perdido."
+                }, 
+                {
+                    "y": 1225, 
+                    "x": 80, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Esta pel\u00edcula no me gusta nada."
+                }, 
+                {
+                    "y": 1219, 
+                    "x": 356, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfLa has visto?"
+                }, 
+                {
+                    "y": 1322, 
+                    "x": 76, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "?Todavia no has recibido mi carta?"
+                }, 
+                {
+                    "y": 1318, 
+                    "x": 386, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La envi\u00e9 hace cinco d\u00edas."
+                }, 
+                {
+                    "y": 1075, 
+                    "x": 754, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Estoy seguro de que lo aprobar\u00e1."
+                }
+            ]
+        }, 
+        {
+            "name": "2017-01-01 (1)", 
+            "textlist": [
+                {
+                    "y": 144, 
+                    "x": 549, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Lo alquilaron."
+                }, 
+                {
+                    "y": 176, 
+                    "x": 546, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Vamos a pasarlas en Italia."
+                }, 
+                {
+                    "y": 176, 
+                    "x": 773, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "Las vamos a pasar en Italia."
+                }, 
+                {
+                    "y": 209, 
+                    "x": 543, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La he comprado para mi madre."
+                }, 
+                {
+                    "y": 239, 
+                    "x": 544, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No podemos comprarla."
+                }, 
+                {
+                    "y": 237, 
+                    "x": 756, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "La no podemos comprar."
+                }, 
+                {
+                    "y": 272, 
+                    "x": 545, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfYa los has devuelto?"
+                }, 
+                {
+                    "y": 306, 
+                    "x": 561, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPor qu\u00e9 la no tom\u00e1is?"
+                }, 
+                {
+                    "y": 404, 
+                    "x": 287, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 439, 
+                    "x": 344, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "5"
+                }, 
+                {
+                    "y": 466, 
+                    "x": 383, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "6"
+                }, 
+                {
+                    "y": 501, 
+                    "x": 383, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 536, 
+                    "x": 289, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 567, 
+                    "x": 357, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 730, 
+                    "x": 552, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Los aperitivios los traen Jos\u00e9 y Teresa."
+                }, 
+                {
+                    "y": 760, 
+                    "x": 551, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La cerveza la trae Manuel."
+                }, 
+                {
+                    "y": 794, 
+                    "x": 548, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El agua mineral la trae Luis."
+                }, 
+                {
+                    "y": 826, 
+                    "x": 549, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Las servilletas las trae Laura."
+                }, 
+                {
+                    "y": 862, 
+                    "x": 548, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El pan y el queso los traen Isabel y Sandra."
+                }, 
+                {
+                    "y": 894, 
+                    "x": 549, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La tortilla y la fruta las traen Paco y Carmen."
+                }, 
+                {
+                    "y": 1015, 
+                    "x": 64, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfLe/Les gustan esta flores?"
+                }, 
+                {
+                    "y": 1027, 
+                    "x": 322, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Las traj\u00f3 ayer en el mercado."
+                }, 
+                {
+                    "y": 1079, 
+                    "x": 228, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Antonio ha estudio muche para el examen."
+                }, 
+                {
+                    "y": 1088, 
+                    "x": 591, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Estoy seguro de que lo aprobar\u00e1."
+                }, 
+                {
+                    "y": 1161, 
+                    "x": 181, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "\u00bfSabes donde estan mis guantes?"
+                }, 
+                {
+                    "y": 1153, 
+                    "x": 517, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "No. A lo mejor los has devuelto."
+                }, 
+                {
+                    "y": 1221, 
+                    "x": 79, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La pel\u00edcula no me gusta nada."
+                }, 
+                {
+                    "y": 1215, 
+                    "x": 446, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfLa has visto?"
+                }, 
+                {
+                    "y": 1314, 
+                    "x": 88, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfTod\u00e1via no has recibo mi carta?"
+                }, 
+                {
+                    "y": 1315, 
+                    "x": 435, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La envi\u00e9 hace cinco d\u00edas. "
+                }, 
+                {
+                    "y": 302, 
+                    "x": 770, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfPor qu\u00e9  no la tom\u00e1is?"
+                }, 
+                {
+                    "y": 262, 
+                    "x": 787, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "No la podemos comprar."
+                }, 
+                {
+                    "y": 1041, 
+                    "x": 73, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfLe/Les gustan estas flores?"
+                }, 
+                {
+                    "y": 1020, 
+                    "x": 569, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Las compr\u00e9 ayer en el mercado."
+                }, 
+                {
+                    "y": 1107, 
+                    "x": 226, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Antonio ha estudiado mucho para el examen."
+                }, 
+                {
+                    "y": 1143, 
+                    "x": 241, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "d\u00f3nde"
+                }, 
+                {
+                    "y": 1142, 
+                    "x": 302, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "est\u00e1n"
+                }, 
+                {
+                    "y": 1151, 
+                    "x": 769, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "No. A lo mejor los has perdido."
+                }, 
+                {
+                    "y": 1344, 
+                    "x": 84, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfTod\u00e1via no has recibido mi carta?"
+                }
+            ]
+        }, 
+        {
+            "name": "2016-12-30 (2)", 
+            "textlist": [
+                {
+                    "y": 143, 
+                    "x": 561, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Lo alquilaron"
+                }, 
+                {
+                    "y": 178, 
+                    "x": 508, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Las vamos a pasar en Italia. / Vamos a pasarlas en Italia."
+                }, 
+                {
+                    "y": 209, 
+                    "x": 545, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La he comprado para mi madre."
+                }, 
+                {
+                    "y": 240, 
+                    "x": 552, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No la podemos comprar. / No podemos comprarla."
+                }, 
+                {
+                    "y": 275, 
+                    "x": 547, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfYa los has devuelto?"
+                }, 
+                {
+                    "y": 304, 
+                    "x": 571, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPorque no la tom\u00e1is?"
+                }, 
+                {
+                    "y": 406, 
+                    "x": 274, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 439, 
+                    "x": 345, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "5"
+                }, 
+                {
+                    "y": 470, 
+                    "x": 379, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "6"
+                }, 
+                {
+                    "y": 504, 
+                    "x": 380, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 541, 
+                    "x": 315, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 573, 
+                    "x": 358, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 732, 
+                    "x": 546, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Los aperitivos los traen Jos\u00e9 y Teresa."
+                }, 
+                {
+                    "y": 766, 
+                    "x": 556, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La cerveza la trae Manuel."
+                }, 
+                {
+                    "y": 799, 
+                    "x": 459, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "El agua mineral lo trae Luis."
+                }, 
+                {
+                    "y": 829, 
+                    "x": 556, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Las servilletas las trae Laura."
+                }, 
+                {
+                    "y": 864, 
+                    "x": 357, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Los pan y queso los traen Isabel y Sandra."
+                }, 
+                {
+                    "y": 895, 
+                    "x": 549, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Las tortilla y fruta las traen Pace y Carmen."
+                }, 
+                {
+                    "y": 1025, 
+                    "x": 5, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfUsted gustan esta flores? Las compr\u00e9 ayer en el mercado."
+                }, 
+                {
+                    "y": 1091, 
+                    "x": 217, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Antonio ha aprendido mucho para el examen. Estoy seguro que lo aprobar\u00e1."
+                }, 
+                {
+                    "y": 1145, 
+                    "x": 47, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfSabes donde esta mis guantes? No. A lo mejor los perdes."
+                }, 
+                {
+                    "y": 1225, 
+                    "x": 75, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Esta pel\u00edcula no me gusta nada. \u00bfLa has visto?"
+                }, 
+                {
+                    "y": 1318, 
+                    "x": 71, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfTodav\u00eda no recibes mi carta? La envi\u00f3 hace cinco d\u00edas."
+                }, 
+                {
+                    "y": 798, 
+                    "x": 742, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "El agua mineral la trae Luis."
+                }, 
+                {
+                    "y": 863, 
+                    "x": 690, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "El pan y el queso los traen Isabel y Sandra."
+                }, 
+                {
+                    "y": 923, 
+                    "x": 552, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La tortilla y la fruta las traen Pace y Carmen."
+                }, 
+                {
+                    "y": 1026, 
+                    "x": 505, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfLe/Les gustan estas flores? Las compr\u00e9 ayer en el mercado."
+                }, 
+                {
+                    "y": 1077, 
+                    "x": 307, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "estudiado"
+                }, 
+                {
+                    "y": 1074, 
+                    "x": 677, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "de"
+                }, 
+                {
+                    "y": 1157, 
+                    "x": 516, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfSabes donde est\u00e1n mis guantes? No. A lo mejor los has perdido."
+                }, 
+                {
+                    "y": 1316, 
+                    "x": 519, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfTodav\u00eda no had recibido mi carta? La envi\u00e9 hace cinco d\u00edas."
+                }
+            ]
+        }
+    ]
+}

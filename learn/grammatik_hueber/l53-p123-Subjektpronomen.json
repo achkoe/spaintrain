@@ -1,0 +1,240 @@
+{
+    "image": "images/l53-p123-Subjektpronomen.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s-p181-loesung.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2016-12-30 (2)", 
+            "textlist": [
+                {
+                    "y": 79, 
+                    "x": 82, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "9"
+                }, 
+                {
+                    "y": 113, 
+                    "x": 370, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 146, 
+                    "x": 105, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 181, 
+                    "x": 172, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "10"
+                }, 
+                {
+                    "y": 211, 
+                    "x": 358, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "12"
+                }, 
+                {
+                    "y": 245, 
+                    "x": 287, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "11"
+                }, 
+                {
+                    "y": 272, 
+                    "x": 243, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "6"
+                }, 
+                {
+                    "y": 308, 
+                    "x": 103, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 341, 
+                    "x": 289, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "5"
+                }, 
+                {
+                    "y": 371, 
+                    "x": 451, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "8"
+                }, 
+                {
+                    "y": 411, 
+                    "x": 315, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "7"
+                }, 
+                {
+                    "y": 443, 
+                    "x": 351, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 572, 
+                    "x": 344, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ella"
+                }, 
+                {
+                    "y": 607, 
+                    "x": 345, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00e9l"
+                }, 
+                {
+                    "y": 636, 
+                    "x": 348, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nosotros"
+                }, 
+                {
+                    "y": 668, 
+                    "x": 342, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ellos / ustedes"
+                }, 
+                {
+                    "y": 702, 
+                    "x": 354, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ellas"
+                }, 
+                {
+                    "y": 735, 
+                    "x": 351, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "vosotros/vosotras"
+                }, 
+                {
+                    "y": 770, 
+                    "x": 348, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ellos"
+                }, 
+                {
+                    "y": 804, 
+                    "x": 349, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ellos"
+                }, 
+                {
+                    "y": 932, 
+                    "x": 651, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ella"
+                }, 
+                {
+                    "y": 970, 
+                    "x": 796, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ellas"
+                }, 
+                {
+                    "y": 1000, 
+                    "x": 328, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ustedes"
+                }, 
+                {
+                    "y": 1036, 
+                    "x": 409, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00e9l"
+                }, 
+                {
+                    "y": 1068, 
+                    "x": 325, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "vosotros"
+                }, 
+                {
+                    "y": 1095, 
+                    "x": 627, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nosotros"
+                }, 
+                {
+                    "y": 1135, 
+                    "x": 600, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "usted"
+                }, 
+                {
+                    "y": 1164, 
+                    "x": 209, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "t\u00fa"
+                }, 
+                {
+                    "y": 1161, 
+                    "x": 773, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "yo"
+                }, 
+                {
+                    "y": 734, 
+                    "x": 530, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "vosotros"
+                }
+            ]
+        }
+    ]
+}

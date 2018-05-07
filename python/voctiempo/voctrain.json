@@ -1,0 +1,8640 @@
+{
+    "negociar": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "ser": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                0, 
+                1, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                1, 
+                0, 
+                1, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "caer": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                1, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "tener": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "construir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "ir": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                1, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "desviar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "andar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "copiar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "comenzar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                2, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                2, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "morir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "caber": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "abrir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "descubrir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "resfriarse": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                1, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "salir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "agradecer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                1
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "estudiar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "poner": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "leer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "resfriar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "llegar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "valer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "conocer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "anunciar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "odiar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "estar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "buscar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "comer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "decir": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "enviar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "crecer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                1, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "conducir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "nacer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "pedir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "pagar": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "confiar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                1, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "dormir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "cambiar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "saber": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "esquiar": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "limpiar": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                1, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                1, 
+                1, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                2, 
+                1, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "variar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "o\u00edr": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "volver": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "dar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "guiar": {
+        "Presente": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "vaciar": {
+        "Presente": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "introducir": {
+        "Presente": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "imprimir": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                1, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "hablar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "preferir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "hacer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "sentir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                2, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                2, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "servir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "ampliar": {
+        "Presente": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "doler": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "escribir": {
+        "Presente": {
+            "total": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                2, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                2, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "haber": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "reducir": {
+        "Presente": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "poder": {
+        "Presente": {
+            "total": [
+                1, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                1, 
+                1, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "empezar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                1
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "producir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "mentir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "querer": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                1, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "sacar": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                1, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "venir": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                1, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                1, 
+                0, 
+                1, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                1, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "romper": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                1, 
+                0, 
+                0
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }, 
+    "ver": {
+        "Presente": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                1
+            ]
+        }, 
+        "Pret\u00e9rito perfecto simple": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Condicional": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Participio pasado": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Pret\u00e9rito imperfecto": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Futuro": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }, 
+        "Gerundio": {
+            "total": [
+                0
+            ], 
+            "correct": [
+                0
+            ]
+        }, 
+        "Imperativo": {
+            "total": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ], 
+            "correct": [
+                0, 
+                0, 
+                0, 
+                0, 
+                0
+            ]
+        }
+    }
+}

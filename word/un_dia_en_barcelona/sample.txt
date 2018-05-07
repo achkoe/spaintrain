@@ -1,0 +1,52 @@
+= Section =
+== Subsection ==
+- Section* -
+-- Subsection* --
+--- Subsubsection* ---
+
+The **bold** FTP service commands define the file transfer or the file
+system function __requested__ by the //user//.  The argument of an FTP
+service command will normally be a pathname.  The syntax ... of
+- pathnames must conform to server site conventions (with
+- standard defaults applicable), and{A} the language conventions of
+the control connection.  The suggested default handling is to
+use the last specified device, directory{B} or file name, or the
+\con[]{A,B}
+.rem
+standard default defined for local users.  The commands may be
+in any order except that a "rename from" command must be
+- followed by a "rename to" command and the{A} restart command must
+- be followed by the interrupted service command (e.g., STOR or
+RETR).  The data, when transferred in response{B} to FTP service
+\con[arrows=->]{A,B}
+.att
+commands, [shall|1|2|3] always -->be sent over the data connection, except
+for certain informative replies.  The following commands
+specify FTP ||service|| requests.
+
+%%REFERENCE
+\section{ Section }
+\subsection{ Subsection }
+\section*{ Section* }
+\subsection*{ Subsection* }
+\subsubsection*{ Subsubsection* }
+The \textbf{bold} FTP service commands define the file transfer or the file
+system function \uline{requested} by the \textit{user}.  The argument of an FTP
+service command will normally be a pathname.  The syntax $\ldots$  of \\
+- pathnames must conform to server site conventions (with \\
+- standard defaults applicable), and{A} the language conventions of \\
+the control connection.  The suggested default handling is to
+use the last specified device, directory{B} or file name, or the
+\con[]{A,B}
+\eye{}
+standard default defined for local users.  The commands may be
+in any order except that a \glqq{}rename from\grqq{} command must be \\
+- followed by a \glqq{}rename to\grqq{} command and the{A} restart command must \\
+- be followed by the interrupted service command (e.g., STOR or \\
+RETR).  The data, when transferred in response{B} to FTP service
+\con[arrows=->]{A,B}
+\danger{}
+commands, shall\footnote{1} always $\rightarrow$ be sent over the data connection, except
+for certain informative replies.  The following commands
+specify FTP \fbox{service} requests.
+

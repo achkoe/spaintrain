@@ -1,0 +1,119 @@
+<!-- main.html -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test TextEditor</title>
+    <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.css">
+
+    <style>
+        .mydialog label, .mydialog input { display:block; }
+        .mydialog input.text { margin-bottom:12px; width:95%; padding: .4em; }
+        .mydialog fieldset { padding:0; border:0; margin-top:25px; }
+    </style>
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/user.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+
+
+    <div id="wrapper">
+
+        <div id="dialog-form" title="Your answer">
+            <form>
+                <fieldset class="mydialog">
+                    <input type="text" name="answer" id="answer" value="?" class="text ui-widget-content ui-corner-all mydialog">
+                    <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                    <input type="submit" tabindex="-1" style="position:absolute; top:-1000px" class="mydialog">
+                </fieldset>
+            </form>
+        </div>
+
+        <div id="jsondialog" title="JSON">
+            <textarea rows="10", cols="80" id="jsoncontent"></textarea>
+        </div>
+
+        <div id="content">
+            <canvas id="canvas_task"></canvas>
+            <div id="accordion">
+                <h3>Solution</h3>
+                <div>
+                    <canvas id="canvas_solution"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <div id="rightcol">
+            <label>Lesson:</label>
+            <br/>
+            <select name="lesson" id="lesson"></select>
+            <br/>
+            <button id="loadlesson">Load Lesson</button>
+            <hr/>
+            <label>Session:</label>
+            <br/>
+            <select name="session" id="session" size="1"></select>
+            <br/>
+            <button type="button" id="loadsession">Load Session</button>
+            <br/>
+            <button type="button" id="savesession">Save Session</button>
+            <hr/>
+            <fieldset id="pensettings">
+                <input type="radio" id="pendefault" name="pencil" value="default" checked>
+                <label for="pendefault">Default</label><br/>
+                <label for="sizedefault" class="halign">Size</label>
+                <input class="haligninput" id="sizedefault" type="number" min="8" max="24" step="1" value="14"/>
+                <br/>
+                <input type="radio" id="pencorrection" name="pencil" value="correction">
+                <label for="pencorrection">Correction</label><br/>
+                <label for="sizecorrection" class="halign">Size</label>
+                <input class="haligninput" id="sizecorrection" type="number" min="8" max="24" step="1" value="14"/>
+                <br/>
+                <input type="radio" id="penremark" name="pencil" value="remark">
+                <label for="penremark"> Remark</label>
+                <br/>
+                <label for="sizeremark" class="halign">Size</label>
+                <input class="haligninput" id="sizeremark" type="number" min="8" max="24" step="1" value="14"/>
+            </fieldset>
+            <hr/>
+            <ul class="controlmode" id="controlmode">
+                <li>
+                    <input type="radio" id="btnedit" name="modecontrol" value="btnedit" checked="checked"/>
+                    <label for="btnedit">Edit</label>
+                </li>
+                <li>
+                    <input type="radio" id="btnmove" name="modecontrol" value="btnmove" />
+                    <label for="btnmove">Move</label>
+                </li>
+                <li>
+                    <input type="radio" id="btncorrect" name="modecontrol" value="btncorrect" />
+                    <label for="btncorrect">Correct</label>
+                </li>
+                <li>
+                    <input type="radio" id="btnwrong" name="modecontrol" value="btnwrong" />
+                    <label for="btnwrong">Wrong</label>
+                </li>
+                <li>
+                    <input type="radio" id="btndelete" name="modecontrol" value="btndelete" />
+                    <label for="btndelete">Delete</label>
+                </li>
+            </ul>
+            <hr/>
+            <button type="button" id="clearstorage">Clear Storage</button>
+            <button type="button" id="showjson">Show JSON</button>
+        </div>
+        <footer>
+
+        </footer>
+    </div>
+
+</body>
+</html>

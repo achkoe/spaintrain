@@ -1,0 +1,240 @@
+{
+    "image": "images/l11-p31-Zahlen1.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s-p172-loesung.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-11 (1)", 
+            "textlist": [
+                {
+                    "y": 79, 
+                    "x": 78, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "siete"
+                }, 
+                {
+                    "y": 113, 
+                    "x": 80, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "doce"
+                }, 
+                {
+                    "y": 149, 
+                    "x": 83, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "quince"
+                }, 
+                {
+                    "y": 179, 
+                    "x": 82, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "veint\u00edocho"
+                }, 
+                {
+                    "y": 215, 
+                    "x": 52, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "cinquenta y cuatro"
+                }, 
+                {
+                    "y": 245, 
+                    "x": 92, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "sesenta y tres"
+                }, 
+                {
+                    "y": 282, 
+                    "x": 92, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ochenta y uno"
+                }, 
+                {
+                    "y": 378, 
+                    "x": 277, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "32"
+                }, 
+                {
+                    "y": 407, 
+                    "x": 278, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "11"
+                }, 
+                {
+                    "y": 441, 
+                    "x": 278, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "17"
+                }, 
+                {
+                    "y": 474, 
+                    "x": 273, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "97"
+                }, 
+                {
+                    "y": 508, 
+                    "x": 272, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "44"
+                }, 
+                {
+                    "y": 544, 
+                    "x": 272, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "76"
+                }, 
+                {
+                    "y": 574, 
+                    "x": 271, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "85"
+                }, 
+                {
+                    "y": 707, 
+                    "x": 209, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "cuarenta"
+                }, 
+                {
+                    "y": 740, 
+                    "x": 168, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "siete"
+                }, 
+                {
+                    "y": 769, 
+                    "x": 183, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "quince"
+                }, 
+                {
+                    "y": 800, 
+                    "x": 180, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "veinte"
+                }, 
+                {
+                    "y": 840, 
+                    "x": 177, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "tres"
+                }, 
+                {
+                    "y": 870, 
+                    "x": 250, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "veintiocho"
+                }, 
+                {
+                    "y": 902, 
+                    "x": 217, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "sesenta"
+                }, 
+                {
+                    "y": 999, 
+                    "x": 112, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 1029, 
+                    "x": 112, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "7"
+                }, 
+                {
+                    "y": 1064, 
+                    "x": 105, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 1096, 
+                    "x": 104, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "6"
+                }, 
+                {
+                    "y": 1127, 
+                    "x": 104, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 1165, 
+                    "x": 107, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "5"
+                }, 
+                {
+                    "y": 1190, 
+                    "x": 108, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 176, 
+                    "x": 191, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "veintiocho"
+                }, 
+                {
+                    "y": 214, 
+                    "x": 229, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "cincuenta y cuatro"
+                }
+            ]
+        }
+    ]
+}

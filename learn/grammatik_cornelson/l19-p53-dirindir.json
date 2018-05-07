@@ -1,0 +1,359 @@
+{
+    "image": "images/l19-p53-dirindir.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s11-20.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-10 (1)", 
+            "textlist": [
+                {
+                    "y": 175, 
+                    "x": 637, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se la"
+                }, 
+                {
+                    "y": 214, 
+                    "x": 631, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "tela"
+                }, 
+                {
+                    "y": 254, 
+                    "x": 520, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te los"
+                }, 
+                {
+                    "y": 94, 
+                    "x": 255, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 94, 
+                    "x": 370, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 94, 
+                    "x": 138, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 329, 
+                    "x": 520, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos lo"
+                }, 
+                {
+                    "y": 286, 
+                    "x": 525, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me lo"
+                }, 
+                {
+                    "y": 466, 
+                    "x": 319, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Te la envio."
+                }, 
+                {
+                    "y": 500, 
+                    "x": 427, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Me lo entrega."
+                }, 
+                {
+                    "y": 539, 
+                    "x": 435, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Se las ofrecais."
+                }, 
+                {
+                    "y": 574, 
+                    "x": 595, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Se los das."
+                }, 
+                {
+                    "y": 614, 
+                    "x": 557, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Se los da."
+                }, 
+                {
+                    "y": 742, 
+                    "x": 247, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "D"
+                }, 
+                {
+                    "y": 779, 
+                    "x": 182, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "B"
+                }, 
+                {
+                    "y": 816, 
+                    "x": 310, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "E"
+                }, 
+                {
+                    "y": 855, 
+                    "x": 248, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "C"
+                }, 
+                {
+                    "y": 891, 
+                    "x": 258, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A"
+                }, 
+                {
+                    "y": 1014, 
+                    "x": 317, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Le conocos?"
+                }, 
+                {
+                    "y": 1015, 
+                    "x": 74, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Esta es mi collega nuevo."
+                }, 
+                {
+                    "y": 1007, 
+                    "x": 453, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Hola. \u00a1Sentele, por favor!"
+                }, 
+                {
+                    "y": 1093, 
+                    "x": 75, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfD\u00f3nde esta Marisa de hecho?"
+                }, 
+                {
+                    "y": 1091, 
+                    "x": 345, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Se estamos esperando."
+                }, 
+                {
+                    "y": 1087, 
+                    "x": 571, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Seguramente pone en un atasco."
+                }, 
+                {
+                    "y": 1209, 
+                    "x": 89, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "Me trae la cuenta, por favor."
+                }, 
+                {
+                    "y": 1196, 
+                    "x": 381, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Le traigo enseguida."
+                }, 
+                {
+                    "y": 1278, 
+                    "x": 74, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "No, no, se la llevo."
+                }, 
+                {
+                    "y": 1273, 
+                    "x": 258, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Hoy tengo cumplea\u00f1os."
+                }, 
+                {
+                    "y": 1276, 
+                    "x": 495, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Os invitado!"
+                }, 
+                {
+                    "y": 1353, 
+                    "x": 87, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Tenemos un regalo para t\u00ed."
+                }, 
+                {
+                    "y": 1348, 
+                    "x": 360, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfTe dejamos dar?"
+                }, 
+                {
+                    "y": 533, 
+                    "x": 684, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Se las ofrec\u00e9is."
+                }, 
+                {
+                    "y": 500, 
+                    "x": 338, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Usted"
+                }, 
+                {
+                    "y": 535, 
+                    "x": 596, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "(Vosotros)"
+                }, 
+                {
+                    "y": 577, 
+                    "x": 529, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "(T\u00fa)"
+                }, 
+                {
+                    "y": 616, 
+                    "x": 443, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "El empleado"
+                }, 
+                {
+                    "y": 1038, 
+                    "x": 318, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Lo conoces?"
+                }, 
+                {
+                    "y": 1036, 
+                    "x": 456, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Hola. \u00a1Sientese, por favor!"
+                }, 
+                {
+                    "y": 1127, 
+                    "x": 82, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "\u00bfD\u00f3nde est\u00e1 Marisa?"
+                }, 
+                {
+                    "y": 1127, 
+                    "x": 347, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La estamos esperando."
+                }, 
+                {
+                    "y": 1123, 
+                    "x": 578, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Seguro que est\u00e1 en un atasco."
+                }, 
+                {
+                    "y": 1223, 
+                    "x": 388, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Se la traigo enseguida."
+                }, 
+                {
+                    "y": 1228, 
+                    "x": 94, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "\u00a1Tr\u00e1igame trae la cuenta, por favor!"
+                }, 
+                {
+                    "y": 1302, 
+                    "x": 70, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "No, no, tr\u00e1igamela a m\u00ed."
+                }, 
+                {
+                    "y": 1298, 
+                    "x": 284, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Hoy es mi cumplea\u00f1os."
+                }, 
+                {
+                    "y": 1302, 
+                    "x": 507, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00a1Yo os invito!"
+                }, 
+                {
+                    "y": 1385, 
+                    "x": 362, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfTe lo damos ahora?"
+                }
+            ]
+        }
+    ]
+}

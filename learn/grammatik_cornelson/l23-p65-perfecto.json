@@ -1,0 +1,317 @@
+{
+    "image": "images/l23-p65-perfecto.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s21a-28.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2016-12-08 (1)", 
+            "textlist": [
+                {
+                    "y": 122, 
+                    "x": 208, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "------------"
+                }, 
+                {
+                    "y": 122, 
+                    "x": 207, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-----------------------"
+                }, 
+                {
+                    "y": 157, 
+                    "x": 83, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---------------------------"
+                }, 
+                {
+                    "y": 196, 
+                    "x": 110, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "------------------"
+                }, 
+                {
+                    "y": 234, 
+                    "x": 249, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "------------------"
+                }, 
+                {
+                    "y": 269, 
+                    "x": 49, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "------------------------"
+                }, 
+                {
+                    "y": 385, 
+                    "x": 346, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "habe\u00eds visto"
+                }, 
+                {
+                    "y": 427, 
+                    "x": 251, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "hemos trajido"
+                }, 
+                {
+                    "y": 463, 
+                    "x": 224, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "has comprado"
+                }, 
+                {
+                    "y": 501, 
+                    "x": 279, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "he tenido"
+                }, 
+                {
+                    "y": 497, 
+                    "x": 612, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "he trabajado"
+                }, 
+                {
+                    "y": 539, 
+                    "x": 198, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ha dicho"
+                }, 
+                {
+                    "y": 751, 
+                    "x": 185, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "encontr\u00f3"
+                }, 
+                {
+                    "y": 755, 
+                    "x": 520, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ha preguntado"
+                }, 
+                {
+                    "y": 825, 
+                    "x": 234, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "enfad\u00f3"
+                }, 
+                {
+                    "y": 827, 
+                    "x": 590, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hab\u00edamos hecho"
+                }, 
+                {
+                    "y": 644, 
+                    "x": 597, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "-------------------------------------------"
+                }, 
+                {
+                    "y": 669, 
+                    "x": 360, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "--------------------------------"
+                }, 
+                {
+                    "y": 862, 
+                    "x": 101, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "has llegado"
+                }, 
+                {
+                    "y": 868, 
+                    "x": 406, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hab\u00edas estado"
+                }, 
+                {
+                    "y": 644, 
+                    "x": 355, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "----------------------------------"
+                }, 
+                {
+                    "y": 792, 
+                    "x": 189, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "he llamado"
+                }, 
+                {
+                    "y": 790, 
+                    "x": 600, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hab\u00edan vuelto"
+                }, 
+                {
+                    "y": 904, 
+                    "x": 148, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hab\u00eda estado"
+                }, 
+                {
+                    "y": 905, 
+                    "x": 648, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "he venido"
+                }, 
+                {
+                    "y": 1027, 
+                    "x": 225, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "la pel\u00edcula \"Carmen\"."
+                }, 
+                {
+                    "y": 1024, 
+                    "x": 418, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Ya la he visto siempre."
+                }, 
+                {
+                    "y": 1097, 
+                    "x": 78, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfTe hab\u00edas gustado?"
+                }, 
+                {
+                    "y": 1099, 
+                    "x": 313, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Hab\u00eda escuchado mucho de ella."
+                }, 
+                {
+                    "y": 1178, 
+                    "x": 88, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Mi t\u00eda la hab\u00eda regalado en DVD por mi cumpleanos."
+                }, 
+                {
+                    "y": 1173, 
+                    "x": 515, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Pero todav\u00eda no la he visto."
+                }, 
+                {
+                    "y": 1291, 
+                    "x": 88, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "En este verano hab\u00eda llovido mucho."
+                }, 
+                {
+                    "y": 1361, 
+                    "x": 99, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Es verdad."
+                }, 
+                {
+                    "y": 1360, 
+                    "x": 237, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Nunca antes hab\u00eda llovido."
+                }, 
+                {
+                    "y": 425, 
+                    "x": 369, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "hemos tra\u00eddo"
+                }, 
+                {
+                    "y": 1028, 
+                    "x": 618, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Siempre hab\u00eda querido verla."
+                }, 
+                {
+                    "y": 1128, 
+                    "x": 90, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfTe gust\u00f3?"
+                }, 
+                {
+                    "y": 1101, 
+                    "x": 273, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Yo"
+                }, 
+                {
+                    "y": 1211, 
+                    "x": 93, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Mi t\u00eda me la ha regalado en DVD por mi cumplea\u00f1os."
+                }, 
+                {
+                    "y": 1286, 
+                    "x": 406, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Este verano ha llovido mucho."
+                }, 
+                {
+                    "y": 1359, 
+                    "x": 466, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00a1Nunca antes hab\u00eda llovido tanto!"
+                }
+            ]
+        }
+    ]
+}

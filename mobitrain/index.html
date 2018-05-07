@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<!-- git master -->
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" href="../lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="../lib/jquery-1.8.2.min.js"></script>
+    <script>
+        $(document).bind('mobileinit', function() {
+            $.mobile.pushStateEnabled = false;
+            $.mobile.selectmenu.prototype.options.nativeMenu = false;
+        });
+    </script>
+    <script src="../lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+    <script type="text/javascript" charset="utf-8" src="vocabulary_de_es.js"></script>
+    <script type="text/javascript" charset="utf-8" src="spaintrain.js"></script>
+
+    <script type="text/javascript" charset="utf-8">
+        $(document).bind('pageinit', pageinit);
+    </script>
+    <title>SpainTrain</title>
+</head>
+
+<body>
+
+    <div data-role="page" data-theme="b">
+        <div data-role="header">
+        <h1>Spanisch Training</h1>
+        </div>
+        <!-- /header -->
+
+        <div data-role="content">
+            <div id="event" class="ui-body ui-body-b" data-corners="true">
+                <div id="words" class="bggerman">Super</div>
+                <div id="cnt">Super</div><div id="cat"></div>
+            </div>
+
+            <div class="buttoncontrolgroup" data-role="controlgroup" data-type="horizontal">
+                <a id="prev" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-l ui-btn-icon-notext">Left</a>
+                <a id="toggle" class="ui-btn ui-shadow ui-corner-all ui-icon-refresh ui-btn-icon-notext">Left</a>
+                <a id="next" class="ui-btn ui-shadow ui-corner-all ui-icon-carat-r ui-btn-icon-notext">Right</a>
+            </div>
+
+            <form id="sliderform" class="full-width-slider">
+                <label for="sliderpage" class="ui-hidden-accessible">Slider:</label>
+                <input id="sliderpage" data-mini="true" min="0" max="100" value="50" type="range" class="ui-hidden-accessible">
+            </form>
+
+            <fieldset class="buttoncontrolgroup" data-role="controlgroup" data-type="horizontal">
+                <input type="radio" name="radio-choice-level" id="radio-choice-0" value="0" checked="checked" />
+                <label for="radio-choice-0">&#x1F603;</label>
+                <input type="radio" name="radio-choice-level" id="radio-choice-1" value="1" />
+                <label for="radio-choice-1">&#x1F60F;</label>
+                <input type="radio" name="radio-choice-level" id="radio-choice-2" value="2" />
+                <label for="radio-choice-2">&#x1F613;</label>
+            </fieldset>
+
+            <div data-role="collapsible">
+                <h3>Anzeige</h3>
+                <div data-role="fieldcontain">
+                    <label for="slider">Zufällig:</label>
+                    <select name="slider" id="slider" data-role="slider">
+                        <option value="off">Aus</option>
+                        <option value="on">Ein</option>
+                    </select>
+                </div>
+
+                <div data-role="fieldcontain">
+                    <fieldset data-role="controlgroup" data-type="horizontal">
+                        <legend>Schwierigkeitsgrad:</legend>
+                        <input type="radio" name="radio-view-level" id="radio-view-0" value="0" checked="checked" />
+                        <label for="radio-view-0">Alle &#x1F603; &#x1F60F; &#x1F613;</label>
+                        <input type="radio" name="radio-view-level" id="radio-view-1" value="1" />
+                        <label for="radio-view-1">&#x1F60F; &#x1F613;</label>
+                        <input type="radio" name="radio-view-level" id="radio-view-2" value="2" />
+                        <label for="radio-view-2">&#x1F613;</label>
+                    </fieldset>
+                </div>
+
+                <div data-role="fieldcontain">
+                    <label for="selection" class="select">Themen:</label>
+                    <select name="selection" id="theme" multiple="multiple" data-native-menu="false">
+                        <option>Wähle die Themen</option>
+                    </select>
+                </div>
+
+                <div data-role="fieldcontain">
+                    <label for="srcselection" class="select">Quellen:</label>
+                    <select name="srcselection" id="source" multiple="multiple" data-native-menu="false">
+                        <option>Wähle die Quellen</option>
+                    </select>
+                </div>
+
+                <div data-role="fieldcontain">
+                    <label for="fontsize" class="select">Schriftgröße:</label>
+                    <select name="fontsize" data-mini="true" data-inline="true" class="ui-btn-left" id="font-size">
+                        <option value="100%">Standard</option>
+                        <option value="120%">120%</option>
+                        <option value="150%">150%</option>
+                        <option value="200%">200%</option>
+                    </select>
+                </div>
+            </div>
+
+            <div data-role="collapsible" id="statistic">
+                <h3>Statistik</h3>
+            </div>
+        </div>
+        <!-- /content -->
+
+        <div data-role="footer">
+            <h6 id="test">&copy; 2015, Achim Köhler</h6>
+        </div>
+        <!-- /footer -->
+    </div>
+    <!-- /page -->
+</body>
+
+</html>

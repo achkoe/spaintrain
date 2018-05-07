@@ -1,0 +1,527 @@
+{
+    "image": "images/l01-p11-Substantiv.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s-p170-loesung.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-03 (2)", 
+            "textlist": [
+                {
+                    "y": 110, 
+                    "x": 501, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "garaje"
+                }, 
+                {
+                    "y": 142, 
+                    "x": 505, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "mapa"
+                }, 
+                {
+                    "y": 172, 
+                    "x": 506, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "carneval"
+                }, 
+                {
+                    "y": 112, 
+                    "x": 773, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "mano"
+                }, 
+                {
+                    "y": 208, 
+                    "x": 502, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "color"
+                }, 
+                {
+                    "y": 240, 
+                    "x": 507, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "ni\u00f1ez"
+                }, 
+                {
+                    "y": 140, 
+                    "x": 776, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "organizaci\u00f3n"
+                }, 
+                {
+                    "y": 170, 
+                    "x": 772, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "calle"
+                }, 
+                {
+                    "y": 206, 
+                    "x": 772, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "foto"
+                }, 
+                {
+                    "y": 271, 
+                    "x": 507, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "d\u00eda"
+                }, 
+                {
+                    "y": 240, 
+                    "x": 775, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "barril"
+                }, 
+                {
+                    "y": 269, 
+                    "x": 779, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "escuela"
+                }, 
+                {
+                    "y": 308, 
+                    "x": 520, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "parasol"
+                }, 
+                {
+                    "y": 309, 
+                    "x": 774, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "princesa"
+                }, 
+                {
+                    "y": 338, 
+                    "x": 522, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "disco"
+                }, 
+                {
+                    "y": 439, 
+                    "x": 181, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "casas"
+                }, 
+                {
+                    "y": 470, 
+                    "x": 188, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "bancos"
+                }, 
+                {
+                    "y": 504, 
+                    "x": 193, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hospitales"
+                }, 
+                {
+                    "y": 539, 
+                    "x": 187, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "coches"
+                }, 
+                {
+                    "y": 571, 
+                    "x": 184, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "mujeres"
+                }, 
+                {
+                    "y": 433, 
+                    "x": 659, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ciudades"
+                }, 
+                {
+                    "y": 470, 
+                    "x": 669, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "luces"
+                }, 
+                {
+                    "y": 501, 
+                    "x": 673, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "habitaciones"
+                }, 
+                {
+                    "y": 533, 
+                    "x": 672, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "tenedores"
+                }, 
+                {
+                    "y": 570, 
+                    "x": 674, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "razones"
+                }, 
+                {
+                    "y": 670, 
+                    "x": 174, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "mano"
+                }, 
+                {
+                    "y": 698, 
+                    "x": 174, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "naranja"
+                }, 
+                {
+                    "y": 731, 
+                    "x": 172, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "lapiz"
+                }, 
+                {
+                    "y": 763, 
+                    "x": 171, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "calle"
+                }, 
+                {
+                    "y": 799, 
+                    "x": 174, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "d\u00eda"
+                }, 
+                {
+                    "y": 668, 
+                    "x": 674, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "caf\u00e9"
+                }, 
+                {
+                    "y": 700, 
+                    "x": 675, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "cantidad"
+                }, 
+                {
+                    "y": 729, 
+                    "x": 672, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "numero"
+                }, 
+                {
+                    "y": 766, 
+                    "x": 671, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "cancion"
+                }, 
+                {
+                    "y": 799, 
+                    "x": 669, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "mes"
+                }, 
+                {
+                    "y": 1017, 
+                    "x": 369, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ordenador"
+                }, 
+                {
+                    "y": 1009, 
+                    "x": 824, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "m"
+                }, 
+                {
+                    "y": 1129, 
+                    "x": 84, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "-------------"
+                }, 
+                {
+                    "y": 1226, 
+                    "x": 230, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "--------"
+                }, 
+                {
+                    "y": 1042, 
+                    "x": 384, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "mensaje"
+                }, 
+                {
+                    "y": 1042, 
+                    "x": 820, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "m"
+                }, 
+                {
+                    "y": 1185, 
+                    "x": 213, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "---------"
+                }, 
+                {
+                    "y": 1260, 
+                    "x": 228, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 1074, 
+                    "x": 374, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "diploma"
+                }, 
+                {
+                    "y": 1075, 
+                    "x": 821, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "m"
+                }, 
+                {
+                    "y": 1205, 
+                    "x": 122, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "---------"
+                }, 
+                {
+                    "y": 1240, 
+                    "x": 131, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 1110, 
+                    "x": 376, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "puente"
+                }, 
+                {
+                    "y": 1108, 
+                    "x": 822, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "f"
+                }, 
+                {
+                    "y": 1173, 
+                    "x": 65, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "-------"
+                }, 
+                {
+                    "y": 1268, 
+                    "x": 129, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 1141, 
+                    "x": 378, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "radio"
+                }, 
+                {
+                    "y": 1141, 
+                    "x": 821, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "f"
+                }, 
+                {
+                    "y": 1105, 
+                    "x": 167, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 1246, 
+                    "x": 172, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 1172, 
+                    "x": 378, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "dolor"
+                }, 
+                {
+                    "y": 1173, 
+                    "x": 813, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "m"
+                }, 
+                {
+                    "y": 1247, 
+                    "x": 79, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 1161, 
+                    "x": 141, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 1208, 
+                    "x": 381, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "dificultad"
+                }, 
+                {
+                    "y": 1210, 
+                    "x": 817, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "f"
+                }, 
+                {
+                    "y": 729, 
+                    "x": 222, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "l\u00e1piz"
+                }, 
+                {
+                    "y": 728, 
+                    "x": 758, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "n\u00famero"
+                }, 
+                {
+                    "y": 766, 
+                    "x": 762, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "canci\u00f3n"
+                }, 
+                {
+                    "y": 1012, 
+                    "x": 595, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ordenadores"
+                }, 
+                {
+                    "y": 1042, 
+                    "x": 603, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "mensajes"
+                }, 
+                {
+                    "y": 1073, 
+                    "x": 609, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "diplomas"
+                }, 
+                {
+                    "y": 1111, 
+                    "x": 621, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "puentes"
+                }, 
+                {
+                    "y": 1146, 
+                    "x": 619, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "radios"
+                }, 
+                {
+                    "y": 1174, 
+                    "x": 619, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "dolores"
+                }, 
+                {
+                    "y": 1208, 
+                    "x": 624, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "dificultades"
+                }
+            ]
+        }
+    ]
+}

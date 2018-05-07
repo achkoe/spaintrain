@@ -1,0 +1,55 @@
+        .buttoncontrolgroup {
+            text-align: center;
+        }
+        #words {
+            height: 280px;
+            text-align: center;
+            color:black;
+            text-shadow: none;
+        }
+        #cnt {
+            text-align: center;
+            height: 1.5em;
+        }
+        #cat {
+            text-align: right;
+            font-size: 70%;
+            position: relative;
+            top:-1.5em;
+            height: 0pt;
+        }
+        .bgspain {
+            background-image: url(spain.png);
+            background-repeat: repeat;
+            z-index: 2;
+        }
+        .bggerman {
+            background-image: url(germany.png);
+            background-repeat: repeat;
+            z-index: 2;
+        }
+        .smarttable {
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: separate;
+        }
+        .smarttable td {
+            border-bottom: 1pt solid black;
+            font-size: 100%;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+        .smarttable th {
+            border-top: 1pt solid black;
+            border-bottom: 1pt solid black;
+            font-size: 100%;
+            padding-left: 0.5em;
+            padding-right: 0.5em;
+        }
+        /* Hide the number input */
+        .full-width-slider input {
+            display: none;
+        }
+        .full-width-slider .ui-slider-track {
+            margin-left: 15px;
+        }

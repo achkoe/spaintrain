@@ -1,0 +1,286 @@
+Alemán: etw. denken
+Presente: pienso, piensas, piensa, pensamos, pensáis, piensan
+Pretérito imperfecto: pensaba, pensabas, pensaba, pensábamos, pensabais, pensaban
+Futuro: pensaré, pensarás, pensará, pensaremos, pensaréis, pensarán
+Condicional: pensaría, pensarías, pensaría, pensaríamos, pensaríais, pensarían
+Pretérito perfecto simple: pensé, pensaste, pensó, pensamos, pensasteis, pensaron
+Imperativo: piensa, piense, pensemos, pensad, piensen
+Infinitivo: pensar
+Gerundio: pensando
+Participio pasado: pensado
+Pretérito perfecto compuesto: he pensado, has pensado, ha pensado, hay pensado, hemos pensado, habéis pensado, han pensado
+Pretérito pluscuamperfecto: había pensado, habías pensado, había pensado, habíamos pensado, habíais pensado, habían pensado
+Pretérito anterior: hube pensado, hubiste pensado, hubo pensado, hubimos pensado, hubisteis pensado, hubieron pensado
+Futuro perfecto: habré pensado, habrás pensado, habrá pensado, habremos pensado, habréis pensado, habrán pensado
+Condicional perfecto: habría pensado, habrías pensado, habría pensado, habríamos pensado, habríais pensado, habrían pensado
+Infinitivo compuesto: haber pensado
+Gerundio compuesto: habiendo pensado
+Subjuntivo Presente: piense, pienses, piense, pensemos, penséis, piensen
+Subjuntivo Pretérito imperfecto: pensara, pensaras, pensara, pensáramos, pensarais, pensaran
+Subjuntivo Pretérito imperfecto (2): pensase, pensases, pensase, pensásemos, pensaseis, pensasen
+Subjuntivo Futuro: pensare, pensares, pensare, pensáremos, pensareis, pensaren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera pensado, hubieras pensado, hubiera pensado, hubiéramos pensado, hubierais pensado, hubieran pensado
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese pensado, hubieses pensado, hubiese pensado, hubiésemos pensado, hubieseis pensado, hubiesen pensado
+Subjuntivo Futuro perfecto: hubiere pensado, hubieres pensado, hubiere pensado, hubiéremos pensado, hubiereis pensado, hubieren pensado
+
+Alemán: etw. können
+Presente: puedo, puedes, puede, podemos, podéis, pueden
+Pretérito imperfecto: podía, podías, podía, podíamos, podíais, podían
+Futuro: podré, podrás, podrá, podremos, podréis, podrán
+Condicional: podría, podrías, podría, podríamos, podríais, podrían
+Pretérito perfecto simple: pude, pudiste, pudo, pudimos, pudisteis, pudieron
+Imperativo: puede, pueda, podamos, poded, puedan
+Infinitivo: poder
+Gerundio: pudiendo
+Participio pasado: podido
+Pretérito perfecto compuesto: he podido, has podido, ha podido, hay podido, hemos podido, habéis podido, han podido
+Pretérito pluscuamperfecto: había podido, habías podido, había podido, habíamos podido, habíais podido, habían podido
+Pretérito anterior: hube podido, hubiste podido, hubo podido, hubimos podido, hubisteis podido, hubieron podido
+Futuro perfecto: habré podido, habrás podido, habrá podido, habremos podido, habréis podido, habrán podido
+Condicional perfecto: habría podido, habrías podido, habría podido, habríamos podido, habríais podido, habrían podido
+Infinitivo compuesto: haber podido
+Gerundio compuesto: habiendo podido
+Subjuntivo Presente: pueda, puedas, pueda, podamos, podáis, puedan
+Subjuntivo Pretérito imperfecto: pudiera, pudieras, pudiera, pudiéramos, pudierais, pudieran
+Subjuntivo Pretérito imperfecto (2): pudiese, pudieses, pudiese, pudiésemos, pudieseis, pudiesen
+Subjuntivo Futuro: pudiere, pudieres, pudiere, pudiéremos, pudiereis, pudieren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera podido, hubieras podido, hubiera podido, hubiéramos podido, hubierais podido, hubieran podido
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese podido, hubieses podido, hubiese podido, hubiésemos podido, hubieseis podido, hubiesen podido
+Subjuntivo Futuro perfecto: hubiere podido, hubieres podido, hubiere podido, hubiéremos podido, hubiereis podido, hubieren podido
+
+Alemán: etw. fühlen
+Presente: siento, sientes, siente, sentimos, sentís, sienten
+Pretérito imperfecto: sentía, sentías, sentía, sentíamos, sentíais, sentían
+Futuro: sentiré, sentirás, sentirá, sentiremos, sentiréis, sentirán
+Condicional: sentiría, sentirías, sentiría, sentiríamos, sentiríais, sentirían
+Pretérito perfecto simple: sentí, sentiste, sintió, sentimos, sentisteis, sintieron
+Imperativo: siente, sienta, sintamos, sentid, sientan
+Infinitivo: sentir
+Gerundio: sintiendo
+Participio pasado: sentido
+Pretérito perfecto compuesto: he sentido, has sentido, ha sentido, hay sentido, hemos sentido, habéis sentido, han sentido
+Pretérito pluscuamperfecto: había sentido, habías sentido, había sentido, habíamos sentido, habíais sentido, habían sentido
+Pretérito anterior: hube sentido, hubiste sentido, hubo sentido, hubimos sentido, hubisteis sentido, hubieron sentido
+Futuro perfecto: habré sentido, habrás sentido, habrá sentido, habremos sentido, habréis sentido, habrán sentido
+Condicional perfecto: habría sentido, habrías sentido, habría sentido, habríamos sentido, habríais sentido, habrían sentido
+Infinitivo compuesto: haber sentido
+Gerundio compuesto: habiendo sentido
+Subjuntivo Presente: sienta, sientas, sienta, sintamos, sintáis, sientan
+Subjuntivo Pretérito imperfecto: sintiera, sintieras, sintiera, sintiéramos, sintierais, sintieran
+Subjuntivo Pretérito imperfecto (2): sintiese, sintieses, sintiese, sintiésemos, sintieseis, sintiesen
+Subjuntivo Futuro: sintiere, sintieres, sintiere, sintiéremos, sintiereis, sintieren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera sentido, hubieras sentido, hubiera sentido, hubiéramos sentido, hubierais sentido, hubieran sentido
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese sentido, hubieses sentido, hubiese sentido, hubiésemos sentido, hubieseis sentido, hubiesen sentido
+Subjuntivo Futuro perfecto: hubiere sentido, hubieres sentido, hubiere sentido, hubiéremos sentido, hubiereis sentido, hubieren sentido
+
+Alemán: schlafen
+Presente: duermo, duermes, duerme, dormimos, dormís, duermen
+Pretérito imperfecto: dormía, dormías, dormía, dormíamos, dormíais, dormían
+Futuro: dormiré, dormirás, dormirá, dormiremos, dormiréis, dormirán
+Condicional: dormiría, dormirías, dormiría, dormiríamos, dormiríais, dormirían
+Pretérito perfecto simple: dormí, dormiste, durmió, dormimos, dormisteis, durmieron
+Imperativo: duerme, duerma, durmamos, dormid, duerman
+Infinitivo: dormir
+Gerundio: durmiendo
+Participio pasado: dormido
+Pretérito perfecto compuesto: he dormido, has dormido, ha dormido, hay dormido, hemos dormido, habéis dormido, han dormido
+Pretérito pluscuamperfecto: había dormido, habías dormido, había dormido, habíamos dormido, habíais dormido, habían dormido
+Pretérito anterior: hube dormido, hubiste dormido, hubo dormido, hubimos dormido, hubisteis dormido, hubieron dormido
+Futuro perfecto: habré dormido, habrás dormido, habrá dormido, habremos dormido, habréis dormido, habrán dormido
+Condicional perfecto: habría dormido, habrías dormido, habría dormido, habríamos dormido, habríais dormido, habrían dormido
+Infinitivo compuesto: haber dormido
+Gerundio compuesto: habiendo dormido
+Subjuntivo Presente: duerma, duermas, duerma, durmamos, durmáis, duerman
+Subjuntivo Pretérito imperfecto: durmiera, durmieras, durmiera, durmiéramos, durmierais, durmieran
+Subjuntivo Pretérito imperfecto (2): durmiese, durmieses, durmiese, durmiésemos, durmieseis, durmiesen
+Subjuntivo Futuro: durmiere, durmieres, durmiere, durmiéremos, durmiereis, durmieren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera dormido, hubieras dormido, hubiera dormido, hubiéramos dormido, hubierais dormido, hubieran dormido
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese dormido, hubieses dormido, hubiese dormido, hubiésemos dormido, hubieseis dormido, hubiesen dormido
+Subjuntivo Futuro perfecto: hubiere dormido, hubieres dormido, hubiere dormido, hubiéremos dormido, hubiereis dormido, hubieren dormido
+
+Alemán: dienen, bedienen
+Presente: sirvo, sirves, sirve, servimos, servís, sirven
+Pretérito imperfecto: servía, servías, servía, servíamos, servíais, servían
+Futuro: serviré, servirás, servirá, serviremos, serviréis, servirán
+Condicional: serviría, servirías, serviría, serviríamos, serviríais, servirían
+Pretérito perfecto simple: serví, serviste, sirvió, servimos, servisteis, sirvieron
+Imperativo: sirve, sirva, sirvamos, servid, sirvan
+Infinitivo: servir
+Gerundio: sirviendo
+Participio pasado: servido
+Pretérito perfecto compuesto: he servido, has servido, ha servido, hay servido, hemos servido, habéis servido, han servido
+Pretérito pluscuamperfecto: había servido, habías servido, había servido, habíamos servido, habíais servido, habían servido
+Pretérito anterior: hube servido, hubiste servido, hubo servido, hubimos servido, hubisteis servido, hubieron servido
+Futuro perfecto: habré servido, habrás servido, habrá servido, habremos servido, habréis servido, habrán servido
+Condicional perfecto: habría servido, habrías servido, habría servido, habríamos servido, habríais servido, habrían servido
+Infinitivo compuesto: haber servido
+Gerundio compuesto: habiendo servido
+Subjuntivo Presente: sirva, sirvas, sirva, sirvamos, sirváis, sirvan
+Subjuntivo Pretérito imperfecto: sirviera, sirvieras, sirviera, sirviéramos, sirvierais, sirvieran
+Subjuntivo Pretérito imperfecto (2): sirviese, sirvieses, sirviese, sirviésemos, sirvieseis, sirviesen
+Subjuntivo Futuro: sirviere, sirvieres, sirviere, sirviéremos, sirviereis, sirvieren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera servido, hubieras servido, hubiera servido, hubiéramos servido, hubierais servido, hubieran servido
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese servido, hubieses servido, hubiese servido, hubiésemos servido, hubieseis servido, hubiesen servido
+Subjuntivo Futuro perfecto: hubiere servido, hubieres servido, hubiere servido, hubiéremos servido, hubiereis servido, hubieren servido
+
+Alemán: zurückkehren, zurückkommen
+Presente: vuelvo, vuelves, vuelve, volvemos, volvéis, vuelven
+Pretérito imperfecto: volvía, volvías, volvía, volvíamos, volvíais, volvían
+Futuro: volveré, volverás, volverá, volveremos, volveréis, volverán
+Condicional: volvería, volverías, volvería, volveríamos, volveríais, volverían
+Pretérito perfecto simple: volví, volviste, volvió, volvimos, volvisteis, volvieron
+Imperativo: vuelve, vuelva, volvamos, volved, vuelvan
+Infinitivo: volver
+Gerundio: volviendo
+Participio pasado: vuelto
+Pretérito perfecto compuesto: he vuelto, has vuelto, ha vuelto, hay vuelto, hemos vuelto, habéis vuelto, han vuelto
+Pretérito pluscuamperfecto: había vuelto, habías vuelto, había vuelto, habíamos vuelto, habíais vuelto, habían vuelto
+Pretérito anterior: hube vuelto, hubiste vuelto, hubo vuelto, hubimos vuelto, hubisteis vuelto, hubieron vuelto
+Futuro perfecto: habré vuelto, habrás vuelto, habrá vuelto, habremos vuelto, habréis vuelto, habrán vuelto
+Condicional perfecto: habría vuelto, habrías vuelto, habría vuelto, habríamos vuelto, habríais vuelto, habrían vuelto
+Infinitivo compuesto: haber vuelto
+Gerundio compuesto: habiendo vuelto
+Subjuntivo Presente: vuelva, vuelvas, vuelva, volvamos, volváis, vuelvan
+Subjuntivo Pretérito imperfecto: volviera, volvieras, volviera, volviéramos, volvierais, volvieran
+Subjuntivo Pretérito imperfecto (2): volviese, volvieses, volviese, volviésemos, volvieseis, volviesen
+Subjuntivo Futuro: volviere, volvieres, volviere, volviéremos, volviereis, volvieren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera vuelto, hubieras vuelto, hubiera vuelto, hubiéramos vuelto, hubierais vuelto, hubieran vuelto
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese vuelto, hubieses vuelto, hubiese vuelto, hubiésemos vuelto, hubieseis vuelto, hubiesen vuelto
+Subjuntivo Futuro perfecto: hubiere vuelto, hubieres vuelto, hubiere vuelto, hubiéremos vuelto, hubiereis vuelto, hubieren vuelto
+
+Alemán: anfangen
+Presente: empiezo, empiezas, empieza, empezamos, empezáis, empiezan
+Pretérito imperfecto: empezaba, empezabas, empezaba, empezábamos, empezabais, empezaban
+Futuro: empezaré, empezarás, empezará, empezaremos, empezaréis, empezarán
+Condicional: empezaría, empezarías, empezaría, empezaríamos, empezaríais, empezarían
+Pretérito perfecto simple: empecé, empezaste, empezó, empezamos, empezasteis, empezaron
+Imperativo: empieza, empiece, empecemos, empezad, empiecen
+Infinitivo: empezar
+Gerundio: empezando
+Participio pasado: empezado
+Pretérito perfecto compuesto: he empezado, has empezado, ha empezado, hay empezado, hemos empezado, habéis empezado, han empezado
+Pretérito pluscuamperfecto: había empezado, habías empezado, había empezado, habíamos empezado, habíais empezado, habían empezado
+Pretérito anterior: hube empezado, hubiste empezado, hubo empezado, hubimos empezado, hubisteis empezado, hubieron empezado
+Futuro perfecto: habré empezado, habrás empezado, habrá empezado, habremos empezado, habréis empezado, habrán empezado
+Condicional perfecto: habría empezado, habrías empezado, habría empezado, habríamos empezado, habríais empezado, habrían empezado
+Infinitivo compuesto: haber empezado
+Gerundio compuesto: habiendo empezado
+Subjuntivo Presente: empiece, empieces, empiece, empecemos, empecéis, empiecen
+Subjuntivo Pretérito imperfecto: empezara, empezaras, empezara, empezáramos, empezarais, empezaran
+Subjuntivo Pretérito imperfecto (2): empezase, empezases, empezase, empezásemos, empezaseis, empezasen
+Subjuntivo Futuro: empezare, empezares, empezare, empezáremos, empezareis, empezaren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera empezado, hubieras empezado, hubiera empezado, hubiéramos empezado, hubierais empezado, hubieran empezado
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese empezado, hubieses empezado, hubiese empezado, hubiésemos empezado, hubieseis empezado, hubiesen empezado
+Subjuntivo Futuro perfecto: hubiere empezado, hubieres empezado, hubiere empezado, hubiéremos empezado, hubiereis empezado, hubieren empezado
+
+Alemán: jmdm./etw. folgen, mit etw. weitermachen
+Presente: sigo, sigues, sigue, seguimos, seguís, siguen
+Pretérito imperfecto: seguía, seguías, seguía, seguíamos, seguíais, seguían
+Futuro: seguiré, seguirás, seguirá, seguiremos, seguiréis, seguirán
+Condicional: seguiría, seguirías, seguiría, seguiríamos, seguiríais, seguirían
+Pretérito perfecto simple: seguí, seguiste, siguió, seguimos, seguisteis, siguieron
+Imperativo: sigue, siga, sigamos, seguid, sigan
+Infinitivo: seguir
+Gerundio: siguiendo
+Participio pasado: seguido
+Pretérito perfecto compuesto: he seguido, has seguido, ha seguido, hay seguido, hemos seguido, habéis seguido, han seguido
+Pretérito pluscuamperfecto: había seguido, habías seguido, había seguido, habíamos seguido, habíais seguido, habían seguido
+Pretérito anterior: hube seguido, hubiste seguido, hubo seguido, hubimos seguido, hubisteis seguido, hubieron seguido
+Futuro perfecto: habré seguido, habrás seguido, habrá seguido, habremos seguido, habréis seguido, habrán seguido
+Condicional perfecto: habría seguido, habrías seguido, habría seguido, habríamos seguido, habríais seguido, habrían seguido
+Infinitivo compuesto: haber seguido
+Gerundio compuesto: habiendo seguido
+Subjuntivo Presente: siga, sigas, siga, sigamos, sigáis, sigan
+Subjuntivo Pretérito imperfecto: siguiera, siguieras, siguiera, siguiéramos, siguierais, siguieran
+Subjuntivo Pretérito imperfecto (2): siguiese, siguieses, siguiese, siguiésemos, siguieseis, siguiesen
+Subjuntivo Futuro: siguiere, siguieres, siguiere, siguiéremos, siguiereis, siguieren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera seguido, hubieras seguido, hubiera seguido, hubiéramos seguido, hubierais seguido, hubieran seguido
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese seguido, hubieses seguido, hubiese seguido, hubiésemos seguido, hubieseis seguido, hubiesen seguido
+Subjuntivo Futuro perfecto: hubiere seguido, hubieres seguido, hubiere seguido, hubiéremos seguido, hubiereis seguido, hubieren seguido
+
+Alemán: jmdn./etw. begreifen, verstehen
+Presente: entiendo, entiendes, entiende, entendemos, entendéis, entienden
+Pretérito imperfecto: entendía, entendías, entendía, entendíamos, entendíais, entendían
+Futuro: entenderé, entenderás, entenderá, entenderemos, entenderéis, entenderán
+Condicional: entendería, entenderías, entendería, entenderíamos, entenderíais, entenderían
+Pretérito perfecto simple: entendí, entendiste, entendió, entendimos, entendisteis, entendieron
+Imperativo: entiende, entienda, entendamos, entended, entiendan
+Infinitivo: entender
+Gerundio: entendiendo
+Participio pasado: entendido
+Pretérito perfecto compuesto: he entendido, has entendido, ha entendido, hay entendido, hemos entendido, habéis entendido, han entendido
+Pretérito pluscuamperfecto: había entendido, habías entendido, había entendido, habíamos entendido, habíais entendido, habían entendido
+Pretérito anterior: hube entendido, hubiste entendido, hubo entendido, hubimos entendido, hubisteis entendido, hubieron entendido
+Futuro perfecto: habré entendido, habrás entendido, habrá entendido, habremos entendido, habréis entendido, habrán entendido
+Condicional perfecto: habría entendido, habrías entendido, habría entendido, habríamos entendido, habríais entendido, habrían entendido
+Infinitivo compuesto: haber entendido
+Gerundio compuesto: habiendo entendido
+Subjuntivo Presente: entienda, entiendas, entienda, entendamos, entendáis, entiendan
+Subjuntivo Pretérito imperfecto: entendiera, entendieras, entendiera, entendiéramos, entendierais, entendieran
+Subjuntivo Pretérito imperfecto (2): entendiese, entendieses, entendiese, entendiésemos, entendieseis, entendiesen
+Subjuntivo Futuro: entendiere, entendieres, entendiere, entendiéremos, entendiereis, entendieren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera entendido, hubieras entendido, hubiera entendido, hubiéramos entendido, hubierais entendido, hubieran entendido
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese entendido, hubieses entendido, hubiese entendido, hubiésemos entendido, hubieseis entendido, hubiesen entendido
+Subjuntivo Futuro perfecto: hubiere entendido, hubieres entendido, hubiere entendido, hubiéremos entendido, hubiereis entendido, hubieren entendido
+
+Alemán: etw. zählen, erzählen
+Presente: cuento, cuentas, cuenta, contamos, contáis, cuentan
+Pretérito imperfecto: contaba, contabas, contaba, contábamos, contabais, contaban
+Futuro: contaré, contarás, contará, contaremos, contaréis, contarán
+Condicional: contaría, contarías, contaría, contaríamos, contaríais, contarían
+Pretérito perfecto simple: conté, contaste, contó, contamos, contasteis, contaron
+Imperativo: cuenta, cuente, contemos, contad, cuenten
+Infinitivo: contar
+Gerundio: contando
+Participio pasado: contado
+Pretérito perfecto compuesto: he contado, has contado, ha contado, hay contado, hemos contado, habéis contado, han contado
+Pretérito pluscuamperfecto: había contado, habías contado, había contado, habíamos contado, habíais contado, habían contado
+Pretérito anterior: hube contado, hubiste contado, hubo contado, hubimos contado, hubisteis contado, hubieron contado
+Futuro perfecto: habré contado, habrás contado, habrá contado, habremos contado, habréis contado, habrán contado
+Condicional perfecto: habría contado, habrías contado, habría contado, habríamos contado, habríais contado, habrían contado
+Infinitivo compuesto: haber contado
+Gerundio compuesto: habiendo contado
+Subjuntivo Presente: cuente, cuentes, cuente, contemos, contéis, cuenten
+Subjuntivo Pretérito imperfecto: contara, contaras, contara, contáramos, contarais, contaran
+Subjuntivo Pretérito imperfecto (2): contase, contases, contase, contásemos, contaseis, contasen
+Subjuntivo Futuro: contare, contares, contare, contáremos, contareis, contaren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera contado, hubieras contado, hubiera contado, hubiéramos contado, hubierais contado, hubieran contado
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese contado, hubieses contado, hubiese contado, hubiésemos contado, hubieseis contado, hubiesen contado
+Subjuntivo Futuro perfecto: hubiere contado, hubieres contado, hubiere contado, hubiéremos contado, hubiereis contado, hubieren contado
+
+Alemán: bevorzugen
+Presente: prefiero, prefieres, prefiere, preferimos, preferís, prefieren
+Pretérito imperfecto: prefería, preferías, prefería, preferíamos, preferíais, preferían
+Futuro: preferiré, preferirás, preferirá, preferiremos, preferiréis, preferirán
+Condicional: preferiría, preferirías, preferiría, preferiríamos, preferiríais, preferirían
+Pretérito perfecto simple: preferí, preferiste, prefirió, preferimos, preferisteis, prefirieron
+Imperativo: prefiere, prefiera, prefiramos, preferid, prefieran
+Infinitivo: preferir
+Gerundio: prefiriendo
+Participio pasado: preferido
+Pretérito perfecto compuesto: he preferido, has preferido, ha preferido, hay preferido, hemos preferido, habéis preferido, han preferido
+Pretérito pluscuamperfecto: había preferido, habías preferido, había preferido, habíamos preferido, habíais preferido, habían preferido
+Pretérito anterior: hube preferido, hubiste preferido, hubo preferido, hubimos preferido, hubisteis preferido, hubieron preferido
+Futuro perfecto: habré preferido, habrás preferido, habrá preferido, habremos preferido, habréis preferido, habrán preferido
+Condicional perfecto: habría preferido, habrías preferido, habría preferido, habríamos preferido, habríais preferido, habrían preferido
+Infinitivo compuesto: haber preferido
+Gerundio compuesto: habiendo preferido
+Subjuntivo Presente: prefiera, prefieras, prefiera, prefiramos, prefiráis, prefieran
+Subjuntivo Pretérito imperfecto: prefiriera, prefirieras, prefiriera, prefiriéramos, prefirierais, prefirieran
+Subjuntivo Pretérito imperfecto (2): prefiriese, prefirieses, prefiriese, prefiriésemos, prefirieseis, prefiriesen
+Subjuntivo Futuro: prefiriere, prefirieres, prefiriere, prefiriéremos, prefiriereis, prefirieren
+Subjuntivo Pretérito perfecto: 
+Subjuntivo Pretérito pluscuamperfecto: hubiera preferido, hubieras preferido, hubiera preferido, hubiéramos preferido, hubierais preferido, hubieran preferido
+Subjuntivo Pretérito pluscuamperfecto (2): hubiese preferido, hubieses preferido, hubiese preferido, hubiésemos preferido, hubieseis preferido, hubiesen preferido
+Subjuntivo Futuro perfecto: hubiere preferido, hubieres preferido, hubiere preferido, hubiéremos preferido, hubiereis preferido, hubieren preferido
+

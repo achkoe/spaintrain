@@ -1,0 +1,268 @@
+{
+    "image": "images/l11-p33-reflexivo.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s11-20.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2016-12-13 (1)", 
+            "textlist": [
+                {
+                    "y": 111, 
+                    "x": 151, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos"
+                }, 
+                {
+                    "y": 147, 
+                    "x": 148, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 187, 
+                    "x": 134, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 77, 
+                    "x": 604, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "os"
+                }, 
+                {
+                    "y": 112, 
+                    "x": 575, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 187, 
+                    "x": 599, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 144, 
+                    "x": 609, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 275, 
+                    "x": 716, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "mos"
+                }, 
+                {
+                    "y": 349, 
+                    "x": 184, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me"
+                }, 
+                {
+                    "y": 352, 
+                    "x": 653, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 386, 
+                    "x": 126, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 386, 
+                    "x": 515, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me"
+                }, 
+                {
+                    "y": 421, 
+                    "x": 199, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 423, 
+                    "x": 732, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 468, 
+                    "x": 200, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me"
+                }, 
+                {
+                    "y": 497, 
+                    "x": 288, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 625, 
+                    "x": 215, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "C"
+                }, 
+                {
+                    "y": 666, 
+                    "x": 187, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "E"
+                }, 
+                {
+                    "y": 702, 
+                    "x": 262, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "F"
+                }, 
+                {
+                    "y": 740, 
+                    "x": 357, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A"
+                }, 
+                {
+                    "y": 778, 
+                    "x": 329, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "B"
+                }, 
+                {
+                    "y": 817, 
+                    "x": 241, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "H"
+                }, 
+                {
+                    "y": 852, 
+                    "x": 169, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "G"
+                }, 
+                {
+                    "y": 1063, 
+                    "x": 72, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "No gracias. Ya tengo que me ir."
+                }, 
+                {
+                    "y": 1139, 
+                    "x": 71, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Juan se est\u00e1 afeitando."
+                }, 
+                {
+                    "y": 1210, 
+                    "x": 87, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No te precupes."
+                }, 
+                {
+                    "y": 1290, 
+                    "x": 84, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Los sabados nos encontramos con  amigos."
+                }, 
+                {
+                    "y": 1365, 
+                    "x": 79, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Se alagran siempre con su vista."
+                }, 
+                {
+                    "y": 275, 
+                    "x": 759, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "nos"
+                }, 
+                {
+                    "y": 421, 
+                    "x": 768, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "me"
+                }, 
+                {
+                    "y": 1060, 
+                    "x": 338, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "No gracias. Ya me tengo que ir. / Ya tengo que irme."
+                }, 
+                {
+                    "y": 1138, 
+                    "x": 286, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Juan est\u00e1 afeitandose."
+                }, 
+                {
+                    "y": 1364, 
+                    "x": 361, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Ellos siempre se alagran con su vista."
+                }, 
+                {
+                    "y": 449, 
+                    "x": 77, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Bitte vergiss nicht, mich anzurufen morgen. Sicher, ich rufe dich an, wenn ich aufwache."
+                }
+            ]
+        }
+    ]
+}

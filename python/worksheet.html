@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Phrases</title>
+    <style>
+        td, th {border: 1pt solid black}
+        body { font: 80% sans-serif }
+        .hide { font-style: italic; color:white; }
+        .show { font-style: italic; color:green; }
+        .done {background-color: #00FF7F}
+
+        .row {
+            display: flex; /* equal height of the children */
+        }
+
+        .col {
+            /*flex: 1; /* additionally, equal width */
+
+            padding: 0.5em;
+            
+        }
+
+    </style>
+    <script src="worksheet.js"></script>
+    <script>
+        window.onload = function () {
+        init();
+    }
+
+    function update() {
+        var list = document.getElementsByTagName("input");
+        var cnt = 0;
+        for (var i = 0; i < list.length; i++) {
+            if (list[i].checked) {
+                cnt += 1;
+            }
+        }
+        var list = document.getElementsByTagName("progress");
+        for (var i = 0; i < list.length; i++) {
+            list[i].setAttribute("value", cnt);
+        }
+
+        if (cnt >= num) {
+            document.getElementById("done").setAttribute("class", "col done");
+        } else {
+            document.getElementById("done").setAttribute("class", "col");
+        }
+
+    }
+
+    var visible;
+
+    function init() {
+        visible = 0;
+        var e_table = document.createElement("table");
+        document.getElementById("main").appendChild(e_table);
+        var keys = Object.keys(obj);
+        var e_tr = document.createElement("tr");
+        for (var i = 0; i < keys.length; i++) {
+            var e_th = document.createElement("th");
+            e_th.appendChild(document.createTextNode(keys[i]));
+            e_tr.append(e_th);
+        }
+        e_table.append(e_tr);
+        for (i = 0; i < obj[keys[0]].length; i++) {
+            var e_tr = document.createElement("tr");
+            for (var j = 0; j < keys.length; j++) {
+                var e_td = document.createElement("td");
+                var e_input = document.createElement("input");
+                var a_id = "i" + j + "_" + i;
+                e_input.setAttribute("type", "checkbox");
+                e_input.setAttribute("id", a_id);
+                e_input.setAttribute("onclick", "update()");
+                var e_s1 = document.createElement("span");
+                e_s1.appendChild(document.createTextNode(obj[keys[j]][i][1]))
+                var e_s2 = document.createElement("span");
+                e_s2.setAttribute("class", "hide toggle")
+                e_s2.appendChild(document.createTextNode(" " + obj[keys[j]][i][0]))
+                if (obj[keys[j]][i][1] != "")
+                    e_td.appendChild(e_input);
+                e_td.appendChild(e_s1);
+                e_td.appendChild(e_s2);
+                e_tr.appendChild(e_td);
+            }
+            e_table.appendChild(e_tr);
+        }
+        var list = document.getElementsByTagName("progress");
+        for (var i = 0; i < list.length; i++) {
+            list[i].setAttribute("max", num);
+        }
+    }
+
+    function show() {
+        var btnlist = document.getElementsByName("show")
+        for (var i = 0; i < btnlist.length; i++) {
+            btnlist[i].innerHTML = ["Hide", "Show"][visible]
+        }
+        var list = document.getElementsByTagName("span");
+        var list = document.querySelectorAll("span.toggle");
+        for (var i = 0; i < list.length; i++) {
+            list[i].setAttribute("class", "toggle " + ["show", "hide"][visible])
+        }
+        visible = visible == 0 ? 1 : 0;
+        
+    }
+    </script>
+</head>
+<body id="body">
+    <button name="show" onclick="show()">Show</button>
+    <progress value="0" max="100"></progress>
+    <div class="row">
+        <div id="done" class="col">&nbsp;</div>
+        <div id="main" class="col"></div>
+    </div>
+
+    <!--<div id="main">&nbsp;</div>-->
+    <button name="show" onclick="show()">Show</button>
+    <progress value="0" max="100"></progress>
+</body>
+</html>

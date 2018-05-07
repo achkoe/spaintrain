@@ -1,0 +1,399 @@
+{
+    "image": "images/l55-p127-IndirekteObjektPronomen.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s-p181-loesung.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-06 (2)", 
+            "textlist": [
+                {
+                    "y": 134, 
+                    "x": 242, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 170, 
+                    "x": 295, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 201, 
+                    "x": 201, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 231, 
+                    "x": 139, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 268, 
+                    "x": 169, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les"
+                }, 
+                {
+                    "y": 302, 
+                    "x": 226, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les"
+                }, 
+                {
+                    "y": 397, 
+                    "x": 147, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 430, 
+                    "x": 181, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos"
+                }, 
+                {
+                    "y": 464, 
+                    "x": 160, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me"
+                }, 
+                {
+                    "y": 500, 
+                    "x": 237, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les"
+                }, 
+                {
+                    "y": 528, 
+                    "x": 163, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "os"
+                }, 
+                {
+                    "y": 564, 
+                    "x": 161, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 665, 
+                    "x": 531, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Le devolvi\u00f3 el libro a Paco."
+                }, 
+                {
+                    "y": 701, 
+                    "x": 527, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A ellas les dice siempre la verdad."
+                }, 
+                {
+                    "y": 735, 
+                    "x": 527, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A m\u00ed me regalaron un CD."
+                }, 
+                {
+                    "y": 770, 
+                    "x": 522, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPor que no nos quieres decir nada?"
+                }, 
+                {
+                    "y": 801, 
+                    "x": 526, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Les escriben siempre e-mails a sus amigos."
+                }, 
+                {
+                    "y": 927, 
+                    "x": 56, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No os podemos explicar el camino."
+                }, 
+                {
+                    "y": 991, 
+                    "x": 50, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Dame el periodico!"
+                }, 
+                {
+                    "y": 1062, 
+                    "x": 50, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPor que no os gusta la music\u00e1? "
+                }, 
+                {
+                    "y": 1127, 
+                    "x": 59, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfYa le has devuelto los libros?"
+                }, 
+                {
+                    "y": 1192, 
+                    "x": 57, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Ma\u00f1ana me va a presentar su nuevo vivienda ."
+                }, 
+                {
+                    "y": 1221, 
+                    "x": 68, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Ma\u00f1ana me va a ense\u00f1ar su piso nuevo."
+                }, 
+                {
+                    "y": 1061, 
+                    "x": 367, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "\u00bfPor qu\u00e9 no os gusta la m\u00fasica? "
+                }, 
+                {
+                    "y": 993, 
+                    "x": 303, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "\u00a1Dame el peri\u00f3dico, por favor!"
+                }
+            ]
+        }, 
+        {
+            "name": "2016-12-31 (2)", 
+            "textlist": [
+                {
+                    "y": 133, 
+                    "x": 246, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 166, 
+                    "x": 300, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 198, 
+                    "x": 205, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 232, 
+                    "x": 134, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 265, 
+                    "x": 174, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les"
+                }, 
+                {
+                    "y": 301, 
+                    "x": 221, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les"
+                }, 
+                {
+                    "y": 397, 
+                    "x": 136, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 432, 
+                    "x": 178, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos"
+                }, 
+                {
+                    "y": 463, 
+                    "x": 156, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me"
+                }, 
+                {
+                    "y": 499, 
+                    "x": 237, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les"
+                }, 
+                {
+                    "y": 529, 
+                    "x": 180, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "os"
+                }, 
+                {
+                    "y": 561, 
+                    "x": 148, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 666, 
+                    "x": 537, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Le devolvi\u00f3 el libro a Paco."
+                }, 
+                {
+                    "y": 705, 
+                    "x": 531, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A ellas les dice siempre la verdad."
+                }, 
+                {
+                    "y": 732, 
+                    "x": 529, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A m\u00ed me regalaron un CD."
+                }, 
+                {
+                    "y": 769, 
+                    "x": 533, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPor qu\u00e9 no nos quieres decir nada?"
+                }, 
+                {
+                    "y": 802, 
+                    "x": 528, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Les escriben siempre e-mails a sus amigos."
+                }, 
+                {
+                    "y": 931, 
+                    "x": 66, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No os podemos explicar el camino."
+                }, 
+                {
+                    "y": 932, 
+                    "x": 432, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No podemos explicaros el camino."
+                }, 
+                {
+                    "y": 992, 
+                    "x": 57, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Me das el per\u00edodico, por favor."
+                }, 
+                {
+                    "y": 1061, 
+                    "x": 51, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPor qu\u00e9 no os gusta esta music\u00e1?"
+                }, 
+                {
+                    "y": 1131, 
+                    "x": 57, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfLe ha devueltas los libros a \u00e9l?"
+                }, 
+                {
+                    "y": 1192, 
+                    "x": 61, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Ma\u00f1ana le va a ver su nuestra vivienda."
+                }, 
+                {
+                    "y": 995, 
+                    "x": 385, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00a1Dame el peri\u00f3dico, por favor!"
+                }, 
+                {
+                    "y": 1060, 
+                    "x": 456, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "m\u00fasica"
+                }, 
+                {
+                    "y": 1130, 
+                    "x": 367, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfYa le has devuelto los libros?"
+                }, 
+                {
+                    "y": 1200, 
+                    "x": 443, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Ma\u00f1ana me va a ense\u00f1ar su piso nuevo."
+                }
+            ]
+        }
+    ]
+}

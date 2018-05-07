@@ -1,0 +1,46 @@
+Spanisch: Gut zu wissen!
+Achim Köhler
+2016-06-04
+
+%!Target : tex
+%!postproc(tex): "\.\.\."  "\ldots{}"
+% %!postproc(tex): "\\begin{itemize}" "\colorbox{lightgray}{\parbox{\linewidth}{\\begin{itemize}"
+%!postproc(tex): "^\\begin{compactitem}" "\hskip1em\colorbox{colorexample}{\parbox{0.92\linewidth}{\\begin{compactitem}\\itshape"
+%!postproc(tex): "^\\end{compactitem}"   "\end{compactitem}}}"
+% %!postproc(tex): "\\end{itemize}"   "\end{itemize}}}"
+%!postproc(tex): "--\$>\$" "$\\rightarrow$"
+%!postproc(tex): "-->" "$\\rightarrow$"
+%!postproc(tex): "==\S>\$" "$\\Rightarrow$"
+%!postproc(tex): "\$\\backslash\$\$\\backslash\$([\+\-]?\d+\.\d+)" "\\\\[\1em]"
+%!postproc(tex): "\$\\backslash\$\$\\backslash\$" "\\\\"
+%!postproc(tex): "\$>\$\$>\$" "\\begin{small}"
+%!postproc(tex): "\$<\$\$<\$" "\\end{small}"
+%!postproc(tex): ">>" "\\tiny{}"
+%!postproc(tex): "<<" ""
+%!postproc(tex): "\\_chi" "$\chi$"
+%!postproc(tex): "\\_theta" "$\Theta$"
+%!postproc(tex): "\.\." "{}"
+%!postproc(tex): "\\section\*" "\\section"
+%!postproc(tex): "\\subsection\*" "\\subsection"
+%!postproc(tex): "\.att" "\\danger{}"
+%!postproc(tex): "\.rem" "\\eye{}"
+
+
+%!postproc(html): "_chi" "&chi;"
+%!postproc(html): "_theta" "&Theta;   "
+%!postproc(html): "~" "&nbsp;"
+%!postproc(html): "&gt;&gt;" "<small>"
+%!postproc(html): ">>" "<small>"
+%!postproc(html): "&lt;&lt;" "</small>"
+%!postproc(html): "<<" "</small>"
+%!postproc(html): "--&gt;" "&rarr;"
+%!postproc(html): "==&gt;" " &rArr;"
+%!postproc(html): "\\\\([\+\-]?\d+\.\d+)" "<br class="wide"/>
+%!postproc(html): "\\\\" "<br />"
+%!postproc(html): "\\textit{([^}]+)}" "<i>\1</i>"
+%!postproc(html): '"`' '&bdquo;'
+%!postproc(html): "' '&rdquo;'
+%!postproc(html): "\\includegraphics\[[a-z=]+([0-9]+)pt\]\{([a-z_]*)\}" '<img src="images/\2.jpg" height="\1pt" alt="\1"/>'
+
+
+%!include: grammar.t2tout

@@ -1,0 +1,2167 @@
+;v=Verben
+;u=Unregelmäßige Verben
+;s=Substantive
+;g=Grammatik
+;k=Konversation
+;a=Adjektive
+;b=Adverbien
+;p=Präpositionen
+:K=Kurs
+:S=Spanisch Marco Polo
+:L=Spanisch ferig los!
+:A=Alejo y su Padilla
+:P=El paraguas blanco
+:G=Grammatik
+===vK==================================
+[zahlen, bezahlen (für)]
+Wovon bezahlst du die Miete?
+
+[pagar (por)]
+yo pago
+tú pagas
+él/ella/usted paga
+nosotros/-as pagamos
+vosotros/-as pagais
+ellos/ellas/Ustedes pagan
+¿Cómo pagas tu alquiler?
+===vK==================================
+[brauchen, benötigen]
+Ich schätze, wir brauchen mehr Informationen.
+
+[necesitar]
+yo necesito
+tú necesitas
+él/ella/usted necesita
+nosotros/-as necesitamos
+vosotros/-as necesitais
+ellos/ellas/Ustedes necesitan
+Pienso que necesitamos mas información.
+===aK==================================
+[lustig, unterhaltsam] - [ernst]
+Du bist klug und wunderschön... und witzig.
+Für mich ist es nicht zu ernst.
+
+[divertido] - [serio]
+Eres inteligente y hermosa... y divertida.
+Para mí no es muy serio.
+===aK==================================
+[hübsch] - [hässlich]
+Du bist so schön, in diesem Licht.
+Sie sind nicht so hässlich wie ich.
+
+[guapo/-a] - [feo]
+Estás muy guapa, con esta luz.
+Tú no eres fea como yo.
+===aK==================================
+[müde]
+Ich bin müde.
+
+[cansado/-a]
+Estoy consado.
+===aK==================================
+[intelligent] - [dumm]
+Du bist nicht dumm, du bist sehr intelligent
+
+[inteligente] - [tonto/-a]
+No eres tonto, eres bastante inteligente.
+===aK==================================
+[interessant] - [langweilig]
+
+[interesante] - [aburrido]
+===sK==================================
+[Verlobte, feste Freundin]
+
+[novia]
+===bK==================================
+dort
+
+alli, ahí
+===bK==================================
+[bester]
+Es geht mir besser, viel besser.
+
+[mejor]
+Me siento mejor, mucho mejor.
+===sK==================================
+[Kollege]
+Zwei Kollegen reisen gemeinsam im Bus.
+
+[compañero]
+Dos compañeros viajan juntos en autobús.
+===vK==================================
+[leben, wohnen]
+Wo leben/wohnen sie/Sie?
+
+[vivir]
+yo vivo
+tú vives
+él/ella/usted vive
+nosotros/-as vivimos
+vosotros/-as vivís
+ellos/ellas/Ustedes viven
+¿Donde viven/vive?
+===aK==================================
+[sympathisch] - [unsympathisch]
+
+[sympático] - [antipático]
+===sK==================================
+[Rechtsanwalt]
+
+[abogado/-a]
+===sK==================================
+Elektronische Post, [E-Mail]
+
+[correo electronico]
+===sK==================================
+[Adresse]
+Kannst du mir deine Adresse sagen?
+
+[direction]
+¿Puedes decir tu direction?
+===vK==================================
+[arbeiten]
+Was arbeitet Brigitte?
+
+[trabajar]
+yo trabajo
+tú trabajas
+él/ella/usted trabaja
+nosotros/-as trabajamos
+vosotros/as trabajais
+ellos/ellas/Ustedes trabajan
+¿En qué trabaja Brigitte?
+===vuK==================================
+[sein]
+ich bin
+du bist
+er/sie/es/Sie ist
+wir sind
+ihr seid
+sie/Sie sind
+
+[ser]
+yo soy
+tú eres
+él/ella/usted es
+nosotros/-as somos
+vosotros/-as sois
+ellos/ellas/Ustedes son
+===sK==================================
+[Verkäufer/-in]
+Ich bin Verkäufer.
+
+[vendedor/-a]
+Soy vendedor.
+===sK==================================
+[Angestellter]
+Und du, bist du ein Angestellter?
+
+[empleado/-a]
+¿Y tu, eres un empleado?
+===sK==================================
+[Taxifahrer]
+
+[taxista]
+===sK==================================
+[Krankenpfleger], Krankenschwester
+
+[enfermero], enfermera
+===sK==================================
+[Lehrer]
+Sie ist Deutschlehrerin
+
+[profesor]
+Ella es profesora de aleman.
+===sK==================================
+[Vertreter]
+
+[representante]
+===vK==================================
+[zu sich nehmen]
+Morgens nehme ich nichts zu mir.
+
+[tomar]
+yo tomo
+tú tomas
+él/ella/usted toma
+nosotros/-as tomamos
+vosotros/-as tomaís
+ellos/ellas/Ustedes toman
+Por la mañana no tomo nada.
+===vK==================================
+kommen, [ankommen]
+Wann kommt das Flugzeug an?
+
+[llegar]
+yo llego
+tú llegas
+él/ella/usted llega
+nosotros/-as llegamos
+vosotros/-as llegaís
+ellos/ellas/Ustedes llegan
+A qué hora llega el avión?
+===vuK==================================
+[haben]
+Ich habe nicht soviel Geld!
+
+[tener]
+yo tengo
+tú tienes
+él/ella/usted tiene
+nosotros/-as tenemos
+vosotros/-as teneís
+ellos/ellas/Ustedes tienen
+¡No tengo tanto dineros!
+===vK==================================
+[schreiben]
+Was schreibt ihr?
+
+[escribir]
+yo escribo
+tú escribes
+él/ella/usted escribe
+nosotros/-as escribimos
+vosotros/-as escribis
+ellos/ellas/Ustedes escriben
+¿Qué escribis?
+===sK==================================
+[Seite]
+Auf welcher Seite sind die Hausaufgaben?
+
+[página]
+¿De qué pagina están los deberes?
+===kK==================================
+es möge schmecken
+
+que aproveche
+===vK==================================
+ich heiße
+du heißt
+es/sie/Sie heißt
+
+[llamarse]
+me llamo
+te llamas
+se llama
+nos llamamos
+os llamáis
+se llaman
+===sK==================================
+[Schriftsteller]
+
+[escritor]
+===sK==================================
+[Reise]
+
+[viaje]
+===sK==================================
+Geschäftsreise
+Rückreise
+
+viaje de negocios
+el viaje de regreso
+===aK==================================
+[krank]
+
+[enfermo/-a]
+===sK==================================
+im [Urlaub]
+Ich war mit meiner Familie im Urlaub.
+
+de [vacaciones]
+Estuvo de vacaciones con mi familia.
+===kK==================================
+alle da?
+
+¿Todo estan?
+===sK==================================
+[Hausfrau]
+Hausmann
+
+-[el ama] / el amo / las amas de casa
+===kK==================================
+weiss nicht
+
+no sé
+no idea
+===kK==================================
+es tut mir leid
+
+lo siento
+perdón
+===sK==================================
+[Gedicht]
+
+[la poema]
+===sK==================================
+mein [Nachname] ist
+
+me [apellido] es
+===sK==================================
+die [Hausaufgaben]
+
+[los deberes]
+===vuK==================================
+[zählen, erzählen]
+Zählen Sie Ihr Geld.
+Ich zähle bis drei.
+
+[contar]
+yo cuento
+tú cuentas
+él/ella/usted cuenta
+nosotros/-as contamos
+vosotros/-as contaís
+ellos/ellas/Ustedes cuentan
+Contar su dinero.
+Cuento hasta tres.
+===sK==================================
+[Friseur, Friseurin]
+
+[peluquero/-a]
+===sK==================================
+[Ort, Stelle]
+anstelle, anstatt
+
+[lugar]
+en lugar
+===kK==================================
+Wie sagt man bla auf spanisch?
+
+¿Como se dice bla en espaniol?
+===kK==================================
+Was essen/trinken wir?
+
+¿Que tomamos?
+===kK==================================
+Wie gut!
+
+¡Que bien!
+===kK==================================
+Wie interessant!
+
+¡Que interesante!
+===sK==================================
+[Schule]
+
+una [escuela]
+===sK==================================
+[Werkstatt]
+
+un [taller]
+===sK==================================
+[Firma]
+
+la/una [empresa]
+===sK==================================
+[Friseursalon]
+
+una [pelunqueria]
+===bK==================================
+[also], nun
+
+[pues]
+===bK==================================
+[ziemlich]
+
+[bastante]
+===sK==================================
+Faßbier
+
+caña
+===sK==================================
+viele [Leute]
+
+mucha [gente]
+===aK==================================
+es freut mich
+
+en cantado/-a
+===sK==================================
+[Gruß]
+
+[el saludo]
+===pK==================================
+[aus, von]
+
+[desde]
+===sK==================================
+mein [Sohn] / meine [Tochter]
+
+mi [hijo] / mi [hija]
+===sK==================================
+ihrer [Mutter], [Vater]
+
+su [madre], [padre]
+===aK==================================
+[klein]
+
+[pequeño/-a]
+===kK==================================
+Wie alt ist er?
+
+¿Cuántos años tiene?
+===sK==================================
+meine [Eltern]
+
+mis [padres]
+===sK==================================
+[Mädchen], [Junge]
+
+[chica], [chico]
+===aK==================================
+[jung] / [alt]
+
+[joven] / [viejo/-a]
+===sK==================================
+[Hund]/Hündin
+
+[perro]/perra
+===vK==================================
+[chatten]
+
+[chatear]
+===sK==================================
+[Foren]
+
+[foros]
+===aK==================================
+[schüchtern], zurückhaltend
+
+[tímido/-a]
+===aK==================================
+[ehrlich]
+
+[sincero/-a]
+===aK==================================
+[ungeduldig]
+
+[impatiente]
+===aK==================================
+[spontan]
+
+[espontánea]
+===gK==================================
+mein (Einzahl, Mehrzahl)
+dein (Einzahl, Mehrzahl)
+sein, seine, ihr, ihre, Ihr, Ihre (Sing.) / seine, ihre, Ihre (Pl.)
+
+mi, mis
+tu, tus
+su, sus
+===gK==================================
+unsere (Einzahl, Mehrzahl)
+euer, eure (Einzahl, Mehrzahl)
+
+nuestro/-a, nuestos/-as
+vuestro/-a, vuestos/-as
+===sK==================================
+[Bruder], [Schwester]
+
+[hermano], [hermana]
+===sK==================================
+[Wochenende]
+Wochenenden
+
+[El fin de semana]
+Los fines de semana
+===sK==================================
+[Samstag], [Sonntag], [Montag]
+[Dienstag],
+[Mittwoch],
+[Donnerstag],
+[Freitag]
+
+[sábado], [domingo], [lunes],
+[martes],
+[miércoles],
+[jueves],
+[viernes]
+===sK==================================
+[Küste]
+
+[la costa]
+===vK==================================
+etwas [lesen]
+
+[leer]
+yo leo
+tú lees
+él/ella/usted lee
+nosotros/-as leemos
+vosotros/-as leéis
+ellos/ellas/Ustedes leen
+===saK==================================
+[Ruhe], ruhig
+
+[tranquilidad], tranquilos
+===vK==================================
+sauber machen, [putzen]
+
+[limpiar]
+yo limpio
+tú limpias
+él/ella/usted limpia
+nosotros/-as limpiamos
+vosotros/-as limpiaís
+ellos/ellas/Ustedes limpian
+===aK==================================
+[schnell]
+
+[rápido]
+===vK==================================
+einkaufen gehen
+
+hacer la compra
+===vuK==================================
+etwas tun, [machen]
+ich tue/mache etwas
+du tust/machts etwas
+er/sie/Sie tun/machen etwas
+wir tun/machen etwas
+ihr tut/macht etwas
+sie tun/machen etwas
+
+[hacer]
+yo hago
+tú haces
+él/ella/usted hace
+nosotros/-as hacemos
+vosotros/-as hacéis
+ellos/ellas/Ustedes hacen
+===vK==================================
+[kochen]
+
+[cocinar] ([k]o[th]inat)
+yo cocino
+tú cocinas
+él/ella/usted cocina
+nosotros/-as cocinamos
+vosotros/-as cocinais
+ellos/ellas/Usteded cocinan
+===pK==================================
+[nachmittags], am Nachmittag
+Nachmittags mache ich Sport
+
+[por la tarde]
+Por la tarde hago deporte.
+===sK==================================
+[Sport]
+
+[el deporte]
+===pK==================================
+[abends], am Abend
+Am Abend gehe ich mit Freunden aus.
+
+[por la noche]
+Por la noche salimos con amigos.
+===vuK==================================
+[ausgehen], hinausgehen
+
+[salir]
+yo salgo
+tú sales
+él/ella/usted sale
+nosotros/-as salimos
+vosotros/-as salís
+ellos/ellas/Ustedes salen
+===bK==================================
+[nie]
+[fast] nie
+[manchmal]
+oft
+fast immer
+[immer]
+
+[nunca]
+[casi] nunca
+[a veces]
+muchas veces
+casi siempre
+[siempre]
+===vK==================================
+verbringen, [passieren]
+
+[pasar]
+===aK==================================
+[normalerweise]
+
+[normalmente]
+===vK==================================
+[sehen]
+ich sehe
+du siehst
+er/sie/Sie sieht
+wir sehen
+ihr seht
+sie/Sie sehen
+
+[ver]
+yo veo
+tú ves
+él/ella/usted ve
+nosotros/-as vemos
+vosotros/-as veis
+ellos/ellas/Ustedes ven
+===sK==================================
+[Fernsehen]
+Fernseher
+
+[la tele(visíon)]
+el televisor
+===vK==================================
+etwas [hören], zuhören
+
+[escuchar]
+yo escucho
+tú escuchas
+él/ella/usted escucha
+nosotros/-as escuchamos
+vosotros/-as escuchaís
+ellos/ellas/Ustedes escuchan
+===sK==================================
+[Nachbar], Nachbarin
+
+[el/la vecino-a]
+===vK==================================
+etwas [ausleihen, vermieten]
+
+[alquilar]
+===sK==================================
+[Film]
+
+[película]
+===bK==================================
+[zusammen]
+Zusammen kochen.
+
+[junto/-a]
+Cocinamos juntos.
+===vK==================================
+sich [ausruhen]
+Sonntags ruhe ich mich aus.
+
+[descansar]
+Ls domingos descanso.
+===sK==================================
+[Brief, Karte]
+
+la [carta]
+===vK==================================
+[telefonieren]
+
+[hablar por teléfono]
+yo hablo
+tú hablas
+él/ella/usted habla
+nosotros/-as hablamos
+vosotros/-as hablaís
+ellos/ellas/Ustedes hablan
+===sK==================================
+[Dorf]
+
+el [pueblo]
+===aK==================================
+[selbstständig] (Arbeit)
+
+[por cuenta propia]
+===sK==================================
+[Stress]
+
+el [estrés]
+===bK==================================
+[etwas]
+Am, Nachmittag mache ich etwas mit meinen Freunden
+
+[algo]
+Por la tarde hago algo con mis amigos.
+===sK==================================
+[Ausflug]
+
+la [excursíon]
+===sK==================================
+[Land, Feld]
+
+el [campo]
+===kK==================================
+etwas [bedeuten]
+Was bedeuted "nie"?
+
+[significar]
+¿Que significa "nunca"?
+===vK==================================
+[zu Abend essen]
+Manchmal essen wir mit Freunden zu abend.
+
+[cenar]
+A veces cenamos con amigos.
+===vK==================================
+im Internet surfen
+
+navegar en Internet
+===kK==================================
+[morgens], am Morgen
+Morgens nehme ich einen Kaffee.
+
+[por la mañana]
+Por la mañana tomo un café.
+===vK==================================
+[frühstücken]
+
+[desayunar]
+===bK==================================
+[später], danach
+Jetzt lese ich ein Buch, später arbeite ich.
+
+[después]
+Ahora leo un libro, después trabajo.
+===sK==================================
+[Ehemann]
+[Frau]
+[Schwiegersohn]
+
+el [marido]
+la [mujer]
+el [suego]
+===sK==================================
+[mittags], am Mittag
+
+el [mediodía]
+===vK==================================
+etwas [vorbereiten]
+
+[preparar]
+===sK==================================
+Essen, [Mittagessen]
+
+la [comida]
+===vK==================================
+[essen]
+
+[comer]
+yo como
+tú comes
+él/ella/usted come
+nosotros/-as comemos
+vosotros/-as comeís
+ellos/ellas/Ustedes comen
+===aK==================================
+[alle], ganz, jede/r/s
+Juan arbeitet jeden Tag.
+
+[todo/-a]
+Juan trabaja todo el día.
+===sK==================================
+[Garten]
+
+[jardín]
+===sK==================================
+[Glück]
+
+la [suerte]
+===bK==================================
+[nichts]
+
+[nada]
+===aK==================================
+[heute]
+
+[hoy]
+===vuK==================================
+[gehen], fahren
+
+[ir]
+yo voy
+tú vas
+él/ella/usted va
+nosotros/-as vamos
+vosotros/-as vais
+ellos/ellas/Ustedes van
+===vK==================================
+[tanzen]
+
+[bailar]
+===vK==================================
+einkaufen gehen
+
+ir de tiendas
+===sK==================================
+Zuneigung, [Liebling]
+
+el [cariño]
+===bK==================================
+wohin
+
+adónde
+===aK==================================
+[neu]
+wieder
+
+[nuevo/-a]
+de nuevo
+===vK==================================
+etwas [glauben]
+
+[creer]
+yo creo
+tú crees
+él/ella/usted cree
+nosotros/-as cremos
+vosotros/-as creís
+ellos/ellas/Ustedes cren
+===aK==================================
+dass
+Ich glaube das Maripaz keinen neuen Freund hat.
+
+que
+Creo que Maripaz no tiene novio.
+===sK==================================
+[Park]
+
+el [parque]
+===sK==================================
+Turnhalle, [Fitnesscenter]
+
+el [gimnasio]
+===vK==================================
+[entdecken]
+
+[descubrir]
+===sK==================================
+Januar, Februar, März,
+April, Mai, Juni,
+Juli, August, September,
+Oktober, November, Dezember
+
+enero, febrero, marzo,
+abril, mayo, junio,
+julio, agosto, septiembre,
+octubre, noviembre, diciembre
+;====z==============================
+=====================================
+;| -Subjektpronomen | -Präpositionalpronomen (nach a, de, por etc.)
+;| ich			   | mir, mich
+;| du 			   | dir, dich
+;| er/sie/Sie 	   | ihm, ihn / ihr, sie / Ihnen
+;| wir			   | uns
+;| ihr 			   | euch
+;| sie/Sie 		   | ihnen / Ihnen
+;
+;| -pronombres usados como sujetos | -pronombres usados después de preposiciones | -exception con
+;| yo 						      | mí 										 	| conmigo
+;| tú 						      | tí 										 	| contigo
+;| él/ella/usted 			      | él/ella/usted 							 	|
+;| nosotros/-as 				      | nosotros/-as 								|
+;| vosotros/-as 				      | vosotros/-as 								|
+;| ellos/ellas/ustedes 		      | ellos/ellas/ustedes 				 		|
+;===================================
+;| Direktes / Indirektes Objekt
+;| -Nominativ    | -Dativ (Wem-Fall)  | -Akkusativ (Wen-oder-was-Fall)
+;| ich			| mir 				 |	mich
+;| du 			| dir 				 |	dich
+;| er/sie/Sie 	| ihm / ihr / Ihnen  |  ihn,es / sie,es / Sie
+;| wir			| uns 				 |	uns
+;| ihr 		    | euch				 |	euch
+;| sie/Sie 	    | ihnen / Ihnen 	 |	sie / Sie
+;
+;| pronombres de complemento directo/indirecto
+;| -pronombres usados como sujetos | -pronombres de complemento indirecto  | -pronombres de complemento directo
+;| yo 							  | me 					                  | me
+;| tú 							  | te 									  | te
+;| él/ella/usted 				  | le 			 						  | lo / la / lo/la
+;| nosotros/-as 					  | nos 								  | nos
+;| vosotros/-as 					  | os									  | os
+;| ellos/ellas/ustedes 			  | les 				 				  | los / las / los/las
+===sK==================================
+[Überraschung]
+
+la [sorpresa]
+===sK==================================
+[Mobiltelefon]
+
+el [móvil] / el celular (lat.am.)
+===kK==================================
+Hör mal!
+
+¡Oye!
+===sK==================================
+[Zeit] (auch Wetter)
+
+el [tiempo]
+===sK==================================
+[Allee]
+
+la [avenida]
+===aK==================================
+[freundlich]
+Du bist sehr freundlich.
+
+[amable]
+Tú eres muy amable.
+===aK==================================
+[glücklich]
+
+[feliz]
+===sK==================================
+das [Buch]
+
+el [libro]
+===sK==================================
+die CD
+
+el cedé
+===sK==================================
+das [Geschenk]
+
+el [regalo]
+===aK==================================
+[schön]
+[sehr schön]
+[wunderschön]
+
+[bonito/-a]
+[hermoso / -a]
+[maravilloso / -a], precioso / -a
+===kK==================================
+Du bist eingeladen!
+
+¡Estás invitado/-a!
+===sK==================================
+der [Kuss]
+
+el [beso]
+===kgK==================================
+Präsident Johnson tanzt an diesem Abend mit mir.
+Ich muss mir dir reden
+
+El presidente Johnson baila conmigo esa noche.
+Necesito hablar contigo
+===kK==================================
+Wie heisst Ihr Hund? - Mein Hund heisst Titi
+Wie sind deine Kollegen so? - Meine Kollegen sind ziemlich lustig.
+
+
+¿Cóma se llama su perro? - Mi perro se llama Titi
+¿Cómo son tus cumpañeros? - Mis compañeros son bastante divertido.
+===kK==================================
+Wo wohnen eure Eltern? - Unsere Eltern wohnen in Madrid
+Wie als sind eure Kinder? - Unsere Tochter ist 8, unser Sohn 10.
+
+¿Dónde viven vuestros padres?  Nuestros padres viven en Madrid
+¿Cuántos años tienen vuetros hijos? - Nuestra hija tiene 8 años, nuestro hijo tiene 10 años.
+===kK==================================
+Wie ist dein Chefin so? - Mein Chefin ist nicht sehr sympatisch.
+Was arbeiten die Eltern von Manolo? - Sein Vater ist Koch, seine Mutter ist Deutschlehrerin.
+
+¿Cómo es tu jefa? - Mi jefa no es muy simpática.
+¿En qué trabajan los padres de Manolo? - Su padre es cocinero, su madre es profesora de alemán.
+===kK==================================
+Wann hast du Geburtstag? - Im März.
+An welchen Tag? - Am 31. März
+Und wie alt bist du? - Ich bin 49 Jahre alt.
+Wann hat Marta Geburtstag? - Am 10. Februar.
+
+¿Cuándo es tu cumpleaños? - En marzo.
+¿Qué día? - El treintaiuno de marzo.
+¿Y cuántos años tienes? - Tengo cuarentainueve años.
+¿Cuándo es el cumpleaños de Marta? - Es el diez de febrero.
+===aK==================================
+[rechts] / [links]
+
+(a) la [derecha] / a la [izquierda]
+===sK==================================
+der [Tisch]
+Wir möchten einen Tisch für drei Personen.
+Gibt es einen Tisch für 3 Personen?
+Ein Tisch für eine Person/drei Personen, bitte.
+
+la [mesa]
+Queremos una mesa para tres personas.
+¿Hay una mesa para tres personas?
+Una mesa para una persona/tres personas, por favor.
+===vK==================================
+[suchen]
+
+[buscar]
+yo busco
+tú buscas
+él/ella/usted busca
+nosotros/-as buscamos
+vosotros/-as buscáis
+ellos/ellas/Ustedes buscan
+===bK==================================
+[ebenso], gleichfalls
+
+[igualmente]
+===sK==================================
+das [Datum]
+
+la [fetcha] (ˈfeʧa)
+===kK==================================
+Den wievielten haben wir heute?
+
+¿A cuantos estamos?
+===sK==================================
+[Monat], Monate
+
+[meze], mezes
+===sK==================================
+in die Kirche/[Messe] gehen
+
+ir a [misa]
+===kK==================================
+(viel) langsamer bitte
+(viel) lauter bitte
+
+(mas) despacio por favor
+(mas) alto por favor
+===kK==================================
+Wieviel Uhr ist es?
+Es ist zehn vor zwei.
+Es ist halb eins.
+Pünktlich?
+Um wieviel Uhr geht das Flugzeug?
+
+¿Qué hore es?
+Son las dos menos diez
+Son las doce y media
+¿En punto?
+¿A qué hora sale el avión?
+===sK==================================
+das [Schiff]
+der [Kapitän]
+der [Seemann]
+
+el [barco]
+el [capitán]
+el [marinero]
+===sK==================================
+[Bad, Klo]
+[Bett]
+[Ehebett]
+[Schlüssel]
+
+el [baño]
+la [cama]
+[matrimonial]
+la [llave]
+===aK==================================
+[kaltes] Wasser, [warmes] Wasser
+
+agua [fria], agua [caliente]
+===sK==================================
+[Zimmer]
+[Strandhütte]
+
+la [habitación], el cuarto
+la [cabaña]
+===aK==================================
+[vielleicht]
+
+[tal vez]
+===pK==================================
+[ohne]
+
+[sin]
+===aK==================================
+[kostet], gut
+
+[vale]
+===gK==================================
+erste Woche, zweite Woche
+zwei Wochen
+
+primero semana, segundo semana
+quince dias
+===sK==================================
+[Fahrkarte]
+
+el [boleto]
+===kK==================================
+Ich hätte gerne ein Glas Wasser
+
+Quisiera un vaso de agua
+===aK==================================
+ist [weit]
+
+está [lejos]
+===aK==================================
+[spät]
+
+[tarde]
+===sK==================================
+[Milchkaffee]
+[Kaffee] mit etwas Milch
+[Orangensaft]
+[Toastbrot]
+[Butter]
+[Ei]
+[Marmelade]
+
+el [cafe con leche]
+el [cafe contado]
+el [jugo de naranja]
+el [pan tostado]
+la [mantequilla]
+el [huevo]
+la [mermelade]
+===sK==================================
+[Hunger]
+[Portion]
+[Fisch]
+[Soße]
+[Fleisch]
+
+el [hambre]
+la [orden], la portión
+el [pescado]
+la [salsa]
+la [carne]
+===sK==================================
+[Tagesgericht]
+[Nachspeise]
+[Reis]
+[Tomatensalat]
+[Pommes frites]
+
+el [menú del dia]
+el [postre]
+el [arroz]
+la [ensalada de tomates]
+las [papas fritas]
+===pK==================================
+ein, [irgendein]
+
+[algún/-a]
+===bK==================================
+[also]
+
+[entonces]
+===vK==================================
+[müssen]
+
+[tener que]
+===sK==================================
+[Karotten]
+[Zwiebel]
+[Pute]
+[Paprika] (Schote/Gewürz)
+[Kichererbse]
+[Knoblauch]
+
+[zanahoria]
+[cebolla]
+[pava]
+[pimiento] / pimentón
+[garbanzo]
+[ajo] (acho)
+===sK==================================
+[Öl]
+[Essig]
+
+[aceite]
+[vinagre]
+===sK==================================
+[Messer], [Löffel], [Gabel]
+[Teller], [Glas], [Flasche]
+
+[cuchillo], [cuchara], [tenedor]
+[plato], [vaso], [botella]
+===vK==================================
+[trinken]
+
+[beber]
+yo bebo
+tú bebes
+él/ella/usted bebe
+nosotros/-as bebemos
+vosotros/-as bebeis
+ellos/ellas/Ustedes beben
+===kK==================================
+Wieviel Zeit (ist vergangen) sei wir uns sahen!
+
+¡Cuánto tiempo (sin vernos)!
+===sK==================================
+[Zufall]
+
+[casualidad]
+===aK==================================
+[allein]
+
+[solo / -a]
+===kK==================================
+(Genau) 23 Prozent
+Etwa, ungefähr 23%
+
+El 23 por ciento
+Un 23 por ciento
+===kK==================================
+Wie schade!
+
+¡Que pena!
+===sK==================================
+Glück - Pech
+
+que suerte - mala suerte
+===aK==================================
+die am meisten
+
+los que mas
+===sK==================================
+die [Brille]
+
+las [gafas]
+===aK==================================
+[gefällt mir] (Ez./Mz.)
+bin [begeistert] von
+
+me [gusta] / me gustan
+me [encanta]
+===sK==================================
+[Stadtkern]
+[Altstadt]
+[Stadtviertel]
+
+[casco]
+el [casco antiguo]
+[barrio]
+===kK==================================
+Sehr geehre Frau Garcia
+lieber / liebe
+[Umarmung]
+
+Estimada señora Garcia
+querido / -a
+el [abrazo]
+===sK==================================
+Postkarte
+
+la (tarjeta) postal
+===vK==================================
+[sein (örtlich)]
+
+[estar]
+yo estoy
+tú estas
+él/ella/usted esta
+nosotros/-as estamos
+vosotros/-as estaís
+ellos/ellas/Ustedes están
+===sK==================================
+[Denkmal]
+
+el [monumento]
+===sK==================================
+[Sache], Ding
+Es gibt viel (Dinge) zu sehen
+
+[cosa]
+Hay mucha cosas que ver
+===sK==================================
+[Eiffelturm]
+
+la [torre Eiffel]
+===sK==================================
+[Gebäude], Bauwerk
+
+el [edificio]
+===sK==================================
+[Bild]
+
+el [cuadro]
+===sK==================================
+[Stimmung], Atmosphäre
+
+el [ambiente]
+===sK==================================
+[Alter]
+
+[edad]
+===aK==================================
+Die Stimmung ist [angenehm].
+
+El ambiente es [agradable].
+===sK==================================
+[Nachricht]
+
+[mensage]
+===vsK==================================
+[beantworten]
+(Anruf-) Beantworter
+
+[contestar]
+contestador
+===sK==================================
+[Enkel / -in]
+
+[nieto / -a]
+===sK==================================
+Ende März
+
+a fines de marzo
+===sK==================================
+[Wanderungen] machen
+
+hacer [senderismo]
+===bK==================================
+[ausserdem]
+In Friedchshafen gibt es einen Bahnhof und außerdem ein Múseum.
+
+[además]
+En Friedchshafen hay un estacion de tren y además un museo.
+===sK==================================
+[Brücke]
+
+el [puente]
+===sK==================================
+[Blumen]
+
+[flores]
+===sK==================================
+Quelle, [Springbrunnen]
+
+[fuente]
+===sK==================================
+[Baum]
+
+[árbol]
+===vK==================================
+[bekannt] als
+Antonio Banderas ist sehr bekannt.
+
+[conocido/-a]
+Antonio Banderas es muy conocido.
+===vK==================================
+[erwartet] dich
+ich [hoffe] nicht
+
+te [espera]
+[espero] no
+===pK==================================
+weil
+
+porque
+===asK==================================
+Nördlich/südlich/östlich/westlich von
+Im Norden/Süden/Osten/Westen
+
+Al norte/sur/este/oueste
+En el norte/sur/este/oueste
+===sK==================================
+[Stadtdmauer]
+
+la [muralla]
+===aK==================================
+[bescheiden]
+
+[modesto]
+===vK==================================
+die größte autonome Region
+grenzen an
+
+la Comunidad Autónoma más grande
+limitar con
+===vuK==================================
+[bevorzugen]
+ich bevorzuge
+du bevorzugts
+er/sie/Sie bevorzugt
+wir bevorzugen
+ihr bevorzugt
+sie/Sie bevorzugen
+
+[preferir]
+yo prefiero
+tú prefieres
+él/ella/usted prefiere
+nosotros/-as preferimos
+vosotros/-as preferis
+ellos/ellas/Ustedes prefieren
+===vuK==================================
+[mögen], wünschen
+ich mag/liebe
+du magst/liebst
+er/sie/Sie mag/liebt
+wie mögen/lieben
+ihr mögt/liebt
+sie/Sie mögen/lieben
+
+[querer]
+yo quiero / queria
+tú quires / querías
+él/ella/usted quiere / quería
+nosotros/-as queremos / queríamos
+vosotros/-as queréis / queríais
+ellos/ellas/Ustedes queren / querían
+===bK==================================
+[Welches] (Ez./Mz.)
+[Wieviel] (Ez./Mz.)
+[Wer]  (Ez./Mz.)
+[Wie]
+[Was]
+[Wann]
+[Warum]
+
+[Cuál/Cuáles]
+[Cuánto/Cuántos]
+[Quien es/Quienes son]
+[Cómo]
+[Qué]
+[Cuándo]
+[Por qué]
+===bK==================================
+[Wohin]
+[Woher]
+
+[Adónde]
+[De dónde]
+===aK==================================
+[großartig], wunderbar, ausgezeichnet
+
+[estupendo]
+===bK==================================
+[sofort]
+
+[enseguida]
+===vK==================================
+[genießen]
+
+[disfrutar]
+===kK==================================
+Ich nehme nichts mehr
+Ich rufe an weil die Heizung nicht funktioniert
+
+No tomo nada.
+Llomo porque la califacción no funciona.
+===saK==================================
+[Lärm], laut
+[Heizung]
+
+[ruido], ruidoso
+[calefacción]
+===sK==================================
+[Verantwortlicher], Beauftragter
+
+[encargado]
+===gK==================================
+Alphabet
+
+a - be - ce - de - e - efe - ge
+hache - i - jota - ka - ele - eme
+ene - eñe - o - pe - cu - erre
+erre doble - ese - te - u - uve
+uve doble - equis - i griega - zeta
+Ü - u con diéresis, í i con acento
+===sK==================================
+[Unterkunft]
+
+[alojamiento]
+===vK==================================
+[erforschen]
+
+[explorar]
+===sK==================================
+[Komfort]
+
+[comodidad]
+===sK==================================
+[Stern]
+
+[estrella]
+===svK==================================
+[buchstabieren]
+[Buchstabe]
+
+[deletrear]
+[letrear]
+===aK==================================
+[bequem]
+
+[cómodo/-a]
+===sK==================================
+[zu Fuß]
+
+[a pie]
+===aK==================================
+[teuer]
+
+[caro/-a]
+=====================================
+brauchen, [dauern]
+Wie lange brauchst du  ins Büro?
+
+[tardar]
+¿Cuántos tardas en va al oficina?
+===bK==================================
+[nur]
+
+[sólo]
+===sK==================================
+[Motorrad]
+
+la [moto]
+===aK==================================
+[billig]
+
+[barato/-a]
+===sK==================================
+[Bushaltestelle]
+
+la [parada de autobús]
+===sbK==================================
+[Seite], neben etwas
+neben
+
+[lado], al lado de
+junto a
+===sK==================================
+[Postamt]
+
+[Correos]
+===bK==================================
+[vor] etwas, vordere Seite
+
+[delante] de
+===bK==================================
+[hinter] etwas
+
+[detrás] de
+===bK==================================
+[gegenüber]
+
+[enfrente] de
+===sK==================================
+[Tabakladen]
+
+el [estanco]
+===sK==================================
+[Rathaus]
+
+[Ayuntamiento]
+===sK==================================
+[Buchhandlung]
+
+la [librería]
+===sK==================================
+der [Ältere]
+der [Jüngere]
+
+[el major]
+[el menor]
+===sK==================================
+[Geburt]
+
+[nacimiento]
+===sK==================================
+[Briefmarke]
+
+[sello]
+===vK==================================
+[drehen, wenden]
+[geradeaus]
+[nehmen]
+[kreuzen], überqueren
+
+[girar]
+[todo recto]
+[coger]
+[cruzar]
+===sK==================================
+[Passage]
+[Promenade]
+
+[Pasaje]
+[Paseo]
+===kK==================================
+[wie komme ich]
+
+[para ir]
+===bK==================================
+[danach, später]
+
+[luego]
+===aK==================================
+[auch nicht]
+
+[tamboco]
+===pK==================================
+von ... bis
+
+de .. a
+===bK==================================
+noch
+
+todavia
+===pK==================================
+[zwischen] 8:45 Uhr und 9:15 Uhr
+
+[entre] las 8:45 y las 9:45
+===bK==================================
+[zuvor]
+
+[antes de]
+===aK==================================
+[früh]
+
+[temprano]
+===vuK==================================
+[können]
+
+[poder]
+yo puedo
+tú puedes
+él/ella/usted puede
+nosotros/-as podemos
+vosotros/-as podeís
+ellos/ellas/Ustedes pueden
+===vuK==================================
+[wiederholen]
+
+[repetir]
+yo repito
+tú repites
+él/ella/usted repite
+nosotros/-as repetimos
+vosotros/-as repetís
+ellasos/ellas/Ustedes repiten
+===vuK==================================
+[folgen]
+
+[seguir]
+yo sigo
+tú sigues
+él/ella/usted sigue
+nosotros/-as seguimos
+vosotros/-as seguis
+ellos/ellas/Ustedes siguen
+===vuK==================================
+nehmen
+
+coger
+yo cojo
+tú coges
+él/ella/usted coge
+nosotros/-as cogemos
+vosotros/-as cogeis
+ellos/ellas/Ustedes cogen
+===kK==================================
+zwei Wochen
+
+quince dias
+===vK==================================
+[reisen]
+
+[viajar]
+===vK==================================
+[lernen]
+
+[aprender]
+===sK==================================
+der [Sommer]
+der [Winter]
+
+
+el [verano]
+el [invierno]
+===vK==================================
+sich sonnen
+
+tomar el sol
+===aK==================================
+[nächster/-e]
+
+... [que viene]
+===sK==================================
+Spaziergang, [spazieren], spazieren gehen
+
+el paseo, [pasear], dar un paseo
+===sK==================================
+[Entfernung]
+
+[distancia]
+===aK==================================
+[eng]
+
+[estrecho/-a]
+===sK==================================
+[Hochzeit]
+
+la [boda]
+===sKA==================================
+[Werk], Baustelle
+[Maler/in]
+
+la [obra]
+[el/la pintor/a]
+===vK==================================
+etwas [beenden]
+
+[terminar]
+===sK==================================
+[Nahrungsmittel]
+[Gemüse]
+[Stangen]brot
+[Miesmuschel]
+[Pfirsich]
+
+el [alimento]
+la [verdura]
+la [barra] de pan
+el [mejillon]
+el [melocotón]
+===aK==================================
+[jede]/r/s
+
+[cada]
+===sK==================================
+[Dose]
+
+la [lata]
+===sK==================================
+als Vorspeise
+als Hauptgericht
+
+de primero
+de segundo
+===vuK==================================
+[kommen]
+
+[venir]
+yo vengo
+tú vienes
+él/ella/usted viene
+nosotros/-as venimos
+vosotros/-as venís
+ellos/ellas/Ustedes vienen
+===vK==================================
+[benutzen], gebrauchen
+
+[usar]
+uso
+usas
+usa
+usamos
+usaís
+usan
+===vK==================================
+[haben (aux)], sein
+
+[haber]
+yo he
+tú has
+él/ella/usted ho o hay
+nosotros/-as hemos
+vosotros/-as habeís
+ellos/ellas/Ustedes han
+===vuK==================================
+[geben], schenken
+
+[dar]
+yo doy
+tú das
+él/ella/usted  da
+nosotros/-as damos
+vosotros/-as dais
+ellos/ellas/Ustedes dan
+===vuK==================================
+[hören], anhören
+
+[oir]
+yo oigo
+tú oyes
+él/ella/usted oye
+nosotros/-as oimos
+vosotros/-as ois
+ellos/ellas/Ustedes oyen
+===vK==================================
+(an)sehen, [beobachten]
+
+[mirar]
+yo miro
+tú miras
+él/ella/usted mira
+nosotros/-as miramos
+vosotros/-as miraís
+ellos/ellas/Ustedes miran
+===vuK==================================
+[sagen]
+
+[decir]
+yo digo
+tú dices
+él/ella/usted dice
+nosotros/-as decimos
+vosotros/-as decis
+ellos/ellas/Ustedes dicen
+===vuK==================================
+[riechen]
+
+[oler]
+yo huelo
+tú hueles
+él/ella/usted huele
+nosotros/-as olemos
+vosotros/-as oléis
+ellos/ellas/Ustedes huelen
+===vuK==================================
+[fühlen]
+
+[sentir]
+yo siento
+tú síentes
+él/ella/usted siente
+nosotros/-as sentimos
+vosotros/-as sentís
+ellos/ellas/Ustedes sienten
+===vK==================================
+[belassen], gestatten, verzichten, unterlassen
+Du erlaubst mir gar nichts und ich bin so hungrig.
+Wir lassen nicht unser Zeug in der Wohnung des jeweils anderen.
+
+[dejar]
+dejo
+dejas
+deja
+dejamos
+dejaís
+dejan
+No me dejas hacer nada y tengo mucha hambre.
+No dejamos cosas en la casa del otro.
+===sK==================================
+[Bleistift]
+
+el [lápiz ]
+===sK==================================
+das [Treffen], die Begegnung
+
+el [encuentro]
+===vK==================================
+[anfangen]
+
+[empezar]
+===sK==================================
+[Notiz]
+
+el [apunte]
+===aK==================================
+[verheiratet]
+
+[casado/-a]
+===vK==================================
+Fotos [machen]
+
+[sacar] fotos
+===aK==================================
+[mangelt], fehlt
+
+[falta]
+===sK==================================
+das [Viech]
+das [Kalb]
+die [Forelle]
+der [Kabeljau], Stockfisch
+die [Vanille]
+
+el [ganado]
+la [tenera]
+la [trucha]
+el [bacalao]
+la [vainilla]
+===sK==================================
+[Hausmannskost]
+
+la comida [casera]
+===sK==================================
+vom [Grill]
+[Backofen]
+
+a la [plancha]
+el [horno]
+===sK==================================
+[Menge], Quantität
+
+[cantidades]
+===kK==================================
+was kostet das
+
+cuanto cuesta/-n
+===kK==================================
+bitte sehr
+
+aqui tiene, tenga
+===vuK==================================
+(her)[bringen]
+Können sie uns ide Rechnungbringen?
+
+
+[traer]
+yo traigo
+tú traes
+él/ella/usted trae
+nosotros/-as traemos
+vosotros/-as traéis
+ellos/ellas/Ustedes traen
+¿Nos trae la cuenta por favor?
+===vuK==================================
+[verlangen], bestellen
+
+[pedir]
+yo pido
+tú pides
+él/ella/usted pide
+nosotros/-as pedimos
+vosotros/-as pedis
+ellos/ellas/Ustedes piden
+===vK==================================
+etwas zum [knabbern]
+Insekten [stechen]
+
+algo para picar
+picar
+===gK==================================
+[diese/r/s hier] (Personen oder Dinge)
+[diese/r/s da] (Personen oder Dinge)
+[diese/r/s hier neutral] (keine Personen)
+[diese/r/s da neutral] (keine Personen)
+Diese hier oder diese dort?
+Was ist das da?
+Das hier ist für dich.
+
+[este/esta/estos/estas] aqui
+[ese/esa] ahí
+[esto] aquí
+[eso]
+¿Éstas de aquí o ésas de ahí?
+¿Qué es eso?
+Esto es para ti.
+===kK==================================
+Wie viele Leute arbeiten in der Fabrik?
+Wie viele Theater gibt es in Madrid?
+
+¿Cuánta gente trabajar en la fábrica?
+¿Cuántos teatros hay en Madrid?
+===sK==================================
+der [Aufsatz]
+
+la [redacción]
+===sK==================================
+die [Hülsenfrüchte]
+
+las [legumbres]
+===kK==================================
+obwohl sie außer Haus arbeiten
+über dem europäischen Durchschnitt
+
+a pesar de trabajar fuera de casa
+más que la media europea
+===vK==================================
+[erfolgreich]
+
+con [éxito]
+===kK==================================
+Ich frühstücke [früh]
+
+desayuno [temprano]
+===sK==================================
+[Bericht]
+
+[informe]
+===sK==================================
+[Interview]
+
+[entrevista]
+===sK==================================
+[Werbung], Öffentlichkeit
+
+[publicidad]
+===vuK==================================
+[denken]
+
+[pensar]
+yo pienso
+tú piensas
+él/ella/usted piensa
+nosotros/-as pensamos
+vosotros/-as pensáis
+ellos/ellas/Ustedes piensan
+===vK==================================
+Aus dem Bett [aufstehen], heben, errichten
+
+[levantarse]
+me levanto
+te levantas
+se levanta
+nos levantamos
+os levantáis
+se levantan
+===vK==================================
+[duschen]
+
+[ducharse]
+me ducho
+te duchas
+se ducha
+nos duchamos
+os ducháis
+se duchan
+===vuK==================================
+mit jemandem [treffen]
+
+[encontrarse] con alguien
+me encuentro
+te encuentras
+se encuentra
+nos encontramos
+os encontráis
+se encontran
+===vK==================================
+im Haus [bleiben]
+Sie müssen im Bett bleiben, Señor.
+
+[quedarse] en casa
+me quedo
+te quedas
+se queda
+nos quedamos
+os quedáis
+se quedan
+Tiene que quedarse en cama, Señor.
+===vK==================================
+Kleidung [wechseln], ändern
+
+[cambiarse] de ropa
+me cambio
+te cambias
+se cambia
+nos cambiamos
+os cambiáis
+se cambian
+===vK==================================
+die Hände [waschen]
+
+[lavarse] las manos
+me lavo
+te lavos
+se lava
+nos lavamos
+os laváis
+se lavan
+===vuK==================================
+sich ins Bett [hinlegen]
+
+[acostarse]
+me acuesto
+te acuestas
+se acuesta
+nos acostamos
+os acostáis
+se acuestan
+===vuK==================================
+[zurückkommen] (an einen Ort), wieder (an einen Ort) fahren
+
+[volver]
+yo vuelvo
+tú vuelves
+él/ella/usted vuelve
+nosotros/-as volvemos
+vosotros/-as volvéis
+ellos/ellas/Ustedes vuelven
+===vK==================================
+gut [schlafen]
+
+[dormir] bien
+yo duermo
+tú duermes
+él/ella/usted duerme
+nosotros/-as dormimos
+vosotros/-as dormis
+ellos/ellas/Ustedes duermen
+===aK==================================
+Verben [unterstreichen]
+
+[subraye] los verbos
+===vuK==================================
+[wissen]
+
+[saber]
+yo sé
+tú sabes
+él/ella/usted sabe
+nosotros/-as sabemos
+vosotros/-as sebéis
+ellos/ellas/Ustedes saben
+===svuK==================================
+das [Mittagessen]
+zu mittag essen
+
+el [almuerzo]
+almorzar
+yo almuerzo
+tú almuerzas
+él/ella/usted almuerza
+nosotros/-as almorzamos
+vosotros/-as almorzáis
+ellos/ellas/Ustedes almuerzan
+===kK==================================
+Was hast du Lust zu machen?
+
+¿Que tienes ganas de hacer?
+===bK==================================
+so, [dadurch], damit
+So ist es halt.
+Er ist doch sonst nicht so.
+
+
+así
+Pues así es.
+Normalente no es así.
+===sK==================================
+[Neid]
+
+la [envidia]
+===sK==================================
+[Mythos]
+
+el [mito]
+===sK==================================
+[Luxus]
+
+el [lujo]
+===sK==================================
+[Zeitplan], Stundenplan, Fahrplan
+
+el [horario]
+===vuK==================================
+jemanden [kennen]
+
+[conocer]
+yo conozco
+tú conosces
+él/ella/usted conosce
+nosotros/-as conoscemos
+vosotros/-as conoscéis
+ellos/ellas/Ustedes conoscen
+===vK==================================
+[plaudern]
+
+[charlar]
+===vK==================================
+[vereinen], in Einklang bringen
+
+[conciliar]
+===kK==================================
+bis jetzt
+
+hasta ahora
+===sK==================================
+die Meinungen [_über_]
+
+las opiniones [_acerca_]
+===sK==================================
+ein Nickerchen
+
+echa una cabezada
+===sK==================================
+[Vorteil] - [Nachteil]
+
+[ventajas] - [desvantajas]

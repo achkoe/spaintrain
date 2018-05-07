@@ -1,0 +1,254 @@
+{
+    "image": "images/l21b-p61-indefinido.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s21a-28.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2016-11-30 (1)", 
+            "textlist": [
+                {
+                    "y": 121, 
+                    "x": 205, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-------------"
+                }, 
+                {
+                    "y": 158, 
+                    "x": 382, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 196, 
+                    "x": 198, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-------------"
+                }, 
+                {
+                    "y": 232, 
+                    "x": 248, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---------"
+                }, 
+                {
+                    "y": 271, 
+                    "x": 270, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---------"
+                }, 
+                {
+                    "y": 402, 
+                    "x": 158, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fuisteis"
+                }, 
+                {
+                    "y": 439, 
+                    "x": 176, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "comenz\u00e9"
+                }, 
+                {
+                    "y": 477, 
+                    "x": 171, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "querriste"
+                }, 
+                {
+                    "y": 360, 
+                    "x": 471, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "dimos"
+                }, 
+                {
+                    "y": 398, 
+                    "x": 451, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "supe"
+                }, 
+                {
+                    "y": 436, 
+                    "x": 493, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "caimos"
+                }, 
+                {
+                    "y": 476, 
+                    "x": 467, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "sig\u00f3"
+                }, 
+                {
+                    "y": 364, 
+                    "x": 764, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "vinieron"
+                }, 
+                {
+                    "y": 400, 
+                    "x": 756, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "dijiste"
+                }, 
+                {
+                    "y": 438, 
+                    "x": 746, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "leieron"
+                }, 
+                {
+                    "y": 472, 
+                    "x": 739, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "o\u00edste"
+                }, 
+                {
+                    "y": 686, 
+                    "x": 92, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "La semana pasada jugamos a la cartas. Ye ped\u00ed tres veces."
+                }, 
+                {
+                    "y": 800, 
+                    "x": 95, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El a\u00f1o pasado visit\u00e9 a mi amigo Paco en Per\u00fa y oi m\u00fasica inca."
+                }, 
+                {
+                    "y": 915, 
+                    "x": 92, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Anoche bebiste mucho cavo y y dijiste muchas cosas tontas."
+                }, 
+                {
+                    "y": 990, 
+                    "x": 100, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Ayer estuve con Juan. Hizo poco Juan construy\u00f3 una casa."
+                }, 
+                {
+                    "y": 1150, 
+                    "x": 500, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "de vacaciones a M\u00e9xico. \nViajaron por Iberia y llegaron por la noche."
+                }, 
+                {
+                    "y": 1242, 
+                    "x": 101, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Estuvieron tres d\u00edas en M\u00e9xico, D.F. El primer d\u00eda recorrieron la ciadad. Caminarieron por el casco antiguo."
+                }, 
+                {
+                    "y": 1354, 
+                    "x": 96, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "En un caf\u00e9 escribieron unas tarjetas postales. Despu\u00e9 fueron al Museo de Frida Kahlo."
+                }, 
+                {
+                    "y": 440, 
+                    "x": 260, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "comenc\u00e9"
+                }, 
+                {
+                    "y": 471, 
+                    "x": 261, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "quisiste"
+                }, 
+                {
+                    "y": 470, 
+                    "x": 530, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "sigui\u00f3"
+                }, 
+                {
+                    "y": 433, 
+                    "x": 821, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "leyeron"
+                }, 
+                {
+                    "y": 472, 
+                    "x": 812, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "o\u00edsteis"
+                }, 
+                {
+                    "y": 728, 
+                    "x": 99, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La semana pasada jugamos a la cartas. Ye perd\u00ed tres veces."
+                }, 
+                {
+                    "y": 821, 
+                    "x": 469, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "o\u00ed"
+                }, 
+                {
+                    "y": 1022, 
+                    "x": 494, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Ayer estuve con Juan. Hace poco Juan construy\u00f3 una casa."
+                }, 
+                {
+                    "y": 1278, 
+                    "x": 109, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Estuvieron tres d\u00edas en M\u00e9xico, D.F. El primer d\u00eda recorrieron la ciadad. Caminaron por el casco antiguo."
+                }
+            ]
+        }
+    ]
+}

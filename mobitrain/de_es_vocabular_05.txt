@@ -1,0 +1,166 @@
+===sL============================
+die [Stewardess]
+
+la [azafata]
+===kL============================
+das macht nichts
+
+no importa
+===kL============================
+es ist nichts passiert
+
+no pasa nada
+===kL============================
+du hast recht
+
+tienes razón
+===vL============================
+[schließen]
+
+[cerrar]
+yo cierro
+tú cierras
+él/ella/usted cierra
+nosotros/-as cerramos
+vosotros/-as cerraís
+ellos/ellas/Ustedes cierran 
+===vL============================
+[öffnen], aufmachen
+
+[abrir]
+===sL============================
+[Trinkgeld]
+
+la [propina]
+===kL============================
+ich habe Durst
+mir ist kalt
+mir ist warm
+ich bin müde
+
+tengo sed
+tengo frío 
+tengo calor
+tengo sueño
+===sL============================
+staatliches Hotel
+
+el parador
+===sL============================
+die [Tankstelle]
+
+la gasolinera
+===vL============================
+[genügen], reichen
+
+bastar
+===aL============================
+[voll], gefüllt
+
+lleno
+===sL============================
+die [Windschutzscheibe]
+
+la [parabrisas]
+===aL============================
+[keiner]
+
+[ninguno/-a]
+===vL============================
+[besuchen]
+
+[visitar]
+===sL============================
+der [Ausblick]
+
+las [vistas]
+===sL============================
+das [Arbeitszimmer]
+
+el [despacho]
+===sL============================
+die [Verspätung]
+
+el [retraso]
+===aL============================
+[schnell], eilig
+
+deprisa
+===sL============================
+jmdm. [Sorgen] machen
+
+[preocupar] a alguien
+===aL============================
+[kaputt]
+
+[roto/-a]
+===sL============================
+die [Toilette]
+
+los [lavabos]
+===aL============================
+[pünktlich], punktuell
+
+puntual
+===vL============================
+von jmdm./etw. [abhängen]
+
+[depender] de algo/alguien
+===aL============================
+[gemäßigt]
+
+[templado/-a]
+===sL============================
+die [Hochebene]
+
+la [meseta]
+===sL============================
+die [Dürre]
+
+la [sequía]
+===sL============================
+der Sonnenstrahl
+
+el rayo del sol
+===sL============================
+das Paar
+
+el par
+===vL============================
+[schenken]
+
+[regalar]
+===sL============================
+der [Fächer]
+
+el [abanico]
+===sL============================
+der [Streifen]
+mit Streifen
+
+la [raya]
+de rayas
+===sL============================
+el [probador]
+
+die Ankleide-[Kabine]
+===asL============================
+el [contado]
+bar (bezahlen)
+
+die [Barzahlung]
+al contado
+===vL============================
+unterschreiben
+
+firmar
+===vL============================
+[borgen], leihen
+
+[prestar]
+===sL============================
+die [Seide]
+
+la [seda]
+
+

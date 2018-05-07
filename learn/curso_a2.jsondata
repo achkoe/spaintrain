@@ -1,0 +1,4548 @@
+{
+    "p16_u01": {
+        "image": "images_curso_a2/p16_u01.png",
+        "solution": {
+            "image": "images_curso_a2/s_u01.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-05-25-1",
+                "textlist": [
+                    {
+                        "x": 896.0,
+                        "y": 1382.0,
+                        "text": "-----------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 797.0,
+                        "y": 1434.0,
+                        "text": "-----------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 812.0,
+                        "y": 1351.0,
+                        "text": "---------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 697.0,
+                        "y": 1326.0,
+                        "text": "---------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 681.0,
+                        "y": 1271.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 654.0,
+                        "y": 1246.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 204.0,
+                        "y": 1435.0,
+                        "text": "-------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 267.0,
+                        "y": 1381.0,
+                        "text": "-------------",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 136.0,
+                        "y": 1327.0,
+                        "text": "-------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 186.0,
+                        "y": 1274.0,
+                        "text": "-------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 180.0,
+                        "y": 1247.0,
+                        "text": "----------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 268.0,
+                        "y": 1033.0,
+                        "text": "-----",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 916.0,
+                        "y": 923.0,
+                        "text": "-----",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 254.0,
+                        "y": 988.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 254.0,
+                        "y": 963.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 254.0,
+                        "y": 940.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 177.0,
+                        "y": 991.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 178.0,
+                        "y": 964.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 178.0,
+                        "y": 935.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 100.0,
+                        "y": 1019.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 101.0,
+                        "y": 992.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 101.0,
+                        "y": 968.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 566.0,
+                        "y": 1109.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 483.0,
+                        "y": 1111.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 411.0,
+                        "y": 1107.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 328.0,
+                        "y": 1109.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 259.0,
+                        "y": 1109.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 183.0,
+                        "y": 1109.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 110.0,
+                        "y": 1110.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 702.0,
+                        "y": 1084.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 635.0,
+                        "y": 1084.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 548.0,
+                        "y": 1081.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 476.0,
+                        "y": 1080.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 404.0,
+                        "y": 1082.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 333.0,
+                        "y": 1084.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 552.0,
+                        "y": 1055.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 478.0,
+                        "y": 1056.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 404.0,
+                        "y": 1056.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 334.0,
+                        "y": 1057.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 261.0,
+                        "y": 1056.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 183.0,
+                        "y": 1056.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 107.0,
+                        "y": 1057.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 772.0,
+                        "y": 1028.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 705.0,
+                        "y": 1032.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 632.0,
+                        "y": 1026.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 553.0,
+                        "y": 1025.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 484.0,
+                        "y": 1027.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 413.0,
+                        "y": 1030.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 337.0,
+                        "y": 1028.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 254.0,
+                        "y": 1018.0,
+                        "text": "|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 848.0,
+                        "y": 1001.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 771.0,
+                        "y": 999.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 701.0,
+                        "y": 1005.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 627.0,
+                        "y": 998.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 556.0,
+                        "y": 1001.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 477.0,
+                        "y": 1001.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 410.0,
+                        "y": 1001.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 923.0,
+                        "y": 975.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 846.0,
+                        "y": 974.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 773.0,
+                        "y": 974.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 700.0,
+                        "y": 977.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 626.0,
+                        "y": 974.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 552.0,
+                        "y": 975.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 478.0,
+                        "y": 977.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 404.0,
+                        "y": 973.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 848.0,
+                        "y": 947.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 775.0,
+                        "y": 949.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 698.0,
+                        "y": 947.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 623.0,
+                        "y": 949.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 553.0,
+                        "y": 948.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 476.0,
+                        "y": 950.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 851.0,
+                        "y": 924.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 628.0,
+                        "y": 924.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 556.0,
+                        "y": 924.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 477.0,
+                        "y": 924.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 407.0,
+                        "y": 923.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 333.0,
+                        "y": 924.0,
+                        "text": "-------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 267.0,
+                        "y": 799.0,
+                        "text": "hicieron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 500.0,
+                        "y": 636.0,
+                        "text": "llev\u00f3",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 285.0,
+                        "y": 556.0,
+                        "text": "Empezemos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 215.0,
+                        "y": 392.0,
+                        "text": "organiz\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 181.0,
+                        "y": 799.0,
+                        "text": "llevaron",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 411.0,
+                        "y": 635.0,
+                        "text": "empec\u00e9",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 244.0,
+                        "y": 717.0,
+                        "text": "com\u00ed",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 828.0,
+                        "y": 554.0,
+                        "text": "fuimos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 190.0,
+                        "y": 558.0,
+                        "text": "Hicimos",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 640.0,
+                        "y": 714.0,
+                        "text": "aprendi",
+                        "fontindex": 1,
+                        "state": 1
+                    },
+                    {
+                        "x": 240.0,
+                        "y": 476.0,
+                        "text": "explic\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 257.0,
+                        "y": 308.0,
+                        "text": "conoc\u00ed",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 146.0,
+                        "y": 229.0,
+                        "text": "viaj\u00e9",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "p17_u01": {
+        "image": "images_curso_a2/p17_u01.png",
+        "solution": {
+            "image": "images_curso_a2/s_u01.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "p18_u01": {
+        "image": "images_curso_a2/p18_u01.png",
+        "solution": {
+            "image": "images_curso_a2/s_u01.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "p26_u02": {
+        "image": "images_curso_a2/p26_u02.png",
+        "solution": {
+            "image": "images_curso_a2/s_u02.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-07-08-1",
+                "textlist": [
+                    {
+                        "x": 720.0,
+                        "y": 1382.0,
+                        "text": "ni pescado ni verdura.",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 723.0,
+                        "y": 1102.0,
+                        "text": "ni el mariscos ni cel af\u00e9.",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 719.0,
+                        "y": 1356.0,
+                        "text": "ni pescados ni verduras.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 419.0,
+                        "y": 1374.0,
+                        "text": "ni vestidos ni faldas.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 82.0,
+                        "y": 1376.0,
+                        "text": "ni pan ni papas fritas ni vino tinto.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 724.0,
+                        "y": 1076.0,
+                        "text": "ni mejillones ni caf\u00e9.",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 419.0,
+                        "y": 1080.0,
+                        "text": "ni tel\u00e9fono ni televisi\u00f3n.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 551.0,
+                        "y": 744.0,
+                        "text": "ocuparse de las cuestiones financieras",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 402.0,
+                        "y": 708.0,
+                        "text": "ocuparse de los ni\u00f1os",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 339.0,
+                        "y": 673.0,
+                        "text": "pintar la habitaci\u00f3n",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 331.0,
+                        "y": 632.0,
+                        "text": "usar cosm\u00e9ticos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 321.0,
+                        "y": 597.0,
+                        "text": "limpiar la casa",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 591.0,
+                        "y": 487.0,
+                        "text": "limpiar",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 594.0,
+                        "y": 451.0,
+                        "text": "cocinar",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 590.0,
+                        "y": 414.0,
+                        "text": "pasar la aspidora",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 583.0,
+                        "y": 374.0,
+                        "text": "hacer la compra",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 130.0,
+                        "y": 496.0,
+                        "text": "planchar",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 126.0,
+                        "y": 457.0,
+                        "text": "lavar los platos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 124.0,
+                        "y": 419.0,
+                        "text": "ir al f\u00fatbol",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 384.0,
+                        "text": "hacer yoga",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "p27_u02": {
+        "image": "images_curso_a2/p27_u02.png",
+        "solution": {
+            "image": "images_curso_a2/s_u02.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-07-09-1",
+                "textlist": [
+                    {
+                        "x": 668.0,
+                        "y": 174.0,
+                        "text": "----------------------------------",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 303.0,
+                        "y": 793.0,
+                        "text": "---------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 189.0,
+                        "y": 751.0,
+                        "text": "----------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 201.0,
+                        "y": 713.0,
+                        "text": "------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 218.0,
+                        "y": 674.0,
+                        "text": "---------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 187.0,
+                        "y": 594.0,
+                        "text": "----",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 181.0,
+                        "y": 553.0,
+                        "text": "----------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 274.0,
+                        "y": 514.0,
+                        "text": "----------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 251.0,
+                        "y": 475.0,
+                        "text": "----",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 640.0,
+                        "y": 253.0,
+                        "text": "-----------------------------------------------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 945.0,
+                        "y": 245.0,
+                        "text": "|\n|\n|\n|\n|\n|\n|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 96.0,
+                        "y": 207.0,
+                        "text": "|\n|\n|\n|",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 341.0,
+                        "y": 216.0,
+                        "text": "------------------------------------------------------------------------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 185.0,
+                        "y": 174.0,
+                        "text": "------------------------------------------------------------------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 645.0,
+                        "y": 133.0,
+                        "text": "----------------------------------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 186.0,
+                        "y": 135.0,
+                        "text": "----------------------------------------------------------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 724.0,
+                        "y": 95.0,
+                        "text": "--------------------------",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 108.0,
+                        "y": 99.0,
+                        "text": "-----------------------------------------------------------------------------",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "p28_u02": {
+        "image": "images_curso_a2/p28_u02.png",
+        "solution": {
+            "image": "images_curso_a2/s_u02.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-09-23-1",
+                "textlist": [
+                    {
+                        "x": 456.0,
+                        "y": 183.0,
+                        "text": "---------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 459.0,
+                        "y": 235.0,
+                        "text": "---------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 670.0,
+                        "y": 234.0,
+                        "text": "---------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 669.0,
+                        "y": 79.0,
+                        "text": "---------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 671.0,
+                        "y": 156.0,
+                        "text": "---------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 456.0,
+                        "y": 76.0,
+                        "text": "---------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 670.0,
+                        "y": 129.0,
+                        "text": "---------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 457.0,
+                        "y": 129.0,
+                        "text": "---------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 452.0,
+                        "y": 158.0,
+                        "text": "-------------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 667.0,
+                        "y": 257.0,
+                        "text": "-------------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 170.0,
+                        "y": 270.0,
+                        "text": "bm",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 287.0,
+                        "y": 241.0,
+                        "text": "ck",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 270.0,
+                        "y": 218.0,
+                        "text": "dp",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 297.0,
+                        "y": 189.0,
+                        "text": "hn",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 350.0,
+                        "y": 164.0,
+                        "text": "al",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 367.0,
+                        "y": 138.0,
+                        "text": "gi",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 342.0,
+                        "y": 111.0,
+                        "text": "eo",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 670.0,
+                        "y": 102.0,
+                        "text": "---------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 456.0,
+                        "y": 211.0,
+                        "text": "---------------------",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 377.0,
+                        "y": 81.0,
+                        "text": "fj",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 650.0,
+                        "y": 265.0,
+                        "text": "p",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 652.0,
+                        "y": 239.0,
+                        "text": "o",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 650.0,
+                        "y": 209.0,
+                        "text": "n",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 644.0,
+                        "y": 184.0,
+                        "text": "m",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 651.0,
+                        "y": 159.0,
+                        "text": "l",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 650.0,
+                        "y": 135.0,
+                        "text": "k",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 650.0,
+                        "y": 109.0,
+                        "text": "j",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 647.0,
+                        "y": 85.0,
+                        "text": "i",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 438.0,
+                        "y": 269.0,
+                        "text": "h",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 438.0,
+                        "y": 239.0,
+                        "text": "g",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 439.0,
+                        "y": 212.0,
+                        "text": "f",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 436.0,
+                        "y": 186.0,
+                        "text": "e",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 438.0,
+                        "y": 161.0,
+                        "text": "d",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 437.0,
+                        "y": 135.0,
+                        "text": "c",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 437.0,
+                        "y": 109.0,
+                        "text": "b",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 436.0,
+                        "y": 82.0,
+                        "text": "a",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 147.0,
+                        "y": 1263.0,
+                        "text": "contest\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 679.0,
+                        "y": 1221.0,
+                        "text": "mir\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 233.0,
+                        "y": 1221.0,
+                        "text": "pregunt\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 160.0,
+                        "y": 1187.0,
+                        "text": "dijo",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 382.0,
+                        "y": 1147.0,
+                        "text": "pregunt\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 567.0,
+                        "y": 1106.0,
+                        "text": "estuvo",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 169.0,
+                        "y": 1106.0,
+                        "text": "vio",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 525.0,
+                        "y": 1066.0,
+                        "text": "comin\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 146.0,
+                        "y": 1072.0,
+                        "text": "Se levant\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 247.0,
+                        "y": 1032.0,
+                        "text": "escuch\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 668.0,
+                        "y": 944.0,
+                        "text": "pens\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 273.0,
+                        "y": 952.0,
+                        "text": "mir\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 595.0,
+                        "y": 909.0,
+                        "text": "se sent\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 226.0,
+                        "y": 910.0,
+                        "text": "lleg\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 270.0,
+                        "y": 834.0,
+                        "text": "buscaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 292.0,
+                        "y": 755.0,
+                        "text": "subi\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 301.0,
+                        "y": 676.0,
+                        "text": "gustaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 144.0,
+                        "y": 597.0,
+                        "text": "Era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 140.0,
+                        "y": 524.0,
+                        "text": "Se llamaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 208.0,
+                        "y": 440.0,
+                        "text": "viv\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "p36_u03": {
+        "image": "images_curso_a2/p36_u03.png",
+        "solution": {
+            "image": "images_curso_a2/s_u03.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-09-30-1",
+                "textlist": [
+                    {
+                        "x": 294.0,
+                        "y": 1340.0,
+                        "text": "x",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 436.0,
+                        "y": 991.0,
+                        "text": "Estoy curioso y quiro ver tu collection de corbatas.",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 434.0,
+                        "y": 951.0,
+                        "text": "tambien soy nuevo en la ciudad.",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 660.0,
+                        "y": 1224.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 446.0,
+                        "y": 1416.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 632.0,
+                        "y": 1379.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 390.0,
+                        "y": 1338.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 169.0,
+                        "y": 1298.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 391.0,
+                        "y": 1262.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 126.0,
+                        "y": 187.0,
+                        "text": "hacer",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 126.0,
+                        "y": 224.0,
+                        "text": "hacer",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 127.0,
+                        "y": 261.0,
+                        "text": "jugar",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 633.0,
+                        "y": 190.0,
+                        "text": "hacer",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 632.0,
+                        "y": 270.0,
+                        "text": "hacer",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 632.0,
+                        "y": 345.0,
+                        "text": "hacer",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 627.0,
+                        "y": 150.0,
+                        "text": "tocar",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 637.0,
+                        "y": 231.0,
+                        "text": "jugar",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 641.0,
+                        "y": 310.0,
+                        "text": "montar",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 131.0,
+                        "y": 301.0,
+                        "text": "colleccionar",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 147.0,
+                        "y": 343.0,
+                        "text": "hacer",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 229.0,
+                        "y": 448.0,
+                        "text": "alg\u00fan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 269.0,
+                        "y": 488.0,
+                        "text": "ning\u00fan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 239.0,
+                        "y": 524.0,
+                        "text": "alguna",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 221.0,
+                        "y": 567.0,
+                        "text": "ninguna",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 267.0,
+                        "y": 647.0,
+                        "text": "ning\u00fan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 716.0,
+                        "y": 455.0,
+                        "text": "alguna",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 736.0,
+                        "y": 491.0,
+                        "text": "ninguna",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 772.0,
+                        "y": 572.0,
+                        "text": "algunos",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 682.0,
+                        "y": 609.0,
+                        "text": "alguna",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 674.0,
+                        "y": 650.0,
+                        "text": "ninguna",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 750.0,
+                        "y": 611.0,
+                        "text": "algunas",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 865.0,
+                        "y": 573.0,
+                        "text": "ninguno",
+                        "fontindex": 1,
+                        "state": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "p37_u03": {
+        "image": "images_curso_a2/p37_u03.png",
+        "solution": {
+            "image": "images_curso_a2/s_u03.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-10-07-1",
+                "textlist": [
+                    {
+                        "x": 974.0,
+                        "y": 629.0,
+                        "text": "11",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 41.0,
+                        "y": 629.0,
+                        "text": "sculturas",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 137.0,
+                        "y": 625.0,
+                        "text": "dific\u00edos",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 877.0,
+                        "y": 465.0,
+                        "text": "S",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 825.0,
+                        "y": 462.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 776.0,
+                        "y": 466.0,
+                        "text": "L",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 727.0,
+                        "y": 469.0,
+                        "text": "B",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 688.0,
+                        "y": 464.0,
+                        "text": "\u00cc",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 638.0,
+                        "y": 466.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 588.0,
+                        "y": 469.0,
+                        "text": "R",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 541.0,
+                        "y": 470.0,
+                        "text": "C",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 483.0,
+                        "y": 465.0,
+                        "text": "N",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 636.0,
+                        "y": 660.0,
+                        "text": "N",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 582.0,
+                        "y": 658.0,
+                        "text": "\u00d3",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 541.0,
+                        "y": 662.0,
+                        "text": "I",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 489.0,
+                        "y": 665.0,
+                        "text": "T",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 452.0,
+                        "y": 664.0,
+                        "text": "I",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 393.0,
+                        "y": 665.0,
+                        "text": "B",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 339.0,
+                        "y": 661.0,
+                        "text": "I",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 295.0,
+                        "y": 663.0,
+                        "text": "H",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 243.0,
+                        "y": 668.0,
+                        "text": "X",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 221.0,
+                        "y": 626.0,
+                        "text": "scenarios",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 228.0,
+                        "y": 513.0,
+                        "text": "acaciones",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 974.0,
+                        "y": 816.0,
+                        "text": "O",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 930.0,
+                        "y": 823.0,
+                        "text": "M",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 879.0,
+                        "y": 818.0,
+                        "text": "S",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 828.0,
+                        "y": 820.0,
+                        "text": "I",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 774.0,
+                        "y": 824.0,
+                        "text": "N",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 733.0,
+                        "y": 823.0,
+                        "text": "I",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 682.0,
+                        "y": 819.0,
+                        "text": "R",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 633.0,
+                        "y": 819.0,
+                        "text": "A",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 581.0,
+                        "y": 815.0,
+                        "text": "M",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 541.0,
+                        "y": 816.0,
+                        "text": "B",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 492.0,
+                        "y": 820.0,
+                        "text": "U",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 541.0,
+                        "y": 783.0,
+                        "text": "T",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 489.0,
+                        "y": 784.0,
+                        "text": "N",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 588.0,
+                        "y": 778.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 441.0,
+                        "y": 783.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 389.0,
+                        "y": 781.0,
+                        "text": "P",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 340.0,
+                        "y": 782.0,
+                        "text": "A",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 298.0,
+                        "y": 777.0,
+                        "text": "R",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 246.0,
+                        "y": 786.0,
+                        "text": "A",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 776.0,
+                        "y": 743.0,
+                        "text": "S",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 736.0,
+                        "y": 748.0,
+                        "text": "O",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 682.0,
+                        "y": 744.0,
+                        "text": "M",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 635.0,
+                        "y": 744.0,
+                        "text": "I",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 584.0,
+                        "y": 745.0,
+                        "text": "R",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 536.0,
+                        "y": 745.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 484.0,
+                        "y": 746.0,
+                        "text": "D",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 437.0,
+                        "y": 744.0,
+                        "text": "N",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 392.0,
+                        "y": 744.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 490.0,
+                        "y": 706.0,
+                        "text": "N",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 439.0,
+                        "y": 702.0,
+                        "text": "\u00d3",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 393.0,
+                        "y": 704.0,
+                        "text": "I",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 343.0,
+                        "y": 707.0,
+                        "text": "C",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 299.0,
+                        "y": 706.0,
+                        "text": "I",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 250.0,
+                        "y": 704.0,
+                        "text": "F",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 674.0,
+                        "y": 587.0,
+                        "text": "S",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 630.0,
+                        "y": 584.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 584.0,
+                        "y": 588.0,
+                        "text": "L",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 540.0,
+                        "y": 580.0,
+                        "text": "O",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 485.0,
+                        "y": 589.0,
+                        "text": "B",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 434.0,
+                        "y": 585.0,
+                        "text": "R",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 532.0,
+                        "y": 545.0,
+                        "text": "A",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 484.0,
+                        "y": 543.0,
+                        "text": "Z",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 436.0,
+                        "y": 547.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 387.0,
+                        "y": 550.0,
+                        "text": "L",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 338.0,
+                        "y": 553.0,
+                        "text": "A",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 292.0,
+                        "y": 549.0,
+                        "text": "R",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 245.0,
+                        "y": 542.0,
+                        "text": "U",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 196.0,
+                        "y": 548.0,
+                        "text": "T",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 143.0,
+                        "y": 550.0,
+                        "text": "A",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 735.0,
+                        "y": 433.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 684.0,
+                        "y": 431.0,
+                        "text": "T",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 638.0,
+                        "y": 430.0,
+                        "text": "R",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 586.0,
+                        "y": 431.0,
+                        "text": "O",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 536.0,
+                        "y": 431.0,
+                        "text": "P",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 481.0,
+                        "y": 430.0,
+                        "text": "E",
+                        "fontindex": 0,
+                        "state": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "p38_u03": {
+        "image": "images_curso_a2/p38_u03.png",
+        "solution": {
+            "image": "images_curso_a2/s_u03.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-10-07-1",
+                "textlist": [
+                    {
+                        "x": 575.0,
+                        "y": 1178.0,
+                        "text": "cada una",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 161.0,
+                        "y": 1022.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 593.0,
+                        "y": 1329.0,
+                        "text": "alg\u00fan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 359.0,
+                        "y": 1024.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 643.0,
+                        "y": 1016.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 863.0,
+                        "y": 1016.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 155.0,
+                        "y": 1336.0,
+                        "text": "nadie",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 634.0,
+                        "y": 1288.0,
+                        "text": "cada uno",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 263.0,
+                        "y": 1295.0,
+                        "text": "algunos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 546.0,
+                        "y": 1023.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 428.0,
+                        "y": 1254.0,
+                        "text": "alguien",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 445.0,
+                        "y": 1023.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 567.0,
+                        "y": 1209.0,
+                        "text": "algo",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 257.0,
+                        "y": 1029.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 140.0,
+                        "y": 1215.0,
+                        "text": "alguna",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 741.0,
+                        "y": 1022.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 638.0,
+                        "y": 1133.0,
+                        "text": "cada",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "p46_u04": {
+        "image": "images_curso_a2/p46_u04.png",
+        "solution": {
+            "image": "images_curso_a2/s_u04.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "p47_u04": {
+        "image": "images_curso_a2/p47_u04.png",
+        "solution": {
+            "image": "images_curso_a2/s_u04.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "p48_u04": {
+        "image": "images_curso_a2/p48_u04.png",
+        "solution": {
+            "image": "images_curso_a2/s_u04.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "p56_u05": {
+        "image": "images_curso_a2/p56_u05.png",
+        "solution": {
+            "image": "images_curso_a2/s_u05.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "p57_u05": {
+        "image": "images_curso_a2/p57_u05.png",
+        "solution": {
+            "image": "images_curso_a2/s_u05.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "p58_u05": {
+        "image": "images_curso_a2/p58_u05.png",
+        "solution": {
+            "image": "images_curso_a2/s_u05.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "pc06_u01": {
+        "image": "images_curso_a2/cuaderno/pc06_u01.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-05-28-1",
+                "textlist": [
+                    {
+                        "x": 136.0,
+                        "y": 1211.0,
+                        "text": "anoche",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 135.0,
+                        "y": 1173.0,
+                        "text": "anteayer",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 992.0,
+                        "y": 464.0,
+                        "text": "!",
+                        "fontindex": 1,
+                        "state": 2
+                    },
+                    {
+                        "x": 961.0,
+                        "y": 424.0,
+                        "text": "!",
+                        "fontindex": 1,
+                        "state": 2
+                    },
+                    {
+                        "x": 504.0,
+                        "y": 652.0,
+                        "text": "!",
+                        "fontindex": 1,
+                        "state": 2
+                    },
+                    {
+                        "x": 502.0,
+                        "y": 578.0,
+                        "text": "!",
+                        "fontindex": 1,
+                        "state": 2
+                    },
+                    {
+                        "x": 493.0,
+                        "y": 502.0,
+                        "text": "!",
+                        "fontindex": 1,
+                        "state": 2
+                    },
+                    {
+                        "x": 494.0,
+                        "y": 428.0,
+                        "text": "!",
+                        "fontindex": 1,
+                        "state": 2
+                    },
+                    {
+                        "x": 486.0,
+                        "y": 389.0,
+                        "text": "!",
+                        "fontindex": 1,
+                        "state": 2
+                    },
+                    {
+                        "x": 319.0,
+                        "y": 579.0,
+                        "text": "los lunes",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 321.0,
+                        "y": 541.0,
+                        "text": "el lunes",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 321.0,
+                        "y": 429.0,
+                        "text": "por las ma\u00f1anas",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 322.0,
+                        "y": 396.0,
+                        "text": "por la ma\u00f1ana",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 783.0,
+                        "y": 650.0,
+                        "text": "anteayer",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 783.0,
+                        "y": 616.0,
+                        "text": "anoche",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 783.0,
+                        "y": 576.0,
+                        "text": "el viernes pasado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 785.0,
+                        "y": 540.0,
+                        "text": "el a\u00f1o pasado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 784.0,
+                        "y": 501.0,
+                        "text": "en quince di\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 782.0,
+                        "y": 464.0,
+                        "text": "la semana que viene",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 782.0,
+                        "y": 428.0,
+                        "text": "el a\u00f1o que viene",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 779.0,
+                        "y": 391.0,
+                        "text": "el di\u00e1 siguiente",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 320.0,
+                        "y": 652.0,
+                        "text": "todos los veranos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 319.0,
+                        "y": 615.0,
+                        "text": "todo el verano",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 325.0,
+                        "y": 505.0,
+                        "text": "todos los d\u00edas",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 323.0,
+                        "y": 469.0,
+                        "text": "todo el d\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 385.0,
+                        "y": 1098.0,
+                        "text": "en este momento",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 385.0,
+                        "y": 1059.0,
+                        "text": "ahora",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 134.0,
+                        "y": 1136.0,
+                        "text": "el a\u00f1o pasado",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 131.0,
+                        "y": 1099.0,
+                        "text": "la semana pasada",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 130.0,
+                        "y": 1057.0,
+                        "text": "en 2004",
+                        "fontindex": 0,
+                        "state": 0
+                    }
+                ]
+            }
+        ]
+    },
+    "pc07_u01": {
+        "image": "images_curso_a2/cuaderno/pc07_u01.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "pc08_u01": {
+        "image": "images_curso_a2/cuaderno/pc08_u01.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "pc09_u01": {
+        "image": "images_curso_a2/cuaderno/pc09_u01.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-05-28-1",
+                "textlist": [
+                    {
+                        "x": 458.0,
+                        "y": 1308.0,
+                        "text": "seco",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 556.0,
+                        "y": 1228.0,
+                        "text": "poblaci\u00f3n",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 372.0,
+                        "y": 1309.0,
+                        "text": "sequia",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 550.0,
+                        "y": 1275.0,
+                        "text": "playa",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 463.0,
+                        "y": 1237.0,
+                        "text": "habitante",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 499.0,
+                        "y": 1201.0,
+                        "text": "pobreza",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 473.0,
+                        "y": 1164.0,
+                        "text": "bosque",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 502.0,
+                        "y": 1126.0,
+                        "text": "campesina",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 267.0,
+                        "y": 382.0,
+                        "text": "pude",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 747.0,
+                        "y": 381.0,
+                        "text": "fue",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 354.0,
+                        "y": 416.0,
+                        "text": "gust\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 702.0,
+                        "y": 417.0,
+                        "text": "fuimos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 157.0,
+                        "y": 456.0,
+                        "text": "estuvimos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 148.0,
+                        "y": 491.0,
+                        "text": "conoc\u00ed",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 291.0,
+                        "y": 527.0,
+                        "text": "escribi\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 517.0,
+                        "y": 566.0,
+                        "text": "tuvo",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 359.0,
+                        "y": 600.0,
+                        "text": "ense\u00f1\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 138.0,
+                        "y": 637.0,
+                        "text": "Aprendi\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 497.0,
+                        "y": 456.0,
+                        "text": "fue",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 139.0,
+                        "y": 710.0,
+                        "text": "empec\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 126.0,
+                        "y": 750.0,
+                        "text": "se qued\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 490.0,
+                        "y": 784.0,
+                        "text": "vi\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 198.0,
+                        "y": 784.0,
+                        "text": "aprendi\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 157.0,
+                        "y": 821.0,
+                        "text": "Estuvo",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 151.0,
+                        "y": 858.0,
+                        "text": "pas\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 678.0,
+                        "y": 860.0,
+                        "text": "vi\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 156.0,
+                        "y": 891.0,
+                        "text": "cen\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 210.0,
+                        "y": 673.0,
+                        "text": "viaj\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 330.0,
+                        "y": 383.0,
+                        "text": "pudiste",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 539.0,
+                        "y": 456.0,
+                        "text": "pasamos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 223.0,
+                        "y": 489.0,
+                        "text": "vi",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 437.0,
+                        "y": 602.0,
+                        "text": "ense\u00f1aron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 533.0,
+                        "y": 785.0,
+                        "text": "conoci\u00f3",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 232.0,
+                        "y": 820.0,
+                        "text": "Fue",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 208.0,
+                        "y": 857.0,
+                        "text": "estuvo",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 722.0,
+                        "y": 859.0,
+                        "text": "viaron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 218.0,
+                        "y": 895.0,
+                        "text": "cenaron",
+                        "fontindex": 1,
+                        "state": 0
+                    }
+                ]
+            },
+            {
+                "name": "2017-05-30-1",
+                "textlist": [
+                    {
+                        "x": 593.0,
+                        "y": 1193.0,
+                        "text": "pobreza",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 567.0,
+                        "y": 1222.0,
+                        "text": "poblaci\u00f3n",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 199.0,
+                        "y": 895.0,
+                        "text": "cenaron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 717.0,
+                        "y": 857.0,
+                        "text": "viaron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 197.0,
+                        "y": 857.0,
+                        "text": "estuvo",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 221.0,
+                        "y": 745.0,
+                        "text": "Se qued\u00f3",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 224.0,
+                        "y": 710.0,
+                        "text": "empec\u00f3",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 569.0,
+                        "y": 456.0,
+                        "text": "pasamos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 203.0,
+                        "y": 455.0,
+                        "text": "estuvimos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 274.0,
+                        "y": 384.0,
+                        "text": "pudiste",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 758.0,
+                        "y": 384.0,
+                        "text": "fue",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 358.0,
+                        "y": 421.0,
+                        "text": "gust\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 673.0,
+                        "y": 418.0,
+                        "text": "fuimos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 113.0,
+                        "y": 455.0,
+                        "text": "estamos",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 158.0,
+                        "y": 491.0,
+                        "text": "vi",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 305.0,
+                        "y": 527.0,
+                        "text": "escribi\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 522.0,
+                        "y": 564.0,
+                        "text": "tuvo",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 380.0,
+                        "y": 601.0,
+                        "text": "ense\u00f1aron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 208.0,
+                        "y": 674.0,
+                        "text": "viaj\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 140.0,
+                        "y": 710.0,
+                        "text": "empez\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 110.0,
+                        "y": 746.0,
+                        "text": "Se quedar\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 229.0,
+                        "y": 786.0,
+                        "text": "aprendi\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 505.0,
+                        "y": 785.0,
+                        "text": "conoci\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 821.0,
+                        "text": "Estuvo",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 141.0,
+                        "y": 637.0,
+                        "text": "Aprendi\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 152.0,
+                        "y": 854.0,
+                        "text": "fue",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 674.0,
+                        "y": 858.0,
+                        "text": "vi\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 131.0,
+                        "y": 894.0,
+                        "text": "cen\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 499.0,
+                        "y": 453.0,
+                        "text": "pas\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 228.0,
+                        "y": 820.0,
+                        "text": "Fue",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 498.0,
+                        "y": 1128.0,
+                        "text": "campesina",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 473.0,
+                        "y": 1163.0,
+                        "text": "bosque",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 505.0,
+                        "y": 1201.0,
+                        "text": "pobr\u00e9za",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 563.0,
+                        "y": 1270.0,
+                        "text": "playa",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 383.0,
+                        "y": 1308.0,
+                        "text": "seco",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 473.0,
+                        "y": 1235.0,
+                        "text": "poblacion",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            },
+            {
+                "name": "2017-06-02-1",
+                "textlist": [
+                    {
+                        "x": 473.0,
+                        "y": 1235.0,
+                        "text": "poblaci\u00f3n",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 366.0,
+                        "y": 1307.0,
+                        "text": "seco",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 552.0,
+                        "y": 1274.0,
+                        "text": "playa",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 491.0,
+                        "y": 1202.0,
+                        "text": "pobreza.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 471.0,
+                        "y": 1162.0,
+                        "text": "bosque",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 498.0,
+                        "y": 1127.0,
+                        "text": "campesino",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 591.0,
+                        "y": 455.0,
+                        "text": "pasamos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 246.0,
+                        "y": 859.0,
+                        "text": "estuvo",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 593.0,
+                        "y": 784.0,
+                        "text": "conoci\u00f3",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 290.0,
+                        "y": 783.0,
+                        "text": "aprendi\u00f3",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 226.0,
+                        "y": 711.0,
+                        "text": "empez\u00f3",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 225.0,
+                        "y": 638.0,
+                        "text": "Aprendi\u00f3",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 397.0,
+                        "y": 529.0,
+                        "text": "escribi\u00f3",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 501.0,
+                        "y": 454.0,
+                        "text": "pasaron",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 128.0,
+                        "y": 892.0,
+                        "text": "cenaron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 661.0,
+                        "y": 860.0,
+                        "text": "vieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 130.0,
+                        "y": 858.0,
+                        "text": "estuvieron",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 133.0,
+                        "y": 819.0,
+                        "text": "Fue",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 513.0,
+                        "y": 785.0,
+                        "text": "conocio",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 198.0,
+                        "y": 784.0,
+                        "text": "aprendio",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 749.0,
+                        "text": "Se qued\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 131.0,
+                        "y": 711.0,
+                        "text": "empiec\u00f3",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 193.0,
+                        "y": 674.0,
+                        "text": "viaj\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 129.0,
+                        "y": 639.0,
+                        "text": "Aprendio",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 374.0,
+                        "y": 603.0,
+                        "text": "ense\u00f1aron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 543.0,
+                        "y": 565.0,
+                        "text": "tuvo",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 310.0,
+                        "y": 529.0,
+                        "text": "escribio",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 149.0,
+                        "y": 493.0,
+                        "text": "vi",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 146.0,
+                        "y": 454.0,
+                        "text": "estuvimos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 673.0,
+                        "y": 417.0,
+                        "text": "fuimos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 333.0,
+                        "y": 419.0,
+                        "text": "gust\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 748.0,
+                        "y": 382.0,
+                        "text": "fue",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 273.0,
+                        "y": 384.0,
+                        "text": "pudiste",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "pc10_u01": {
+        "image": "images_curso_a2/cuaderno/pc10_u01.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "pc11_u02": {
+        "image": "images_curso_a2/cuaderno/pc11_u02.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "pc12_u02": {
+        "image": "images_curso_a2/cuaderno/pc12_u02.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "pc13_u02": {
+        "image": "images_curso_a2/cuaderno/pc13_u02.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-10-02-1",
+                "textlist": [
+                    {
+                        "x": 501.0,
+                        "y": 308.0,
+                        "text": "dorm\u00edamos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 354.0,
+                        "y": 274.0,
+                        "text": "ve\u00edais",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 273.0,
+                        "y": 165.0,
+                        "text": "iba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 277.0,
+                        "y": 202.0,
+                        "text": "ten\u00edan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 278.0,
+                        "y": 241.0,
+                        "text": "eras",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 278.0,
+                        "y": 272.0,
+                        "text": "veia\u00eds",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 278.0,
+                        "y": 309.0,
+                        "text": "yo dorm\u00eda, tu dorm\u00edas",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 271.0,
+                        "y": 349.0,
+                        "text": "sal\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 276.0,
+                        "y": 383.0,
+                        "text": "hac\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 274.0,
+                        "y": 424.0,
+                        "text": "dec\u00edan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 279.0,
+                        "y": 459.0,
+                        "text": "pon\u00edamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 279.0,
+                        "y": 494.0,
+                        "text": "le\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 138.0,
+                        "y": 631.0,
+                        "text": "Todos los d\u00edas Sara sal\u00eda con su amiga.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 135.0,
+                        "y": 700.0,
+                        "text": "Siempre ve\u00eda las noticias por la noche.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 132.0,
+                        "y": 774.0,
+                        "text": "Cada d\u00eda iba a la piscina.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 122.0,
+                        "y": 850.0,
+                        "text": "Frecuentemente se acostaba a las 22h.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 181.0,
+                        "y": 1203.0,
+                        "text": "estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 166.0,
+                        "y": 1239.0,
+                        "text": "Habia",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 160.0,
+                        "y": 1275.0,
+                        "text": "hac\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "pc14_u02": {
+        "image": "images_curso_a2/cuaderno/pc14_u02.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-10-02-1",
+                "textlist": [
+                    {
+                        "x": 458.0,
+                        "y": 1206.0,
+                        "text": "Fue",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 523.0,
+                        "y": 827.0,
+                        "text": "hab\u00eda",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 352.0,
+                        "y": 756.0,
+                        "text": "fui",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 219.0,
+                        "y": 377.0,
+                        "text": "ten\u00edan",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 215.0,
+                        "y": 344.0,
+                        "text": "Hab\u00eda",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 274.0,
+                        "y": 218.0,
+                        "text": "se oy\u00f3",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 199.0,
+                        "y": 60.0,
+                        "text": "Eran",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 611.0,
+                        "y": 1242.0,
+                        "text": "estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 388.0,
+                        "y": 1207.0,
+                        "text": "Era",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 119.0,
+                        "y": 1172.0,
+                        "text": "pod\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 422.0,
+                        "y": 1131.0,
+                        "text": "Era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 140.0,
+                        "y": 1137.0,
+                        "text": "era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 139.0,
+                        "y": 1098.0,
+                        "text": "Sab\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 145.0,
+                        "y": 1060.0,
+                        "text": "dijo",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 240.0,
+                        "y": 982.0,
+                        "text": "ten\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 507.0,
+                        "y": 942.0,
+                        "text": "Era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 260.0,
+                        "y": 947.0,
+                        "text": "vi",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 379.0,
+                        "y": 904.0,
+                        "text": "Era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 370.0,
+                        "y": 869.0,
+                        "text": "Compr\u00e9",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 456.0,
+                        "y": 830.0,
+                        "text": "habia",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 135.0,
+                        "y": 834.0,
+                        "text": "era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 796.0,
+                        "text": "quer\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 300.0,
+                        "y": 757.0,
+                        "text": "fue",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 269.0,
+                        "y": 721.0,
+                        "text": "Hac\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 469.0,
+                        "y": 678.0,
+                        "text": "sali",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 367.0,
+                        "y": 644.0,
+                        "text": "quer\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 147.0,
+                        "y": 495.0,
+                        "text": "empezaron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 236.0,
+                        "y": 451.0,
+                        "text": "se quitaron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 231.0,
+                        "y": 418.0,
+                        "text": "sacaron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 150.0,
+                        "y": 383.0,
+                        "text": "ten\u00eda",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 139.0,
+                        "y": 343.0,
+                        "text": "Habia",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 135.0,
+                        "y": 303.0,
+                        "text": "Estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 196.0,
+                        "y": 216.0,
+                        "text": "me o\u00ed",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 181.0,
+                        "y": 178.0,
+                        "text": "estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 147.0,
+                        "y": 107.0,
+                        "text": "estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 136.0,
+                        "y": 58.0,
+                        "text": "Era",
+                        "fontindex": 0,
+                        "state": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "pc15_u02": {
+        "image": "images_curso_a2/cuaderno/pc15_u02.png",
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "kurs2_indefinido_imperfect": {
+        "title": "Kurs2: Verwendung Indefinido und Imperfekt",
+        "image": "images_curso_a2/kurs2_indefinido_imperfect.png",
+        "solution": {
+            "image": "images_curso_a2/kurs2_indefinido_imperfect_solution.png"
+        },
+        "config": [
+            {
+                "color": 4294923520,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Default Pen"
+            },
+            {
+                "color": 4294907027,
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "name": "Correction Pen"
+            },
+            {
+                "color": 4278233600,
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2017-10-01-1",
+                "textlist": [
+                    {
+                        "x": 293.0,
+                        "y": 247.0,
+                        "text": "se conoc\u00edan",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 156.0,
+                        "y": 294.0,
+                        "text": "era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 103.0,
+                        "y": 324.0,
+                        "text": "hablaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 685.0,
+                        "y": 324.0,
+                        "text": "ten\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 102.0,
+                        "y": 405.0,
+                        "text": "Viajaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 310.0,
+                        "y": 452.0,
+                        "text": "lleg\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 235.0,
+                        "y": 486.0,
+                        "text": "ten\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 104.0,
+                        "y": 560.0,
+                        "text": "Tuvo",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 534.0,
+                        "y": 608.0,
+                        "text": "control\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 106.0,
+                        "y": 689.0,
+                        "text": "Era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 281.0,
+                        "y": 779.0,
+                        "text": "termin\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 109.0,
+                        "y": 815.0,
+                        "text": "iba",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 151.0,
+                        "y": 860.0,
+                        "text": "estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 106.0,
+                        "y": 905.0,
+                        "text": "Estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 162.0,
+                        "y": 950.0,
+                        "text": "pedi\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 508.0,
+                        "y": 950.0,
+                        "text": "invit\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 106.0,
+                        "y": 1030.0,
+                        "text": "Hablaron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 454.0,
+                        "y": 1029.0,
+                        "text": "reiron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 216.0,
+                        "y": 1077.0,
+                        "text": "vio",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 497.0,
+                        "y": 1080.0,
+                        "text": "fue",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 565.0,
+                        "y": 1155.0,
+                        "text": "hac\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 209.0,
+                        "y": 1190.0,
+                        "text": "com\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 291.0,
+                        "y": 229.0,
+                        "text": "se conocieron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 164.0,
+                        "y": 564.0,
+                        "text": "Ten\u00eda",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 148.0,
+                        "y": 813.0,
+                        "text": "fue",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 541.0,
+                        "y": 1081.0,
+                        "text": "era",
+                        "fontindex": 1,
+                        "state": 0
+                    }
+                ]
+            },
+            {
+                "name": "2017-10-02-1",
+                "textlist": [
+                    {
+                        "x": 301.0,
+                        "y": 486.0,
+                        "text": "ten\u00eda",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 310.0,
+                        "y": 223.0,
+                        "text": "se conocieron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 213.0,
+                        "y": 1191.0,
+                        "text": "com\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 570.0,
+                        "y": 1153.0,
+                        "text": "hac\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 512.0,
+                        "y": 1076.0,
+                        "text": "era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 226.0,
+                        "y": 1081.0,
+                        "text": "vio",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 457.0,
+                        "y": 1031.0,
+                        "text": "rieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 105.0,
+                        "y": 1032.0,
+                        "text": "Hablaron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 519.0,
+                        "y": 952.0,
+                        "text": "invit\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 168.0,
+                        "y": 953.0,
+                        "text": "pidi\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 107.0,
+                        "y": 903.0,
+                        "text": "Estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 155.0,
+                        "y": 860.0,
+                        "text": "estaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 107.0,
+                        "y": 815.0,
+                        "text": "fue",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 281.0,
+                        "y": 777.0,
+                        "text": "termin\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 116.0,
+                        "y": 686.0,
+                        "text": "Era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 534.0,
+                        "y": 605.0,
+                        "text": "control\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 111.0,
+                        "y": 562.0,
+                        "text": "Ten\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 244.0,
+                        "y": 487.0,
+                        "text": "tuvo",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 313.0,
+                        "y": 452.0,
+                        "text": "lleg\u00f3",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 107.0,
+                        "y": 401.0,
+                        "text": "Viajaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 688.0,
+                        "y": 324.0,
+                        "text": "ten\u00eda",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 117.0,
+                        "y": 326.0,
+                        "text": "hablaba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 164.0,
+                        "y": 292.0,
+                        "text": "era",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 308.0,
+                        "y": 247.0,
+                        "text": "se conoc\u00edan",
+                        "fontindex": 0,
+                        "state": 2
+                    }
+                ]
+            }
+        ]
+    }
+}

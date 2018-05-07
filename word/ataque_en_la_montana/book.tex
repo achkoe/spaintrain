@@ -1,0 +1,36 @@
+%\documentclass[oneside,10pt]{book}
+\documentclass[a4paper, pagesize, DIV=15, fontsize=8pt, parskip=half, twoside, BCOR=5mm]{scrartcl}
+\usepackage{fontspec}
+
+\usepackage{pst-node}
+\usepackage{parskip}
+\setlength{\parindent}{1em}
+
+%\usepackage{polyglossia,fontspec,xunicode}
+%\setmainlanguage{english}
+%\usepackage{libertineotf}
+\usepackage{hyperref}
+\hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[]{paracol}
+
+\begin{document}
+
+\title{Ataque en la montaña - Attacke auf dem Berg}
+\date{}
+
+\maketitle
+%{\let\newpage\relax\maketitle}{\small}
+
+\newcommand{\rn}[1]{\Rnode{#1}}
+\newcommand{\rl}[2]{\ncline[linestyle=solid,arrows=->,nodesepA=0.5pt,linecolor=gray, strokeopacity=0.5]{#1}{#2}}
+
+
+%\tableofcontents
+
+\begin{paracol}{2}
+\input{contents.tex}
+\end{paracol}
+
+\end{document}

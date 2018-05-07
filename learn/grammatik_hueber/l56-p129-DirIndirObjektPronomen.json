@@ -1,0 +1,275 @@
+{
+    "image": "images/l56-p129-DirIndirObjektPronomen.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s-p181-182-loesung.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-07 (2)", 
+            "textlist": [
+                {
+                    "y": 88, 
+                    "x": 303, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Se la"
+                }, 
+                {
+                    "y": 130, 
+                    "x": 661, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "selo"
+                }, 
+                {
+                    "y": 158, 
+                    "x": 549, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "melo"
+                }, 
+                {
+                    "y": 187, 
+                    "x": 444, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Me los"
+                }, 
+                {
+                    "y": 225, 
+                    "x": 597, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "me la"
+                }, 
+                {
+                    "y": 258, 
+                    "x": 430, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te lo"
+                }, 
+                {
+                    "y": 429, 
+                    "x": 473, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1S\u00ed, se la pruebe!"
+                }, 
+                {
+                    "y": 486, 
+                    "x": 432, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00a1No, pero me lo devuelto enseguida!"
+                }, 
+                {
+                    "y": 568, 
+                    "x": 471, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1S\u00ed, nos lo cont\u00e1is!"
+                }, 
+                {
+                    "y": 634, 
+                    "x": 472, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Si, te la compras!"
+                }, 
+                {
+                    "y": 716, 
+                    "x": 334, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 747, 
+                    "x": 392, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "6"
+                }, 
+                {
+                    "y": 782, 
+                    "x": 397, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 815, 
+                    "x": 341, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "7"
+                }, 
+                {
+                    "y": 848, 
+                    "x": 374, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 882, 
+                    "x": 356, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 917, 
+                    "x": 387, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "5"
+                }, 
+                {
+                    "y": 1061, 
+                    "x": 46, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Esta ma\u00f1ana nos hemos comprado un coche nuevo."
+                }, 
+                {
+                    "y": 1065, 
+                    "x": 559, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Esta ma\u00f1ana nos lo hemos comprado."
+                }, 
+                {
+                    "y": 1126, 
+                    "x": 59, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPuedo probarme esta chaqueta?"
+                }, 
+                {
+                    "y": 1127, 
+                    "x": 389, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPuedo probarmela?"
+                }, 
+                {
+                    "y": 1190, 
+                    "x": 68, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Ayer les envi\u00f3 un regalo a sus padres."
+                }, 
+                {
+                    "y": 1196, 
+                    "x": 473, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Ayer se lo envi\u00f3 a sus padres."
+                }, 
+                {
+                    "y": 1254, 
+                    "x": 64, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfMe dijiste la verdad?"
+                }, 
+                {
+                    "y": 1258, 
+                    "x": 314, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfMe la dijiste?"
+                }, 
+                {
+                    "y": 1323, 
+                    "x": 38, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Les vendieron la casa a sus vecinos."
+                }, 
+                {
+                    "y": 1325, 
+                    "x": 437, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Se la vendieron a sus vecinos."
+                }, 
+                {
+                    "y": 1194, 
+                    "x": 766, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Ayer se lo envi\u00f3."
+                }, 
+                {
+                    "y": 1325, 
+                    "x": 724, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Se la vendieron."
+                }, 
+                {
+                    "y": 86, 
+                    "x": 544, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Me la"
+                }, 
+                {
+                    "y": 225, 
+                    "x": 883, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "se la"
+                }, 
+                {
+                    "y": 427, 
+                    "x": 648, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "\u00a1S\u00ed, pru\u00e9besela!"
+                }, 
+                {
+                    "y": 514, 
+                    "x": 636, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00a1No, pero devu\u00e9lvemelo enseguida!"
+                }, 
+                {
+                    "y": 565, 
+                    "x": 658, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "\u00a1S\u00ed, cont\u00e1dnoslo!"
+                }, 
+                {
+                    "y": 633, 
+                    "x": 656, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "\u00a1Si, c\u00f3mpratela !"
+                }
+            ]
+        }
+    ]
+}

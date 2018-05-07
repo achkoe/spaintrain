@@ -1,0 +1,296 @@
+{
+    "image": "images/l22-p63-imperfecto.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s21a-28.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2016-12-07 (1)", 
+            "textlist": [
+                {
+                    "y": 84, 
+                    "x": 221, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "----------"
+                }, 
+                {
+                    "y": 82, 
+                    "x": 461, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "----------"
+                }, 
+                {
+                    "y": 120, 
+                    "x": 178, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "----------------"
+                }, 
+                {
+                    "y": 121, 
+                    "x": 668, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 157, 
+                    "x": 169, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-----------"
+                }, 
+                {
+                    "y": 193, 
+                    "x": 145, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-----------"
+                }, 
+                {
+                    "y": 194, 
+                    "x": 434, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "-----------"
+                }, 
+                {
+                    "y": 231, 
+                    "x": 123, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-----------"
+                }, 
+                {
+                    "y": 230, 
+                    "x": 352, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-----------"
+                }, 
+                {
+                    "y": 230, 
+                    "x": 786, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-------------------"
+                }, 
+                {
+                    "y": 270, 
+                    "x": 239, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---------"
+                }, 
+                {
+                    "y": 268, 
+                    "x": 477, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-------------"
+                }, 
+                {
+                    "y": 386, 
+                    "x": 228, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "iban"
+                }, 
+                {
+                    "y": 386, 
+                    "x": 518, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ven\u00edan"
+                }, 
+                {
+                    "y": 423, 
+                    "x": 267, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "tra\u00edan"
+                }, 
+                {
+                    "y": 464, 
+                    "x": 318, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se alimentaban"
+                }, 
+                {
+                    "y": 497, 
+                    "x": 241, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "pagaban"
+                }, 
+                {
+                    "y": 535, 
+                    "x": 179, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "era"
+                }, 
+                {
+                    "y": 663, 
+                    "x": 609, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ibamos"
+                }, 
+                {
+                    "y": 698, 
+                    "x": 553, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "juegaba"
+                }, 
+                {
+                    "y": 736, 
+                    "x": 641, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos escrib\u00edamos"
+                }, 
+                {
+                    "y": 775, 
+                    "x": 511, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "hac\u00eda"
+                }, 
+                {
+                    "y": 812, 
+                    "x": 444, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ve\u00edas"
+                }, 
+                {
+                    "y": 1012, 
+                    "x": 91, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Los sabados era una fiesta en la plaza del pueblo."
+                }, 
+                {
+                    "y": 1008, 
+                    "x": 509, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "Todos los j\u00f3venes iban."
+                }, 
+                {
+                    "y": 1091, 
+                    "x": 288, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Bail\u00e1bomos mucho, charl\u00e1mos y re\u00edamos. "
+                }, 
+                {
+                    "y": 1203, 
+                    "x": 89, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Volv\u00edamos temprano a casa. Al d\u00eda siguiente ya ten\u00edamos que estar en la iglesia a las siete."
+                }, 
+                {
+                    "y": 1315, 
+                    "x": 332, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Al mediod\u00eda com\u00edamos con los abuelos."
+                }, 
+                {
+                    "y": 497, 
+                    "x": 331, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "pagaba"
+                }, 
+                {
+                    "y": 693, 
+                    "x": 629, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "jugaba"
+                }, 
+                {
+                    "y": 771, 
+                    "x": 583, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "hab\u00eda"
+                }, 
+                {
+                    "y": 934, 
+                    "x": 336, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "viv\u00edamos en el campo. La vida era dif\u00edcil."
+                }, 
+                {
+                    "y": 1037, 
+                    "x": 92, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Los sabados hab\u00eda una fiesta en la plaza del pueblo."
+                }, 
+                {
+                    "y": 1032, 
+                    "x": 525, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Todos los j\u00f3venes iban all\u00ed."
+                }, 
+                {
+                    "y": 1089, 
+                    "x": 634, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Pero no tom\u00e1bamos ni una gota de alcohol!"
+                }, 
+                {
+                    "y": 1119, 
+                    "x": 286, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Bail\u00e1bamos mucho, charl\u00e1bamos y nos re\u00edamos. "
+                }, 
+                {
+                    "y": 1344, 
+                    "x": 106, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Por la noche nos sent\u00e1bamos delante de la puerta, vei\u00e1mos los gente o habl\u00e1bamos con los vecinos."
+                }, 
+                {
+                    "y": 1384, 
+                    "x": 111, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Por la tarde nos sent\u00e1bamos frente a la puerta, mir\u00e1bamos a la gente o habl\u00e1bamos con los vecinos."
+                }
+            ]
+        }
+    ]
+}

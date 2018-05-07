@@ -1,0 +1,1413 @@
+{
+    "l34b-p93-sujuntivo": {
+        "image": "images_cornelson/l34b-p93-sujuntivo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l03-p13-adjectivo": {
+        "image": "images_cornelson/l3-p13-adjectivo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],10,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],10,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Noto Sans [unknown],10,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l27-p75-contemp": {
+        "image": "images_cornelson/l27-p75-contemp.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l16-p45-gerundio": {
+        "image": "images_cornelson/l16-p45-gerundio.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l21b-p61-indefinido": {
+        "image": "images_cornelson/l21b-p61-indefinido.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t4-p46-test": {
+        "image": "images_cornelson/t4-p46-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-t6.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l32-p87-subjuntivo": {
+        "image": "images_cornelson/l32-p87-subjuntivo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l13-p39-inmediato": {
+        "image": "images_cornelson/l13-p39-inmediato.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l08-p25-serestar": {
+        "image": "images_cornelson/l8-p25-serestar.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l28-p77-concaus": {
+        "image": "images_cornelson/l28-p77-concaus.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l24-p67-pasados": {
+        "image": "images_cornelson/l24-p67-pasados.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t8-p94-test": {
+        "image": "images_cornelson/t8-p94-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/st7-10.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l40-p109-contiempo": {
+        "image": "images_cornelson/l40-p109-contiempo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-40.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t10-p110-test": {
+        "image": "images_cornelson/t10-p110-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t5-l56-test": {
+        "image": "images_cornelson/t5-l56-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-t6.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l25-p71-inter": {
+        "image": "images_cornelson/l25-p71-inter.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l12-p35-movimiento": {
+        "image": "images_cornelson/l12-p35-movimiento.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l19-p53-dirindir": {
+        "image": "images_cornelson/l19-p53-dirindir.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l31-p85-subjuntivo": {
+        "image": "images_cornelson/l31-p85-subjuntivo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t3-p36-test": {
+        "image": "images_cornelson/t3-p36-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-t6.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l05-p19-ser": {
+        "image": "images_cornelson/l5-p19-ser.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": [
+            {
+                "name": "2017-02-08-1", 
+                "textlist": [
+                    {
+                        "y": 108, 
+                        "x": 471, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "a"
+                    }, 
+                    {
+                        "y": 146, 
+                        "x": 471, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "a"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "l22-p63-imperfecto": {
+        "image": "images_cornelson/l22-p63-imperfecto.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l18-p51-indirecto": {
+        "image": "images_cornelson/l18-p51-indirecto.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l21a-p59-indefinido": {
+        "image": "images_cornelson/l21a-p59-indefinido.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l39-p107-indirecto": {
+        "image": "images_cornelson/l39-p107-indirecto.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-40.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l35-p97-futuro": {
+        "image": "images_cornelson/l35-p97-futuro.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l07-p23-hay": {
+        "image": "images_cornelson/l7-p23-hay.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": [
+            {
+                "name": "2017-02-08-1", 
+                "textlist": [
+                    {
+                        "y": 246, 
+                        "x": 263, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "s"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "l06-p21-estar": {
+        "image": "images_cornelson/l6-p21-estar.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": [
+            {
+                "name": "2017-02-08-1", 
+                "textlist": [
+                    {
+                        "y": 82, 
+                        "x": 301, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "a"
+                    }, 
+                    {
+                        "y": 114, 
+                        "x": 257, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "b"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "l11-p33-reflexivo": {
+        "image": "images_cornelson/l11-p33-reflexivo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": [
+            {
+                "name": "2017-02-08-1", 
+                "textlist": [
+                    {
+                        "y": 113, 
+                        "x": 147, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "a"
+                    }, 
+                    {
+                        "y": 148, 
+                        "x": 145, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "b"
+                    }
+                ]
+            }, 
+            {
+                "name": "2017-02-08-2", 
+                "textlist": [
+                    {
+                        "y": 111, 
+                        "x": 169, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "aa"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "l26-p73-negacion": {
+        "image": "images_cornelson/l26-p73-negacion.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t1-p16-test": {
+        "image": "images_cornelson/t1-p16-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-t6.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l23-p65-perfecto": {
+        "image": "images_cornelson/l23-p65-perfecto.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s21a-28.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l09-p29-presente": {
+        "image": "images_cornelson/l9-p29-presente.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t9-p102-test": {
+        "image": "images_cornelson/t9-p102-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/st7-10.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l29-p79-relativos": {
+        "image": "images_cornelson/l29-p79-relativos.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l33-p89-subjuntivoperfecto": {
+        "image": "images_cornelson/l33-p89-subjuntivoperfecto.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l14-p41-modales": {
+        "image": "images_cornelson/l14-p41-modales.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l30-p81-parapor": {
+        "image": "images_cornelson/l30-p81-parapor.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l17-p49-directo": {
+        "image": "images_cornelson/l17-p49-directo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l15-p43-prep": {
+        "image": "images_cornelson/l15-p43-prep.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l10-p31-presente": {
+        "image": "images_cornelson/l10-p31-presente.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l34a-p91-indsub": {
+        "image": "images_cornelson/l34a-p91-indsub.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t2-p26-test": {
+        "image": "images_cornelson/t2-p26-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-t6.png"
+        }, 
+        "sessionlist": [
+            {
+                "name": "2017-02-08-1", 
+                "textlist": [
+                    {
+                        "y": 265, 
+                        "x": 273, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "ss"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "l20-p55-personales": {
+        "image": "images_cornelson/l20-p55-personales.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s11-20.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "t6-p68-test": {
+        "image": "images_cornelson/t6-p68-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-t6.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l37-p101-condicional": {
+        "image": "images_cornelson/l37-p101-condicional.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l02-p11-pronombres": {
+        "image": "images_cornelson/l2-p11-pronombres.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": [
+            {
+                "name": "2017-02-08-1", 
+                "textlist": [
+                    {
+                        "y": 151, 
+                        "x": 403, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "ss"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "t7-p82-test": {
+        "image": "images_cornelson/t7-p82-test.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/st7-10.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l36-p99-imperfectsubjuntivo": {
+        "image": "images_cornelson/l36-p99-imperfectsubjuntivo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s29-37.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l38-p105-pasiva": {
+        "image": "images_cornelson/l38-p105-pasiva.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s38-40.png"
+        }, 
+        "sessionlist": []
+    }, 
+    "l04-p15-adjectivo": {
+        "image": "images_cornelson/l4-p15-adjectivo.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": [
+            {
+                "name": "2017-02-08-1", 
+                "textlist": [
+                    {
+                        "y": 127, 
+                        "x": 195, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "b#"
+                    }, 
+                    {
+                        "y": 127, 
+                        "x": 363, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "c"
+                    }
+                ]
+            }
+        ]
+    }, 
+    "l01-p9-articulos": {
+        "image": "images_cornelson/l1-p9-articulos.png", 
+        "config": [
+            {
+                "color": 4294923520, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Default Pen"
+            }, 
+            {
+                "color": 4294907027, 
+                "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+                "name": "Correction Pen"
+            }, 
+            {
+                "color": 4278233600, 
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+                "name": "Remark Pen"
+            }
+        ], 
+        "solution": {
+            "image": "images_cornelson/s1-10.png"
+        }, 
+        "sessionlist": [
+            {
+                "name": "2017-02-08-1", 
+                "textlist": [
+                    {
+                        "y": 216, 
+                        "x": 192, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "a"
+                    }, 
+                    {
+                        "y": 366, 
+                        "x": 131, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "ABCE"
+                    }
+                ]
+            }, 
+            {
+                "name": "2017-02-08-2", 
+                "textlist": [
+                    {
+                        "y": 133, 
+                        "x": 108, 
+                        "state": 0, 
+                        "fontindex": 0, 
+                        "text": "ss"
+                    }
+                ]
+            }
+        ]
+    }
+}

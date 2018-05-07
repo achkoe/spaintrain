@@ -1,0 +1,100 @@
+==Sv==================================
+[abbestellen] (Zimmer)
+abbestellen (Fahr, Flugkarten)
+
+cancelar
+anular
+==Sv==================================
+[ablaufen] (Zeit)
+
+pasar, [transcurrir]
+==Sv==================================
+[ablehnen]
+
+[rechazar, rehusar]
+==Ss==================================
+[Abschied]
+
+[despedida]
+==Sv==================================
+[abschleppen]
+
+[remolcar]
+==Ss==================================
+[Absender]
+
+el/la [remitente]
+==Sa==================================
+[abwärts]
+
+hacia [abajo]
+==Sv==================================
+[anbieten]
+
+[ofrecer]
+==Ss==================================
+[Angst]
+
+[miedo]
+==Ss==================================
+[Anschluß]
+
+el [empalme]
+==Sa==================================
+[anstrengend]
+
+[fatigoso]
+==Sv==================================
+[antworten]
+
+[contestar], responder
+==Sa==================================
+[ärgern] (über)
+
+[enfardarse] (por)
+==Sa==================================
+[arm]
+
+[pobre]
+==Ss==================================
+[Art]
+
+[modo], manera
+==Sv==================================
+[aufbrechen]
+
+[forzar], violentar
+==Ss==================================
+[Aufenthalt]
+
+[estancia]
+==Sa==================================
+[aufgeben] (Gepäck)
+aufgeben (Post)
+
+[faturar]
+enviar
+==Sv==================================
+aufpassen (auf)
+
+tener cuidado [de/con]
+==SAa==================================
+[außen], draußen
+
+[fuera]
+==Sa==================================
+[außer]
+
+[excepto]
+==ASv==================================
+[aussteigen], sinken
+
+[bajar]
+==Ss==================================
+[Ausweis]
+
+[tarjeta/el carnet] de identidad
+==Sv==================================
+Auto fahren
+
+conducir 

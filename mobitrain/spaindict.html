@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <link rel="stylesheet" type="text/css" href="spaindict.css" />
+    <link rel="stylesheet" href="../lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="../lib/themes/blue/style.css" type="text/css" id="" media="print, projection, screen" />
+    <script src="../lib/jquery-1.8.2.min.js"></script>
+    <script type="text/javascript" src="../lib/jquery.tablesorter.min.js"></script>
+    <script>
+        $(document).bind('mobileinit', function() {
+            $.mobile.pushStateEnabled = false;
+            $.mobile.selectmenu.prototype.options.nativeMenu = false;
+        });
+    </script>
+    <script src="../lib/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="dictionary_de_es.js"></script>
+    <script type="text/javascript" charset="utf-8" src="spaindict.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(document).bind('pageinit', pageinit);
+    </script>
+    <title>SpainDict</title>
+</head>
+
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Spain Dictionary</h1>
+        </div>
+        <!-- /header -->
+        <div class="ui-content" role="main">
+            <form id="formde">
+                <div class="ui-field-contain">
+                    <label class="lbl" for="searchde">Deutsch</label>
+                    <input data-mini="true" name="searchde" id="searchde" value="" type="search" placeholder="Suche Deutsch" list="langde"></input>
+                    <datalist id="langde" />
+                </div>
+            </form>
+            <form id="formes">
+                <div class="ui-field-contain">
+                    <label class="lbl" for="searches">Español</label>
+                    <input data-mini="true" name="searches" id="searches" value="" type="search" placeholder="Buscar Españiol" list="langes"></input>
+                    <datalist id="langes" />
+                </div>
+            </form>
+            <table id="table" class="tablesorter">
+                <thead>
+                    <tr>
+                        <th id="lefthead" class="right">Deutsch</th>
+                        <th class="left">Español</th>
+                    </tr>
+                </thead>
+                <tbody id="tcontent"></tbody>
+            </table>
+        </div>
+        <!-- /content -->
+        <div data-role="footer">
+            <h6 id="footer">&copy; 2015, Achim Köhler</h6>
+        </div>
+        <!-- /footer -->
+    </div>
+    <!-- /page -->
+</body>
+
+</html>

@@ -1,0 +1,1100 @@
+===aK==================================
+rot
+orange
+gelb
+grün
+blau
+türkis
+lila
+rosa
+weiß
+schwarz
+grau
+braun
+cremefarben
+
+rojo/-a
+naranja/-o, anaranjado/-a
+amarillo/-a
+verde
+azul
+turquesa
+violeta, morado
+rosa, rosado
+blanco/-a
+negro/-a
+gris
+marrón
+crema
+===sK==================================
+[Arbeitstag]
+
+el [Laborable]
+===sK==================================
+[Sonderangebot]
+Schlussverkauf
+
+la [rebaja]
+las rebajas
+===bK==================================
+so
+Ich bin so froh
+
+tan
+Estoy tan contenta
+===vK==================================
+[berücksichtigen]
+
+tener en cuenta
+[considerar]
+===aK==================================
+löffelweise
+
+cucharadas
+===vK==================================
+[schneiden]
+Schneide das Gemüse
+
+[cortar]
+Cortar la verdura.
+===sK==================================
+Würfel
+
+cubitos
+===vK==================================
+nass machen, [befeuchten]
+Weiche das Brot ein.
+
+[mojar]
+Mojar el pan.
+===sK==================================
+[Mixer]
+
+[batidora]
+===vK==================================
+[hinzufügen], verlängern
+Gib nach Geschmack Wasser und den Essig dazu.
+
+[añadir]
+Añadir agua al gusto y el vinagre.
+===kK==================================
+wollen ist können
+
+querer es poder
+===sK==================================
+[Zahn]
+Knoblauchzehe
+
+el [diente]
+diente de ajo
+===vK==================================
+geben, legen, stellen
+...gib alles in ein Gefäß...
+auch "einen Film spielen"
+
+poner
+...poner todo en un recipiente...
+===vK==================================
+[zerkleinern]
+Zerkleinere mit dem Mixer.
+
+[triturar]
+Triturar con la batidora.
+===sK==================================
+Hahn
+
+el gallo
+===sK==================================
+Schnabel, Gipfel
+
+el pico
+===vK==================================
+schälen, häuten, [pellen]
+
+[pelar]
+===vK==================================
+[mischen], vermengen
+
+[mezclar]
+===bK==================================
+vielleicht
+
+quizás, tal vez
+===pK==================================
+wenn, falls (konditional)
+Wenn du nicht kannst, ...
+
+si (conj.)
+Si es que no puedes, ...
+===vK==================================
+vergessen, vergessen Sie nicht
+
+olvidarse, no olvide
+===sK==================================
+Übersetzung
+
+la traducción
+===pK==================================
+auf, über, außer
+
+sobre
+===kK==================================
+Ich brauche zehn Minuten, um zur Arbeit zu gehen
+Ich habe keine Zeit um den Einkauf zu machen.
+
+Para ir al trabojo necesito diez minutos.
+No tengo tiempo para hacer la compra.
+===gK==================================
+<b>estar</b> + Gerundium <br/>
+Verlauf einer Handlung, was im Moment passiert <br/><br/>
+Maria spricht gerade.<br/>
+Pedro und Carment sprechen gerade.<br/>
+Wie ärgerlich! Es regnet gerade!
+
+<table class="smarttable">
+<tr>
+<th>Infinitv</th><th>Gerundium</th><th>Beispiel</th>
+</tr>
+<tr>
+<td>-ar</td><td>-ando</td><td>hablando</td>
+</tr>
+<tr>
+<td>-er</td><td>-iendo</td><td>lloviendo</td>
+</tr>
+<tr>
+<td>-ir</td><td>-iendo</td><td>viviendo</td>
+</tr>
+</table>
+<br/>
+Maria está hablando <br/>
+Pedro y Carmen estan hablando<br/>
+¡Qué rabia! ¡está lloviendo!
+===gK==================================
+<b>Pretério perfecto</b> <br/>
+Handlungen eines abgeschlossenen Zeitraums, der noch zur Gegenwart zählt,
+abgeschlossene Handlung mit Einfluss auf die Gegenwart,
+Ereignisse der nahen Vergangenheit (heute, diese Woche),
+Erzählung über Erfahrung. <br/><br/>
+Bildung <b>haber</b> + Partizip Perfekt <br/>
+Elisa ist durch Spanien gereist. <br/>
+Luisa und Maria sind heute aus Madrid angekommen.
+
+<table class="smarttable">
+<tr>
+<th>Infinitiv</th><th>Partizip</th><th>Beispiel</th>
+</tr><tr>
+<td>-ar</td><td>-ado</td><td>hablado</td>
+</tr><tr>
+<td>-er</td><td>-ido</td><td>tenido</td>
+</tr><tr>
+<td>-ir</td><td>-ido</td><td>vivido</td>
+</tr>
+</table>
+<br/>
+Elisa ha viajado por España. <br/>
+Luisa y Maria han llegado hoy de Madrid.
+===gK==================================
+<table class="smarttable">
+<tr><th>Partizip, Gerundium</th></tr>
+<tr><td>gehen, fahren </td></tr>
+<tr><td>sein (Ort, Zustand)</td></tr>
+<tr><td>sein (Nationalität, Beruf, Identität, Definition)</td></tr>
+<tr><td>haben</td></tr>
+</table>
+
+<table class="smarttable">
+<tr><th> Infinitiv	</th> <th> Partizip	</th> <th>Gerundium	</th></tr>
+<tr><td> ir			</td> <td> ido		</td> <td> yendo	</td></tr>
+<tr><td> estar		</td> <td> estado	</td> <td> estando	</td></tr>
+<tr><td> ser		</td> <td> sido		</td> <td> siendo	</td></tr>
+<tr><td> tener		</td> <td> tenido	</td> <td> teniendo	</td></tr>
+<!--
+<tr><td></td> <td></td> <td></td></tr>
+-->
+</table>
+===gK==================================
+<b>Pretérito indefinido</b><br/>
+Abgeschlossene Handlungen/Ereignisse in beendetem Zeitraum der Vergangenheit.
+<br/>
+<br/>
+Vergangenes Jahr habe ich viel gearbeitet.<br/>
+Gestern habe ich ein der Bar gegessen.<br/>
+Vergangene Woche schrieben wir eine Karte.<br/>
+Vergangene Woche bist du nach Cadiz gefahren.
+
+El año pasado trabajé mucho.
+Ayer comí en el bar.
+La semana pasada escribimos una carta.
+La semana pasada fuiste a Cadiz.
+===gK==================================
+Pretérito indefinido - Bildung 1<br/>
+Verben auf -ar, er, -ir
+
+<table class="smarttable">
+<tr><th> trabajar 		</th> <th> comer		</th> <th> escribir		</th> </tr>
+<tr><td> trabajé		</td> <td> comí			</td> <td> escribí		</td> </tr>
+<tr><td> trabajaste		</td> <td> comiste		</td> <td> escribiste	</td> </tr>
+<tr><td> trabajó		</td> <td> comió		</td> <td> escribió		</td> </tr>
+<tr><td> trabajamos		</td> <td> comimos		</td> <td> escribimos	</td> </tr>
+<tr><td> trabajasteis	</td> <td> comisteis	</td> <td> escribisteis	</td> </tr>
+<tr><td> trabajoron		</td> <td> comieron		</td> <td> escribieron	</td> </tr>
+</table>
+===gK==================================
+Pretérito indefinido - Bildung 2<br/>
+Verben ser/ir
+
+<table class="smarttable">
+<tr><th> ser/ir 	</td></tr>
+<tr><td> fui 		</td></tr>
+<tr><td> fuiste 	</td></tr>
+<tr><td> fue 		</td></tr>
+<tr><td> fuimos 	</td></tr>
+<tr><td> fuisteis 	</td></tr>jo
+<tr><td> fueron 	</td></tr>
+</table>
+===sK==================================
+[Gesetz]
+
+[ley]
+===sK==================================
+[Horror]
+
+[terror]
+===vK==================================
+[berühren]
+Gitarre spielen
+
+[tocar] la guitarra
+===sK==================================
+[Zeichnung], Abbildung
+
+[dibujo]
+===vK==================================
+[tauchen]
+
+[bucear]
+===vuK==================================
+Fußball [spielen]
+
+[jugar] fotbol
+yo juego
+tú juegas
+él/ella/usted juega
+nosotros/-as jugomos
+vosotros/-as jugáis
+ellos/ellas/Ustedes juegan
+===sK==================================
+ein [spannender] Film
+
+un película de [suspense]
+===sK==================================
+[Veranstaltungsprogramm]
+
+[cartelera]
+===sK==================================
+Feuerkelch
+
+Cáliz de Fuego
+===sK==================================
+[Einführung]
+
+[iniciación]
+===sK==================================
+[Wohnung, Wohnhaus]
+
+la [vivienda]
+===sK==================================
+Etage, Stockwerk, [Wohnung]
+
+[piso]
+===sK==================================
+[Esszimmer]
+
+[comedor]
+===sK==================================
+[Arbeitszimmer]
+
+[estudio]
+===sK==================================
+[Schlafzimmer]
+
+[dormitorio]
+===sK==================================
+[Wohnzimmer]
+Wohn- und Esszimmer
+
+[salón]
+salón-comedor
+===sK==================================
+[Innenhof]
+
+[patio]
+===sK==================================
+der [Schatten]
+
+la [sombra]
+===abK==================================
+[möblierte] Wohnung
+
+piso [amueblado]
+===sK==================================
+Wohn-[Gemeinschaft]
+
+piso [compartido]
+===abK==================================
+[übermäßig], allzu sehr
+
+[demasiado]
+===aK==================================
+[dunkel]
+
+[oscuro / -a]
+===aK==================================
+[zentral]
+
+[centrico / -a]
+===sK==================================
+[Vorort], Außenbezirk
+
+las [afueras]
+===aK==================================
+[hell]
+
+[luminoso / -a]
+===aK==================================
+[zufrieden], froh
+
+[contento / -a]
+===sK==================================
+die [Besitzer], Eigentümer
+
+los [propietarios]
+===sK==================================
+der [Schrank]
+
+el [armario]
+===sK==================================
+der [Stuhl]
+der [Sessel]
+
+la [silla]
+el [sillón]
+===sK==================================
+der [Schreibtisch]
+
+el [escritorio]
+===sK==================================
+das [Regal]
+
+la [estantería]
+===sK==================================
+die [Lampe]
+
+la [lámpara]
+===sK==================================
+der [Teppich]
+
+la [alfombra]
+===sK==================================
+das [Sofa]
+
+el [sofá]
+===sK==================================
+der [Computer]
+
+el [ordenador]
+===sK==================================
+die [Spülmaschine]
+
+el [lavavajillas]
+===sK==================================
+die [Waschmaschine]
+
+la [lavadora]
+===sK==================================
+der [Spiegel]
+
+el [espejo]
+===sK==================================
+der [Herd]
+
+la [cocina]
+===sK==================================
+der [Kühlschrank]
+
+la [nevara], el frigorífico, el refrigerador
+===sK==================================
+der [Nachttisch]
+
+la [mesilla de noche]
+===sK==================================
+das Fenster
+
+la ventana
+===sK==================================
+im [Hintergrund], hinten
+Gibt es keinen Schrank? - Ja, im Hintergrund
+
+al [fondo]
+¿No hay armario? - Sí, está al fondo.
+===sK==================================
+das [Netz]
+
+la [red]
+===sK==================================
+im Vordergrund
+
+en primer plano
+===aK==================================
+gut - besser - am besten
+
+bueno/-a - mejor - el/la mejor
+===aK==================================
+schlecht - schlechter - am schlechtesten
+
+malo/-a - peor - el/la peor
+===kK==================================
+Vorsicht bei nassem Boden
+
+Con suelo mojado, precaucíon
+===aK==================================
+oben, hoch, groß (Körpergröße)
+
+alto/-a
+===aK==================================
+unter, klein (Körpergröße), unter
+
+bajo/-a
+===vK==================================
+jmdn./etw. auswählen, aussuchen, wählen
+
+elegir algo/-a alguien
+yo elijo
+tú eliges
+él/ella/usted elige
+nosotros/-as eligimos
+vosotros/-as eligís
+ellos/ellas/Ustedes eligen
+===sK==================================
+die [Notiz]
+
+la [nota]
+===aK==================================
+[vorgestern]
+
+[anteayer]
+===aK==================================
+[gestern]
+
+[ayer]
+===vK==================================
+[laufen], spazieren
+
+[caminar]
+===vK==================================
+[fliegen]
+
+[volar]
+yo vuelo
+tú vueles
+él/ella/usted vuele
+nosotros/-as volamos
+vosotros/-as volaís
+ellos/ellas/Ustedes vuelan
+===pK==================================
+von ... nach
+
+desde ... a
+===aK==================================
+[hübsch], schön
+
+[bella/-a]
+===sK==================================
+Landes-[Innere]
+
+el [interior] del país
+===sK==================================
+das [Kunsthandwerk]
+
+la [artesanía]
+===vK==================================
+[probieren], kosten
+
+[probar]
+yo pruebo
+tú pruebes
+él/ella/usted pruebe
+nosotros/-as probamos
+vosotros/-as probaís
+ellos/ellas/Ustedes prueban
+===sK==================================
+Maispastete
+
+los [tamales]
+===sK==================================
+[Armband]
+
+la [pulsera]
+===sK==================================
+[Silber]
+
+la [plata]
+===aK==================================
+[kurios], interessant
+
+[curioso/-a]
+===aK==================================
+[letzte/r]
+
+[ultimo/-a]
+===kK==================================
+mitten in
+
+en medio de
+===aK==================================
+[unglaublich]
+
+[increíble]
+===sK==================================
+die [Landschaft]
+
+el [paisaje]
+===kK==================================
+Schade!
+
+¡Que lastima!
+===sK==================================
+[Gutshof]
+
+la [hacienda]
+===kK==================================
+zum ersten Mal
+
+por primara vez
+===aK==================================
+[reich], lecker
+
+ser, estar [rico/-a]
+===vK==================================
+[fortführen], weitermachen
+
+[continuar]
+===aK==================================
+[anbei]
+
+[adjunto/-a]
+===sK==================================
+spanischer [Sekt]
+
+el [cava]
+===bK==================================
+[gestern Abend]
+
+[anoche]
+===kK==================================
+Hin- und Rückfahrt
+
+ida y vuelta
+===vK==================================
+[umsteigen]
+
+hacer [transbordo]
+===sK==================================
+das Gleis
+
+el [andén]
+===aK==================================
+[kulinarisch]
+
+[culinario/-a]
+===sK==================================
+archäologisches Denkmal
+
+el yacimiento arqueológico
+===sK==================================
+Rest, Ruine
+
+el resto
+===sK==================================
+die [Höhe]
+
+la [altura]
+===vK==================================
+etw. [gründen]
+
+fundar
+===vK==================================
+etw. [erobern]
+
+[conquistar]
+===sK==================================
+der [Bau]
+
+la [construcción]
+===aK==================================
+barock
+
+barroco/-a
+===aK==================================
+[dynamisch]
+
+[dinámco/-a]
+===vK==================================
+[bereisen]
+
+[recorrer]
+===sK==================================
+im [Gegenteil]
+
+al [contrario]
+===aK==================================
+[einzigartig]
+
+[unico/-a]
+===sK==================================
+[Wandmalerei]
+
+el [mural]
+===vK==================================
+sich [vereinen], zusammenschließen
+
+[unirse]
+yo uno
+tú unes
+él/ella/usted une
+nosotros/-as unimos
+vosotros/-as unis
+ellos/ellas/Ustedes unen
+===asK==================================
+[Vergangenheit]
+vergangen
+
+el [pasado]
+pasado/-a
+===sK==================================
+[Gegenwart]
+
+el [presente]
+===sK==================================
+die [Wüste]
+
+el [desierto]
+===aK==================================
+[zahlreich]
+
+[numeroso/-a]
+===sK==================================
+die [Schlucht]
+
+el [cañon]
+===sK==================================
+der [Wasserfall]
+
+la [cascada]
+===vK==================================
+ankommen, eintreffen
+
+llegar a
+===vK==================================
+jmdn. unterbringen, [einquartieren]
+
+[alojar]
+===aK==================================
+nächster Tag, darauffolgender (zeitlich)
+
+al día siguiente
+(no al día proxima)
+===pK==================================
+laut, [gemäß]
+Laut einer Legende...
+
+[según]
+Según una leyena
+===vK==================================
+[auswandern]
+
+[emigrar]
+===sK==================================
+Adler
+
+el águila
+===sK==================================
+Schlange
+
+la serpiente
+===sK==================================
+die Kralle
+
+la garra
+===vK==================================
+[zerstören]
+
+[destruir]
+===sK==================================
+Anschluß, Verbindung
+
+el enlace
+===sK==================================
+Fahrkartenschalter, Sichtfenster
+
+la ventanilla
+===sK==================================
+[Großeltern]
+Großvater
+Großmutter
+
+los [abuelos]
+el abuela
+la abuela
+===vK==================================
+jmdn. [pensionieren]
+
+[jubilar] a alguien
+===sK==================================
+der [Neffe]
+die Nichte
+
+el [sobrino]
+la sobrina
+===sK==================================
+der [Onkel]
+die Tante
+
+el [tío]
+la tía
+===sK==================================
+der [Schwager]
+die Schwägerin
+
+el [cuñado]
+la cuñada
+===sK==================================
+Paar, [Partner]
+
+la [pareja]
+===sK==================================
+die [Schwiegereltern]
+der Schwiegervater
+die Schwiegermutter
+
+los [suegros]
+el suegro
+la suegra
+===sK==================================
+der [Cousin], die Cousine
+
+el [primo], la prima
+===sK==================================
+Familienstand
+
+estado civil
+===sK==================================
+[Junggeselle], Junggesellin
+
+[soltero]/-a
+===aK==================================
+[geschieden]
+
+[divorciado/-a]
+===sK==================================
+der [Witwer], die Witwe
+
+el/la [viudo]/-a
+===aK==================================
+[dick], beleibt
+
+[gordo/-a]
+===aK==================================
+glatzköpfig
+
+calvo/-a
+===sK==================================
+der [Vollbart]
+der [Schnurrbart]
+
+la [barba]
+el [bigote]
+===sK==================================
+[Statur], Wuchs
+
+[estatur]
+===aK==================================
+[rothaarig]
+
+[pelirroja]
+===sK==================================
+[Gewicht]
+
+[peso]
+===kK==================================
+seit 5 Jahren (Zeitraum)
+
+desde hace 5 años
+===kK==================================
+vor 1 Woche (Zeitraum)
+
+hace 1 semana
+===kK==================================
+seit vergangenem Jahr (Zeitpunkt)
+
+desde el áño pasado
+===vK==================================
+beschließen, [entscheiden]
+
+[decidir]
+==sK==================================
+das [Geschlecht], der Sex
+
+el [sexo]
+==vK==================================
+[aufwachsen], erwachsen werden
+
+crecer
+==sK==================================
+die Hochschulreife
+
+bachillerato
+==vK==================================
+[heiraten]
+
+[casarse], casar
+===vK==================================
+gegen jmdn./etw. [kämpfen]
+
+[luchar] contra algo/alguien
+===vK==================================
+jmdn./etw. [verlassen]
+
+[abandonar] algo/a alguien
+==vK==================================
+[trennen]
+
+[separar]
+===sK==================================
+der [Triumpf]
+
+el [triunfo]
+===vK==================================
+[widmen], befassen
+
+[dedicarse]
+===vK==================================
+[herverstechen]
+
+[destacar]
+===svK==================================
+die [Rückseite], der Rückschlag
+verkehrt herum
+
+el [revés]
+al revés
+==sK==================================
+Ehe, [Ehepaar]
+
+el [matrimonio]
+==aK==================================
+neu gebildet
+
+reconstituida
+==aK==================================
+eigentlich, [tatsächlich]
+
+de [hecho]
+===vK==================================
+wiegen, [abwiegen]
+
+pesar
+===aK==================================
+vorher, [früher]
+
+[antes]
+===sK==================================
+die [Wandtafel]
+
+la [pizarra]
+==vK==================================
+[erraten]
+
+[adivinar]
+==vK==================================
+[bewohnen]
+
+[habitar]
+=======
+haben (Pretérido indefinido)
+
+tener
+tuve
+tuviste
+tuvo
+tuvimos
+tuvisteis
+tuvieron
+==vK==================================
+machen, etwas tun (Pretérido indefinido)
+
+hacer
+hice
+hiciste
+hizo
+hicimos
+hicisteis
+hicieron
+==vK==================================
+sterben (Pretérido indefinido)
+
+morir
+mori
+moriste
+murió
+murimos
+moristeis
+murieron
+==vK==================================
+[sterben] (Presente)
+
+[morir]
+muero
+mueres
+muere
+morimos
+moris
+mueren
+==vK==================================
+[umziehen] (örtlich)
+
+[mudarse]
+==sK==================================
+das [Grab]
+
+la [tumba]
+==vK==================================
+[gewinnen]
+
+[ganar]
+==vK==================================
+[betrügen]
+
+[engañar]
+==vK==================================
+[gefangen nehmen]
+
+[capturar]
+==sK==================================
+der [Herrscher], der Kaiser
+
+el [emperador]
+==sK==================================
+die [Saison], der Zeitraum
+
+la [temporada]
+==aK==================================
+glücklich, [fröhlich]
+
+[alegre]
+==sK==================================
+das [Muster]
+
+la [muestra]
+==sK==================================
+die [Jeans], der Cowboy
+
+el [vaquero]
+==sK==================================
+das T-Shirt, das [Unterhemd]
+
+la [camiseta]
+==sK==================================
+das [Hemd]
+
+la [camisa]
+==sK==================================
+der [Pullover]
+
+el [jersey]
+==aK==================================
+einfach, [schlicht]
+
+[sencillo]
+==sK==================================
+die [Hose]
+
+los [pantalones]
+==sK==================================
+das [Leinen]
+
+el [lino]
+==sK==================================
+die [Sandalen]
+
+las [sandalias]
+==sK==================================
+der [Anzug]
+
+el [traje]
+==sK==================================
+der [Rock]
+
+la [falda]
+==sK==================================
+die [Bluse]
+
+la [blusa]
+==sK==================================
+der [Schuh]
+
+el [zapato]
+==sK==================================
+die [Wolle]
+
+la [lana]
+==sK==================================
+die [Baumwolle]
+
+el [algodón]
+==sK==================================
+die [Größe (Kleidung)]
+
+ta [talla]
+==sK==================================
+der [Stiefel]
+
+la [bota]
+==sK==================================
+das [Kleidungsstück]
+
+la [prenda]
+==sK==================================
+die Haut, das [Leder], der Pelz
+
+la [piel]
+==sK==================================
+der Stoff, das Gewebe, die [Textilien]
+
+el [tejido]
+==vsK==================================
+[regnen]
+der [Regen]
+es regnet
+
+[llover]
+la [lluvia]
+==sK==================================
+der [Nebel]
+
+la [niebla]
+==sK==================================
+der [Wind]
+
+el [viento]
+==sK==================================
+der [Badeanzug], die Badehose
+
+el [bañador]
+==sK==================================
+der Bahnhof, die [Jahreszeit]
+
+la [estación]
+
+
+

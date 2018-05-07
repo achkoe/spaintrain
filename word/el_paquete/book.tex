@@ -1,0 +1,44 @@
+%\documentclass[a4paper, fontsize=12pt, parskip=half, twoside, BCOR=5mm]{scrartcl}
+\documentclass[a4, 12pt, twoside]{article}
+\usepackage[right=6cm, left=2.5cm, marginparwidth=5cm, marginparsep=5mm, top=2cm, bottom=2cm]{geometry}
+
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{graphicx}
+\graphicspath{{images/}{tiff/}}
+\usepackage{booktabs}
+\setcounter{secnumdepth}{-1}
+
+\usepackage{paralist} % needed for compact lists
+
+
+\usepackage[normalem]{ulem} % needed by strike
+%\usepackage[urlcolor=blue,colorlinks=false]{hyperref}
+
+
+%%% Custom LaTeX preamble
+\usepackage{xcolor}
+\usepackage{enumitem}
+\setlist{nosep}
+\renewcommand{\baselinestretch}{1.2} 
+\itemsep0pt
+\renewcommand{\labelitemi}{$-$}
+
+\usepackage[]{marginnote}
+\renewcommand*{\marginfont}{\color{black}\itshape\small}
+
+\usepackage{parskip}
+\setlength{\parindent}{0pt}
+
+\newcounter{mcnt}[page]
+\newcommand{\mnote}[1]{%
+\stepcounter{mcnt}%
+%\footnotesize{$^\alph{mcnt}$}\marginnote{$^\alph{mcnt}$#1}}
+\footnotesize{$^\alph{mcnt}$}\marginpar[\flushright\scriptsize\itshape$^\alph{mcnt}$#1]{\flushleft\scriptsize\itshape$^\alph{mcnt}$#1}}
+
+\begin{document}
+
+\tableofcontents
+\clearpage
+\input{el_paquete}
+\end{document}

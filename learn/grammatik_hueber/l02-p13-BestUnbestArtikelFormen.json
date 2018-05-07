@@ -1,0 +1,583 @@
+{
+    "image": "images/l02-p13-BestUnbestArtikelFormen.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s-p170-loesung.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-04 (2)", 
+            "textlist": [
+                {
+                    "y": 127, 
+                    "x": 58, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "la"
+                }, 
+                {
+                    "y": 128, 
+                    "x": 217, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "las botellas"
+                }, 
+                {
+                    "y": 160, 
+                    "x": 63, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "el"
+                }, 
+                {
+                    "y": 162, 
+                    "x": 229, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "los aguas"
+                }, 
+                {
+                    "y": 260, 
+                    "x": 58, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "la"
+                }, 
+                {
+                    "y": 259, 
+                    "x": 207, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "las mujeres"
+                }, 
+                {
+                    "y": 128, 
+                    "x": 531, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "la"
+                }, 
+                {
+                    "y": 128, 
+                    "x": 726, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "las fotos"
+                }, 
+                {
+                    "y": 163, 
+                    "x": 535, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "el"
+                }, 
+                {
+                    "y": 161, 
+                    "x": 723, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "los institutos"
+                }, 
+                {
+                    "y": 228, 
+                    "x": 530, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "la"
+                }, 
+                {
+                    "y": 228, 
+                    "x": 716, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "las habitaciones"
+                }, 
+                {
+                    "y": 258, 
+                    "x": 532, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "la"
+                }, 
+                {
+                    "y": 261, 
+                    "x": 720, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "las luces"
+                }, 
+                {
+                    "y": 295, 
+                    "x": 535, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "el"
+                }, 
+                {
+                    "y": 297, 
+                    "x": 722, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "los d\u00edas"
+                }, 
+                {
+                    "y": 294, 
+                    "x": 56, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "lo"
+                }, 
+                {
+                    "y": 291, 
+                    "x": 219, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "los utiles"
+                }, 
+                {
+                    "y": 196, 
+                    "x": 532, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "lo"
+                }, 
+                {
+                    "y": 191, 
+                    "x": 727, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "los buenos"
+                }, 
+                {
+                    "y": 194, 
+                    "x": 57, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "el"
+                }, 
+                {
+                    "y": 192, 
+                    "x": 215, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "los hospitales"
+                }, 
+                {
+                    "y": 225, 
+                    "x": 63, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "el"
+                }, 
+                {
+                    "y": 221, 
+                    "x": 223, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "los artes"
+                }, 
+                {
+                    "y": 465, 
+                    "x": 272, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "foto"
+                }, 
+                {
+                    "y": 492, 
+                    "x": 278, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "manzana"
+                }, 
+                {
+                    "y": 530, 
+                    "x": 289, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "paraguas"
+                }, 
+                {
+                    "y": 562, 
+                    "x": 289, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fuente"
+                }, 
+                {
+                    "y": 590, 
+                    "x": 289, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "bebida"
+                }, 
+                {
+                    "y": 626, 
+                    "x": 291, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "bicicleta"
+                }, 
+                {
+                    "y": 463, 
+                    "x": 59, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "agua mineral"
+                }, 
+                {
+                    "y": 659, 
+                    "x": 281, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "radio"
+                }, 
+                {
+                    "y": 494, 
+                    "x": 72, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "vaso"
+                }, 
+                {
+                    "y": 527, 
+                    "x": 63, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ama de casa"
+                }, 
+                {
+                    "y": 560, 
+                    "x": 64, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "garaje"
+                }, 
+                {
+                    "y": 595, 
+                    "x": 61, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "puente"
+                }, 
+                {
+                    "y": 623, 
+                    "x": 66, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hotel"
+                }, 
+                {
+                    "y": 815, 
+                    "x": 256, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hoteles"
+                }, 
+                {
+                    "y": 842, 
+                    "x": 267, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hombres"
+                }, 
+                {
+                    "y": 811, 
+                    "x": 657, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "casas"
+                }, 
+                {
+                    "y": 815, 
+                    "x": 60, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se\u00f1or"
+                }, 
+                {
+                    "y": 844, 
+                    "x": 655, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "mujeres"
+                }, 
+                {
+                    "y": 845, 
+                    "x": 60, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "coche"
+                }, 
+                {
+                    "y": 876, 
+                    "x": 657, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "estaciones"
+                }, 
+                {
+                    "y": 812, 
+                    "x": 458, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "gente"
+                }, 
+                {
+                    "y": 974, 
+                    "x": 452, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "programa"
+                }, 
+                {
+                    "y": 877, 
+                    "x": 270, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "d\u00edas"
+                }, 
+                {
+                    "y": 910, 
+                    "x": 271, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "tenedores"
+                }, 
+                {
+                    "y": 845, 
+                    "x": 464, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "carne"
+                }, 
+                {
+                    "y": 881, 
+                    "x": 465, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "m\u00fasica"
+                }, 
+                {
+                    "y": 915, 
+                    "x": 55, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "raci\u00f3n"
+                }, 
+                {
+                    "y": 946, 
+                    "x": 61, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "alcohol"
+                }, 
+                {
+                    "y": 973, 
+                    "x": 64, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "jard\u00edn"
+                }, 
+                {
+                    "y": 939, 
+                    "x": 275, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "tardes"
+                }, 
+                {
+                    "y": 904, 
+                    "x": 479, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "noche"
+                }, 
+                {
+                    "y": 942, 
+                    "x": 466, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "iglesia"
+                }, 
+                {
+                    "y": 908, 
+                    "x": 657, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pel\u00edculas"
+                }, 
+                {
+                    "y": 971, 
+                    "x": 270, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "cines"
+                }, 
+                {
+                    "y": 874, 
+                    "x": 64, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "norte"
+                }, 
+                {
+                    "y": 939, 
+                    "x": 655, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "pa\u00edses"
+                }, 
+                {
+                    "y": 973, 
+                    "x": 658, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "manos"
+                }, 
+                {
+                    "y": 1197, 
+                    "x": 552, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "la oficina."
+                }, 
+                {
+                    "y": 1227, 
+                    "x": 204, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Los libros"
+                }, 
+                {
+                    "y": 1260, 
+                    "x": 208, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El tel\u00e9fono"
+                }, 
+                {
+                    "y": 1298, 
+                    "x": 271, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "una cerveza"
+                }, 
+                {
+                    "y": 1293, 
+                    "x": 757, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "un agua mineral."
+                }, 
+                {
+                    "y": 1333, 
+                    "x": 185, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Las fotos"
+                }, 
+                {
+                    "y": 1367, 
+                    "x": 347, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "un moto"
+                }, 
+                {
+                    "y": 161, 
+                    "x": 326, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "las aguas"
+                }, 
+                {
+                    "y": 221, 
+                    "x": 320, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "las artes"
+                }, 
+                {
+                    "y": 298, 
+                    "x": 314, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "kein Plural"
+                }, 
+                {
+                    "y": 194, 
+                    "x": 834, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "kein Plural"
+                }, 
+                {
+                    "y": 530, 
+                    "x": 252, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "un"
+                }, 
+                {
+                    "y": 907, 
+                    "x": 16, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "la"
+                }, 
+                {
+                    "y": 943, 
+                    "x": 245, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "las"
+                }, 
+                {
+                    "y": 977, 
+                    "x": 429, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "el"
+                }, 
+                {
+                    "y": 938, 
+                    "x": 627, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "los"
+                }, 
+                {
+                    "y": 1196, 
+                    "x": 660, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "una oficina."
+                }, 
+                {
+                    "y": 1362, 
+                    "x": 446, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "una moto"
+                }
+            ]
+        }
+    ]
+}

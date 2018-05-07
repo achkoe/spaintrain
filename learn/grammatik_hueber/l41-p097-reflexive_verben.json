@@ -1,0 +1,308 @@
+{
+    "image": "images/l41-p097-reflexive_verben.png", 
+    "solution": {"image": "images/s-p178-loesung.png"},
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "sessionlist": [
+        {
+            "name": "2016-12-17 (1)", 
+            "textlist": [
+                {
+                    "y": 183, 
+                    "x": 53, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me"
+                }, 
+                {
+                    "y": 214, 
+                    "x": 85, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "os"
+                }, 
+                {
+                    "y": 241, 
+                    "x": 182, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 276, 
+                    "x": 56, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 180, 
+                    "x": 453, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 209, 
+                    "x": 503, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 235, 
+                    "x": 452, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos"
+                }, 
+                {
+                    "y": 270, 
+                    "x": 354, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "os"
+                }, 
+                {
+                    "y": 173, 
+                    "x": 651, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos"
+                }, 
+                {
+                    "y": 208, 
+                    "x": 787, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me"
+                }, 
+                {
+                    "y": 237, 
+                    "x": 776, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 272, 
+                    "x": 655, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 363, 
+                    "x": 269, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me levant\u00e9"
+                }, 
+                {
+                    "y": 392, 
+                    "x": 400, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos hemos acostumbrado"
+                }, 
+                {
+                    "y": 450, 
+                    "x": 276, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "se quedar\u00e1"
+                }, 
+                {
+                    "y": 482, 
+                    "x": 297, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": " me he perdido"
+                }, 
+                {
+                    "y": 512, 
+                    "x": 359, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "acostarnos"
+                }, 
+                {
+                    "y": 415, 
+                    "x": 275, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Lavaos"
+                }, 
+                {
+                    "y": 543, 
+                    "x": 233, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Marchete"
+                }, 
+                {
+                    "y": 631, 
+                    "x": 540, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Nos levantamos muy temprano todos los d\u00edas."
+                }, 
+                {
+                    "y": 661, 
+                    "x": 543, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Esta noche me quedo en casa."
+                }, 
+                {
+                    "y": 687, 
+                    "x": 540, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPor qu\u00e9 no os pode\u00eds decidir?"
+                }, 
+                {
+                    "y": 750, 
+                    "x": 538, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Antes de viajar a M\u00e9xico se hab\u00eda informado sobre el pa\u00eds."
+                }, 
+                {
+                    "y": 812, 
+                    "x": 543, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Los ni\u00f1os ya no se acuerdan de las vacaciones en Mallorca."
+                }, 
+                {
+                    "y": 842, 
+                    "x": 536, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfYa te has cambiando de ropa?"
+                }, 
+                {
+                    "y": 872, 
+                    "x": 543, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Tienes que acostumbrarte a la vida en este pa\u00eds."
+                }, 
+                {
+                    "y": 1003, 
+                    "x": 279, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "c - No, nos quedarnos en casa."
+                }, 
+                {
+                    "y": 1063, 
+                    "x": 279, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "d - Si, mucha. La llevarme."
+                }, 
+                {
+                    "y": 1127, 
+                    "x": 279, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "a - No, tod\u00e1via una vez en semana."
+                }, 
+                {
+                    "y": 1185, 
+                    "x": 235, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "e - Normalmente acostarme entre las 11 y las 12. "
+                }, 
+                {
+                    "y": 1231, 
+                    "x": 281, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "b -Encontrarme con Isabel en la ciudad y vamos en un caf\u00e9."
+                }, 
+                {
+                    "y": 1305, 
+                    "x": 279, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "f - Si, esta tarde y ma\u00f1ana tengo que llevantarme temprano."
+                }, 
+                {
+                    "y": 485, 
+                    "x": 428, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "me perd\u00ed"
+                }, 
+                {
+                    "y": 544, 
+                    "x": 323, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "No te marches"
+                }, 
+                {
+                    "y": 1121, 
+                    "x": 568, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "No, solo una vez a la semana."
+                }, 
+                {
+                    "y": 1255, 
+                    "x": 538, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "b -Me encuentro con Isabel en la ciudad y vamos a un caf\u00e9."
+                }, 
+                {
+                    "y": 999, 
+                    "x": 547, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "No, nos quedamos en casa."
+                }, 
+                {
+                    "y": 1060, 
+                    "x": 523, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "d - Si, mucho. Me la llevo."
+                }, 
+                {
+                    "y": 1185, 
+                    "x": 627, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "e - Normalmente me acuesto entre las 11 y las 12. "
+                }, 
+                {
+                    "y": 1320, 
+                    "x": 323, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "es"
+                }
+            ]
+        }
+    ]
+}

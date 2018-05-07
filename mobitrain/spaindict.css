@@ -1,0 +1,53 @@
+body {
+  margin: 0 auto; 
+}
+    #table {
+     width: 600px;
+        collapse: collapse;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    th {
+        border-bottom: 1px solid #222;
+        border-top: 1px solid #222;
+    }    
+    td {
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .german {
+        background-image: url(germany.png);
+        background-size: 100%, cover; 
+        background-repeat: no-repeat;
+        text-align: right;
+    }
+    
+    .spain {
+        background-image: url(spain.png);
+        background-size: 100%, cover;
+        background-repeat: no-repeat;
+    }
+    
+    .highlight {
+        background-color: #0E0 !important;
+    }
+
+    .lbl {
+        text-align: right;
+    }
+
+    .right {
+        text-align: right;
+        padding-right: 10pt;
+    }
+
+    .left {
+        text-align: left;
+        padding-left: 10pt;
+    }
+
+    .lefthead{
+        background-position: center left !important;
+    }

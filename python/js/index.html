@@ -1,0 +1,122 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>TextWriter</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        -->
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/user.css">
+        <!--
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        -->
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+<!--
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+-->
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='https://www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+        </script>
+        -->
+        <div id="wrapper">
+            <header>
+                <nav>
+
+                    <label>Lesson:
+                        <select name="lesson" id="lesson" size="1"></select>
+                    </label>
+                    <button type="button" id="loadimage">Load File</button>
+
+                </nav>
+            </header>
+            <div id="content">
+                <canvas id="canvas"></canvas>
+            </div>
+            <div id="rightcol">
+                    <label>Session:</label>
+                    <br/>
+                    <select name="session" id="session" size="1"></select>
+                    <br/>
+                    <button type="button" id="loadsession">Load Session</button>
+                    <br/>
+                    <button type="button" id="savesession">Save Session</button>
+                    <hr/>
+                    <fieldset id="pensettings">
+                        <input type="radio" id="pendefault" name="pencil" value="default" checked>
+                        <label for="pendefault">Default</label><br/>
+                        <label for="sizedefault">Size</label>
+                        <input id="sizedefault" type="number" min="8" max="24" step="1" value="14"/>
+                        <br/>
+                        <input type="radio" id="pencorrection" name="pencil" value="correction">
+                        <label for="pencorrection">Correction</label><br/>
+                        <label for="sizecorrection">Size</label>
+                        <input id="sizecorrection" type="number" min="8" max="24" step="1" value="14"/>
+                        <br/>
+
+                        <input type="radio" id="penremark" name="pencil" value="remark">
+                        <label for="penremark"> Remark</label>
+                        <br/>
+                        <label for="sizeremark">Size</label>
+                        <input id="sizeremark" type="number" min="8" max="24" step="1" value="14"/>
+                    </fieldset>
+                    <hr/>
+                    <ul class="controlmode" id="controlmode">
+                        <li>
+                            <input type="radio" id="btnedit" name="modecontrol" value="btnedit" checked="checked"/>
+                            <label for="btnedit">Edit</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="btnmove" name="modecontrol" value="btnmove" />
+                            <label for="btnmove">Move</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="btncorrect" name="modecontrol" value="btncorrect" />
+                            <label for="btncorrect">Correct</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="btnwrong" name="modecontrol" value="btnwrong" />
+                            <label for="btnwrong">Wrong</label>
+                        </li>
+                        <li>
+                            <input type="radio" id="btndelete" name="modecontrol" value="btndelete" />
+                            <label for="btndelete">Delete</label>
+                        </li>
+                    </ul>
+            </div>
+            <footer>
+                <hr/>
+                <button type="button" id="btnshow">Show</button> Results<br/>
+                <div id="pnlshow">
+                </div>
+                <hr/>
+                <button type="button" id="btnjson">Show</button> JSON<br/>
+                <div>
+                <pre id="pnljson"/>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,837 @@
+===vA==================================
+jmdn./etw. [wecken]
+
+despertar
+===vA==================================
+[einschalten], anmachen
+
+encender
+===vA==================================
+sich [hinsetzen]
+
+sentarse
+===vA==================================
+[teilen]
+
+[dividir]
+===sA==================================
+[Zwillinge]
+
+[gemalas]
+===bA==================================
+[herum], ringsherum
+
+[alrededor]
+===sA==================================
+Karton-[Schachteln]
+
+[cajas] de carton
+===sA==================================
+[Ausweis]
+
+[carné]
+===vA==================================
+[ungültig werden], ablaufen
+
+[caducar]
+===vA==================================
+jmnd./etw. [begleiten]
+
+[acompañar]
+===vA==================================
+[erneuern]
+
+[renovar]
+===kA==================================
+inmitten der Unordnung
+
+medio de tanto desorden
+===sA==================================
+[Ordner], Sammelhefter
+
+[carpeta]
+===bA==================================
+[unterhalb], darunter
+
+[debajo]
+===vA==================================
+[lächeln]
+
+[sonreír]
+===vaA==================================
+[erleichtert]
+lindern, entlasten
+
+[aliviado/-a]
+aliviar
+===aA==================================
+[schlank], dünn
+
+[delgado/-a]
+===sA==================================
+das [Haar]
+
+el [pelo]
+===aAK=================================
+[eben], glatt
+
+[liso/-a]
+===aA==================================
+[braun], brünett
+
+[moreno/-a]
+===vA==================================
+[aufbewahren],  verstauen, speichern
+
+[guardar]
+===sAK==================================
+[Rucksack], Ranzen
+
+[mochila]
+===aA==================================
+[größer], älter
+
+[mayor]
+===bA==================================
+[sofort], schon, bereits
+
+[ya]
+===vA==================================
+[helfen]
+
+[ayudar]
+===vA==================================
+[aufsammeln], aufheben
+
+[recoger]
+===sA==================================
+Buch-[Band]
+
+tomos
+===vA==================================
+[klingeln], ertönen
+
+[sonar]
+===sA==================================
+Tür-[Klingel]
+
+timbre
+===aA==================================
+[kraus]
+
+[rizado]
+===vA==================================
+[verwechseln], irritieren
+
+[confundir]
+===vA==================================
+[konkurrieren]
+
+[competir]
+===sA==================================
+[Turnier]
+
+[torneo]
+===vA==================================
+[hochgehen], ansteigen
+
+[subir]
+===vA==================================
+[ausrufen]
+
+[exclamar]
+===sA==================================
+[Comic]
+
+[tebeos]
+===vA==================================
+[nutzen]
+
+[approvechar]
+===vA==================================
+[weggehen], davonmachen
+
+[marcharse]
+===kA==================================
+Mit wem spreche ich?
+
+¿De parte de quién?
+===vA==================================
+[bedecken]
+
+[tapar]
+===sA==================================
+[Telefonhörer]
+
+[auricular]
+===vA==================================
+[betreuen]
+
+[atender]
+===vA==================================
+[beipflichten]
+
+[asentier]
+===svA==================================
+[Glückwunsch], beglückwünschen
+
+[enhorabuena]
+===svA==================================
+etw. [ankündigen], die Annonce
+
+[anunciar], el anuncio
+===vA==================================
+[schreien]
+
+[gritar]
+===vA==================================
+[beantworten]
+
+[responder], contestar
+===vA==================================
+[vorschlagen]
+
+[proponer]
+===sA==================================
+[Sitzreihe]
+
+[fila]
+===bA==================================
+[mittlerweile], unterdessen
+
+[mientras]
+===vA==================================
+[beißen]
+
+[moderse]
+o > ue
+===sA==================================
+[Beinchen]
+
+[pata]
+===vA==================================
+scheinen, [ähneln]
+
+[paracerse]
+===aA==================================
+[eingebildet], geckenhaft
+
+[presumido/-a]
+===vA==================================
+[selbstgerecht]
+
+[vanidoso/-a]
+===sA==================================
+die [Einarbeitung], Schulung
+
+el [entrenamiento]
+===sA==================================
+[Schulfach]
+
+[asignatura]
+===skA==================================
+der [Schreck]
+erschrockenes Gesicht
+
+el [susto]
+cara de susto
+===sA==================================
+[Pause]
+
+[recreo]
+===vA==================================
+[zurückkehren]
+
+[regresar]
+===aAK=================================
+kurz, [knapp], beschränkt
+
+[corto/-a]
+===sA==================================
+[Herbst]
+
+[otoño]
+===sA==================================
+[Blatt]
+
+[hoja]
+===sA==================================
+Fahrrad
+
+bici
+===vsA==================================
+[Versper], Zwischenmahlzeit
+verspern
+
+[merienda]
+merendar
+===sA==================================
+die Art, [Spezies]
+
+la [especie]
+===sA==================================
+[Hetze], Agitation
+
+la [agitación]
+===vA==================================
+[suggerieren], vorschlagen, nahelegen
+
+[sugerir]
+===sA==================================
+Fahrigkeit, [Unruhe]
+
+[nerviosismo]
+===sA==================================
+Wetterfahne, Wetterhahn
+
+la veleta
+===vA==================================
+annehmen, [abmachen]
+
+quitar
+===sA==================================
+[Stelle], Lage, Arbeitsplatz
+
+el [puesto]
+==asA==================================
+der Angeber
+lässig, [angeberisch]
+
+el chulo
+[chulo/-a]
+===vA==================================
+[verbrennen], brennen
+
+quemar
+===vA==================================
+beschleunigen, [eilen]
+
+apresurar
+===aA==================================
+wütend, [verärgert]
+
+[enfadado/-a]
+===sA==================================
+[Gebirge], Säge
+
+sierra
+===vA==================================
+vermeiden, [umgehen]
+
+evitar
+===sA==================================
+[Stau], Verstopfung
+
+el [atasco]
+===abA==================================
+plötzlich
+
+de [repente]
+===svA==================================
+[Stöhnen], Ächzen
+seufzen, stöhnen
+
+el [gemido]
+gemir
+===sA==================================
+Ohr, [Gehör]
+
+el [oído]
+===sA==================================
+der [Finger]
+
+el [dedo]
+===sA==================================
+Zeiger, Inhaltsverzeichnis
+
+el índice
+===sA==================================
+der [Mund]
+
+la [boca]
+===vA==================================
+einweisen, [eindringen]
+
+[internar]
+===sA==================================
+das Miauen
+
+el maullido
+==sA==================================
+das Gegenteil
+
+el contra
+===sA==================================
+der [Baumstamm]
+
+el [tronco]
+===sA==================================
+Kater, [Katze]
+
+el [gato]
+===A==================================
+???
+
+cogiéndolo
+==svA==================================
+Ruhe, Stillstand
+jmnd. [beruhigen]
+
+la calma
+[calmar]
+===aA==================================
+besorgt, [sorgenvoll]
+
+[preocupado/-a]
+==aA==================================
+der [Himmel]
+
+el [cielo]
+==sA==================================
+Gedeck, [Besteck]
+
+el [cubierto]
+===sAK==================================
+die [Wolke]
+
+la [nube]
+===vA==================================
+scheinen, [ähneln], wirken wie
+
+[parecer]
+===bA==================================
+noch
+Komischerweise ist er noch nicht angekommen.
+
+aún
+Qué raro que aún no haya llegado.
+===vA==================================
+blasen, [pusten]
+
+[soplar]
+===vA==================================
+bersten, [explodieren]
+
+[estalla]
+==sAK==================================
+das [Gewitter]
+
+el [tormenta]
+==sA==================================
+der [Donner]
+
+el [trueno]
+===sA==================================
+der [Blitz]
+
+el [relámpago]
+===vA==================================
+bekehren, konvertieren
+
+convertir
+==sA==================================
+der [Hagel], Graupel
+
+el [granizo]
+==vA==================================
+belegen, [bedecken]
+
+[cubrir]
+===sA==================================
+das [Jacket]
+
+la [chaqueta]
+==sA==================================
+das Stück, der [Abschnitt]
+
+el [trozo]
+===sA==================================
+das [Eis]
+
+el [hielo]
+===vA==================================
+[hüpfen], springen
+
+[saltar]
+===sA==================================
+der [Knall]
+
+el [estruendo]
+===sA==================================
+der Stand, das Tierhaus
+
+la caseta
+===sA==================================
+das [Holz]
+
+la madera
+==vA[==================================]
+aufsaugen, tränken
+
+empaparar
+==aA==================================
+[tot]
+
+[muerto]
+=vA==================================
+erklingen, [ertönen]
+o > ue
+
+[resonar]
+==sA==================================
+das [Steinchen]
+
+la [piedrecita]
+=kA==================================
+Schlag sie!
+
+Pégale
+==sA==================================
+der [Körper]
+
+el [cuerpo]
+==sA==================================
+der [Hieb], Schlag
+
+el [golpe]
+=sA==================================
+das [Knirschen], Knacken
+
+el [crujído]
+==vA==================================
+stützen, [behaupten]
+
+[sostenter]
+(yo) sostengo
+(tú) sostienes
+(él/​ella/​usted) sostiene
+(nosotros) sostenemos
+(vosotros) sostenéis
+(ellos/​ellas/​ustedes) sostienen
+=sA==================================
+das Anhängeschloss, [Vorhängeschloss]
+
+el [candado]
+==vA==================================
+lachen, [kicheren]
+
+[reir]
+ (yo) río
+(tú) ríes
+(él/​ella/​usted) ríe
+(nosotros) reímos
+(vosotros) reís
+(ellos/​ellas/​ustedes) ríen
+==sA==================================
+das [Werkzeug]
+
+las [herramíentas]
+=sA==================================
+der [Schal]
+
+la [bufanda]
+=sA==================================
+die [Schaufel]
+
+la [pala]
+=vA==================================
+[schmelzen], tauen
+
+[derretir]
+=sA==================================
+[dankbar]
+
+[agradecido]
+=vA==================================
+[kitzeln]
+
+[cosquillar]
+=saA==================================
+abwechselnd
+die Schicht, [Turnus]
+
+por turnos
+el [turno]
+=vA==================================
+hineinschieben, [hineinstecken]
+
+[meter]
+=sA==================================
+[Hosentasche], Jackentasche
+
+el [bolsillo]
+=vA==================================
+[scherzen], spaßen
+
+[bromear]
+=vA==================================
+[töten], umbringen
+
+[matar]
+=vA==================================
+[aufseufzen], sich nach jmdm./etw. sehnen
+
+[suspirar]
+=vA==================================
+lehren, [beibringen]
+
+[enseñar]
+=aA==================================
+[trocken]
+
+[seco/-a]
+=vA==================================
+[unterbrechen], dazwischenreden
+
+[interrumpir]
+=sA==================================
+Abenteuer
+
+aventura
+=aA==================================
+[bewegungsunfähig], gelähmt
+
+[paralizado/-a]
+=sA==================================
+Spieß, [Lanze]
+
+la [lanza]
+=sA==================================
+Hass, [Feindschaft]
+
+el [odio]
+=sA==================================
+[Abstellkammer]
+
+[trastero]
+=vA==================================
+belegen, beanspruchen
+
+ocupar
+=vA==================================
+vergrößern, [erweitern]
+
+[ampliar]
+=vA==================================
+wiedererlangen, [nachholen]
+
+[recuperar]
+=sA==================================
+[Impfung]
+
+la [vacuna]
+=vA==================================
+[bestrafen], ahnden
+
+[castigar]
+=sAK==================================
+[Mantel]
+
+el [abrigo]
+=sA==================================
+Backe, [Wange]
+
+la [mejilla]
+=vA==================================
+[erklären], schildern
+
+[explica]
+=aA==================================
+[blond], hellhaarig
+
+[rubio/-a]
+=sA==================================
+der [Zopf]
+
+la [trenza]
+=vA==================================
+einbauen, [installieren]
+
+[instalar]
+=sA==================================
+der Wurf (von Jungtieren)
+
+la camada
+=vA==================================
+[überraschen]
+
+[sorprender]
+=vA==================================
+[verkaufen]
+
+[vender]
+=sA==================================
+Sache, Objekt
+
+el objeto
+=aA==================================
+weihnachtlich
+
+navideño
+=vA==================================
+schmücken, [verzieren]
+
+[decorar]
+=vA==================================
+[singen]
+
+[cantar]
+=aA==================================
+toll, [vorzüglich]
+
+[chévere]
+=sA==================================
+[Freudlosigkeit], Trauer
+
+la [tristeza]
+=aA==================================
+[verzweifelt], hoffnungslos
+
+[desesperado/-a]
+=aA==================================
+vermisst, [verschollen]
+
+[desaparecido]
+=aA==================================
+[unabhängig]
+
+[independiente]
+=sA==================================
+Kranzgesims
+
+cornisas
+=sA==================================
+der [Schwindel]
+
+el [vértigo]
+=sA==================================
+die [Mütze]
+
+[gorros]
+=vA==================================
+verzagen, [entmutigen]
+
+[desanimar]
+=vA==================================
+aufnehmen, [ermutigen]
+
+[atrever]
+=sA==================================
+der Gefallene
+
+caído
+=sA==================================
+der [Verletzte]
+
+[herido]
+=svA==================================
+Königin
+[herrschen], regieren
+
+reina
+[reinar]
+=vA==================================
+eintragen, [aufschreiben]
+
+[apuntar]
+=aA==================================
+aus den Augenwinkeln, [verstohlen]
+
+de [reojo]
+=sA==================================
+Nachrichten, [Tagesschau]
+
+[telediario]
+=vsAK==================================
+[schneien]
+der Schnee
+
+[nevar]
+la nieve
+=asA==================================
+der [Schützling]
+geschützt, stoßsicher
+
+[protegido]
+=vA==================================
+[übereilen], überstürzen
+
+[precipitar]
+=aA==================================
+außerdem, sonst
+
+demás
+=vA==================================
+[hervorragen], markieren
+
+[señalando]
+=sA==================================
+[Laterne]
+
+[linterna]
+=vA==================================
+[aufstapeln], schichten
+
+[apilado]
+=vA==================================
+[bewegen], verrücken
+
+[mover]
+yo muevo
+tú mueves
+mueve
+movemos
+movéis
+mueven
+=aA==================================
+[hier]
+
+[acá]
+=vA==================================
+[zittern], beben
+
+[temblar]
+=sA==================================
+Freude, [Fröhlichkeit]
+
+la [alegría]
+=vA==================================
+[verbreiten], ausdehnen
+
+[extender]
+=vA==================================
+[entgleiten], entrinnen
+
+[escapar]
+=sA==================================
+[Heldin]
+
+[heroína]
+=vA==================================
+[zuzwinkern]
+
+[guiñár]
+=aA==================================
+kapriziös, [launenhaft]
+
+[caprichoso]
+=vA==================================
+jmdm. etw. [versprechen]
+
+[prometer]
+=sA==================================
+die Zeile, [Reihe]
+
+el [renglón]
+=vA==================================
+[ausschalten], ausmachen
+
+[apagar]
+=vA==================================
+[hinfallen]
+
+[caer]
+=sA==================================
+die [Flocke]
+
+el [copo]

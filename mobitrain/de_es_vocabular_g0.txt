@@ -1,0 +1,803 @@
+===gG==================================
+Welche Zeit wird für Handlungen und Zustände in der Gegenwart verwendet?
+
+Der Präsens
+===gG==================================
+Welche Zeit wird für Gewohnheiten und zukünftige Vorgänge verwendet?
+
+Der Präsens
+===gG==================================
+In welcher Zeitform können historische Begebenheiten wiedergegeben werden?
+
+Im Präsens 
+===gG==================================
+In welcher Zeitform werden starke Befehle formuliert?
+
+Im Präsens
+===gG==================================
+Wie wird die Verlaufsform im Spanischen gebildet?
+
+Mit den Präsensformen des Verbs **estar** und dem Gerundio.
+===gG==================================
+Wie wird das Gerundio in der regelmäßigen Form für Verben
+die auf **-ar** enden gebildet?
+Wie lautet das Gerundio für hablar?
+
+**-ando**<br/>
+hablando
+===gG==================================
+Wie wird das Gerundio in der regelmäßigen Form für Verben
+die auf **-er** enden gebildet?
+Wie lautet das Gerundio für comer?
+
+**-iendo**<br/>
+comiendo
+===gG==================================
+Wie wird das Gerundio in der regelmäßigen Form für Verben
+die auf **-ir** enden gebildet?
+Wie lautet das Gerundio für escribir?
+
+**-iendo**<br/>
+escribiendo
+===gG==================================
+Übersetze:
+- Maria spricht gerade.
+- Pedro und Carmen sprechen gerade.
+- Wie ärgerlich! Es regnet gerade!
+- Er wechselt gerade die Kleidung .
+
+- Maria **está hablando**.
+- Pedro y Carmen **estan hablando**.
+- ¡Qué rabia! ¡**Está lloviendo**!
+- Se **esta cambiando** la ropa.
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+mentir
+
+mintiendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+decir
+
+diciendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+morir
+
+muriendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+poder
+
+pudiendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+leer
+
+leyendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+ir
+
+yendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+caer
+
+cayendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+construir
+
+construyendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+oir
+
+oyendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+estar
+
+estando
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+ser
+
+siendo
+===gG==================================
+Wie lautet das Gerundio für folgendes Verb:
+tener
+
+teniendo
+===gG==================================
+Was wird mit der Verlaufsform ausgedrückt?
+
+Drückt Handlungen aus, die im Augenblick des Sprechens ablaufen.
+===gG==================================
+Welche Temporaladverbien sind typisch für die Verlaufsform?
+
+Yum Beispiel **ahora** oder **en este momento**.
+===gG==================================
+Wie konjugiert man im Präsens regelmäßige Verben die auf "-ar" enden?
+
+habl**ar**
+yo habl**o**
+tú habl**as**
+él/ella/usted habl**a**
+nosotros/-as habl**amos**
+vosotros/-as habl**ais**
+ellos/ellas/Ustedes habl**an**
+===gG==================================
+Wie konjugiert man im Präsens regelmäßige Verben die auf "-er" enden?
+
+com**er**
+yo com**o**
+tú com**es**
+él/ella/ustedcom**e**
+nosotros/-as com**emos**
+vosotros/-as com**eis**
+ellos/ellas/Ustedes com**en**
+===gG==================================
+Wie konjugiert man im Präsens regelmäßige Verben die auf "-ir" enden?
+
+viv**ir**
+yo viv**o**
+tú viv**es**
+él/ella/usted viv**e**
+nosotros/-as viv**imos**
+vosotros/-as viv**is**
+ellos/ellas/Ustedes  viv**en**
+===gG==================================
+Was bezeichnet das Pretérito indefindo?
+
+Bezeichnet eine begrenzte und abgeschlossene Handlung
+in der Vergangenheit.
+===gG==================================
+Nenne einige adverbialen Bestimmungen für das Pretérito indefindo.
+(9)
+
+- **anoche** -- //gestern Abend//, //gestern Nacht//
+- **aquel día** -- //an jenem Tag//
+- **ayer** -- //gestern//
+- **en** 1992 -- 1992
+- **hace ... años** -- //vor ... Jahren//
+- **entonces** -- //dann//, //danach//
+- **la semana pasada** -- //letzte Woche//
+- **el año pasado** -- //letztes Jahr//
+- **un día** -- //eines Tages//
+===gG==================================
+Welche Zeitform wird verwendet für Erzählungen mit einzelnen, abgeschlossenen Ereignissen,
+die aufeinander folgen ("zuerst geschah das, dann das ...")?
+
+Das Pretérito indefindo.
+Die Dauer spielt dabei keine Rolle, wichtig ist nur, dass Beginn und Ende der Handlung erfasst werden.
+===gG==================================
+Welche Zeitform wird verwendet für Erzählungen mit Ereignissen, die zu einem bestimmten
+Zeitpunkt stattgefunden haben ("um 1 Uhr, letzte Woche, am Dienstag,
+gestern, ...")?
+
+Das Pretérito indefindo.
+===gG==================================
+Welche Zeitform wird verwendet um etwas auszudrücken, was in einer begrenzten Zeitspanne
+war, geschah oder vor sich ging ("innerhalb von 5 Jahren, 3 Jahrhunderten, ...")?
+
+Das Pretérito indefindo.
+===gG==================================
+Welche Zeitform wird verwendet für eine plötzlich neu eintretende Handlung?
+
+Das Pretérito indefindo.
+===gG==================================
+Welche Zeitform wird verwendet für eine Wiederholung, die abgeschlossen ist?
+
+Das Pretérito indefindo.
+===gG==================================
+Wie konjugiert man im Pretérito indefindo regelmäßige Verben die auf "-ar" enden?
+(trabajar)
+
+trabaj**ar**
+yo trabajé
+tú trabajaste
+él/ella/usted trabojó
+nosotros/-as trabajamos
+vosotros/-as trabajasteis
+ellos/ellas/Ustedes trabajoron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo regelmäßige Verben die auf "-er" enden?
+(comer)
+
+com**er**
+yo comi
+tú comiste
+él/ella/usted comió
+nosotros/-as comimos
+vosotros/-as comisteis
+ellos/ellas/Ustedes comieron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo regelmäßige Verben die auf "-ir" enden?
+(vivir)
+
+viv**ir**
+yo vivi
+tú viviste
+él/ella/usted vivió
+nosotros/-as vivimos
+vosotros/-as vivsteis
+ellos/ellas/Ustedes vivieron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo das unregelmäßige Verb ir bzw. ser?
+
+**ir**, **ser**
+yo fui
+tú fuiste
+él/ella/usted fue
+nosotros/-as fuimos
+vosotros/-as fuisteis
+ellos/ellas/Ustedes fueron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo das unregelmäßige Verb hacer?
+
+**hacer**
+yo hice
+tú hiciste
+él/ella/usted hizo
+nosotros/-as hicimos
+vosotros/-as hicisteis
+ellos/ellas/Ustedes hicieron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo das unregelmäßige Verb tener?
+
+**tener**
+yo tuve
+tú tuviste
+él/ella/usted tuvo
+nosotros/-as tuvimos
+vosotros/-as tuvisteis
+ellos/ellas/Ustedes tuvieron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo das unregelmäßige Verb estar?
+
+**estar**
+yo estuvé
+tú estuviste
+él/ella/usted estuvo
+nosotros/-as estuvimos
+vosotros/-as estuvisteis
+ellos/ellas/Ustedes estuvieron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo das unregelmäßige Verb morir?
+
+**morir**
+yo mori
+tú moriste
+él/ella/usted murió
+nosotros/-as morimos
+vosotros/-as moristeis
+ellos/ellas/Ustedes muerieron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo das unregelmäßige Verb poder?
+
+**poder**
+yo pude
+tú pudiste
+él/ella/usted pudo
+nosotros/-as pudimos
+vosotros/-as pudisteis
+ellos/ellas/Ustedes pudieron
+===gG==================================
+Wie konjugiert man im Pretérito indefindo das unregelmäßige Verb dar?
+
+**dar**
+yo di
+tú diste
+él/ella/usted dio
+nosotros/-as dimos
+vosotros/-as disiteis
+ellos/ellas/Ustedes dieron
+===gG==================================
+Welche Zeitform wird verwendet für abgeschlossene Handlungen, die noch einen Bezug zur Gegenwart haben?
+
+Das Pretérito perfecto.
+===gG==================================
+Welche Zeitform wird verwendet für abgeschlossene Handlung in einem Zeitraum, der  
+noch zur Gegenwart zählt (esto/esta …, hoy, ya oder todavia)?
+
+Das Pretérito perfecto.
+===gG==================================
+Welche Zeitform wird verwendet für eine abgeschlossene Handlung, die Einfluss auf die Gegenwart oder Zukunft hat?
+
+Das Pretérito perfecto.
+===gG==================================
+Nenne einige adverbialen Bestimmungen für das Pretérito perfecto.
+(14)
+
+- **esta mañana** -- //heute morgen//
+- **esta tarde** -- //heute Nachmittag//
+- **esta semana**-- //diese Woche//
+- **este mes** -- //diesen Monat//
+- **este año** -- //dieses Jahr//
+- **estos días**  -- //in diesen Tagen//
+- **desde entonces** -- //seitdem//
+- **hoy** -- //heute//
+- **alguna vez** -- //schon einmal//
+- **hasta ahora** -- //bis jetzt//
+- **nunca** -- //noch nie//
+- **siempre** -- //schon immer//
+- **todavía no** / **aún no** -- //noch nicht//
+- **ya** -- //schon//
+===gG==================================
+Wie wird das Pretérito perfecto gebildet?
+
+Mit der Präsensform des Hilfsverbs **haber** und dem unveränderlichen'Partizip Perfekt.
+===gG==================================
+Wie wird das Pretérito perfecto von Verben die auf **-ar** enden gebildet?
+(nadar)
+
+**-ado**
+nadado
+===gG==================================
+Wie wird das Partizip Perfekt von Verben die auf **-er** enden gebildet?
+(comer)
+
+**-ido**
+comido
+===gG==================================
+Wie wird das Partizip Perfekt von Verben die auf **-ir** enden gebildet?
+(vivir)
+
+**-ido**
+vivido
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **abrir** gebildet?
+
+abierto
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **descubrir** gebildet?
+
+descubierto
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **volver** gebildet?
+
+vuelto
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **decir** gebildet?
+
+dicho
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **hacer** gebildet?
+
+hecho
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **escribir** gebildet?
+
+escrito
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **morir** gebildet?
+
+muerto
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **ver** gebildet?
+
+visto
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **poner** gebildet?
+
+puesto
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **ir** gebildet?
+
+ido
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **estar** gebildet?
+
+estado
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **ser** gebildet?
+
+sido
+
+===gG==================================
+Wie wird das Partizip Perfekt des Verbs **tener** gebildet?
+
+tenido
+===gG==================================
+Sprich folgendes: guitarra, guerilla, colega, amigo, agua, Granada
+Wie lautet die Regel?
+
+G wird [g] gesprochen in gui, gue, ga, go, gu und vor Konsonant.
+===gG==================================
+Sprich folgendes: Argentina, Gibraltar, Gemelos
+Wie lautet die Regel?
+
+G wird [&chi;] gesprochen in gi, ge 
+&chi; wird ähnlich wie ein deutsches "`ch"' (wie "`ch"' in "`Dach"') ausgesprochen.
+===gG==================================
+Sprich folgendes: José, 
+Wie lautet die Regel?
+
+J wird [&chi;] gesprochen. 
+&chi; wird ähnlich wie ein deutsches "`ch"' (wie "`ch"' in "`Dach"') ausgesprochen.
+===gG==================================
+Sprich folgendes: música, ¿como?, Cuba, cruz
+Wie lautet die Regel?
+
+C wird [k] gesprochen in ca, co, cu und vor Konsonant.
+===gG==================================
+Sprich folgendes: Zaragoza, centro, ciudad
+Wie lautet die Regel?
+
+C wird [&Theta;] gesprochen in ce, ci. \\
+Z wird [&Theta;] gesprochen. \\
+&Theta; ist stimmloser Lispellaut, ähnlich wie ein stimmloses "`th"'' im Englischen.
+===gG==================================
+Sprich folgendes: y, soy, hoy
+Wie lautet die Regel?
+
+Y wird [i] gesprochen im Auslaut.
+===gG==================================
+Sprich folgendes: yo, playa, yendo
+Wie lautet die Regel?
+
+Y wird [j] gesprochen am Wortanfang und vor Vokalen.
+===gG==================================
+In welcher Zeit wird ein Zustand, ein Vorgang oder eine Handlung in der Vergangenheit ausgedrückt, ohne Ende
+und Beginn zu kennzeichnen?
+- Präsens
+- Pretérito indefindo
+- Pretérito imperfecto
+- Pretérito perfecto
+
+Im Pretérito imperfecto
+===gG==================================
+Welche Zeitform wird gebraucht um zu erzählen, was vor sich ging, als etwas anderes eintrat?
+- Präsens
+- Pretérito imperfecto
+- Pretérito indefindo
+- Pretérito perfecto
+
+Das Pretérito imperfecto
+===gG==================================
+Welche Zeitform wird gebraucht um zu beschreiben, wie jemand oder etwas war oder aussah?
+- Präsens
+- Pretérito indefindo
+- Pretérito perfecto
+- Pretérito imperfecto
+
+Das Pretérito imperfecto
+===gG==================================
+Welche Zeitform wird gebraucht für wiederholte und zeitlich nicht deutlich begrenzte Handlungen oder Gewohnheiten?
+- Pretérito imperfecto
+- Präsens
+- Pretérito indefindo
+- Pretérito perfecto
+
+Das Pretérito imperfecto
+===gG==================================
+Welche Zeitform wird gebraucht für parallel laufende und nicht abgeschlossene Handlungen?
+- Präsens
+- Pretérito indefindo
+- Pretérito imperfecto
+- Pretérito perfecto
+
+Das Pretérito imperfecto
+===gG==================================
+Welche Zeitform wird gebraucht um (Uhr-)Zeitangaben in der Vergangenheit zu machen?
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Pretérito perfecto
+
+Das Pretérito imperfecto
+===gG==================================
+Welche Zeitform wird gebraucht um sich höflich zu äußern?
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Pretérito perfecto
+
+Das Pretérito imperfecto
+===gG==================================
+Wie wird das Pretérito imperfecto gebildet von Verben die auf **-ar** enden?
+(estar)
+
+estar         
+est**aba**    
+est**abas**   
+est**aba**    
+est**abamos** 
+est**abais**  
+est**aban**   
+===gG==================================
+Wie wird das Pretérito imperfecto gebildet von Verben die auf **-er** enden?
+(tener)
+
+tener        
+ten**ía**    
+ten**ías**   
+ten**ía**    
+ten**íamas** 
+ten**íais**  
+ten**ían**   
+===gG==================================
+Wie wird das Pretérito imperfecto gebildet von Verben die auf **-ir** enden?
+(vivir)
+
+vivir       
+viv**ía**   
+viv**ías**  
+viv**ía**   
+viv**íamos**
+viv**íais** 
+viv**ían**  
+===gG==================================
+Wo liegt beim regelmäßigen Pretérito imperfecto die Betonung?
+
+Auf der Endung
+===gG==================================
+Wie wird das Pretérito imperfecto des Verbs **ser** gebildet?
+
+ser   
+era   
+eras  
+era   
+éramos
+eraos 
+eran  
+===gG==================================
+Wie wird das Pretérito imperfecto des Verbs **ir** gebildet?
+
+ir    
+iba   
+ibas  
+iba   
+ibamos
+ibais 
+iban  
+===gG==================================
+Wie wird das Pretérito imperfecto des Verbs **ver** gebildet?
+
+ver    
+veía   
+veías  
+veía   
+veíamos
+veíais 
+veían  
+===gG==================================
+Welche Zeitform wird verwendet, um Vorgänge und Handlungen auszudrücken, die in der Zukunft liegen?
+<br>
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Futuro simple 
+- Pretérito perfecto
+- Condicional
+
+Futuro simple
+===gG==================================
+Welche Zeitform wird verwendet, um schriftliche formelle Ankündigungen oder Einladungen auszudrücken?
+<br>
+- Pretérito imperfecto
+- Futuro simple 
+- Pretérito indefindo
+- Präsens
+- Pretérito perfecto
+- Condicional
+
+Futuro simple
+===gG==================================
+Mit welcher Zeitform kann man Zweifel, Unsicherheit und Vermutungen in Bezug auf die Zukunft wiedergeben?
+<br>
+- Pretérito imperfecto
+- Futuro simple 
+- Pretérito indefindo
+- Präsens
+- Pretérito perfecto
+- Condicional
+
+Futuro simple
+===gG==================================
+Mit welcher Zeitform können Gebote, Forderungen oder Verbote zum Ausdruck gebracht werden?
+<br>
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Futuro simple 
+- Pretérito perfecto
+- Condicional
+
+Futuro simple
+===gG==================================
+Wie wird das Futuro simple in der regelmäßigen Form gebildet?
+(aprender)
+
+- (yo) Infinitiv + **-é**                    
+- (tú) Infinitiv + **-ás**                   
+- (él/ella/usted) Infinitiv + **-á**         
+- (nosotros/-as) Infinitiv + **-emos**       
+- (vosotros/-as) Infinitiv + **-éis**        
+- (ellos/ellas/Ustedes ) Infinitiv + **-án** 
+<br>
+aprenderé, aprenderás, aprenderá, aprenderemos, aprenderéis, aprenderán
+===gG==================================
+Wie wird das Futuro simple des Verbs **caber** gebildet?
+    
+**cab**ré    
+**cab**rás   
+**cab**rá    
+**cab**remos 
+**cab**rèis  
+**cab**rán   
+===gG==================================
+Wie wird das Futuro simple des Verbs **decir** gebildet?
+   
+**dir**é    
+**dir**ás   
+**dir**á    
+**dir**emos 
+**dir**èis  
+**dir**án   
+===gG==================================
+Wie wird das Futuro simple des Verbs **hacer** gebildet?
+   
+**har**é    
+**har**ás   
+**har**á    
+**har**emos 
+**har**éis  
+**har**án   
+===gG==================================
+Wie wird das Futuro simple des Verbs **poder** gebildet?
+   
+**podr**é   
+**podr**ás  
+**podr**á   
+**podr**emos
+**podr**éis 
+**podr**án  
+===gG==================================
+Wie wird das Futuro simple des Verbs **querer** gebildet?
+    
+**querr**é    
+**querr**ás   
+**querr**á    
+**querr**emos 
+**querr**éis  
+**querr**án   
+===gG==================================
+Wie wird das Futuro simple des Verbs **saber** gebildet?
+   
+**sabr**é   
+**sabr**ás  
+**sabr**á   
+**sabr**emos
+**sabr**éis 
+**sabr**án  
+===gG==================================
+Wie wird das Futuro simple des Verbs **poner** gebildet?
+     
+**pondr**é    
+**pondr**ás   
+**pondr**á    
+**pondr**emos 
+**pondr**éis  
+**pondr**án   
+===gG==================================
+Wie wird das Futuro simple des Verbs **tener** gebildet?
+     
+**tendr**é    
+**tendr**ás   
+**tendr**á    
+**tendr**emos 
+**tendr**éis  
+**tendr**án   
+===gG==================================
+Wie wird das Futuro simple des Verbs **salir** gebildet?
+     
+**saldr**é    
+**saldr**ás   
+**saldr**á    
+**saldr**emos 
+**saldr**éis  
+**saldr**án   
+===gG==================================
+Wie wird das Futuro simple des Verbs **valer** gebildet?
+
+**valdr**é    
+**valdr**ás   
+**valdr**á    
+**valdr**emos 
+**valdr**éis  
+**valdr**án   
+===gG==================================
+Wie wird das Futuro simple des Verbs **venir** gebildet?
+    
+**vendr**é   
+**vendr**ás  
+**vendr**á   
+**vendr**emos
+**vendr**éis 
+**vendr**án  
+===gG==================================
+Mit welcher Zeitform kann einen höflichen Wunsch ausgedrückt werden?
+<br>
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Condicional
+- Futuro simple 
+- Pretérito perfecto
+
+- Condicional
+===gG==================================
+Mit welcher Zeitform kann um einen Gefallen gebeten werden?
+<br>
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Condicional
+- Futuro simple 
+- Pretérito perfecto
+
+- Condicional
+===gG==================================
+Mit welcher Zeitform können Ratschläge erteilt  werden?
+<br>
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Condicional
+- Futuro simple 
+- Pretérito perfecto
+
+- Condicional
+===gG==================================
+Mit welcher Zeitform kann die persönliche Meinung etwas abgeschwächt wiedergegeben werden?
+<br>
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Condicional
+- Futuro simple 
+- Pretérito perfecto
+
+- Condicional
+===gG==================================
+Mit welcher Zeitform können irreale Sachverhalte ausgedrückt werden?
+<br>
+- Pretérito imperfecto
+- Pretérito indefindo
+- Präsens
+- Condicional
+- Futuro simple 
+- Pretérito perfecto
+
+- Condicional
+===gG==================================
+Wie wird die regelmäßige Form des Condicional gebildet?
+(eligir)
+
+(yo) Infinitiv + **ía**                    
+(tú) Infinitiv + **ías**                   
+(él/ella/usted) Infinitiv + **ía**         
+(nosotros/-as) Infinitiv + **íamos**       
+(vosotros/-as) Infinitiv + **íais**        
+(ellos/ellas/Ustedes ) Infinitiv + **ían** 
+<br>
+eligiría, eligirías, eligiría, eligiríamos, eligiríais, eligirían
+===gG==================================
+Wie wird der Condicional der folgened Verben gebildet?
+<br>
+**caber**, **decir**, **hacer**, **poder**, **querer**, **saber**
+
+**cabr**ía, **dir**ías, **har**ía, **podr**íamos, **querr**íais, **sabr**ían
+...
+===gG==================================
+Wie wird der Condicional der folgened Verben gebildet?
+<br>
+**poner**, **tener**, **salir**, **valer**, **venir**
+
+**pondr**ía, **tendr**ías, **saldr**íamos, **vald**íais, **vend**ían
+...
+
+

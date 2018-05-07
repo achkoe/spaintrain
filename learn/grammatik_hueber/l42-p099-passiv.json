@@ -1,0 +1,280 @@
+{
+    "image": "images/l42-p099-passiv.png", 
+    "solution": {"image": "images/s-p178-loesung.png"},
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "sessionlist": [
+        {
+            "name": "2016-12-17 (2)", 
+            "textlist": [
+                {
+                    "y": 192, 
+                    "x": 354, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "vista"
+                }, 
+                {
+                    "y": 222, 
+                    "x": 353, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pintados"
+                }, 
+                {
+                    "y": 249, 
+                    "x": 446, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "organizada"
+                }, 
+                {
+                    "y": 280, 
+                    "x": 339, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "hechos"
+                }, 
+                {
+                    "y": 312, 
+                    "x": 418, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "compuesta"
+                }, 
+                {
+                    "y": 342, 
+                    "x": 400, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "dise\u00f1andos"
+                }, 
+                {
+                    "y": 374, 
+                    "x": 330, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "envuelta"
+                }, 
+                {
+                    "y": 494, 
+                    "x": 473, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Rosas y claves fueron plantados por mi abuela."
+                }, 
+                {
+                    "y": 522, 
+                    "x": 336, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "La carta ya era hab\u00eda escrita por Teresa."
+                }, 
+                {
+                    "y": 556, 
+                    "x": 787, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La novela ser\u00e1 publicada por a editorial."
+                }, 
+                {
+                    "y": 583, 
+                    "x": 306, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "El regalo  era ha envuelto por Luisa."
+                }, 
+                {
+                    "y": 669, 
+                    "x": 303, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "fue robada"
+                }, 
+                {
+                    "y": 701, 
+                    "x": 223, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fue detenido"
+                }, 
+                {
+                    "y": 730, 
+                    "x": 164, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fue eligido"
+                }, 
+                {
+                    "y": 765, 
+                    "x": 443, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fueron vendidos"
+                }, 
+                {
+                    "y": 793, 
+                    "x": 251, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fue votada"
+                }, 
+                {
+                    "y": 823, 
+                    "x": 288, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fue dise\u00f1ado"
+                }, 
+                {
+                    "y": 855, 
+                    "x": 241, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "fue descubierto"
+                }, 
+                {
+                    "y": 1001, 
+                    "x": 57, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "La case todavi\u00e1 no es vendida."
+                }, 
+                {
+                    "y": 1028, 
+                    "x": 63, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "No se vende la casa."
+                }, 
+                {
+                    "y": 1091, 
+                    "x": 57, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfCuando es entragados los Oscar?"
+                }, 
+                {
+                    "y": 1181, 
+                    "x": 53, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "En el proxima a\u00f1o ser\u00e1 pintados los paredes."
+                }, 
+                {
+                    "y": 1269, 
+                    "x": 57, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "La bombilla fue inventada por Edison."
+                }, 
+                {
+                    "y": 1116, 
+                    "x": 68, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00bfCuando se entrega los Oscar?"
+                }, 
+                {
+                    "y": 1207, 
+                    "x": 64, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "En el proxima a\u00f1o se pintar\u00e1 los pardes."
+                }, 
+                {
+                    "y": 998, 
+                    "x": 371, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La casa todav\u00eda no ha sido vendida."
+                }, 
+                {
+                    "y": 1038, 
+                    "x": 319, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La casa todav\u00e1 no se ha vendido."
+                }, 
+                {
+                    "y": 1091, 
+                    "x": 392, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfCu\u00e1ndo son entragados los Oscar?"
+                }, 
+                {
+                    "y": 1119, 
+                    "x": 395, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00bfCu\u00e1ndo se entregan los Oscar?"
+                }, 
+                {
+                    "y": 1178, 
+                    "x": 476, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "El proxima a\u00f1o ser\u00e1n pintadas las paredes."
+                }, 
+                {
+                    "y": 1213, 
+                    "x": 451, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "El proxima a\u00f1o se pintar\u00e1n las pardes."
+                }, 
+                {
+                    "y": 850, 
+                    "x": 511, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "fue descubierta"
+                }, 
+                {
+                    "y": 675, 
+                    "x": 803, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "fue robado"
+                }, 
+                {
+                    "y": 524, 
+                    "x": 706, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La carta ya  hab\u00eda sido escrita por Teresa."
+                }, 
+                {
+                    "y": 585, 
+                    "x": 671, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "El regalo  ha sido envuelto por Luisa."
+                }, 
+                {
+                    "y": 552, 
+                    "x": 420, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "La novela era publicada por a editorial."
+                }
+            ]
+        }
+    ]
+}

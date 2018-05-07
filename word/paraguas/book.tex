@@ -1,0 +1,31 @@
+\documentclass[a4paper, pagesize, fontsize=12pt, parskip=half, BCOR=5mm]{scrartcl}
+
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage{graphicx}
+\graphicspath{{images/}{tiff/}}
+\usepackage{booktabs}
+\setcounter{secnumdepth}{-1}
+
+\usepackage{paralist} % needed for compact lists
+
+
+\usepackage[normalem]{ulem} % needed by strike
+%\usepackage[urlcolor=blue,colorlinks=false]{hyperref}
+
+
+%%% Custom LaTeX preamble
+\usepackage{xcolor}
+\usepackage{enumitem}
+\setlist{nosep}
+\renewcommand{\baselinestretch}{1}
+\itemsep0pt
+\renewcommand{\labelitemi}{$-$}
+
+
+
+\begin{document}
+\tableofcontents
+\clearpage
+\input{main}
+\end{document}

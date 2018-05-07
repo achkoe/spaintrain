@@ -1,0 +1,623 @@
+{
+    "image": "images/l18-p51-indirecto.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s11-20.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-12 (2)", 
+            "textlist": [
+                {
+                    "y": 86, 
+                    "x": 142, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 124, 
+                    "x": 261, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 123, 
+                    "x": 510, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Me compr\u00e9 ..."
+                }, 
+                {
+                    "y": 163, 
+                    "x": 260, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les"
+                }, 
+                {
+                    "y": 162, 
+                    "x": 587, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El Ni\u00f1ito Jes\u00fas les trajeron ..."
+                }, 
+                {
+                    "y": 199, 
+                    "x": 208, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 196, 
+                    "x": 579, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Si, me tej\u00f3 una bufanda."
+                }, 
+                {
+                    "y": 237, 
+                    "x": 220, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 235, 
+                    "x": 501, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Le regal\u00f3 ..."
+                }, 
+                {
+                    "y": 272, 
+                    "x": 238, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "os"
+                }, 
+                {
+                    "y": 276, 
+                    "x": 520, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Le tejemos ..."
+                }, 
+                {
+                    "y": 121, 
+                    "x": 653, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Le compr\u00e9 ..."
+                }, 
+                {
+                    "y": 195, 
+                    "x": 780, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Si, me teji\u00f3 una bufanda."
+                }, 
+                {
+                    "y": 237, 
+                    "x": 611, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Le regal\u00e9 ..."
+                }, 
+                {
+                    "y": 274, 
+                    "x": 637, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Nos teji\u00f3 ..."
+                }, 
+                {
+                    "y": 412, 
+                    "x": 325, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Le pongo"
+                }, 
+                {
+                    "y": 449, 
+                    "x": 165, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "nos recomenda"
+                }, 
+                {
+                    "y": 488, 
+                    "x": 102, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Me puede"
+                }, 
+                {
+                    "y": 527, 
+                    "x": 167, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les trae"
+                }, 
+                {
+                    "y": 563, 
+                    "x": 358, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me gusta"
+                }, 
+                {
+                    "y": 456, 
+                    "x": 601, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "recomienda"
+                }, 
+                {
+                    "y": 690, 
+                    "x": 381, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A nosotros nos"
+                }, 
+                {
+                    "y": 722, 
+                    "x": 421, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "a m\u00ed me"
+                }, 
+                {
+                    "y": 763, 
+                    "x": 459, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "a vosotros os"
+                }, 
+                {
+                    "y": 837, 
+                    "x": 389, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A m\u00ed me"
+                }, 
+                {
+                    "y": 875, 
+                    "x": 375, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A \u00e9l le"
+                }, 
+                {
+                    "y": 1072, 
+                    "x": 80, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El invierno no me gusta."
+                }, 
+                {
+                    "y": 1073, 
+                    "x": 308, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A m\u00ed, s\u00ed."
+                }, 
+                {
+                    "y": 1072, 
+                    "x": 397, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Yo me gusta esquiar."
+                }, 
+                {
+                    "y": 1154, 
+                    "x": 68, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Te dejo mi coche, s\u00ed me das tu bicicleta por este semana."
+                }, 
+                {
+                    "y": 1227, 
+                    "x": 83, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfOs gusta la m\u00fasica?"
+                }, 
+                {
+                    "y": 1229, 
+                    "x": 295, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Claro, me gusta tocar la guitarra y me encanta la pieza."
+                }, 
+                {
+                    "y": 1300, 
+                    "x": 69, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Mi amigo le gusta pintar."
+                }, 
+                {
+                    "y": 1298, 
+                    "x": 298, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Le regalo acuerelas a su cumplea\u00f1os."
+                }, 
+                {
+                    "y": 1072, 
+                    "x": 599, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Me encanta esqiar."
+                }, 
+                {
+                    "y": 1134, 
+                    "x": 412, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "esta"
+                }, 
+                {
+                    "y": 1212, 
+                    "x": 157, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "esta"
+                }, 
+                {
+                    "y": 1213, 
+                    "x": 341, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "a m\u00ed"
+                }, 
+                {
+                    "y": 1211, 
+                    "x": 661, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "esa"
+                }, 
+                {
+                    "y": 1301, 
+                    "x": 45, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "A"
+                }, 
+                {
+                    "y": 1324, 
+                    "x": 458, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "para"
+                }
+            ]
+        }, 
+        {
+            "name": "2017-01-09 (1)", 
+            "textlist": [
+                {
+                    "y": 86, 
+                    "x": 133, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 125, 
+                    "x": 255, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 124, 
+                    "x": 505, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Le ha comprado ..."
+                }, 
+                {
+                    "y": 164, 
+                    "x": 254, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "les"
+                }, 
+                {
+                    "y": 159, 
+                    "x": 591, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Les ha tra\u00eddo ..."
+                }, 
+                {
+                    "y": 199, 
+                    "x": 183, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "le"
+                }, 
+                {
+                    "y": 199, 
+                    "x": 620, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Le ha tejido ..."
+                }, 
+                {
+                    "y": 239, 
+                    "x": 245, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "nos"
+                }, 
+                {
+                    "y": 238, 
+                    "x": 466, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "Os has regalado ..."
+                }, 
+                {
+                    "y": 278, 
+                    "x": 237, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "os"
+                }, 
+                {
+                    "y": 272, 
+                    "x": 516, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Nos ha tejido ..."
+                }, 
+                {
+                    "y": 414, 
+                    "x": 323, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Le pone"
+                }, 
+                {
+                    "y": 451, 
+                    "x": 178, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "le recomendamos"
+                }, 
+                {
+                    "y": 489, 
+                    "x": 83, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Le puedo"
+                }, 
+                {
+                    "y": 526, 
+                    "x": 182, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "le traen"
+                }, 
+                {
+                    "y": 563, 
+                    "x": 347, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "me gusta"
+                }, 
+                {
+                    "y": 691, 
+                    "x": 384, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A nosotros nos"
+                }, 
+                {
+                    "y": 723, 
+                    "x": 407, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "a m\u00ed me"
+                }, 
+                {
+                    "y": 765, 
+                    "x": 469, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "a vosotros os"
+                }, 
+                {
+                    "y": 839, 
+                    "x": 386, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A m\u00ed me"
+                }, 
+                {
+                    "y": 875, 
+                    "x": 380, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A \u00e9l le"
+                }, 
+                {
+                    "y": 998, 
+                    "x": 501, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Les hace presuntas."
+                }, 
+                {
+                    "y": 1074, 
+                    "x": 65, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No me gusta el invierno."
+                }, 
+                {
+                    "y": 1070, 
+                    "x": 282, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "A m\u00ed me gusta."
+                }, 
+                {
+                    "y": 1071, 
+                    "x": 445, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Yo disfruto esquiar."
+                }, 
+                {
+                    "y": 1152, 
+                    "x": 65, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Te dejo m\u00ed coche si me das t\u00fa bicicleta en este semana."
+                }, 
+                {
+                    "y": 1229, 
+                    "x": 81, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfOs gusta esta m\u00fasica?"
+                }, 
+                {
+                    "y": 1221, 
+                    "x": 305, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Claro, me gusta toque la guitarra y me ama esta pieza."
+                }, 
+                {
+                    "y": 1303, 
+                    "x": 70, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "M\u00ed amiga le gusta pinta. Le regalo acuarelas para cumplea\u00f1os."
+                }, 
+                {
+                    "y": 83, 
+                    "x": 166, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 195, 
+                    "x": 210, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 195, 
+                    "x": 743, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "S\u00ed, me teji\u00f3 ..."
+                }, 
+                {
+                    "y": 269, 
+                    "x": 654, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Nos teji\u00f3 ..."
+                }, 
+                {
+                    "y": 411, 
+                    "x": 402, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Le pongo"
+                }, 
+                {
+                    "y": 448, 
+                    "x": 610, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "nos recomienda"
+                }, 
+                {
+                    "y": 487, 
+                    "x": 171, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Me puede"
+                }, 
+                {
+                    "y": 527, 
+                    "x": 261, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "les trae"
+                }, 
+                {
+                    "y": 996, 
+                    "x": 679, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Ellos le hacen mil preguntas."
+                }, 
+                {
+                    "y": 1071, 
+                    "x": 608, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "A m\u00ed, s\u00ed. "
+                }, 
+                {
+                    "y": 1070, 
+                    "x": 692, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Me encanta esquiar."
+                }, 
+                {
+                    "y": 1153, 
+                    "x": 507, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Te dejo mi coche, si me das tu bicicleta por este semana."
+                }, 
+                {
+                    "y": 1247, 
+                    "x": 313, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Claro, me gusta tocar la guitarra y me encanta esa pieza."
+                }, 
+                {
+                    "y": 1338, 
+                    "x": 69, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "M\u00ed amiga le gusta pintar. Le regalo acuarelas para su cumplea\u00f1os."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,441 @@
+{
+    "image": "images/l43-p101-imperativ_ja.png", 
+    "solution": {"image": "images/s-p178-179-loesung.png"},   
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "sessionlist": [
+        {
+            "name": "2016-12-20 (1)", 
+            "textlist": [
+                {
+                    "y": 158, 
+                    "x": 100, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 189, 
+                    "x": 100, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 214, 
+                    "x": 116, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 247, 
+                    "x": 120, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 279, 
+                    "x": 159, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 310, 
+                    "x": 82, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 338, 
+                    "x": 107, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 165, 
+                    "x": 440, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 192, 
+                    "x": 412, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 253, 
+                    "x": 428, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 169, 
+                    "x": 724, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 198, 
+                    "x": 689, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 227, 
+                    "x": 738, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 259, 
+                    "x": 698, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 286, 
+                    "x": 725, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 317, 
+                    "x": 690, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 347, 
+                    "x": 713, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 224, 
+                    "x": 401, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 313, 
+                    "x": 390, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 277, 
+                    "x": 400, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 339, 
+                    "x": 400, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 505, 
+                    "x": 325, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "duerme"
+                }, 
+                {
+                    "y": 536, 
+                    "x": 333, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "come"
+                }, 
+                {
+                    "y": 563, 
+                    "x": 325, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "toma"
+                }, 
+                {
+                    "y": 591, 
+                    "x": 333, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "haz"
+                }, 
+                {
+                    "y": 626, 
+                    "x": 338, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "descansa"
+                }, 
+                {
+                    "y": 654, 
+                    "x": 351, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ve(te)"
+                }, 
+                {
+                    "y": 684, 
+                    "x": 324, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "desayuna"
+                }, 
+                {
+                    "y": 508, 
+                    "x": 621, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "duerma"
+                }, 
+                {
+                    "y": 541, 
+                    "x": 629, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "coma"
+                }, 
+                {
+                    "y": 569, 
+                    "x": 640, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "tome"
+                }, 
+                {
+                    "y": 601, 
+                    "x": 629, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "haga"
+                }, 
+                {
+                    "y": 626, 
+                    "x": 622, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "descanse"
+                }, 
+                {
+                    "y": 658, 
+                    "x": 620, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "vaya"
+                }, 
+                {
+                    "y": 687, 
+                    "x": 628, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "desayune"
+                }, 
+                {
+                    "y": 773, 
+                    "x": 240, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "3"
+                }, 
+                {
+                    "y": 801, 
+                    "x": 240, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "6"
+                }, 
+                {
+                    "y": 828, 
+                    "x": 206, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "7"
+                }, 
+                {
+                    "y": 856, 
+                    "x": 204, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "1"
+                }, 
+                {
+                    "y": 887, 
+                    "x": 203, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "2"
+                }, 
+                {
+                    "y": 918, 
+                    "x": 271, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "4"
+                }, 
+                {
+                    "y": 948, 
+                    "x": 223, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "5"
+                }, 
+                {
+                    "y": 777, 
+                    "x": 599, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "empieza"
+                }, 
+                {
+                    "y": 807, 
+                    "x": 570, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "toma"
+                }, 
+                {
+                    "y": 839, 
+                    "x": 565, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "abre"
+                }, 
+                {
+                    "y": 866, 
+                    "x": 591, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "conduce"
+                }, 
+                {
+                    "y": 961, 
+                    "x": 579, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "habla"
+                }, 
+                {
+                    "y": 894, 
+                    "x": 569, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ven"
+                }, 
+                {
+                    "y": 927, 
+                    "x": 577, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pon"
+                }, 
+                {
+                    "y": 1077, 
+                    "x": 509, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Cerren la puerta!"
+                }, 
+                {
+                    "y": 1107, 
+                    "x": 509, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Encenda las velas!"
+                }, 
+                {
+                    "y": 1136, 
+                    "x": 514, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Tome otra naranja!"
+                }, 
+                {
+                    "y": 1166, 
+                    "x": 515, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Jugemos al tenis!"
+                }, 
+                {
+                    "y": 1198, 
+                    "x": 514, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Habla m\u00e1s despachio!"
+                }, 
+                {
+                    "y": 1226, 
+                    "x": 513, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Vete a casa!"
+                }, 
+                {
+                    "y": 1257, 
+                    "x": 515, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00a1Vengan con nosotros!"
+                }, 
+                {
+                    "y": 1080, 
+                    "x": 692, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00a1Cerrad la puerta!"
+                }, 
+                {
+                    "y": 1106, 
+                    "x": 699, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00a1Enciende las velas!"
+                }, 
+                {
+                    "y": 1166, 
+                    "x": 698, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "\u00a1Juguemos al tenis!"
+                }
+            ]
+        }
+    ]
+}

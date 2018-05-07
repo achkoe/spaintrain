@@ -1,0 +1,31 @@
+%\documentclass[oneside,10pt]{book}
+\documentclass[a4paper, pagesize, DIV=15, fontsize=8pt, parskip=half, twoside, BCOR=5mm]{scrartcl}
+
+\usepackage{parskip}
+\setlength{\parindent}{1em}
+
+%\usepackage{polyglossia,fontspec,xunicode}
+%\setmainlanguage{english}
+%\usepackage{libertineotf}
+\usepackage{hyperref}
+\hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
+\usepackage[utf8]{inputenc}
+\usepackage[german]{babel}
+\usepackage[]{paracol}
+
+\begin{document}
+
+\title{Cocina}
+\date{}
+
+\maketitle
+%{\let\newpage\relax\maketitle}{\small}
+
+
+\tableofcontents
+
+\begin{paracol}{2}
+\input{contents.tex}
+\end{paracol}
+
+\end{document}

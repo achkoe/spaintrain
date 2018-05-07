@@ -1,0 +1,378 @@
+{
+    "image": "images/l38-p105-pasiva.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s38-40.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2016-12-18 (1)", 
+            "textlist": [
+                {
+                    "y": 121, 
+                    "x": 273, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pelan"
+                }, 
+                {
+                    "y": 116, 
+                    "x": 658, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "cortan"
+                }, 
+                {
+                    "y": 158, 
+                    "x": 358, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "fre\u00ede"
+                }, 
+                {
+                    "y": 193, 
+                    "x": 271, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "agregan"
+                }, 
+                {
+                    "y": 231, 
+                    "x": 363, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "da"
+                }, 
+                {
+                    "y": 270, 
+                    "x": 213, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "puede"
+                }, 
+                {
+                    "y": 403, 
+                    "x": 538, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El evento ser\u00e1 suspendido por los organizadores si llueve."
+                }, 
+                {
+                    "y": 479, 
+                    "x": 510, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Los cantantes fueron escuchadas con atenci\u00f3n por el publico."
+                }, 
+                {
+                    "y": 555, 
+                    "x": 453, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Flores y bonbones er\u00e1n ofrecidos por un vendedor."
+                }, 
+                {
+                    "y": 628, 
+                    "x": 527, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Un viaje a Mallorco fue sorteada por los patrocinadores."
+                }, 
+                {
+                    "y": 807, 
+                    "x": 391, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "E"
+                }, 
+                {
+                    "y": 843, 
+                    "x": 482, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "F"
+                }, 
+                {
+                    "y": 881, 
+                    "x": 432, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "C"
+                }, 
+                {
+                    "y": 917, 
+                    "x": 428, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A"
+                }, 
+                {
+                    "y": 957, 
+                    "x": 349, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "B"
+                }, 
+                {
+                    "y": 1169, 
+                    "x": 148, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Hay que decirlo que fue fant\u00e1stico."
+                }, 
+                {
+                    "y": 1244, 
+                    "x": 136, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "La casa ya es terminada."
+                }, 
+                {
+                    "y": 1318, 
+                    "x": 133, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Pero a\u00fan no ha sido vendida. "
+                }, 
+                {
+                    "y": 1389, 
+                    "x": 155, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No se vende una casa en dos d\u00edas."
+                }, 
+                {
+                    "y": 153, 
+                    "x": 439, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "fr\u00ede"
+                }, 
+                {
+                    "y": 516, 
+                    "x": 158, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Los cantantes fueron escuchados con atenci\u00f3n por el publico."
+                }, 
+                {
+                    "y": 665, 
+                    "x": 245, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Un viaje a Mallorco fue sorteado por los patrocinadores."
+                }, 
+                {
+                    "y": 1169, 
+                    "x": 451, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Hay que decirlo, estuvo fant\u00e1stico."
+                }, 
+                {
+                    "y": 1237, 
+                    "x": 357, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La casa est\u00e1 terminada."
+                }
+            ]
+        }, 
+        {
+            "name": "2016-12-15 (2)", 
+            "textlist": [
+                {
+                    "y": 112, 
+                    "x": 279, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pelan"
+                }, 
+                {
+                    "y": 118, 
+                    "x": 696, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "cortan"
+                }, 
+                {
+                    "y": 155, 
+                    "x": 352, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "fre\u00edan"
+                }, 
+                {
+                    "y": 186, 
+                    "x": 310, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "agregan"
+                }, 
+                {
+                    "y": 229, 
+                    "x": 359, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "da"
+                }, 
+                {
+                    "y": 268, 
+                    "x": 233, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "puede"
+                }, 
+                {
+                    "y": 443, 
+                    "x": 121, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "El evento ser\u00e1 suspendido por los organizadores si llueve."
+                }, 
+                {
+                    "y": 515, 
+                    "x": 24, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Los cantantes fue escuchando por el p\u00fablico con atenci\u00f3n."
+                }, 
+                {
+                    "y": 590, 
+                    "x": 128, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Flores y bonbones eran ofrecido por un vendedor."
+                }, 
+                {
+                    "y": 664, 
+                    "x": 123, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Un viaje a Mallorca fue sorteado por los patrocinadores."
+                }, 
+                {
+                    "y": 806, 
+                    "x": 393, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "E"
+                }, 
+                {
+                    "y": 843, 
+                    "x": 484, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "F"
+                }, 
+                {
+                    "y": 957, 
+                    "x": 350, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "B"
+                }, 
+                {
+                    "y": 918, 
+                    "x": 430, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A"
+                }, 
+                {
+                    "y": 881, 
+                    "x": 435, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "C"
+                }, 
+                {
+                    "y": 1168, 
+                    "x": 130, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Hay que dicen que fue fantastico."
+                }, 
+                {
+                    "y": 1242, 
+                    "x": 136, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "La casa ya esta construida."
+                }, 
+                {
+                    "y": 1319, 
+                    "x": 157, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Pero ya no se vender\u00e1."
+                }, 
+                {
+                    "y": 1386, 
+                    "x": 164, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "No se vende una case en dos d\u00edas."
+                }, 
+                {
+                    "y": 516, 
+                    "x": 505, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Los cantantes fueron escuchados con atenci\u00f3n por el p\u00fablico."
+                }, 
+                {
+                    "y": 585, 
+                    "x": 538, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Flores y bonbones fueron ofrecidos por un vendedor."
+                }, 
+                {
+                    "y": 1165, 
+                    "x": 413, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Hay que decitlo, estuvo fant\u00e1stico."
+                }, 
+                {
+                    "y": 1238, 
+                    "x": 376, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "La casa  est\u00e1 terminada de construir."
+                }, 
+                {
+                    "y": 1317, 
+                    "x": 373, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Todav\u00eda no fue vendida."
+                }, 
+                {
+                    "y": 1385, 
+                    "x": 490, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Una case no se vende en dos d\u00edas."
+                }
+            ]
+        }
+    ]
+}

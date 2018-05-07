@@ -1,0 +1,485 @@
+{
+    "image": "images/l21a-p59-indefinido.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s21a-28.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2016-11-29 (1)", 
+            "textlist": [
+                {
+                    "y": 113, 
+                    "x": 182, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "compr\u00e9"
+                }, 
+                {
+                    "y": 142, 
+                    "x": 181, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "compraste"
+                }, 
+                {
+                    "y": 193, 
+                    "x": 176, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "compramos"
+                }, 
+                {
+                    "y": 240, 
+                    "x": 175, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "compraron"
+                }, 
+                {
+                    "y": 168, 
+                    "x": 292, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "jug\u00f3"
+                }, 
+                {
+                    "y": 192, 
+                    "x": 293, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "jugamos"
+                }, 
+                {
+                    "y": 217, 
+                    "x": 290, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "jugasteis"
+                }, 
+                {
+                    "y": 242, 
+                    "x": 291, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "jugaron"
+                }, 
+                {
+                    "y": 115, 
+                    "x": 393, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "viv\u00e9"
+                }, 
+                {
+                    "y": 140, 
+                    "x": 393, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "viviste"
+                }, 
+                {
+                    "y": 165, 
+                    "x": 395, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "viv\u00edo"
+                }, 
+                {
+                    "y": 190, 
+                    "x": 378, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "vivimos"
+                }, 
+                {
+                    "y": 116, 
+                    "x": 488, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pagu\u00e9"
+                }, 
+                {
+                    "y": 167, 
+                    "x": 488, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pag\u00f3"
+                }, 
+                {
+                    "y": 217, 
+                    "x": 487, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pagasteis"
+                }, 
+                {
+                    "y": 242, 
+                    "x": 486, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "pagaron"
+                }, 
+                {
+                    "y": 142, 
+                    "x": 596, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fuiste"
+                }, 
+                {
+                    "y": 215, 
+                    "x": 596, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fuisteis"
+                }, 
+                {
+                    "y": 240, 
+                    "x": 596, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fueron"
+                }, 
+                {
+                    "y": 88, 
+                    "x": 296, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "jugar"
+                }, 
+                {
+                    "y": 90, 
+                    "x": 393, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "vivir"
+                }, 
+                {
+                    "y": 92, 
+                    "x": 607, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "ir/ser"
+                }, 
+                {
+                    "y": 91, 
+                    "x": 715, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "volver"
+                }, 
+                {
+                    "y": 114, 
+                    "x": 716, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "volv\u00e9"
+                }, 
+                {
+                    "y": 137, 
+                    "x": 718, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "volviste"
+                }, 
+                {
+                    "y": 192, 
+                    "x": 661, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "volvemos"
+                }, 
+                {
+                    "y": 243, 
+                    "x": 706, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "volvieron"
+                }, 
+                {
+                    "y": 137, 
+                    "x": 812, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "estuviste"
+                }, 
+                {
+                    "y": 166, 
+                    "x": 815, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "estuvo"
+                }, 
+                {
+                    "y": 192, 
+                    "x": 821, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "estuvimos"
+                }, 
+                {
+                    "y": 223, 
+                    "x": 819, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "estuvisteis"
+                }, 
+                {
+                    "y": 334, 
+                    "x": 256, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-----------"
+                }, 
+                {
+                    "y": 371, 
+                    "x": 126, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "------"
+                }, 
+                {
+                    "y": 409, 
+                    "x": 237, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "--------------"
+                }, 
+                {
+                    "y": 446, 
+                    "x": 98, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 445, 
+                    "x": 255, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "--------------------"
+                }, 
+                {
+                    "y": 481, 
+                    "x": 133, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---------"
+                }, 
+                {
+                    "y": 481, 
+                    "x": 456, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-------------"
+                }, 
+                {
+                    "y": 521, 
+                    "x": 215, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "-------------"
+                }, 
+                {
+                    "y": 636, 
+                    "x": 165, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Me duch\u00e9"
+                }, 
+                {
+                    "y": 640, 
+                    "x": 509, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "desayun\u00e9"
+                }, 
+                {
+                    "y": 680, 
+                    "x": 229, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "llam\u00f3"
+                }, 
+                {
+                    "y": 678, 
+                    "x": 570, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "salimos"
+                }, 
+                {
+                    "y": 716, 
+                    "x": 239, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "vin\u00f3"
+                }, 
+                {
+                    "y": 754, 
+                    "x": 213, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "dejamos"
+                }, 
+                {
+                    "y": 751, 
+                    "x": 640, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "entramos"
+                }, 
+                {
+                    "y": 791, 
+                    "x": 217, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "fuimos"
+                }, 
+                {
+                    "y": 790, 
+                    "x": 740, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "gust\u00f3"
+                }, 
+                {
+                    "y": 927, 
+                    "x": 217, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "fui en Andalucia con mis padres."
+                }, 
+                {
+                    "y": 1001, 
+                    "x": 88, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfQu\u00e9 hicisteis all\u00ed? \u00bfConocisteis muchas ciadades?"
+                }, 
+                {
+                    "y": 1079, 
+                    "x": 79, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Primero estuvimos en Grenada y visitamos el Alhambra."
+                }, 
+                {
+                    "y": 1115, 
+                    "x": 426, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "A m\u00ed me gust\u00f3 mucho."
+                }, 
+                {
+                    "y": 1191, 
+                    "x": 80, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Despues hago algunas excursiones."
+                }, 
+                {
+                    "y": 1186, 
+                    "x": 427, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Mis padres quedoron en Granada."
+                }, 
+                {
+                    "y": 1305, 
+                    "x": 83, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfEstuviste a la playa tambien?"
+                }, 
+                {
+                    "y": 1298, 
+                    "x": 408, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Si, estuve tres d\u00edas en Almu\u00f1\u00e9car."
+                }, 
+                {
+                    "y": 715, 
+                    "x": 299, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "vino"
+                }, 
+                {
+                    "y": 949, 
+                    "x": 216, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "estuve"
+                }, 
+                {
+                    "y": 1110, 
+                    "x": 151, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "fuimos"
+                }, 
+                {
+                    "y": 1217, 
+                    "x": 160, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "hice"
+                }, 
+                {
+                    "y": 1211, 
+                    "x": 511, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "se"
+                }, 
+                {
+                    "y": 1327, 
+                    "x": 164, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "en"
+                }, 
+                {
+                    "y": 113, 
+                    "x": 437, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "viv\u00ed"
+                }, 
+                {
+                    "y": 110, 
+                    "x": 771, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "volv\u00ed"
+                }, 
+                {
+                    "y": 192, 
+                    "x": 747, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "volvimos"
+                }
+            ]
+        }
+    ]
+}

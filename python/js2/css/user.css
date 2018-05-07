@@ -1,0 +1,111 @@
+select, button {
+    margin-bottom: 5px;
+}
+
+#pensettings input {
+    margin: 5px 0;
+}
+
+.halign {
+    display: inline-block;
+    width: 40px;
+    text-align: right;
+}
+
+.haligninput {
+    display: inline-block;
+    width: 60px;
+    text-align: left;
+}
+
+/* ------------------------------------ */
+.controlmode {
+     list-style-type:none;
+     margin:25px 0 0 0;
+     padding:0;
+}
+
+.controlmode li {
+    margin:0 5px 5px 0;
+    width:100px;
+    height:40px;
+    position:relative;
+}
+
+.controlmode label, .controlmode input {
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+.controlmode input[type="radio"] {
+    opacity:0.01;
+    z-index:100;
+}
+
+.controlmode input[type="radio"]:checked + label,
+.Checked + label {
+    background:#CCC;
+}
+
+.controlmode label {
+    text-align: center;
+    padding:5px;
+    border:1px solid #CCC;
+    cursor:pointer;
+    z-index:90;
+}
+
+.controlmode label:hover {
+    background:#222;
+    color:#EEE;
+}
+
+/* Code taken from http://www.everythingaboutweb.com/html5-two-column-css-layout/ */
+#wrapper {
+    width: 1200px;
+    /*background-color: #DDD;*/
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header {
+    /*height: 200px;*/
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+nav {
+    width:960px;
+}
+
+#content {
+    float: left;
+    width:1050px;
+}
+
+#rightcol {
+    /*background-color: #DDD;*/
+    margin-left: 5px;
+    float: left;
+    width: 145px;
+}
+
+footer {
+    clear:both;
+    /*height: 50px;*/
+}
+
+footer .medium {
+    color: #33f;
+}
+footer .good {
+    color: #3f3;
+}
+footer .bad {
+    color: #f33;
+}

@@ -1,0 +1,247 @@
+{
+    "image": "images/l17-p49-directo.png", 
+    "config": [
+        {
+            "color": 4294923520, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Default Pen"
+        }, 
+        {
+            "color": 4294907027, 
+            "font": "Noto Sans [unknown],12,-1,5,50,0,0,0,0,0", 
+            "name": "Correction Pen"
+        }, 
+        {
+            "color": 4278233600, 
+            "font": "Helvetica,14,-1,5,50,0,0,0,0,0", 
+            "name": "Remark Pen"
+        }
+    ], 
+    "solution": {
+        "image": "images/s11-20.png"
+    }, 
+    "sessionlist": [
+        {
+            "name": "2017-01-08 (2)", 
+            "textlist": [
+                {
+                    "y": 120, 
+                    "x": 155, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 157, 
+                    "x": 137, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 196, 
+                    "x": 156, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "----"
+                }, 
+                {
+                    "y": 231, 
+                    "x": 204, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 80, 
+                    "x": 575, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 118, 
+                    "x": 645, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 157, 
+                    "x": 611, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 194, 
+                    "x": 610, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 232, 
+                    "x": 568, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "---"
+                }, 
+                {
+                    "y": 416, 
+                    "x": 489, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "la"
+                }, 
+                {
+                    "y": 451, 
+                    "x": 578, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "te"
+                }, 
+                {
+                    "y": 492, 
+                    "x": 493, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "los"
+                }, 
+                {
+                    "y": 527, 
+                    "x": 552, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "la"
+                }, 
+                {
+                    "y": 564, 
+                    "x": 471, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Las"
+                }, 
+                {
+                    "y": 702, 
+                    "x": 625, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "S\u00ed, ya lo estamos leyendo."
+                }, 
+                {
+                    "y": 735, 
+                    "x": 632, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "S\u00ed, acabo de leerlos."
+                }, 
+                {
+                    "y": 774, 
+                    "x": 602, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "S\u00ed, ya voy a hacerlos."
+                }, 
+                {
+                    "y": 812, 
+                    "x": 550, 
+                    "state": 0, 
+                    "fontindex": 0, 
+                    "text": "Lo voy a ir a saludar."
+                }, 
+                {
+                    "y": 853, 
+                    "x": 529, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Ahora la preparo."
+                }, 
+                {
+                    "y": 1050, 
+                    "x": 85, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfConozes a su hijos?"
+                }, 
+                {
+                    "y": 1047, 
+                    "x": 266, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Los son muy amable."
+                }, 
+                {
+                    "y": 1047, 
+                    "x": 491, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Los vas a conocer."
+                }, 
+                {
+                    "y": 1164, 
+                    "x": 94, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Todavia no lo s\u00e9."
+                }, 
+                {
+                    "y": 1161, 
+                    "x": 260, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "\u00bfPuedes llamarme?"
+                }, 
+                {
+                    "y": 1243, 
+                    "x": 81, 
+                    "state": 2, 
+                    "fontindex": 0, 
+                    "text": "Tambi\u00e9n quiero a verla."
+                }, 
+                {
+                    "y": 1316, 
+                    "x": 91, 
+                    "state": 1, 
+                    "fontindex": 0, 
+                    "text": "Naturalmente los invitamos."
+                }, 
+                {
+                    "y": 811, 
+                    "x": 738, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Voy a ir a saludarlo."
+                }, 
+                {
+                    "y": 1084, 
+                    "x": 272, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Son muy amable."
+                }, 
+                {
+                    "y": 1082, 
+                    "x": 496, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Tienes que vas a conocerlos."
+                }, 
+                {
+                    "y": 1240, 
+                    "x": 288, 
+                    "state": 0, 
+                    "fontindex": 1, 
+                    "text": "Yo quiero verla tambi\u00e9n."
+                }, 
+                {
+                    "y": 1310, 
+                    "x": 373, 
+                    "state": 0, 
+                    "fontindex": 2, 
+                    "text": "Claro que los invitamos."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+main.t2t
+Achim Köhler
+2016-06-04
+
+%!Target : tex
+%!postproc(tex): "====== Page (\d+) ======" "\clearpage\setcounter{page}{\1}"
+%!postproc(tex): "!-!" "\-"
+%!postproc(tex): "\.\.\."  "\ldots{}"
+%!postproc(tex): "\$\\backslash\$\$\\backslash\$" "\\\\"
+%!postproc(tex): "\\begin{tabular}" "\\vfill\\begin{small}\\itshape\\begin{tabular}"
+%!postproc(tex): "\\end{tabular}" "\\end{tabular}\\end{small}\\clearpage"
+
+%!include: contents.t2tout

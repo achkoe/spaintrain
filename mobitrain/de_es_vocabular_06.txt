@@ -1,0 +1,541 @@
+===vP==================================
+[aufräumen], ordnen
+
+[arreglar]
+===sP==================================
+Bild
+
+la imagen
+===sP==================================
+[Klang], Laut
+
+el [sonido]
+===sPL==================================
+Moment, [Augenblick]
+
+el [rato]
+===pP==================================
+dennoch, [trotzdem]
+
+[aunque]
+===asP==================================
+[verliebt]
+Liebhaber/-in
+
+[enamorado]
+el/la enamorado
+===sPA==================================
+die [Treppe]
+
+la [escalera]
+===aP==================================
+voll, [vollzählig]
+
+[plena]
+===sP==================================
+der [Frühling]
+
+la [primavera]
+===sP==================================
+das Stockwerk, Etage
+
+la planta
+===aP==================================
+[jedenfalls]
+
+[sea]
+===sP==================================
+das [Abteil], das Postfach
+
+el [apartado]
+===aP==================================
+sonderbar, seltsam
+
+raro
+===aP==================================
+[kaputt], zerbrochen
+
+[roto]-/a
+===aPA==================================
+innen, [innerhalb], drinnen
+
+[dentro]
+===vP==================================
+Reue empfinden, [reuen]
+
+[arrepentirse]
+===sPA==================================
+die [Drohung], die Bedrohung
+
+la [amenaza]
+===vP==================================
+[zitieren]
+
+[citar]
+===sP==================================
+der [Grund], das Recht
+
+la [razón]
+===sP==================================
+die [Schublade]
+
+el [cajón]
+===sP==================================
+der [Fremde]
+
+el [extraño]
+===sP==================================
+die [Pfändung], das Embargo
+
+el [embargo]
+===aP==================================
+richtig, [fair]
+
+[justo]
+===avP==================================
+[sorgenvoll], jmdm. Sorgen machen
+
+[preocupado]/-a, precupar a alguien
+===vPAS==================================
+[aufhören], enden, fertig machen, beenden, vollenden
+
+[acabar], terminar
+===sP==================================
+das [Bücherbrett]
+
+el [estante]
+===vP==================================
+[zusammenstoßen]
+
+[chocar]
+===sP==================================
+die [Entschuldigung]
+
+la [disculpa]
+===aP==================================
+[erstaunt], überrascht
+
+[sorprendido]
+===aP==================================
+[unbekannt]
+
+[desconocido]
+===vP==================================
+etw. in Unordung bringen,jmdn. aus der Fassung bringen
+
+desconcertar
+===vP==================================
+sich von jmdm./etw. [verabschieden]
+
+[despedirse]
+===vP==================================
+jmdm./etw. [begegnen]
+
+[tropezar]
+(yo) tropiezo
+(tú) tropiezas
+(él/​ella/​usted) tropieza
+(nosotros) tropezamos
+(vosotros) tropezáis
+(ellos/​ellas/​ustedes) tropiezan
+===vP==================================
+[laufen], rennen
+
+[correr]
+===vPA==================================
+[verlieren], versäumen, verpassen
+
+[perder]
+===aP==================================
+[wirklich], eigentlich
+
+[realmente]
+===vP==================================
+jmdn. [verhaften]
+
+[detener] a alguien
+yo detengo
+tú detienes
+él/ella/usted detiene
+nosotros/-as detenemos
+vosotros/-as detesnéis
+ellos/ellas/Ustedes detienen 
+===sP==================================
+der [Gehsteig]
+
+la [acera]
+===pP==================================
+auch nicht, nicht einmal
+
+ni
+===vP==================================
+entfernen, [abwenden]
+
+[alejar]
+===vP==================================
+beaufsichtigen, [bewachen]
+
+[vigilar]
+===aP==================================
+[beide]
+
+[ambos]/-as
+===aP==================================
+[dahin], dorthin
+
+[allá]
+===sP==================================
+das [Zelt]
+
+la [carpa]
+===sP==================================
+der Zirkus
+
+el circo
+===vP==================================
+[dämmern], Nacht werden
+
+[anochecer]
+===vPA==================================
+[laufen], gehen
+
+[andar]
+===sP==================================
+der Anfang, der [Begin]
+
+el [comienzo]
+===vP==================================
+anzweifeln, [bezweifeln]
+
+[dudar]
+===sP==================================
+die [Unschlüssigkeit]
+
+la [indecisión]
+===vP==================================
+starten, [beginnen]
+
+[iniciar]
+===abpP==================================
+[kaum], knapp
+
+[apenas]
+===vP==================================
+jmdm. einen Schreck einjagen
+
+sobresaltar
+===sPA==================================
+der [Arm]
+
+el [brazo]
+===vP==================================
+[bücken], beugen
+
+[agacharse]
+===sP==================================
+der [Sitzplatz]
+
+el [asiento]
+===aP==================================
+[hinten], zurück
+
+[atrás]
+===vPA==================================
+jmdn. schlagen, [klopfen]
+
+[golpear]
+===vP==================================
+starten, [losgehen]
+
+[arrancar]
+===aP==================================
+abhängig, [unterworfen]
+
+[sujeto]/-a
+===sP==================================
+die [Kraft]
+
+la [fuerza]
+===vPA==================================
+jmdn./etw. [behandeln], umgehen
+
+[tratar]
+===vPSAL==================================
+[aufhören], stoppen
+
+[parar]
+===aP==================================
+[egal], gleich
+
+[igual]
+===aP==================================
+angenagelt, identisch
+
+clavada
+===vP==================================
+[kidnappen]
+
+[secuestrar]
+===apP==================================
+x-beliebig, [irgendein]
+
+[cualquier]
+===aP==================================
+aufmerksam, [starr], fest
+
+[fijamente]
+===sP==================================
+der [Fußboden]
+
+el [suelo]
+===sP==================================
+die [Gefahr]
+
+el [peligro]
+===pP==================================
+[niemand]
+
+[nadie]
+===vPA==================================
+melden, [benachrichtigen]
+
+[avisar]
+===psP==================================
+ihrer, ihre, ihres
+das Eigentum
+
+suyo/-a
+lo suyo
+===vP==================================
+[baden], befeuchten
+
+[bañar]
+===vP==================================
+sich an etw./jmdm. [erinnern]
+
+[recordar]
+===sP==================================
+die Geste
+
+el gesto
+===vP==================================
+etw. (von jmdm.) erhalten, bekommen
+
+recibir algo
+===vP==================================
+montieren, zusammenbauen
+
+montar
+===vP==================================
+ausstellen, auslegen
+
+exponer
+===aP==================================
+kostbar, wertvoll
+
+valioso/-a
+===sP==================================
+die Erklärung, die Erläuterung
+
+la explicacion
+===vPA==================================
+[zeigen]
+
+[mostrar]
+o > ue
+===sP==================================
+das Ufer
+
+la orilla
+===sP==================================
+der Auftritt, die Szene
+
+la escena
+===sP==================================
+die Ehrung, die Jubiläumsfeier
+
+el homenaje
+===aP==================================
+rücklings, hinterrücks
+
+de espaldas
+===sPK==================================
+das Kleid, das Outfit
+
+el vestido
+===sPK==================================
+die Krawatte
+
+la corbata
+===aP==================================
+wütend, verärgert
+
+enfadado
+===sPK==================================
+der Schirm, der Regenschirm
+
+el paraguas
+===vP==================================
+hervorragen,auszeichnen
+
+señala
+===aP==================================
+leer, ungefüllt
+
+vacío/-a
+===vP==================================
+erlangen, erzielen
+
+conseguir
+===aP==================================
+mild, sanft
+
+suave
+===vP==================================
+zwingen, nötigen
+
+obligar
+===vP==================================
+stehlen, räubern
+
+robar
+===vP==================================
+messen, abmessen
+
+medir
+===vP==================================
+annehmen, vermuten
+
+suponer
+===vP==================================
+decken, zeitlich zusammenfallen
+
+coincidir
+===vP==================================
+etw. gewöhnlich tun
+
+soler hacer algo
+===vP==================================
+anheizen, aufheizen
+
+calentar
+===sP==================================
+die Wand, Wandung
+
+la pared
+===vP==================================
+jmdn./etw. erkenne, wiedererkennen
+
+reconocer algo/a alguien
+===sP==================================
+das Plakat, der Aushang
+
+el cartel
+===asP==================================
+verdächtig
+der Verdächtige
+
+sospechoso/-a
+el sospechoso
+===aP==================================
+zusammen, gemeinsam
+
+conjunto/-a
+===sP==================================
+das Herz
+
+el corazón
+===aP==================================
+einfach, schlicht
+
+sencillamente
+===vP==================================
+(auf jmdn./etw.) aufpassen
+
+prestar atención (a algo/alguien)
+===aP==================================
+bestimmt, gewiss, sicher
+
+cierta
+===vP==================================
+aufkommen, erscheinen
+
+aparecer
+===vP==================================
+etw. versichern
+
+asegurar algo
+===sP==================================
+der Ohrclip
+
+el pendiente
+===sP==================================
+der Handschuh
+
+el guante
+===vPA==================================
+stellen, [anordnen], absetzen
+
+[colocar]
+===sP==================================
+die Empfindsamkeit
+
+la delicadeza
+===vP==================================
+jmdn./etw. ersetzen
+
+sustituir algo/a alguien
+===sP==================================
+der Dieb, der Zwischenstecker
+
+el ladrón
+===vP==================================
+verlangen, beanspruchen
+
+exigir
+===vP==================================
+versuchen, beabsichtigen, vorhaben
+
+intentar
+===avP==================================
+still, schweigsam
+schweigen
+
+callado/-a
+callar
+===sP==================================
+die Schnur, der Schnürsenkel
+
+el cordón
+===vP==================================
+umringen, umstellen
+
+rodear
+===aP==================================
+hinkend, lahm
+
+cojo/-a
+===vP==================================
+einwickeln, einpacken
+
+envolver
+===aP==================================
+detailreich
+
+detalles
+===sP==================================
+das Gefängnis
+
+cárcel
+===aP==================================
+groß, größtenteils
+
+gran
+===sP==================================
+Trinkspruch
+
+brindis
+===sP==================================
+die Puppe
+
+muñeco
