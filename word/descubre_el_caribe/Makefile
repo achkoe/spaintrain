@@ -7,7 +7,7 @@ book.pdf: book.tex contents.tex
 
 contents.tex: contents.txt
 	python mtxt2tex.py -o $@ $<
-	sh password.txt
+	../encrypt.sh
 
 c:	cleanup
 	
