@@ -6,6 +6,7 @@ import argparse
 import sys
 import re
 import logging
+import textwrap
 import codecs
 from collections import OrderedDict
 from functools import partial
@@ -174,7 +175,7 @@ def process_dashes(text):
     return re.sub("([^\\\\])\n-", "\\1 \\\\\\\\\n-", re.sub("^(-.*)$", r"\1 \\\\", text, flags=re.M), flags=re.M)
 
 
-def cleanup(args):
+def _cleanup(args):
     def main(text):
         def fn_capital_after_fullstop(mo):
             return u". {}".format(mo.group(1).upper())
@@ -205,6 +206,33 @@ def cleanup(args):
     with codecs.open(args.infile, encoding="utf-8") as fh:
         text = fh.read()
     args.outfile.write(main(text))
+
+
+def cleanup(args):
+    maxwidth = 72
+
+    def fmt(text):
+        w = textwrap.TextWrapper(width=maxwidth, break_long_words=False)
+        buf = []
+        for paragraph in text.splitlines():
+            buf.append(w.fill(paragraph))
+        return textwrap.dedent('\n'.join(p.strip() for p in buf))
+
+    def prepare(text):
+        replacementlist = (('\(\s+', '('), ('“', '"'), ('”', '"'),
+                           (' {2,}', ' '), (' +" +', ' "'), (u'…', '\\ldots'))
+        for replacement in replacementlist:
+            text = re.sub(replacement[0], replacement[1], text)
+        text = re.sub(r"\.(\n?\s*[a-z])", lambda m: m.group(0).upper(), text)
+        text = re.sub(r"\?\?\s*", "¿", text)
+        text = re.sub(r"!!\s*", "¡", text)
+        text = re.sub(r"\s+,", ",", text)
+        return text
+
+    with codecs.open(args.infile, encoding="utf-8") as fh:
+        text = fh.read()
+
+    args.outfile.write(fmt(prepare(text)))
 
 
 class Test(unittest.TestCase):
