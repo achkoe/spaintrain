@@ -1,0 +1,38 @@
+%\documentclass[oneside,10pt]{book}
+\documentclass[landscape, pagesize, DIV=15, fontsize=11pt, parskip=half, oneside, BCOR=5mm]{scrartcl}
+%\usepackage[T1]{fontenc}
+\usepackage{fontspec}
+
+\usepackage{pst-node}
+\usepackage{parskip}
+\setlength{\parindent}{1em}
+
+
+%\usepackage{polyglossia,fontspec,xunicode}
+%\setmainlanguage{english}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
+\usepackage[utf8]{inputenc}
+\usepackage[german, spanish]{babel}
+\usepackage[]{paracol}
+\columnsep20pt
+\columnseprule0.4pt
+%\usepackage{marginnote}
+
+\begin{document}
+
+\title{Teruel: Lugares Mágicos - Teruel: Magische Orte}
+\date{-- Curso Español, 2017-05-17 --}
+
+\maketitle
+\clearpage
+
+\newcommand{\rn}[1]{\Rnode{#1}}
+\newcommand{\rl}[2]{\ncline[linestyle=solid,arrows=->,nodesepA=0.5pt,linecolor=gray, strokeopacity=0.5]{#1}{#2}}
+\newcommand{\sidenote}[1]{\marginpar[#1]{#1}}
+\newcommand{\ul}[1]{\underline{#1}}
+
+\input{contents.tex}
+
+\end{document}
