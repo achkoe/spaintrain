@@ -223,9 +223,9 @@ def cleanup(args):
                            (' {2,}', ' '), (' +" +', ' "'), (u'…', '\\ldots'))
         for replacement in replacementlist:
             text = re.sub(replacement[0], replacement[1], text)
-        text = re.sub(r"\.(\n?\s*[a-z])", lambda m: m.group(0).upper(), text)
-        text = re.sub(r"\?\?\s*", "¿", text)
-        text = re.sub(r"!!\s*", "¡", text)
+        text = re.sub(r"\.(\n?\s*\w)", lambda m: m.group(0).upper(), text, flags=re.U)
+        text = re.sub(r"\?\?\s*", u"¿", text)
+        text = re.sub(r"!!\s*", u"¡", text)
         text = re.sub(r"\s+,", ",", text)
         return text
 
