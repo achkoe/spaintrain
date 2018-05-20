@@ -219,7 +219,7 @@ def cleanup(args):
         return textwrap.dedent('\n'.join(p.strip() for p in buf))
 
     def prepare(text):
-        replacementlist = (('\(\s+', '('), ('“', '"'), ('”', '"'),
+        replacementlist = (('\(\s+', '('), (u'“', '"'), (u'”', '"'), (u'“', '"')
                            (' {2,}', ' '), (' +" +', ' "'), (u'…', '\\ldots'))
         for replacement in replacementlist:
             text = re.sub(replacement[0], replacement[1], text)
