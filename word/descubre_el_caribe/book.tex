@@ -3,6 +3,7 @@
 %\usepackage[T1]{fontenc}
 \usepackage{fontspec}
 \usepackage{latexsym}
+\usepackage{pifont}
 
 \usepackage{pst-node}
 \usepackage{parskip}
@@ -34,10 +35,10 @@
 \newcommand{\sidenote}[1]{\marginpar[#1]{#1}}
 \newcommand{\ul}[1]{\underline{#1}}
 \newcommand{\fillmiss}{\rule{2cm}{0.4pt}~}
-\newcommand{\choice}{\framebox[1em]{\rule{0pt}{1ex}}}
-
-\newcommand{\correctchoice}{\framebox[1em]{v}}
-\newcommand{\falsechoice}{\framebox[1em]{f}}
+\newcommand{\choice}{$\Box$}
+\newcommand{\correctchoice}{\framebox[1em]{\ding{51}}}
+\newcommand{\falsechoice}{\framebox[1em]{\ding{53}}}
+\newcommand{\correction}[1]{~\ding{43}~\textbf{\textsl{#1}}}
 
 
 \input{contents.tex}
