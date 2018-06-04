@@ -2,6 +2,7 @@
 \documentclass[landscape, pagesize, DIV=15, fontsize=11pt, parskip=half, oneside, BCOR=5mm]{scrartcl}
 %\usepackage[T1]{fontenc}
 \usepackage{fontspec}
+\usepackage{latexsym}
 
 \usepackage{pst-node}
 \usepackage{parskip}
@@ -34,6 +35,10 @@
 \newcommand{\ul}[1]{\underline{#1}}
 \newcommand{\fillmiss}{\rule{2cm}{0.4pt}~}
 \newcommand{\choice}{\framebox[1em]{\rule{0pt}{1ex}}}
+
+\newcommand{\correctchoice}{\framebox[1em]{v}}
+\newcommand{\falsechoice}{\framebox[1em]{f}}
+
 
 \input{contents.tex}
 
