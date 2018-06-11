@@ -1,6 +1,6 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 
-directories = la_puerta_negra/ test/
+directories = la_puerta_negra/ 
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
@@ -26,6 +26,6 @@ cleanup:
 
 clean:
 	latexmk -c
-	
+
 t:
 	echo $(texfiles)
