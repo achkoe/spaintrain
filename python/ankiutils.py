@@ -88,10 +88,10 @@ def import2anki(args):
     # with hel from https://www.juliensobczak.com/tell/2016/12/26/anki-scripting.html
     config = {
         "path": "/home/achim/Dokumente/Anki/Benutzer 1/collection.anki2",
-        "deckname": "Libros",
+        "deckname": "Spaintrain2",
         "modelname": u'Einfach (beide Richtungen)',
         # mapping dataitem > anki field (0:Vorderseite, 1:Rückseite, 2:wordtype)
-        "mappinglist": [0, 1, 2],
+        "mappinglist": [1, 0, 2],
         "delimiter": u"|"
     }
     if args.config:
