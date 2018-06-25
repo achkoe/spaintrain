@@ -5,19 +5,34 @@ from functools import partial
 import argparse
 
 
-def process_table(linelist):
+def process_table(linelist, transpose=False):
     itemlist = []
     tablecols = -1
     # split lines containing & into list
     for line in linelist:
-        if line.strip().startswith('\\'):
+        if line.strip().startswith('\\hline'):
             itemlist.append(line)
         else:
-            itemlist.append(line.strip(' \\').split('&'))
+            itemlist.append(line.rstrip(' \\').split('&'))
             if tablecols != -1 and len(itemlist[-1]) != tablecols:
                 raise Exception("table cols")
             else:
                 tablecols = len(itemlist[-1])
+
+    # transpose if requested
+    if transpose:
+        titemlist = []
+        [titemlist.append([''] * len([item for item in itemlist if isinstance(item, list)])) for _ in range(tablecols)]
+        colindex = 0
+        for line in itemlist:
+            if not isinstance(line, list):
+                continue
+            for rowindex, item in enumerate(line):
+                titemlist[rowindex][colindex] = item
+            colindex += 1
+        tablecols = colindex
+        itemlist = titemlist
+
     # prepare collenlist
     collenlist = [0] * tablecols
     # strip blanks from every list item in itemlist
@@ -27,6 +42,7 @@ def process_table(linelist):
             itemlist[index] = [t.strip(' ') for t in item]
             collenlist = [max(len(t), c) for t, c in zip(itemlist[index], collenlist)]
     print (collenlist)
+
     # fill each column
     for index, item in enumerate(itemlist):
         if isinstance(item, list):
@@ -39,7 +55,7 @@ def process_table(linelist):
     return '\n'.join(itemlist)
 
 
-def prepocess_table(text):
+def prepocess_table(text, transpose=False):
     OUTTABLE, INTABLE = 0, 1
     mode = OUTTABLE
     textlist = []
@@ -49,7 +65,7 @@ def prepocess_table(text):
             textlist.append(line)
             mode = INTABLE
         elif line.strip().startswith(r"\end{tabular}"):
-            textlist.append(process_table(tablelist))
+            textlist.append(process_table(tablelist, transpose))
             textlist.append(line)
             mode = OUTTABLE
             tablelist = []
@@ -92,6 +108,7 @@ if __name__ == '__main__':
     parser.add_argument("infile", help="input file")
     parser.add_argument("outfile", help="output file")
     parser.add_argument("-t", action="store_true", help="process tables")
+    parser.add_argument("--transpose", action="store_true", help="transpose tables if processed")
     parser.add_argument("-r", action="store_true", help="process replacements")
 
     args = parser.parse_args()
@@ -100,6 +117,6 @@ if __name__ == '__main__':
     if args.r:
         text = prepocess_replacements(text)
     if args.t:
-        text = prepocess_table(text)
+        text = prepocess_table(text, transpose=args.transpose)
     with open(args.outfile, 'w', encoding="utf-8") as fh:
         fh.write(text)
