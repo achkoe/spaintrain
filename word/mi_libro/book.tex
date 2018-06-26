@@ -6,20 +6,42 @@
 \usepackage{latexsym}
 \usepackage{pifont}
 \usepackage{hyperref}
+\usepackage{color}
+\usepackage{titlesec}
 
 \setlength{\parindent}{1em}
 \hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
 
 \newcommand{\thh}[1]{\footnotesize{#1}}
+%-------------------------------------------------------
+\makeatletter
+\newif\if@secnum
+\definecolor{lgray}{gray}{0.75}
+\titleformat{\section}[hang]{\large\bfseries}{%
+    \global\@secnumtrue
+}{0em}{%
+    {%
+        \setlength{\fboxsep}{2pt}%
+        \colorbox{lgray}{\makebox[\textwidth]{\large\strut}}%
+    }%
+    \hspace*{-\textwidth}%
+    \if@secnum%
+        \arabic{section}%
+        \hspace*{1em}%
+    \fi%
+    \global\@secnumfalse%
+}[]
+\makeatother
+%-------------------------------------------------------
 \begin{document}
 
 \title{Spanisch}
 \date{-- Grammatik und mehr --}
-
 \maketitle
 \clearpage
 
 \input{t_imperativo_afirmativa.ptex}
 \input{t_condicional.ptex}
+\input{t_indefinido.ptex}
 
 \end{document}
