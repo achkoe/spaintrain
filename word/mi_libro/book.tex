@@ -9,6 +9,11 @@
 \usepackage{color}
 \usepackage{titlesec}
 \usepackage{paralist}
+\usepackage{xcolor}
+\usepackage[framemethod=tikz]{mdframed}
+%--
+\mdfsetup{}
+\newmdenv[roundcorner=5pt, linecolor=red!80, backgroundcolor=brown!10]{highlight}
 
 %\setlist{noitemsep}
 \setlength{\parindent}{1em}
@@ -27,7 +32,7 @@
         \colorbox{lgray}{\makebox[\textwidth]{\large\strut}}%
     }%
     \hspace*{-\textwidth}%
-    \if@secnum%
+    \if@secnum%x
         \arabic{section}%
         \hspace*{1em}%
     \fi%
