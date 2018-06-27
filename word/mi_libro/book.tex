@@ -13,13 +13,15 @@
 \usepackage[framemethod=tikz]{mdframed}
 %--
 \mdfsetup{}
-\newmdenv[roundcorner=5pt, linecolor=red!80, backgroundcolor=brown!10]{highlight}
+\newmdenv[roundcorner=5pt, linecolor=green!80, backgroundcolor=green!10]{highlight}
+\newmdenv[roundcorner=5pt, linecolor=orange!80, backgroundcolor=brown!10]{hint}
 
 %\setlist{noitemsep}
 \setlength{\parindent}{1em}
 \hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
 
 \newcommand{\thh}[1]{\footnotesize{#1}}
+\newcommand{\danger}{\ding{74}}
 %-------------------------------------------------------
 \makeatletter
 \newif\if@secnum
