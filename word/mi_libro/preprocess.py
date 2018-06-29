@@ -10,11 +10,12 @@ def process_table(linelist, transpose=False):
     tablecols = -1
     # split lines containing & into list
     for line in linelist:
-        if line.strip().startswith('\\hline'):
+        if line.strip().startswith('\\hline') or line.strip().startswith('\\multicolumn'):
             itemlist.append(line)
         else:
             itemlist.append(line.rstrip(' \\').split('&'))
             if tablecols != -1 and len(itemlist[-1]) != tablecols:
+                print(line)
                 raise Exception("table cols")
             else:
                 tablecols = len(itemlist[-1])

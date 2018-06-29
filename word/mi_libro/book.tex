@@ -9,6 +9,7 @@
 \usepackage{color}
 \usepackage{titlesec}
 \usepackage{paralist}
+\usepackage{booktabs}
 \usepackage{xcolor}
 \usepackage[framemethod=tikz]{mdframed}
 %--
@@ -23,24 +24,17 @@
 \newcommand{\thh}[1]{\footnotesize{#1}}
 \newcommand{\danger}{\ding{74}}
 %-------------------------------------------------------
-\makeatletter
-\newif\if@secnum
-\definecolor{lgray}{gray}{0.75}
-\titleformat{\section}[hang]{\large\bfseries}{%
-    \global\@secnumtrue
-}{0em}{%
-    {%
-        \setlength{\fboxsep}{2pt}%
-        \colorbox{lgray}{\makebox[\textwidth]{\large\strut}}%
-    }%
-    \hspace*{-\textwidth}%
-    \if@secnum%x
-        \arabic{section}%
-        \hspace*{1em}%
-    \fi%
-    \global\@secnumfalse%
-}[]
-\makeatother
+\titleformat
+{\section} % command
+[hang] % shape
+{\titlerule[0.8pt]\bfseries\large} % format
+{\thesection} % label
+{1em} % sep
+{} % before-code
+[
+\vspace{-2.5ex}%
+\rule{\textwidth}{0.4pt}
+] % after-code
 %-------------------------------------------------------
 \begin{document}
 
@@ -56,5 +50,7 @@
 \input{t_indefinido.ptex}
 \clearpage
 \input{t_imperfecto.ptex}
+\clearpage
+\input{t_perfecto.ptex}
 
 \end{document}
