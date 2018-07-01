@@ -1,0 +1,33 @@
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  outline: none;
+}
+
+
+.clickable {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+
+.solution {
+    display: none;
+    font-weight: bold;
+    color: green;
+}
+
+.note {
+    color: black;
+    font-weight: normal;
+    background-color: #AAA;
+    padding-right: 10pt;
+    padding-left: 10pt;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+}
+.scontent {
+    padding-left: 20pt;
+}
