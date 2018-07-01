@@ -8,7 +8,7 @@ book.pdf: $(TEMP)
 	latexmk -xelatex book.ptex
 
 %.ptex: %.tex
-	/c/python36/python preprocess.py -r $< $@
+	python3 preprocess.py -r $< $@
 
 .PHONY: t view clean, pure
 

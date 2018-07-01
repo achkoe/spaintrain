@@ -1,3 +1,14 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 140%;
+}
+
+h2 {
+    font-size: 120%;
+}
 input:invalid {
   box-shadow: 0 0 5px 1px red;
 }
@@ -17,6 +28,10 @@ input:focus:invalid {
     display: none;
     font-weight: bold;
     color: green;
+    border: solid 1pt black;
+        padding-top: 4pt;
+    padding-bottom: 4pt;
+
 }
 
 .note {
