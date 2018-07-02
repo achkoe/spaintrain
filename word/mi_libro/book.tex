@@ -1,5 +1,7 @@
-%\documentclass[oneside,10pt]{book}
-\documentclass[pagesize, DIV=15, fontsize=11pt, parskip=half, oneside, BCOR=5mm, headings=small]{scrartcl}
+\documentclass[twoside, 11pt]{article}
+\usepackage[a4paper, textheight=677pt, textwidth=466pt, headheight=17pt, marginparsep=12pt, footskip=47pt, headsep=20pt, ]{geometry}
+%\documentclass[pagesize, DIV=15, fontsize=11pt, parskip=half, twoside, BCOR=5mm, headings=small]{scrartcl}
+%\usepackage{layout}
 \usepackage[utf8]{inputenc}
 \usepackage[german, spanish]{babel}
 \usepackage{fontspec}
@@ -18,23 +20,59 @@
 \newmdenv[roundcorner=5pt, linecolor=orange!80, backgroundcolor=brown!10]{hint}
 
 %\setlist{noitemsep}
-\setlength{\parindent}{1em}
+\setlength{\parindent}{0em}
+\parskip2ex plus1ex minus0.5ex
 \hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
 
 \newcommand{\thh}[1]{\footnotesize{#1}}
 \newcommand{\danger}{\ding{74}}
+
 %-------------------------------------------------------
-\titleformat
-{\section} % command
-[hang] % shape
-{\titlerule[0.8pt]\bfseries\large} % format
-{\thesection} % label
-{1em} % sep
-{} % before-code
-[
-\vspace{-2.5ex}%
-\rule{\textwidth}{0.4pt}
-] % after-code
+% Aligné à gauche, suivi d'un filet horizontal
+\makeatletter
+\def\section{\@ifstar\unnumberedsection\numberedsection}
+\def\numberedsection{\@ifnextchar[%]
+  \numberedsectionwithtwoarguments\numberedsectionwithoneargument}
+\def\unnumberedsection{\@ifnextchar[%]
+  \unnumberedsectionwithtwoarguments\unnumberedsectionwithoneargument}
+\def\numberedsectionwithoneargument#1{\numberedsectionwithtwoarguments[#1]{#1}}
+\def\unnumberedsectionwithoneargument#1{\unnumberedsectionwithtwoarguments[#1]{#1}}
+\def\numberedsectionwithtwoarguments[#1]#2{%
+  \ifhmode\par\fi
+  \removelastskip
+  \vskip 3ex\goodbreak
+  \refstepcounter{section}%
+  \noindent\hrulefill\nobreak
+  \begingroup
+  \noindent
+  \leavevmode\Large\bfseries\raggedright
+  \thesection\ #2\par\nobreak
+  \endgroup
+  \noindent\hrulefill\nobreak
+  \vskip 2ex\nobreak
+  \addcontentsline{toc}{section}{%
+    \protect\numberline{\thesection}%
+    #1}%
+  }
+\def\unnumberedsectionwithtwoarguments[#1]#2{%
+  \ifhmode\par\fi
+  \removelastskip
+  \vskip 3ex\goodbreak
+%  \refstepcounter{section}%
+  \noindent\hrulefill\nobreak\\
+  \begingroup
+  \noindent
+  \leavevmode\Large\bfseries\raggedright
+%  \thesection\
+  #2\\\nobreak
+  \endgroup
+  \noindent\hrulefill\nobreak
+  \vskip 2ex\nobreak
+  \addcontentsline{toc}{section}{%
+%    \protect\numberline{\thesection}%
+    #1}%
+  }
+\makeatother
 %-------------------------------------------------------
 \begin{document}
 
@@ -43,14 +81,19 @@
 \maketitle
 \clearpage
 
-\input{t_imperativo_afirmativa.ptex}
-\clearpage
-\input{t_condicional.ptex}
+%\layout\clearpage
+\input{t_presente.ptex}
 \clearpage
 \input{t_indefinido.ptex}
 \clearpage
-\input{t_imperfecto.ptex}
-\clearpage
 \input{t_perfecto.ptex}
+\clearpage
+\input{t_plusquamperfecto.ptex}
+\clearpage
+\input{t_condicional.ptex}
+\clearpage
+\input{t_imperativo_afirmativa.ptex}
+\clearpage
+\input{t_futursimple.ptex}
 
 \end{document}
