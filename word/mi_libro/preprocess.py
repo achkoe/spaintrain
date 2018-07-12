@@ -10,7 +10,8 @@ def process_table(linelist, transpose=False):
     tablecols = -1
     # split lines containing & into list
     for line in linelist:
-        if line.strip().startswith('\\hline') or line.strip().startswith('\\multicolumn'):
+        if line.strip().startswith('\\hline') or line.strip().startswith('\\multicolumn') or line.strip().startswith('\\toprule') \
+        or line.strip().startswith('\\midrule')  or line.strip().startswith('\\bottomrule'):
             itemlist.append(line)
         else:
             itemlist.append(line.rstrip(' \\').split('&'))
