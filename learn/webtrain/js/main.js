@@ -5,6 +5,7 @@ $(document).ready(function(){
 
 
 var g_lesson;
+var g_session;
 const NEW = "new"
 
 function init() {
@@ -71,19 +72,23 @@ function show_lesson(lesson) {
         // append new session name to select
         $( "#s" + lesson).append( $("<option>" + session + "</option>", {value: 0})); // value?
     }
+    // load data from session
+
+    g_lesson = lesson;
+    g_session = session;
+    // show and hide things
     $("#toc").hide();
     $("#d" + lesson).show();
     $("#control_t").show();
     $("#control_b").show();
-    g_lesson = lesson;
     $(".show").each(function(index, element) {
         $(this).text( "Show" );
     });
-    $("#" + g_lesson + " .solution").hide();
+    $("#d" + lesson + " .solution").hide();
 }
 
 function save() {
-    console.log("save");
+    console.log("saving lesson " + g_lesson + " session " + g_session);
 }
 
 function home() {
