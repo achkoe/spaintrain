@@ -35,6 +35,7 @@ function init() {
         $( "#toc" ).append( $("<p>").append(link).append(select));
         show_toc();
     });
+    show_local_storage();
 }
 
 function show_toc() {
@@ -63,7 +64,7 @@ function show_lesson(lesson) {
     var session = $( "#s" + lesson + " option:selected").text();
     if (session == NEW) {
         // create a new session name
-        session = (new Date()).toISOString();
+        session = "" + $( "#s" + lesson + " option" ).length + " (" + (new Date()).toISOString() + ")"; 
         console.log(session);
         // add session name to localStorage
         sessionobj = JSON.parse(localStorage.getItem(lesson))
@@ -73,46 +74,53 @@ function show_lesson(lesson) {
         // append new session name to select
         $( "#s" + lesson).append( $("<option>" + session + "</option>", {value: 0})); // value?
     }
-    // load data from session
-
-    //
     g_lesson = lesson;
     g_session = session;
+    // load data from session
+    var lessondata = JSON.parse(localStorage.getItem(g_lesson));
+    var sessiondata = lessondata[g_session];
+    $("#d" + g_lesson + " input[type=text]").each(function(index, element) {
+
+        item_id = $(this).attr("id");
+        $(this).val(sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : "")
+    });
+    $("#d" + g_lesson + " input[type=radio]").each(function(index, element) {
+        item_id = $(this).attr("id");
+        $(this).prop("checked", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : false)
+    });
+
+    //
     // show and hide things
     $("#toc").hide();
     $("#d" + lesson).show();
     $("#control_t").show();
     $("#control_b").show();
     $(".show").each(function(index, element) {
-        $(this).text( "Show" );
+        $(this).text( "Mostrar" );
     });
     $("#d" + lesson + " .solution").hide();
 }
 
 function save() {
-    //TODO: set id of note to lesson_counter_x !!!
-    //TODO: set all names of radio buttons belonging to one group to the same
-    //TODO: set labels for all radio buttons, remove value from radio buttons, remove leading numbers from radio buttons where approbiate
     console.log("saving lesson " + g_lesson + " session " + g_session);
-    var lesson = JSON.parse(localStorage.getItem(g_lesson));
-    console.log("lesson=" + lesson +"|")
-    var result = lesson[g_session];
-    console.log("result=" + result +"|")
+    var lessondata = JSON.parse(localStorage.getItem(g_lesson));
+    var sessiondata = lessondata[g_session];
     var item, item_id;
     $("#d" + g_lesson + " input[type=text]").each(function(index, element) {
         item_id = $(this).attr("id");
         item = $(this).val();
-        result[item_id] = item;
+        sessiondata[item_id] = item;
         console.log("" + item_id + ": " + item);
     });
     $("#d" + g_lesson + " input[type=radio]").each(function(index, element) {
         item_id = $(this).attr("id");
         item = $(this).prop("checked")
-        result[item_id] = item;
+        sessiondata[item_id] = item;
         console.log("" + item_id + ": " + item);
     });
-    lesson[g_session] = result;
-    localStorage.setItem(g_lesson, JSON.stringify(lesson));
+    lessondata[g_session] = sessiondata;
+    localStorage.setItem(g_lesson, JSON.stringify(lessondata));
+    show_local_storage();
 }
 
 function home() {
@@ -121,7 +129,33 @@ function home() {
 
 function show_solution() {
     $(".show").each(function(index, element) {
-        $(this).text( $(this).text() == "Show" ? "Hide" : "Show");
+        $(this).text( $(this).text() == "Mostrar" ? "Ocultar" : "Mostrar");
     });
     $("#d" + g_lesson + " .solution").toggle();
+}
+
+function show_local_storage() {
+    var sdiv = $("#ls");
+    if (sdiv.length != 0) {
+        sdiv.remove()
+    }
+    $("body").append($("<div/>", {id: "ls"}));
+    sdiv = $("#ls");
+    for ( var i = 0, len = localStorage.length; i < len; ++i ) {
+        var lesson = localStorage.key(i);
+        sdiv.append( $( "<h2/>", {text: lesson} ) );
+        lesson = JSON.parse(localStorage.getItem(lesson));
+        console.log(lesson);
+
+        var dl = $("<dl/>");
+        Object.keys(lesson).forEach(function(key, index) {
+            dl.append( $( "<dt/>", {html: key} ));
+            var session = lesson[key];
+            Object.keys(session).forEach(function(key, index) {
+               dl.append( $( "<dd/>", {html: "" + key + ": " + session[key]} ))
+            });
+        });
+        sdiv.append(dl);
+    }
+
 }
