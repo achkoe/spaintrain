@@ -111,6 +111,10 @@ textarea {
     margin-left: 5px;
 }
 
+.task input {
+    margin-left: 5px;
+}
+
 .sc {
     border: 1px solid #AAA;
     margin-left: 10px;
