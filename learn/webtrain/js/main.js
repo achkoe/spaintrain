@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
     /* Hier der jQuery-Code */
     init();
 });
@@ -32,9 +32,18 @@ function init() {
         for (var i = 0; i < sessionlist.length; i++) {
             select.append( $("<option>" + sessionlist[i] + "</option>", {value: i + 1}))
         }
-        $( "#toc" ).append( $("<p>").append(link).append(select));
-        show_toc();
+        //table.append(link.wrap( $( "<div class='rtablerow'/>" ) );
+        //tablecell = $( "<div class='rtablecell'/>" )
+        var tablerow = $( "<div class='rtablerow'/>" );
+        tablerow.append(link);
+        tablerow.append(select);
+        $( "#toc" ).append(tablerow);
+        
+
     });
+    $( ".toc" ).wrap( $( "<div class='rtablecell'/>" ) );
+    $( "select" ).wrap( $( "<div class='rtablecell'/>" ) );
+    show_toc();
     show_local_storage();
 }
 

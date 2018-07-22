@@ -117,8 +117,9 @@ textarea {
     padding: 2px;
 }
 
-.toc {
-    margin-right: 3em;
+.rtablecell select {
+    margin-top: 1ex;
+    margin-left: 1em;
 }
 
 h1 {
@@ -127,6 +128,16 @@ h1 {
 h2 {
     font-size: 110%
 }
+
+input:focus  { background-color: cyan; color: black; }
+
+.rtable { display: table; }
+.rtablerow { display: table-row; }
+.rtableheading { display: table-header-group; }
+.rtablebody { display: table-row-group; }
+.rtablefoot { display: table-footer-group; }
+.rtablecell, .rtablehead { display: table-cell; }
+
 
 
 
