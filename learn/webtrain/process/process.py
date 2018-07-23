@@ -1,7 +1,6 @@
 import os
 import re
 import codecs
-import glob
 
 OUTPUTFOLDER = "html"
 INPUTFOLDER = "rawcontents"
@@ -50,35 +49,36 @@ def lesson2html(lesson):
                                 itemlist[subindex] = subitem[1:]
                                 # append solution in solutionlist
                                 solutionlist.append(itemlist[subindex])
-                            radiolist.append("""<input required="required" type="radio" id="{ttid}" name="{tid}"/>"""
-                                """<label for="{ttid}">{value}</label>""".format(value=itemlist[subindex], ttid="{}_{}".format(tid, subindex), tid=tid))    
-                        inputlist.append("<span class='rbtask'>{}</span>".format("".join(radiolist)))            
+                            radiolist.append(u"""<input required="required" type="radio" id="{ttid}" name="{tid}"/>"""
+                                u"""<label for="{ttid}">{value}</label>""".format(value=itemlist[subindex], ttid="{}_{}".format(tid, subindex), tid=tid))    
+                        inputlist.append(u"<span class='rbtask cbradio'>{}</span>".format("".join(radiolist)))            
                     else:
                         # we need a textbox
-                        inputlist.append("""<input required="required" type="text" id="{tid}" name="{tid}" size="{size}"/>""".format(tid=tid, size=len(item)))
+                        inputlist.append(u"""<input required="required" type="text" id="{tid}" name="{tid}" size="{size}"/>""".format(tid=tid, size=len(item)))
                         solutionlist.append(item)
                 outlist[-1] = outlist[-1].format(*inputlist)
-                outlist.append(u"""<p class="solution"><span class="note">"""
-                    """<input type="radio" id="s{0}_2" name="s{0}"/>"""
-                    """<label for="s{0}_2">&#x2713;</label>""" 
-                    """<input type="radio" id="s{0}_1" name="s{0}"/>"""
-                    """<label for="s{0}_1">&#x274D;</label>""" 
-                    """<input type="radio" id="s{0}_0" name="s{0}"/>"""
-                    """<label for="s{0}_0">&#x2717;</label>""" 
-                    """</span><span class="sc">{1}</span></p>""".format(taskindex, ", ".join(solutionlist)))
-    outlist.append("</div>")
+                outlist.append(u"""<p class="solution"><span class="note cbradio">"""
+                    u"""<input type="radio" id="s{0}_{1}_2" name="s{0}_{1}"/>"""
+                    u"""<label for="s{0}_{1}_2">&#x2713;</label>""" 
+                    u"""<input type="radio" id="s{0}_{1}_1" name="s{0}_{1}"/>"""
+                    u"""<label for="s{0}_{1}_1">&#x274D;</label>""" 
+                    u"""<input type="radio" id="s{0}_{1}_0" name="s{0}_{1}"/>"""
+                    u"""<label for="s{0}_{1}_0">&#x2717;</label>""" 
+                    u"""</span><span class="sc">{2}</span></p>""".format(lesson, taskindex, ", ".join(solutionlist)))
+    outlist.append(u"</div>")
     return u"\n".join(outlist)
 
 
 def process(lessonlist):
     for lesson in lessonlist:
+        print("process {}".format(lesson))
         htmltext = lesson2html(lesson)
         with codecs.open(os.path.join(OUTPUTFOLDER, "lesson{}.html".format(lesson)), "w", encoding="utf-8") as fh:
             fh.write(htmltext)
 
 
-def joinall():
-    filelist = sorted(glob.glob(os.path.join(OUTPUTFOLDER, "lesson*.html")))
+def joinall(lessonlist):
+    filelist = [os.path.join(OUTPUTFOLDER, "lesson{}.html".format(lesson)) for lesson in lessonlist]
     htmllist = []
     for filename in filelist:
         with codecs.open(filename, encoding="utf-8") as fh:
@@ -93,4 +93,4 @@ if __name__ == '__main__':
     lessonlist = [1, 2, 3, 12, 43]
     #lessonlist = [12]
     process(lessonlist)
-    joinall()
+    joinall(lessonlist)
