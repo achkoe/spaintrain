@@ -99,22 +99,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-.note {
-    border: 2px solid #666;
-    border-radius: 5px;
-    color: black;
-    background-color: #AAA;
-    padding: 2px 10px 2px 5px;
-}
-
 .note input {
     margin-left: 5px;
 }
 
-.rbtask {
-    margin-left: 5px;
-    border: 1px solid #AAA;
-    padding: 2px 10px 2px 5px;
+.task {
+    font-weight: bolder;
 }
 
 .rbtask input {
