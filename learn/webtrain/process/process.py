@@ -90,7 +90,7 @@ def joinall(lessonlist):
 
 
 if __name__ == '__main__':
-    lessonlist = [1, 2, 3, 4, 5, 12, 43]
+    lessonlist = [1, 2, 3, 4, 5, 6, 7, 12, 43]
     #lessonlist = [12]
     process(lessonlist)
     joinall(lessonlist)
