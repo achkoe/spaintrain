@@ -16,7 +16,7 @@ book.pdf: book.tex $(texfiles)
 
 %.tex: %.txt
 	python mtxt2tex.py -o $@ $<
-	#sh ../encrypt.sh $< $(addsuffix .aes, $(basename $<))
+	sh ../encrypt.sh $< $(addsuffix .aes, $(basename $<))
 
 
 c:	cleanup
