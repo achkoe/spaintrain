@@ -50,20 +50,21 @@ def lesson2html(lesson):
                                 # append solution in solutionlist
                                 solutionlist.append(itemlist[subindex])
                             radiolist.append(u"""<input required="required" type="radio" id="{ttid}" name="{tid}"/>"""
-                                u"""<label for="{ttid}">{value}</label>""".format(value=itemlist[subindex], ttid="{}_{}".format(tid, subindex), tid=tid))    
-                        inputlist.append(u"<span class='rbtask cbradio'>{}</span>".format("".join(radiolist)))            
+                                u"""<label for="{ttid}">{value}</label>""".format(value=itemlist[subindex], ttid="{}_{}".format(tid, subindex), tid=tid))
+                        inputlist.append(u"<span class='rbtask cbradio'>{}</span>".format("".join(radiolist)))
                     else:
                         # we need a textbox
                         inputlist.append(u"""<input required="required" type="text" id="{tid}" name="{tid}" size="{size}"/>""".format(tid=tid, size=len(item)))
-                        solutionlist.append(item)
+                        if len(item.strip()):
+                            solutionlist.append(item)
                 outlist[-1] = outlist[-1].format(*inputlist)
                 outlist.append(u"""<p class="solution"><span class="note cbradio">"""
                     u"""<input type="radio" id="s{0}_{1}_2" name="s{0}_{1}"/>"""
-                    u"""<label for="s{0}_{1}_2">&#x2713;</label>""" 
+                    u"""<label for="s{0}_{1}_2">&#x2713;</label>"""
                     u"""<input type="radio" id="s{0}_{1}_1" name="s{0}_{1}"/>"""
-                    u"""<label for="s{0}_{1}_1">&#x274D;</label>""" 
+                    u"""<label for="s{0}_{1}_1">&#x274D;</label>"""
                     u"""<input type="radio" id="s{0}_{1}_0" name="s{0}_{1}"/>"""
-                    u"""<label for="s{0}_{1}_0">&#x2717;</label>""" 
+                    u"""<label for="s{0}_{1}_0">&#x2717;</label>"""
                     u"""</span><span class="sc">{2}</span></p>""".format(lesson, taskindex, ", ".join(solutionlist)))
     outlist.append(u"</div>")
     return u"\n".join(outlist)

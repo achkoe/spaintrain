@@ -14,7 +14,7 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
-    font-family: sans-serif; 
+    font-family: sans-serif;
     margin-left:1em;
 }
 
@@ -115,6 +115,7 @@ textarea {
     border: 1px solid #AAA;
     margin-left: 10px;
     padding: 2px;
+    color: green;
 }
 
 .rtablecell select {
