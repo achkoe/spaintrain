@@ -4,6 +4,8 @@ directories = la_puerta_negra/ milonga/
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
+aesfiles = $(addsuffix contents.aes, $(directories))
+
 
 book.pdf: book.tex $(texfiles)
 	# latexmk -pv -pdf book.tex
@@ -27,6 +29,8 @@ cleanup:
 
 clean:
 	latexmk -c
+
+.PHONY: clean cleanup decrypt
 
 t:
 	echo $(texfiles)
