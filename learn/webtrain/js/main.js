@@ -38,13 +38,13 @@ function init() {
         tablerow.append(link);
         tablerow.append(select);
         $( "#toc" ).append(tablerow);
-        
-
     });
     $( ".toc" ).wrap( $( "<div class='rtablecell'/>" ) );
     $( "select" ).wrap( $( "<div class='rtablecell'/>" ) );
     show_toc();
     //show_local_storage();
+    $( "#wait" ).hide();
+    $( "#main" ).removeClass("hidden")
 }
 
 function show_toc() {

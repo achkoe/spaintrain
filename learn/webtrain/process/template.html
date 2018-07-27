@@ -39,18 +39,20 @@
       }});
     }} );
   </script>
-
-  <div id="toc" class="rtable"></div>
-  <div id="control_t">
-    <button type="button" onclick="save()">Guardar</button>    
-    <button type="button" onclick="home()">Inicio</button>    
-    <button class="show" type="button" onclick="show_solution()">Mostrar</button> 
-  </div>
-  {content}
-  <div id="control_b">
-    <button type="button" onclick="save()">Guardar</button>    
-    <button type="button" onclick="home()">Inicio</button>    
-    <button class="show" type="button" onclick="show_solution()">Mostrar</button> 
+  <div id="wait">¡Espera!</div>
+  <div id="main" class="hidden">
+    <div id="toc" class="rtable"></div>
+    <div id="control_t">
+      <button type="button" onclick="save()">Guardar</button>    
+      <button type="button" onclick="home()">Inicio</button>    
+      <button class="show" type="button" onclick="show_solution()">Mostrar</button> 
+    </div>
+    {content}
+    <div id="control_b">
+      <button type="button" onclick="save()">Guardar</button>    
+      <button type="button" onclick="home()">Inicio</button>    
+      <button class="show" type="button" onclick="show_solution()">Mostrar</button> 
+    </div>
   </div>
 </body>
 
