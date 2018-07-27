@@ -44,7 +44,7 @@ function init() {
     $( ".toc" ).wrap( $( "<div class='rtablecell'/>" ) );
     $( "select" ).wrap( $( "<div class='rtablecell'/>" ) );
     show_toc();
-    show_local_storage();
+    //show_local_storage();
 }
 
 function show_toc() {
