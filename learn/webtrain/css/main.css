@@ -104,7 +104,7 @@ textarea {
 }
 
 .task {
-    font-weight: bolder;
+    font-weight: normal;
 }
 
 .rbtask input {
@@ -116,6 +116,7 @@ textarea {
     margin-left: 10px;
     padding: 2px;
     color: green;
+    background-color: white !important;
 }
 
 .rtablecell select {
@@ -139,6 +140,7 @@ input:focus  { background-color: cyan; color: black; }
 .rtablefoot { display: table-footer-group; }
 .rtablecell, .rtablehead { display: table-cell; }
 
+.solution {background-color: black;}
 
 
 
