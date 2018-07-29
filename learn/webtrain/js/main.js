@@ -14,26 +14,19 @@ function init() {
 
     $( "h1" ).each(function(index, element) {
         var item = $( this ).text()
-        var item_id = $( this).attr("id");
+        var item_id = $( this ).attr("id");
 
         if (!localStorage.getItem(item_id)) {
             localStorage.setItem(item_id, JSON.stringify({}));
         }
         var sessionlist = Object.keys(JSON.parse(localStorage.getItem(item_id)));
 
-        var link = $( "<a/>", {
-            html: item,
-            "class": "toc",
-            href: "#",
-            "onclick": "show_lesson('" + item_id + "')",
-        });
+        var link = $( "<a/>", {html: item, "class": "toc", href: "#", "onclick": "show_lesson('" + item_id + "')"} );
         var select = $("<select id='s" + item_id + "'/>")
         select.append( $("<option>" + NEW + "</option>", {value: 0}))
         for (var i = 0; i < sessionlist.length; i++) {
             select.append( $("<option>" + sessionlist[i] + "</option>", {value: i + 1}))
         }
-        //table.append(link.wrap( $( "<div class='rtablerow'/>" ) );
-        //tablecell = $( "<div class='rtablecell'/>" )
         var tablerow = $( "<div class='rtablerow'/>" );
         tablerow.append(link);
         tablerow.append(select);
