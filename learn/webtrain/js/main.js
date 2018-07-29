@@ -24,9 +24,9 @@ function init() {
         var link = $( "<a/>", {html: item, "class": "toc", href: "#", "onclick": "show_lesson('" + item_id + "')"} );
         var select = $("<select id='s" + item_id + "'/>")
         select.append( $("<option>" + NEW + "</option>", {value: 0}))
-        for (var i = 0; i < sessionlist.length; i++) {
-            select.append( $("<option>" + sessionlist[i] + "</option>", {value: i + 1}))
-        }
+//        for (var i = 0; i < sessionlist.length; i++) {
+//            select.append( $("<option>" + sessionlist[i] + "</option>", {value: i + 1}))
+//        }
         var tablerow = $( "<div class='rtablerow'/>" );
         tablerow.append(link);
         tablerow.append(select);
