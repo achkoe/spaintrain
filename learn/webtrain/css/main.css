@@ -143,7 +143,19 @@ input:focus  { background-color: cyan; color: black; }
 .solution {background-color: black;}
 
 
-
+.flex-container{
+    width: 100%;
+    min-height: 0px;
+    margin: 0 auto;
+    display: -webkit-flex; /* Safari */
+    display: flex; /* Standard syntax */
+}
+.flex-container .column{
+    padding-right: 10px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+}
 
 
 

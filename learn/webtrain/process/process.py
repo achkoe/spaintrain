@@ -7,7 +7,6 @@ INPUTFOLDER = "rawcontents"
 
 
 def lesson2html(lesson):
-
     regexp = re.compile(r"\[([^\]]+)\]")
     with codecs.open(os.path.join(INPUTFOLDER, "lesson{}.txt".format(lesson)), encoding="utf-8") as fh:
         linelist = fh.read().splitlines()
@@ -21,6 +20,14 @@ def lesson2html(lesson):
         if line[0].isdigit():
             # headings starts always with number
             outlist.append(u"""\n<h2>{}</h2>""".format(line))
+        elif line.startswith('.bcolumn'):
+            if line[-1] == "s":
+                outlist.append(u"""<div class="flex-container">""")
+            outlist.append(u"""<div class="column">""")
+        elif line.startswith('.ecolumn'):
+            outlist.append(u"""</div>""")
+            if line[-1] == "e":
+                outlist.append(u"""</div>""")
         else:
             # process task
             # get all occurences of [] in slist

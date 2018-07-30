@@ -9,6 +9,9 @@ var g_session;
 const NEW = "new"
 
 function init() {
+    var t0, t1;
+    t0 = performance.now();
+
     $(".lesson").hide();
     $(".solution").hide();
 
@@ -24,9 +27,9 @@ function init() {
         var link = $( "<a/>", {html: item, "class": "toc", href: "#", "onclick": "show_lesson('" + item_id + "')"} );
         var select = $("<select id='s" + item_id + "'/>")
         select.append( $("<option>" + NEW + "</option>", {value: 0}))
-//        for (var i = 0; i < sessionlist.length; i++) {
-//            select.append( $("<option>" + sessionlist[i] + "</option>", {value: i + 1}))
-//        }
+        for (var i = 0; i < sessionlist.length; i++) {
+            select.append( $("<option>" + sessionlist[i] + "</option>", {value: i + 1}))
+        }
         var tablerow = $( "<div class='rtablerow'/>" );
         tablerow.append(link);
         tablerow.append(select);
@@ -38,6 +41,8 @@ function init() {
     //show_local_storage();
     $( "#wait" ).hide();
     $( "#main" ).removeClass("hidden")
+    t1 = performance.now();
+    console.log("Time took " + (t1 - t0) + " milliseconds.")
 }
 
 function show_toc() {
@@ -66,7 +71,7 @@ function show_lesson(lesson) {
     var session = $( "#s" + lesson + " option:selected").text();
     if (session == NEW) {
         // create a new session name
-        session = "" + $( "#s" + lesson + " option" ).length + " (" + (new Date()).toISOString() + ")"; 
+        session = "" + $( "#s" + lesson + " option" ).length + " (" + (new Date()).toISOString() + ")";
         console.log(session);
         // add session name to localStorage
         sessionobj = JSON.parse(localStorage.getItem(lesson))
