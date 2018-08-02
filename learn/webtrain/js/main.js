@@ -22,7 +22,8 @@ function init() {
         if (!localStorage.getItem(item_id)) {
             localStorage.setItem(item_id, JSON.stringify({}));
         }
-        var sessionlist = Object.keys(JSON.parse(localStorage.getItem(item_id)));
+        var lessondata = JSON.parse(localStorage.getItem(item_id));
+        var sessionlist = Object.keys(lessondata);
 
         var link = $( "<a/>", {html: item, "class": "toc", href: "#", "onclick": "show_lesson('" + item_id + "')"} );
         var select = $("<select id='s" + item_id + "'/>")
@@ -30,10 +31,11 @@ function init() {
         for (var i = 0; i < sessionlist.length; i++) {
             select.append( $("<option>" + sessionlist[i] + "</option>", {value: i + 1}))
         }
-        var tablerow = $( "<div class='rtablerow'/>" );
+        var tablerow = $( "<div/>", {"class": "rtablerow", id: "tr" + item_id});
         tablerow.append(link);
         tablerow.append(select);
         $( "#toc" ).append(tablerow);
+        show_statistic(item_id, lessondata);
     });
     $( ".toc" ).wrap( $( "<div class='rtablecell'/>" ) );
     $( "select" ).wrap( $( "<div class='rtablecell'/>" ) );
@@ -42,6 +44,7 @@ function init() {
     $( "#wait" ).hide();
     $( "#main" ).removeClass("hidden")
     t1 = performance.now();
+    $.sparkline_display_visible();
     console.log("Time took " + (t1 - t0) + " milliseconds.")
 }
 
@@ -56,6 +59,61 @@ function show_toc() {
     $("#control_b").hide();
     g_lesson = "toc";
     $("#toc").show();
+}
+
+function show_statistic(whichid, lessondata) {
+    var statistic = [];
+    for (var session in lessondata) {
+        // filter solutions, they have a key starting with 's'
+        var solutions = Object.keys(lessondata[session]).filter(key => key.startsWith('s'));
+        var points = [0, 0, 0, 0];
+        if (solutions.length > 0) {
+            // get the first part of all keys
+            var searchkey = solutions[0].split('_')[0];
+            // points[0] => not filled, points[1] => correct, points[2] => half, points[3] => false
+            for (i = 0; true; i++) {
+                // loop over all solutions and collect points
+                var onekey = solutions.filter(key => key.startsWith(searchkey + '_' + i + '_'));
+                if (onekey.length == 0) break;
+                var oneval = onekey.map(x => lessondata[session][x]);
+                which = oneval.findIndex(x => x == true) + 1;
+                points[which] += 1;
+            }
+        }
+        statistic.push(points);
+    }
+    if (statistic.length == 0) {
+        return;
+    }
+    //console.log(statistic);
+    var trend = [0, 0];
+    if (statistic.length > 1) {
+        //console.log(statistic[statistic.length - 1]);
+        //console.log(statistic[statistic.length - 2]);
+        for (var j = 0; j < 2; j++) {
+            var e = statistic[statistic.length - 1- j].length - 1; // count only correct and half
+            //console.log("j=" + j +", e=" + e);
+            for (var i = 1; i < e; i++) {
+                //console.log("i=" + i, ", statistic[statistic.length - 1- j][i]=" + statistic[statistic.length - 1- j][i]);
+                trend[1 - j] += (3 - i) * statistic[statistic.length - 1- j][i];
+            }
+        }
+    }
+    console.log(trend);
+    // show trend with arrows or similar
+    var trendspan;
+    if (trend[1] > trend[0]) {
+        trendspan = $("<span/>", {html: "&#10138;", "class": "trendp"});
+    } else if (trend[1] < trend[0]) {
+        trendspan = $("<span/>", {html: "&#10136;", "class": "trendn"});
+    } else {
+        trendspan = $("<span/>", {html: "&sim;", "class": "trende"});
+    }
+    var bar = $( "<span class='bar'>&nbsp;</span>" );
+    bar.sparkline(statistic, { type: 'bar', stackedBarColor: ['blue', 'green', 'yellow', 'red'],  });
+    $( "#tr" + whichid ).append(bar);
+    $( "#tr" + whichid ).append(trendspan);
+
 }
 
 function show_lesson(lesson) {
@@ -87,11 +145,11 @@ function show_lesson(lesson) {
     var lessondata = JSON.parse(localStorage.getItem(g_lesson));
     var sessiondata = lessondata[g_session];
     $("#d" + g_lesson + " input[type=text]").each(function(index, element) {
-
         item_id = $(this).attr("id");
         $(this).val(sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : "")
     });
     $("#d" + g_lesson + " input[type=radio]").each(function(index, element) {
+        //TODO: reset solutions too!
         item_id = $(this).attr("id");
         $(this).prop("checked", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : false)
     });

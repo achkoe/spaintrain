@@ -157,6 +157,23 @@ input:focus  { background-color: cyan; color: black; }
     flex: 1; /* Standard syntax */
 }
 
+.bar {
+    margin-left: 10pt;
+}
+
+.trendp {
+    padding-left: 10pt;
+    color: #2E2;
+}
+.trende {
+    padding-left: 10pt;
+    color: #22E;
+}
+.trendm {
+    padding-left: 10pt;
+    color: #E22;
+}
+
 
 
 
