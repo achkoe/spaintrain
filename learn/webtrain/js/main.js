@@ -151,7 +151,8 @@ function show_lesson(lesson) {
     $("#d" + g_lesson + " input[type=radio]").each(function(index, element) {
         //TODO: reset solutions too!
         item_id = $(this).attr("id");
-        $(this).prop("checked", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : false)
+        $(this).prop("checked", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : false);
+        $(this).button("refresh");
     });
 
     //
