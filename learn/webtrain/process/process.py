@@ -65,14 +65,20 @@ def lesson2html(lesson):
                         if len(item.strip()):
                             solutionlist.append(item)
                 outlist[-1] = outlist[-1].format(*inputlist)
-                outlist.append(u"""<p class="solution"><span class="note cbradio">"""
-                    u"""<input type="radio" id="s{0}_{1}_2" name="s{0}_{1}"/>"""
-                    u"""<label for="s{0}_{1}_2">&#x2713;</label>"""
-                    u"""<input type="radio" id="s{0}_{1}_1" name="s{0}_{1}"/>"""
-                    u"""<label for="s{0}_{1}_1">&#x274D;</label>"""
-                    u"""<input type="radio" id="s{0}_{1}_0" name="s{0}_{1}"/>"""
-                    u"""<label for="s{0}_{1}_0">&#x2717;</label>"""
-                    u"""</span><span class="sc">{2}</span></p>""".format(lesson, taskindex, ", ".join(solutionlist)))
+                if 0:
+                    outlist.append(u"""<p class="solution"><span class="note cbradio">"""
+                        u"""<input type="radio" id="s{0}_{1}_2" name="s{0}_{1}"/>"""
+                        u"""<label for="s{0}_{1}_2">&#x2713;</label>"""
+                        u"""<input type="radio" id="s{0}_{1}_1" name="s{0}_{1}"/>"""
+                        u"""<label for="s{0}_{1}_1">&#x274D;</label>"""
+                        u"""<input type="radio" id="s{0}_{1}_0" name="s{0}_{1}"/>"""
+                        u"""<label for="s{0}_{1}_0">&#x2717;</label>"""
+                        u"""</span><span class="sc">{2}</span></p>""".format(lesson, taskindex, ", ".join(solutionlist)))
+                else:
+                    outlist.append(u"""<div class="flex-container solution">"""
+                        u"""<div id="s{0}_{1}" class="slider"></div>"""
+                        u"""<div class="column">{2}</div>"""
+                        u"""</div>""".format(lesson, taskindex, ", ".join(solutionlist)))
     outlist.append(u"</div>")
     return u"\n".join(outlist)
 
@@ -98,7 +104,7 @@ def joinall(lessonlist):
 
 
 if __name__ == '__main__':
-    lessonlist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 43]
+    lessonlist = [1, 2, 3, 4]#, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 43]
     #lessonlist = [12]
     process(lessonlist)
     joinall(lessonlist)

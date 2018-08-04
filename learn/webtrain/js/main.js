@@ -15,6 +15,17 @@ function init() {
     $(".lesson").hide();
     $(".solution").hide();
 
+    $(".slider").each(function() {
+        var item_id = $(this).attr("id");
+        console.log($(this));
+        $(this).slider({
+            range: "min",
+            max: 2,
+            value: 0,
+        });
+    });
+
+
     $( "h1" ).each(function(index, element) {
         var item = $( this ).text()
         var item_id = $( this ).attr("id");
@@ -141,6 +152,7 @@ function show_lesson(lesson) {
     }
     g_lesson = lesson;
     g_session = session;
+    var item_id;
     // load data from session
     var lessondata = JSON.parse(localStorage.getItem(g_lesson));
     var sessiondata = lessondata[g_session];
@@ -149,13 +161,15 @@ function show_lesson(lesson) {
         $(this).val(sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : "")
     });
     $("#d" + g_lesson + " input[type=radio]").each(function(index, element) {
-        //TODO: reset solutions too!
         item_id = $(this).attr("id");
         $(this).prop("checked", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : false);
         $(this).button("refresh");
     });
 
-    //
+    $(".slider").each(function() {
+        item_id = $(this).attr("id");
+        $(this).slider("value", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : 0);
+    });
     // show and hide things
     $("#toc").hide();
     $("#d" + lesson).show();
@@ -183,6 +197,10 @@ function save() {
         item = $(this).prop("checked")
         sessiondata[item_id] = item;
         console.log("" + item_id + ": " + item);
+    });
+    $(".slider").each(function() {
+        item_id = $(this).attr("id");
+        sessiondata[item_id] = $(this).slider("value");
     });
     lessondata[g_session] = sessiondata;
     localStorage.setItem(g_lesson, JSON.stringify(lessondata));

@@ -140,7 +140,7 @@ input:focus  { background-color: cyan; color: black; }
 .rtablefoot { display: table-footer-group; }
 .rtablecell, .rtablehead { display: table-cell; }
 
-.solution {background-color: black;}
+.solution {background-color: white;}
 
 
 .flex-container{
@@ -156,6 +156,24 @@ input:focus  { background-color: cyan; color: black; }
     -ms-flex: 1; /* IE 10 */
     flex: 1; /* Standard syntax */
 }
+.flex-container .slider{
+    padding-right: 10px;
+    margin-right: 20px;
+    margin-top:2px;
+    -webkit-flex: 1; /* Safari */
+    -ms-flex: 1; /* IE 10 */
+    flex: 1; /* Standard syntax */
+    max-width:50px; /* and also a max-width */
+}
+.solution .column {
+    background-color: gray;
+    padding-left: 5px;
+}
+.slider .ui-slider-range {
+    background-color: green;
+}
+
+
 
 .bar {
     margin-left: 10pt;
@@ -173,7 +191,6 @@ input:focus  { background-color: cyan; color: black; }
     padding-left: 10pt;
     color: #E22;
 }
-
 
 
 
