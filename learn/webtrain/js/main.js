@@ -1,3 +1,8 @@
+/*
+TODO: check behaviour of show button
+TODO: update statistic with show toc
+*/
+
 $(document).ready(function() {
     /* Hier der jQuery-Code */
     init();
@@ -77,54 +82,32 @@ function show_statistic(whichid, lessondata) {
     for (var session in lessondata) {
         // filter solutions, they have a key starting with 's'
         var solutions = Object.keys(lessondata[session]).filter(key => key.startsWith('s'));
-        var points = [0, 0, 0, 0];
-        if (solutions.length > 0) {
-            // get the first part of all keys
-            var searchkey = solutions[0].split('_')[0];
-            // points[0] => not filled, points[1] => correct, points[2] => half, points[3] => false
-            for (i = 0; true; i++) {
-                // loop over all solutions and collect points
-                var onekey = solutions.filter(key => key.startsWith(searchkey + '_' + i + '_'));
-                if (onekey.length == 0) break;
-                var oneval = onekey.map(x => lessondata[session][x]);
-                which = oneval.findIndex(x => x == true) + 1;
-                points[which] += 1;
-            }
+        var points = 0;
+        for (var i = 0; i < solutions.length; i++) {
+            points += lessondata[session][solutions[i]]
         }
         statistic.push(points);
     }
     if (statistic.length == 0) {
         return;
     }
-    //console.log(statistic);
-    var trend = [0, 0];
-    if (statistic.length > 1) {
-        //console.log(statistic[statistic.length - 1]);
-        //console.log(statistic[statistic.length - 2]);
-        for (var j = 0; j < 2; j++) {
-            var e = statistic[statistic.length - 1- j].length - 1; // count only correct and half
-            //console.log("j=" + j +", e=" + e);
-            for (var i = 1; i < e; i++) {
-                //console.log("i=" + i, ", statistic[statistic.length - 1- j][i]=" + statistic[statistic.length - 1- j][i]);
-                trend[1 - j] += (3 - i) * statistic[statistic.length - 1- j][i];
-            }
-        }
-    }
-    //console.log(trend);
+    console.log(statistic);
+
     // show trend with arrows or similar
     var trendspan;
-    if (trend[1] > trend[0]) {
-        trendspan = $("<span/>", {html: "&#10138;", "class": "trendp"});
-    } else if (trend[1] < trend[0]) {
-        trendspan = $("<span/>", {html: "&#10136;", "class": "trendn"});
-    } else {
+    if ((statistic.length < 2 ) || (statistic[statistic.length - 1] == statistic[statistic.length - 2])) {
         trendspan = $("<span/>", {html: "&sim;", "class": "trende"});
+    } else 
+    if (statistic[statistic.length - 1] > statistic[statistic.length - 2]) {
+        trendspan = $("<span/>", {html: "&#10138;", "class": "trendp"});
+    } else 
+    if (statistic[statistic.length - 1] < statistic[statistic.length - 2]) {
+        trendspan = $("<span/>", {html: "&#10136;", "class": "trendn"});
     }
     var bar = $( "<span class='bar'>&nbsp;</span>" );
     bar.sparkline(statistic, { type: 'bar', stackedBarColor: ['blue', 'green', 'yellow', 'red'],  });
-    $( "#tr" + whichid ).append(bar);
     $( "#tr" + whichid ).append(trendspan);
-
+    $( "#tr" + whichid ).append(bar);
 }
 
 function show_lesson(lesson) {
@@ -166,7 +149,7 @@ function show_lesson(lesson) {
         $(this).button("refresh");
     });
 
-    $(".slider").each(function() {
+    $("#d" + g_lesson + " .slider").each(function() {
         item_id = $(this).attr("id");
         $(this).slider("value", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : 0);
     });
@@ -196,7 +179,7 @@ function save() {
         sessiondata[item_id] = item;
         console.log("" + item_id + ": " + item);
     });
-    $(".slider").each(function() {
+    $("#d" + g_lesson + " .slider").each(function() {
         item_id = $(this).attr("id");
         sessiondata[item_id] = $(this).slider("value");
     });
