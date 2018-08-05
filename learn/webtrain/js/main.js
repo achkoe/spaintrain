@@ -17,7 +17,7 @@ function init() {
 
     $(".slider").each(function() {
         var item_id = $(this).attr("id");
-        console.log($(this));
+        //console.log($(this));
         $(this).slider({
             range: "min",
             max: 2,
@@ -110,7 +110,7 @@ function show_statistic(whichid, lessondata) {
             }
         }
     }
-    console.log(trend);
+    //console.log(trend);
     // show trend with arrows or similar
     var trendspan;
     if (trend[1] > trend[0]) {
@@ -175,9 +175,7 @@ function show_lesson(lesson) {
     $("#d" + lesson).show();
     $("#control_t").show();
     $("#control_b").show();
-    $(".show").each(function(index, element) {
-        $(this).text( "Mostrar" );
-    });
+    $(".show").addClass( "ui-icon-lightbulb" );
     $("#d" + lesson + " .solution").hide();
 }
 
@@ -212,9 +210,13 @@ function home() {
 }
 
 function show_solution() {
-    $(".show").each(function(index, element) {
+    $(".show").toggleClass("ui-icon-lightbulb");
+    $(".show").toggleClass("ui-icon-circle-close");
+
+    /*$(".show").each(function(index, element) {
         $(this).text( $(this).text() == "Mostrar" ? "Ocultar" : "Mostrar");
     });
+    */
     $("#d" + g_lesson + " .solution").toggle();
 }
 
