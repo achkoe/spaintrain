@@ -98,23 +98,19 @@ function show_statistic(whichid, lessondata) {
         return;
     }
     console.log(statistic);
+    var text = "" + points + "/" + solutions.length;
 
-    // ui-icon-arrowthick-2-e-w
-    // ui-icon-arrowthick-1-ne
-    // ui-icon-arrowthick-1-se
-
-    
 
     // show trend with arrows or similar
     var trend;
     if ((statistic.length < 2 ) || (statistic[statistic.length - 1] == statistic[statistic.length - 2])) {
-        trend = $('<button class="ui-button ui-widget ui-corner-all ui-button-icon-only trend" title=""><span class="ui-icon ui-icon-arrowthick-2-e-w"></span></button>');
+        trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-2-e-w"></span>' + text + '</button>');
     } else 
     if (statistic[statistic.length - 1] > statistic[statistic.length - 2]) {
-        trend = $('<button class="ui-button ui-widget ui-corner-all ui-button-icon-only trend" title=""><span class="ui-icon ui-icon-arrowthick-1-ne"></span></button>');
+        trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-1-ne"></span>' + text + '</button>');
     } else 
     if (statistic[statistic.length - 1] < statistic[statistic.length - 2]) {
-        trend = $('<button class="ui-button ui-widget ui-corner-all ui-button-icon-only trend" title=""><span class="ui-icon ui-icon-arrowthick-1-se"></span></button>');
+        trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-1-se"></span>' + text + '</button>');
     }
     var bar = $( "<span class='bar'>&nbsp;</span>" );
     bar.sparkline(statistic, { type: 'bar', stackedBarColor: ['blue', 'green', 'yellow', 'red'],  });
