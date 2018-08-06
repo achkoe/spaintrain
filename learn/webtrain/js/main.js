@@ -41,6 +41,7 @@ function init() {
         }
         var lessondata = JSON.parse(localStorage.getItem(item_id));
         var sessionlist = Object.keys(lessondata);
+        sessionlist = sessionlist.sort().reverse();
 
         var link = $( "<a/>", {html: item, "class": "toc", href: "#", "onclick": "show_lesson('" + item_id + "')"} );
         var select = $("<select id='s" + item_id + "'/>")
