@@ -1,5 +1,4 @@
 /*
-TODO: check behaviour of show button
 TODO: update statistic with show toc
 */
 
@@ -11,6 +10,7 @@ $(document).ready(function() {
 
 var g_lesson;
 var g_session;
+var g_item_id_list = []
 const NEW = "new"
 
 function init() {
@@ -34,6 +34,7 @@ function init() {
     $( "h1" ).each(function(index, element) {
         var item = $( this ).text()
         var item_id = $( this ).attr("id");
+        g_item_id_list.push(item_id);
 
         if (!localStorage.getItem(item_id)) {
             localStorage.setItem(item_id, JSON.stringify({}));
@@ -51,7 +52,6 @@ function init() {
         tablerow.append(link);
         tablerow.append(select);
         $( "#toc" ).append(tablerow);
-        show_statistic(item_id, lessondata);
     });
     $( ".toc" ).wrap( $( "<div class='rtablecell'/>" ) );
     $( "select" ).wrap( $( "<div class='rtablecell'/>" ) );
@@ -60,8 +60,8 @@ function init() {
     $( "#wait" ).hide();
     $( "#main" ).removeClass("hidden")
     t1 = performance.now();
-    $.sparkline_display_visible();
     console.log("Time took " + (t1 - t0) + " milliseconds.")
+    $.sparkline_display_visible();
 }
 
 function show_toc() {
@@ -73,8 +73,14 @@ function show_toc() {
     $("#d" + g_lesson).hide();
     $("#control_t").hide();
     $("#control_b").hide();
+    console.log(g_item_id_list);
     g_lesson = "toc";
+    for (var i = 0; i < g_item_id_list.length; i++) {
+        var lessondata = JSON.parse(localStorage.getItem(g_item_id_list[i]));
+        show_statistic(g_item_id_list[i], lessondata);
+    }
     $("#toc").show();
+    $.sparkline_display_visible();
 }
 
 function show_statistic(whichid, lessondata) {
@@ -93,20 +99,28 @@ function show_statistic(whichid, lessondata) {
     }
     console.log(statistic);
 
+    // ui-icon-arrowthick-2-e-w
+    // ui-icon-arrowthick-1-ne
+    // ui-icon-arrowthick-1-se
+
+    
+
     // show trend with arrows or similar
-    var trendspan;
+    var trend;
     if ((statistic.length < 2 ) || (statistic[statistic.length - 1] == statistic[statistic.length - 2])) {
-        trendspan = $("<span/>", {html: "&sim;", "class": "trende"});
+        trend = $('<button class="ui-button ui-widget ui-corner-all ui-button-icon-only trend" title=""><span class="ui-icon ui-icon-arrowthick-2-e-w"></span></button>');
     } else 
     if (statistic[statistic.length - 1] > statistic[statistic.length - 2]) {
-        trendspan = $("<span/>", {html: "&#10138;", "class": "trendp"});
+        trend = $('<button class="ui-button ui-widget ui-corner-all ui-button-icon-only trend" title=""><span class="ui-icon ui-icon-arrowthick-1-ne"></span></button>');
     } else 
     if (statistic[statistic.length - 1] < statistic[statistic.length - 2]) {
-        trendspan = $("<span/>", {html: "&#10136;", "class": "trendn"});
+        trend = $('<button class="ui-button ui-widget ui-corner-all ui-button-icon-only trend" title=""><span class="ui-icon ui-icon-arrowthick-1-se"></span></button>');
     }
     var bar = $( "<span class='bar'>&nbsp;</span>" );
     bar.sparkline(statistic, { type: 'bar', stackedBarColor: ['blue', 'green', 'yellow', 'red'],  });
-    $( "#tr" + whichid ).append(trendspan);
+    $( "#tr" + whichid + " .bar").remove();
+    $( "#tr" + whichid + " .trend").remove();
+    $( "#tr" + whichid ).append(trend);
     $( "#tr" + whichid ).append(bar);
 }
 
@@ -158,6 +172,7 @@ function show_lesson(lesson) {
     $("#d" + lesson).show();
     $("#control_t").show();
     $("#control_b").show();
+    $(".show").removeClass( "ui-icon-circle-close" );
     $(".show").addClass( "ui-icon-lightbulb" );
     $("#d" + lesson + " .solution").hide();
 }
@@ -195,11 +210,6 @@ function home() {
 function show_solution() {
     $(".show").toggleClass("ui-icon-lightbulb");
     $(".show").toggleClass("ui-icon-circle-close");
-
-    /*$(".show").each(function(index, element) {
-        $(this).text( $(this).text() == "Mostrar" ? "Ocultar" : "Mostrar");
-    });
-    */
     $("#d" + g_lesson + " .solution").toggle();
 }
 
