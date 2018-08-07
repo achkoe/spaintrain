@@ -20,6 +20,8 @@ function init() {
     $(".lesson").hide();
     $(".solution").hide();
 
+
+
     $(".slider").each(function() {
         var item_id = $(this).attr("id");
         //console.log($(this));
@@ -47,7 +49,7 @@ function init() {
         var select = $("<select id='s" + item_id + "'/>")
         select.append( $("<option>" + NEW + "</option>", {value: 0}))
         for (var i = 0; i < sessionlist.length; i++) {
-            select.append( $("<option>" + sessionlist[i] + "</option>", {value: i + 1}))
+            select.append( $("<option>" + (i + 1) + " - " + sessionlist[i] + "</option>", {value: i + 1}))
         }
         var tablerow = $( "<div/>", {"class": "rtablerow", id: "tr" + item_id});
         tablerow.append(link);
@@ -132,18 +134,15 @@ function show_lesson(lesson) {
     var sessionobj
     // get the selected session
     var session = $( "#s" + lesson + " option:selected").text();
+    console.log(session)
     if (session == NEW) {
-        // create a new session name
- //!       session = "" + $( "#s" + lesson + " option" ).length + " (" + (new Date()).toISOString() + ")";
-        console.log(session);
-        // add session name to localStorage
         sessionobj = JSON.parse(localStorage.getItem(lesson))
         sessionobj[session] = {}
         localStorage.setItem(lesson, JSON.stringify(sessionobj));
-        console.log(localStorage);
-        // append new session name to select
-//!        $( "#s" + lesson).append( $("<option>" + session + "</option>", {value: 0})); // value?
+    } else {
+        session = session.split('-', 1)[1].trim();
     }
+    console.log(session);
     g_lesson = lesson;
     g_session = session;
     var item_id;
@@ -179,9 +178,10 @@ function save() {
     var lessondata = JSON.parse(localStorage.getItem(g_lesson));
     var sessiondata = lessondata[g_session];
     if (g_session == NEW) {
-        session = "" + $( "#s" + g_lesson + " option" ).length + " (" + (new Date()).toISOString() + ")";
+        session = new Date().toISOString();
         delete lessondata[g_session];
         g_session = session;
+        session = "" + $( "#s" + g_lesson + " option" ).length + " - " + session;
         $( "#s" + g_lesson).prepend( $("<option>" + session + "</option>", {value: 0})); // value? 
     }
     var item, item_id;
