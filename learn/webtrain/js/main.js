@@ -1,42 +1,46 @@
 /*
 TODO: update statistic with show toc
 */
+var g_lesson;
+var g_session;
+var g_item_id_list = []
+const NEW = "new"
 
 $(document).ready(function() {
     $(".lesson").hide();
     $(".solution").hide();
 
     //------------------------------------
-    var syncobj = {};
-    for ( var i = 0, len = localStorage.length; i < len; ++i ) {
-        syncobj[localStorage.key( i )] = localStorage.getItem( localStorage.key( i ) ); 
-    }    
-    $.ajaxSetup({timeout: 5000});
-    var jqxhr = $.post( "http://127.0.0.1:8080", 
-        JSON.stringify(syncobj), 
-        null, "json")
-    .done(function(data) {
-        for (key in data) {
-            localStorage.setItem(key, data[key]);
-        }
-        console.log( "data synced" );
+    if (false) {
+        var syncobj = {};
+        for ( var i = 0, len = localStorage.length; i < len; ++i ) {
+            syncobj[localStorage.key( i )] = localStorage.getItem( localStorage.key( i ) ); 
+        }    
+        $.ajaxSetup({timeout: 5000});
+        var jqxhr = $.post( "http://127.0.0.1:8080", 
+            JSON.stringify(syncobj), 
+            null, "json")
+        .done(function(data) {
+            for (key in data) {
+                localStorage.setItem(key, data[key]);
+            }
+            console.log( "data synced" );
+            init();
+        })
+        .fail(function() {
+            init();
+            console.log( "data not synced" );
+        })
+        .always(function() {
+            console.log( "complete" );
+        });
+    } else {
         init();
-    })
-    .fail(function() {
-        init();
-        console.log( "data not synced" );
-    })
-    .always(function() {
-        console.log( "complete" );
-    });
+    }
     //------------------------------------
 });
 
 
-var g_lesson;
-var g_session;
-var g_item_id_list = []
-const NEW = "new"
 
 function init() {
     var t0, t1;
@@ -95,7 +99,7 @@ function show_toc() {
     $("#d" + g_lesson).hide();
     $("#control_t").hide();
     $("#control_b").hide();
-    console.log(g_item_id_list);
+    //console.log(g_item_id_list);
     g_lesson = "toc";
     for (var i = 0; i < g_item_id_list.length; i++) {
         var lessondata = JSON.parse(localStorage.getItem(g_item_id_list[i]));
@@ -119,7 +123,7 @@ function show_statistic(whichid, lessondata) {
     if (statistic.length == 0) {
         return;
     }
-    console.log(statistic);
+    //console.log(statistic);
     var text = "" + points + "/" + solutions.length;
 
 
@@ -149,19 +153,18 @@ function show_lesson(lesson) {
         Show control divs
         Reset Show buttons and hide solution
     */
-    console.log(lesson);
+    //console.log(lesson);
     var sessionobj
     // get the selected session
     var session = $( "#s" + lesson + " option:selected").text();
-    console.log(session)
+    //console.log(session)
     if (session == NEW) {
         sessionobj = JSON.parse(localStorage.getItem(lesson))
         sessionobj[session] = {}
         localStorage.setItem(lesson, JSON.stringify(sessionobj));
     } else {
-        session = session.split('-', 1)[1].trim();
+        session = session.substring(session.indexOf('-') + 1).trim();
     }
-    console.log(session);
     g_lesson = lesson;
     g_session = session;
     var item_id;
@@ -201,20 +204,22 @@ function save() {
         delete lessondata[g_session];
         g_session = session;
         session = "" + $( "#s" + g_lesson + " option" ).length + " - " + session;
+        $( "#s" + g_lesson ).children()[0].remove();
         $( "#s" + g_lesson).prepend( $("<option>" + session + "</option>", {value: 0})); // value? 
+        $( "#s" + g_lesson).prepend( $("<option>" + NEW + "</option>", {value: 0})); // value? 
     }
     var item, item_id;
     $("#d" + g_lesson + " input[type=text]").each(function(index, element) {
         item_id = $(this).attr("id");
         item = $(this).val();
         sessiondata[item_id] = item;
-        console.log("" + item_id + ": " + item);
+        //console.log("" + item_id + ": " + item);
     });
     $("#d" + g_lesson + " input[type=radio]").each(function(index, element) {
         item_id = $(this).attr("id");
         item = $(this).prop("checked")
         sessiondata[item_id] = item;
-        console.log("" + item_id + ": " + item);
+        //console.log("" + item_id + ": " + item);
     });
     $("#d" + g_lesson + " .slider").each(function() {
         item_id = $(this).attr("id");
@@ -246,7 +251,7 @@ function show_local_storage() {
         var lesson = localStorage.key(i);
         sdiv.append( $( "<h2/>", {text: lesson} ) );
         lesson = JSON.parse(localStorage.getItem(lesson));
-        console.log(lesson);
+        //console.log(lesson);
 
         var dl = $("<dl/>");
         Object.keys(lesson).forEach(function(key, index) {
