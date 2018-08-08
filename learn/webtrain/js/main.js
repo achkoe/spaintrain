@@ -3,8 +3,33 @@ TODO: update statistic with show toc
 */
 
 $(document).ready(function() {
-    /* Hier der jQuery-Code */
-    init();
+    $(".lesson").hide();
+    $(".solution").hide();
+
+    //------------------------------------
+    var syncobj = {};
+    for ( var i = 0, len = localStorage.length; i < len; ++i ) {
+        syncobj[localStorage.key( i )] = localStorage.getItem( localStorage.key( i ) ); 
+    }    
+    $.ajaxSetup({timeout: 5000});
+    var jqxhr = $.post( "http://127.0.0.1:8080", 
+        JSON.stringify(syncobj), 
+        null, "json")
+    .done(function(data) {
+        for (key in data) {
+            localStorage.setItem(key, data[key]);
+        }
+        console.log( "data synced" );
+        init();
+    })
+    .fail(function() {
+        init();
+        console.log( "data not synced" );
+    })
+    .always(function() {
+        console.log( "complete" );
+    });
+    //------------------------------------
 });
 
 
@@ -17,11 +42,6 @@ function init() {
     var t0, t1;
     t0 = performance.now();
 
-    $(".lesson").hide();
-    $(".solution").hide();
-
-
-
     $(".slider").each(function() {
         var item_id = $(this).attr("id");
         //console.log($(this));
@@ -31,7 +51,6 @@ function init() {
             value: 0,
         });
     });
-
 
     $( "h1" ).each(function(index, element) {
         var item = $( this ).text()
