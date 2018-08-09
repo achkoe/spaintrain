@@ -175,9 +175,10 @@ input:focus  { background-color: cyan; color: black; }
 .slider .ui-slider-range {
     background-color: #0D1;
 }
-.ui-slider-handle { border-color: #0D1; }
 
-
+.ui-slider-handle { 
+    border-color: #0D1; 
+}
 
 .bar {
     margin-left: 10pt;
@@ -204,6 +205,9 @@ input:focus  { background-color: cyan; color: black; }
     background-color: red;
     text-align: center;
     font-size: large;
+}
+#main {
+    margin-bottom: 2em;
 }
 
 

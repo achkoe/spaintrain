@@ -41,8 +41,9 @@ function init(synced) {
     g_storage = JSON.parse(localStorage.getItem(localStorageKey));
 
     // make point sliders
-    $(".slider").each(function() {
+    $(".slider").each(function(index) {
         $( this ).slider({range: "min", max: 2, value: 0});
+        $( this ).find(".ui-slider-handle").attr("tabindex", index + 1);        
     });
     // make table of content
     $( "h1" ).each(function() {
@@ -101,6 +102,7 @@ function show_toc() {
 
 function show_statistic(whichid, lessondata) {
     var statistic = [];
+    if (Object.keys(lessondata).length <= 1) return;
     for (var session in lessondata) {
         // filter solutions, they have a key starting with 's'
         var solutions = Object.keys(lessondata[session]).filter(key => key.startsWith('s'));
@@ -110,13 +112,8 @@ function show_statistic(whichid, lessondata) {
         }
         statistic.push(points);
     }
-    if (statistic.length == 0) {
-        return;
-    }
     //console.log(statistic);
     var text = "" + points + "/" + solutions.length;
-
-
     // show trend with arrows or similar
     var trend;
     if ((statistic.length < 2 ) || (statistic[statistic.length - 1] == statistic[statistic.length - 2])) {
@@ -218,7 +215,7 @@ function save() {
     lessondata[g_session] = sessiondata;
     g_storage[g_lesson] = lessondata;
     localStorage.setItem(localStorageKey, JSON.stringify(g_storage))
-    show_local_storage();
+    // show_local_storage();
 }
 
 function home() {
