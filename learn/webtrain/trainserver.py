@@ -2,7 +2,8 @@ import web
 import json
 
 urls = (
-    '/(.*)', 'main'
+    '/json/(.*)', 'main',
+    '/hello', 'hello'
 )
 safename = "webtraindata.json"
 app = web.application(urls, globals())
@@ -20,6 +21,12 @@ class main:
         web.header('Access-Control-Allow-Origin', '*')
         return json.dumps(safe)
 
+class hello:
+    def POST(self):
+        return "Hello post"
+
+    def GET(self):
+        return "Hello get"
 
 if __name__ == "__main__":
     web.internalerror = web.debugerror

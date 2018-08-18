@@ -20,8 +20,8 @@ $(document).ready(function() {
 
     // try to synchronize with server
     $.ajaxSetup({timeout: 5000});
-    var jqxhr = $.post( "http://127.0.0.1:8080", 
-        JSON.stringify(g_storage), 
+    var jqxhr = $.post( "http://127.0.0.1:8080/json/",
+        JSON.stringify(g_storage),
         null, "json")
     .done(function(data) {
         localStorage.setItem(localStorageKey, JSON.stringify(data));
@@ -43,7 +43,7 @@ function init(synced) {
     // make point sliders
     $(".slider").each(function(index) {
         $( this ).slider({range: "min", max: 2, value: 0});
-        $( this ).find(".ui-slider-handle").attr("tabindex", index + 1);        
+        $( this ).find(".ui-slider-handle").attr("tabindex", index + 1);
     });
     // make table of content
     $( "h1" ).each(function() {
@@ -52,7 +52,7 @@ function init(synced) {
 
         if (!g_storage[item_id]) {
             g_storage[item_id] = {};
-        } 
+        }
         var lessondata = g_storage[item_id];
         var sessionlist = Object.keys(lessondata);
         sessionlist = sessionlist.sort().reverse();
@@ -94,7 +94,7 @@ function show_toc() {
     g_lesson = "toc";
     for (key in g_storage) {
         var lessondata = g_storage[key];
-        show_statistic(key, lessondata);    
+        show_statistic(key, lessondata);
     }
     $("#toc").show();
     $.sparkline_display_visible();
@@ -118,10 +118,10 @@ function show_statistic(whichid, lessondata) {
     var trend;
     if ((statistic.length < 2 ) || (statistic[statistic.length - 1] == statistic[statistic.length - 2])) {
         trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-2-e-w"></span>' + text + '</button>');
-    } else 
+    } else
     if (statistic[statistic.length - 1] > statistic[statistic.length - 2]) {
         trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-1-ne"></span>' + text + '</button>');
-    } else 
+    } else
     if (statistic[statistic.length - 1] < statistic[statistic.length - 2]) {
         trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-1-se"></span>' + text + '</button>');
     }
@@ -192,8 +192,8 @@ function save() {
         g_session = session;
         session = "" + $( "#s" + g_lesson + " option" ).length + " - " + session;
         $( "#s" + g_lesson ).children()[0].remove();
-        $( "#s" + g_lesson).prepend( $("<option>" + session + "</option>", {value: 0})); // value? 
-        $( "#s" + g_lesson).prepend( $("<option>" + NEW + "</option>", {value: 0})); // value? 
+        $( "#s" + g_lesson).prepend( $("<option>" + session + "</option>", {value: 0})); // value?
+        $( "#s" + g_lesson).prepend( $("<option>" + NEW + "</option>", {value: 0})); // value?
     }
     var item, item_id;
     $("#d" + g_lesson + " input[type=text]").each(function(index, element) {

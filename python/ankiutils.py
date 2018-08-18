@@ -88,10 +88,10 @@ def import2anki(args):
     # with hel from https://www.juliensobczak.com/tell/2016/12/26/anki-scripting.html
     config = {
         "path": "/home/achim/Dokumente/Anki/Benutzer 1/collection.anki2",
-        "deckname": "Spaintrain2",
+        "deckname": "SpainTrain2",
         "modelname": u'Einfach (beide Richtungen)',
         # mapping dataitem > anki field (0:Vorderseite, 1:Rückseite, 2:wordtype)
-        "mappinglist": [1, 0, 2],
+        "mappinglist": [0, 1, 2],
         "delimiter": u"|"
     }
     if args.config:
@@ -189,7 +189,7 @@ if __name__ == '__main__':
     parser_duestat = subparsers.add_parser("duestat", help="due statistics")
     parser_duestat.add_argument("-q", "--query", action="store", help="for example deck:TempusTrain")
     parser_duestat.set_defaults(func=duestat)
-    #    
+    #
     parser_list = subparsers.add_parser("list", help="list")
     parser_list.add_argument("-q", "--query", action="store")
     parser_list.set_defaults(func=listitems)
@@ -210,7 +210,7 @@ if __name__ == '__main__':
     parser_work.set_defaults(func=makeworksheet)
     parser_work.add_argument("-p", "--percent", dest="percentage", action="store", default=10, type=int, help="percentage to do, default %(default)s")
     parser_work.add_argument("-q", "--query", action="store", default="rated:1")
-    #    
+    #
     args = parser.parse_args()
     args._path = PATH
     args.func(args)
