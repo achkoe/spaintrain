@@ -9,6 +9,7 @@ const localStorageKey = "webtrain";
 
 
 $(document).ready(function() {
+    console.log(location.hostname);
     $(".lesson").hide();
     $(".solution").hide();
 
@@ -20,7 +21,7 @@ $(document).ready(function() {
 
     // try to synchronize with server
     $.ajaxSetup({timeout: 5000});
-    var jqxhr = $.post( "http://127.0.0.1:8080/json/",
+    var jqxhr = $.post( "http://" + location.hostname + ":8080/json/",
         JSON.stringify(g_storage),
         null, "json")
     .done(function(data) {
