@@ -77,7 +77,6 @@ function init(synced) {
     show_toc();
     $( "#wait" ).hide();
     $( "#main" ).removeClass("hidden")
-    $.sparkline_display_visible();
     // show sync hint
     $( "#sync" ).removeClass("hidden")
     $("#synctext").text((synced ? "S" : "Not s") + "ynchronized with server");
@@ -99,7 +98,6 @@ function show_toc() {
         show_statistic(key, lessondata);
     }
     $("#toc").show();
-    $.sparkline_display_visible();
 }
 
 function show_statistic(whichid, lessondata) {
