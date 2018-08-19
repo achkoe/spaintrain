@@ -5,6 +5,7 @@ var g_storage;
 var g_lesson;
 var g_session;
 const NEW = "new";
+const maxPoints = 2;
 const localStorageKey = "webtrain";
 
 
@@ -113,25 +114,26 @@ function show_statistic(whichid, lessondata) {
         }
         statistic.push(points);
     }
-    //console.log(statistic);
-    var text = "" + points + "/" + solutions.length;
+    console.log(statistic);
+    var text = "" + points + "/" + maxPoints * solutions.length;
+    var title = statistic.slice(0, 11).reverse().join('|')
+    var icon;
     // show trend with arrows or similar
-    var trend;
     if ((statistic.length < 2 ) || (statistic[statistic.length - 1] == statistic[statistic.length - 2])) {
-        trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-2-e-w"></span>' + text + '</button>');
+        //trend = $('<button class="ui-button ui-widget ui-corner-all trend" title="' + title + '"><span class="ui-icon ui-icon-arrowthick-2-e-w"></span>' + text + '</button>');
+        icon = "ui-icon ui-icon-arrowthick-2-e-w";
     } else
     if (statistic[statistic.length - 1] > statistic[statistic.length - 2]) {
-        trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-1-ne"></span>' + text + '</button>');
+        //trend = $('<button class="ui-button ui-widget ui-corner-all trend" title="' + title + '"><span class="ui-icon ui-icon-arrowthick-1-ne"></span>' + text + '</button>');
+        icon = "ui-icon ui-icon-arrowthick-1-ne";
     } else
     if (statistic[statistic.length - 1] < statistic[statistic.length - 2]) {
-        trend = $('<button class="ui-button ui-widget ui-corner-all trend" title=""><span class="ui-icon ui-icon-arrowthick-1-se"></span>' + text + '</button>');
+        //trend = $('<button class="ui-button ui-widget ui-corner-all trend" title="' + title + '"><span class="ui-icon ui-icon-arrowthick-1-se"></span>' + text + '</button>');
+        icon = "ui-icon ui-icon-arrowthick-1-se";
     }
-    var bar = $( "<span class='bar'>&nbsp;</span>" );
-    bar.sparkline(statistic, { type: 'bar', stackedBarColor: ['blue', 'green', 'yellow', 'red'],  });
-    $( "#tr" + whichid + " .bar").remove();
+    var trend = $('<span class="trend ui-icon ' + icon + '"></span><span class="trend ui-widget ui-corner-all"  title="' + title + '">' + text + '</span>');
     $( "#tr" + whichid + " .trend").remove();
     $( "#tr" + whichid ).append(trend);
-    $( "#tr" + whichid ).append(bar);
 }
 
 function show_lesson(lesson) {
