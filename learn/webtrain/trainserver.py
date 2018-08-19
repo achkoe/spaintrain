@@ -1,11 +1,12 @@
 import web
 import json
+import os
 
 urls = (
     '/json/(.*)', 'main',
     '/hello', 'hello'
 )
-safename = "webtraindata.json"
+safename = os.path.join(os.path.dirname(__file__), "webtraindata.json")
 app = web.application(urls, globals())
 with open(safename, "r") as fh:
     safe = json.load(fh)
