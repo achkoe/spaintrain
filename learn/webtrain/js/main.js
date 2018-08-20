@@ -19,7 +19,11 @@ $(document).ready(function() {
         localStorage.setItem(localStorageKey, JSON.stringify({}));
     }
     g_storage = JSON.parse(localStorage.getItem(localStorageKey));
+    sync_with_server();
+    init();
+});
 
+function sync_with_server() {
     // try to synchronize with server
     $.ajaxSetup({timeout: 5000});
     var jqxhr = $.post( "http://" + location.hostname + ":8080/json/",
@@ -28,18 +32,19 @@ $(document).ready(function() {
     .done(function(data) {
         localStorage.setItem(localStorageKey, JSON.stringify(data));
         console.log( "data synced" );
-        init(true);
+        show_sync(true);
     })
     .fail(function() {
-        init(false);
+        show_sync(false);
         console.log( "data not synced" );
     })
     .always(function() {
         console.log( "complete" );
     });
-});
 
-function init(synced) {
+}
+
+function init() {
     g_storage = JSON.parse(localStorage.getItem(localStorageKey));
 
     // make point sliders
@@ -77,10 +82,16 @@ function init(synced) {
     show_toc();
     $( "#wait" ).hide();
     $( "#main" ).removeClass("hidden")
+}
+
+function show_sync(synced) {
     // show sync hint
-    $( "#sync" ).removeClass("hidden")
+    $( "#sync" ).removeClass("hidden");
+    $( "#sync" ).show();
     $("#synctext").text((synced ? "S" : "Not s") + "ynchronized with server");
-    $("#sync").fadeOut(4000);
+    $("#sync").fadeOut(4000, function() {
+        $(this).addClass("hidden");
+    });
 }
 
 function show_toc() {
@@ -217,6 +228,7 @@ function save() {
     g_storage[g_lesson] = lessondata;
     localStorage.setItem(localStorageKey, JSON.stringify(g_storage))
     // show_local_storage();
+    sync_with_server();
 }
 
 function home() {
