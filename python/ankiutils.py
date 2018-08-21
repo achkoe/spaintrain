@@ -170,6 +170,24 @@ def makeworksheet(args):
                 key, u", ".join(u"['{}', '{}']".format(r[0], r[1]) for r in resultdict[key])) for key in resultdict)))
 
 
+def ankitest(args):
+    col = Collection(args._path)
+    cnt = Counter()
+    # query = "deck:SpainTrain2 OR deck:Spaintrain1"
+    # query = "rated:1"
+    idlist = col.findCards(args.query)
+    print len(idlist)
+    for id_ in idlist:
+        card = col.getCard(id_)
+        note = card.note()
+        itemdict = dict(note.items())
+        if "verb" in itemdict.get("wordclass", "").lower():
+            #print itemdict[u"Rückseite"]
+            #print itemdict[u"Vorderseite"]
+            cnt[itemdict[u"Vorderseite"]] += 1
+    col.close()
+    print u"\n".join(cnt.keys())
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     subparsers = parser.add_subparsers()
@@ -211,9 +229,13 @@ if __name__ == '__main__':
     parser_work.add_argument("-p", "--percent", dest="percentage", action="store", default=10, type=int, help="percentage to do, default %(default)s")
     parser_work.add_argument("-q", "--query", action="store", default="rated:1")
     #
+    parser_test = subparsers.add_parser("test", help="misc test")
+    parser_test.add_argument("-q", "--query", action="store", default="deck:Spaintrain1")
+    parser_test.set_defaults(func=ankitest)
+    #
     args = parser.parse_args()
     args._path = PATH
     args.func(args)
 
-# python ankiutils.py setsource --query="deck:Spaintrain2 source:*Kurs2*" Kurs2-U1
+# python ankiutils.py setsource --query="deck:Spaintrain2 source:*Kurs2*" Kurs2
 # python ankiutils.py duestat --query="deck:TempusTrain"

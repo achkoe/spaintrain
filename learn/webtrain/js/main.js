@@ -4,6 +4,7 @@
 var g_storage;
 var g_lesson;
 var g_session;
+var g_modified = false;
 const NEW = "new";
 const maxPoints = 2;
 const localStorageKey = "webtrain";
@@ -81,7 +82,26 @@ function init() {
     // initialize views
     show_toc();
     $( "#wait" ).hide();
-    $( "#main" ).removeClass("hidden")
+    $( "#main" ).removeClass("hidden");
+    $("input").each(function() {
+        $(this).on("input", function(event) { g_modified = true; });
+    });
+    $("#dialog").dialog({
+        autoOpen: false,
+        resizable: false,
+        height: "auto",
+        width: 400,
+        modal: true,
+        buttons: {
+            "Ok": function() {
+                $( this ).dialog( "close" );
+                show_toc();
+            },
+            Cancel: function() {
+                $( this ).dialog( "close" );
+            }
+        }
+    });
 }
 
 function show_sync(synced) {
@@ -227,12 +247,17 @@ function save() {
     lessondata[g_session] = sessiondata;
     g_storage[g_lesson] = lessondata;
     localStorage.setItem(localStorageKey, JSON.stringify(g_storage))
+    g_modified = false;
     // show_local_storage();
     sync_with_server();
 }
 
 function home() {
-    show_toc();
+    if (g_modified) {
+        $("#dialog").dialog("open");
+    } else {
+        show_toc();
+    }
 }
 
 function show_solution() {
