@@ -104,6 +104,6 @@ def joinall(lessonlist):
 
 
 if __name__ == '__main__':
-    lessonlist = range(1, 67)
+    lessonlist = range(1, 71)
     process(lessonlist)
     joinall(lessonlist)
