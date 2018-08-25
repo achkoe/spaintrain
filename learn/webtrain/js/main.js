@@ -5,7 +5,7 @@ var g_storage;
 var g_lesson;
 var g_session;
 var g_modified = false;
-const NEW = "neu";
+const NEW = "new";
 const maxPoints = 2;
 const localStorageKey = "webtrain";
 
