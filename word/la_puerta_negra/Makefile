@@ -1,6 +1,9 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 
-directories = la_puerta_negra/ milonga/
+
+#directories += la_puerta_negra/
+#directories += milonga/
+directories += burundanga/
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
@@ -26,6 +29,7 @@ c:	cleanup
 cleanup:
 	python mtxt2tex.py -c -o la_puerta_negra/contents.out.txt la_puerta_negra/contents.in.txt
 	python mtxt2tex.py -c -o milonga/contents.out.txt milonga/contents.in.txt
+	python mtxt2tex.py -c -o burundanga/contents.out.txt burundanga/contents.in.txt
 
 clean:
 	latexmk -c

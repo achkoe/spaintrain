@@ -4,7 +4,7 @@
 var g_storage;
 var g_lesson;
 var g_session;
-var g_modified = false;
+var g_modified;
 const NEW = "new";
 const maxPoints = 2;
 const localStorageKey = "webtrain";
@@ -46,6 +46,7 @@ function sync_with_server() {
 }
 
 function init() {
+    g_modified = false;
     g_storage = JSON.parse(localStorage.getItem(localStorageKey));
 
     // make point sliders
@@ -133,7 +134,7 @@ function show_toc() {
 
 function show_statistic(whichid, lessondata) {
     var statistic = [];
-    if (Object.keys(lessondata).length <= 1) return;
+    if (Object.keys(lessondata).length <= 0) return;
     for (var session in lessondata) {
         // filter solutions, they have a key starting with 's'
         var solutions = Object.keys(lessondata[session]).filter(key => key.startsWith('s'));
