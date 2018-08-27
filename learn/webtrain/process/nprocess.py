@@ -22,12 +22,10 @@ def lesson2struct(lesson):
             outdict[header] = []
         elif line.startswith('.bcolumn'):
             if line[-1] == "s":
-                outdict[header].append(u"""<div class="flex-container">""")
-            outdict[header].append(u"""<div class="column">""")
+                pass
+            outdict[header].append(u""".bcolumn""")
         elif line.startswith('.ecolumn'):
-            outdict[header].append(u"""</div>""")
-            if line[-1] == "e":
-                outdict[header].append(u"""</div>""")
+            pass
         else:
             # process task
             outdict[header].append(line)
