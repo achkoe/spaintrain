@@ -1,4 +1,7 @@
 var g_storage;
+var g_modified;
+var g_lesson;
+var g_session;
 const localStorageKey = "nwebtrain";
 const NEW = "new";
 
@@ -6,13 +9,28 @@ const NEW = "new";
 $(document).ready(function() {
     var elem, toc, select, item_id;
 
-    // initialize local storage if not already done
+    // --- initialize local storage if not already done ---
     if (!localStorage.getItem(localStorageKey)) {
         localStorage.setItem(localStorageKey, JSON.stringify({}));
     }
     g_storage = JSON.parse(localStorage.getItem(localStorageKey));
-
-    // set up table of contents
+    // --- set up dialog ---
+    $("body").append($("<div/>", {id:"dialog", title: "Quit without saving?"})
+        .append($("<p/>", {text:"All changes are lost. Are you sure?"})
+            .append($("<span/>", {class:"ui-icon ui-icon-alert", style:"float:left; margin:12px 12px 20px 0;"}))))
+    $("#dialog").dialog({
+        autoOpen: false, resizable: false, height: "auto", width: 400, modal: true,
+        buttons: {
+            "Ok": function() {
+                $( this ).dialog( "close" );
+                show_toc();
+            },
+            Cancel: function() {
+                $( this ).dialog( "close" );
+            }
+        }
+    });
+    // --- set up table of contents ---
     toc = $("<div/>", {id:"toc", class:"rtable"});
     for (var header in ld) {
         item_id = parseInt(header);
@@ -30,12 +48,12 @@ $(document).ready(function() {
         }
         toc.append($("<div/>", {class:"rtablerow"})
             .append(
-                $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#", onclick:"show_lesson('" + item_id + "', '" + header + "')"})),
+                $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#" + item_id, onclick:"show_lesson('" + item_id + "', '" + header + "')"})),
                 $("<div/>", {class:"rtablecell"}).append(select)
         ));
     }
     $("body").append(toc);
-    // set up upper and lower toolbar
+    // --- set up upper and lower toolbar ---
     elem = $("<div/>", {class: "control"});
     elem.append($("<button/>", {class:"ui-button ui-widget ui-corner-all ui-button-icon-only", title:"Guardar", onclick:"save()", html:"&nbsp;"})
         .append($("<span/>", {class:"ui-icon ui-icon-disk"})));
@@ -49,13 +67,24 @@ $(document).ready(function() {
 });
 
 
-
-
-function show_lesson(item_id, lessonname) {
+function show_lesson(lesson, lessonname) {
     //console.log(lessonname);
     var re = new RegExp("\\[([^\\]]+)\\]", "g");
+
+    // --- get the selected session ---
+    var session = $( "#s" + lesson + " option:selected").text();
+    //console.log(session)
+    if (session == NEW) {
+        sessionobj = g_storage[lesson];
+        sessionobj[session] = {}
+        g_storage[lesson] = sessionobj;
+    } else {
+        session = session.substring(session.indexOf('-') + 1).trim();
+    }
+    g_lesson = lesson;
+    g_session = session;
+    // --- set up session ---
     var taskindex = 0;
-    // clear current session
     $("#session").empty();
     // render lesson
     for (var header in ld[lessonname]) {
@@ -77,7 +106,6 @@ function show_lesson(item_id, lessonname) {
             while ((match = re.exec(item)) !== null) {
                 matches.push(match);
             }
-            //console.log(matches);
             var solutionlist = new Array();
             var replacement = ""
             var pos = 0;
@@ -102,7 +130,6 @@ function show_lesson(item_id, lessonname) {
                                     + enumitemlist[enumindex] + '</label>'
                     }
                     replacement += "</span>"
-                    //<input required="required" type="radio" id="1_10_0_1" name="1_10_0"/><label for="1_10_0_1">feminin</label></span></p>
                 } else {
                     replacement += '<input required="required" type="text" id="' + name + '" name="' + name + '" size="' + matches[matchindex][1].length + '"/>'
                     solutionlist.push(matches[matchindex][1]);
@@ -115,25 +142,104 @@ function show_lesson(item_id, lessonname) {
             column.append($("<p/>", {class:taskclass, html:replacement}));
             if (taskclass == "task") {
                 column.append($("<div/>", {class:"flex-container solution"})
-                    .append($("<div/>",  {class:"slider", id:"s_" + item_id + "_" + taskindex}), $("<div/>", {class:"column", html: solutionlist.join(', ')})));
+                    .append($("<div/>", {class:"slider", id:"s_" + lesson + "_" + taskindex}),
+                            $("<div/>", {class:"column"})
+                            .append($("<span/>", {html: solutionlist.join(', ')}))));
             }
             $("#session").append(container.append(column));
             taskindex += 1;
         }
     }
     $( ".cbradio input" ).checkboxradio({icon: false});
-        $(".slider").each(function(index) {
+    $(".slider").each(function(index) {
         $( this ).slider({range: "min", max: 2, value: 0});
         $( this ).find(".ui-slider-handle").attr("tabindex", index + 1);
+        $( this ).on("slidechange", function(event) {g_modified = true;});
     });
+    // --- load data from session ---
+    var item_id;
+    var lessondata = g_storage[g_lesson];
+    var sessiondata = lessondata[g_session];
+    $("#session" + " input[type=text]").each(function(index, element) {
+        item_id = $(this).attr("id");
+        $(this).val(sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : "")
+    });
+    $("#session" + " input[type=radio]").each(function(index, element) {
+        item_id = $(this).attr("id");
+        $(this).prop("checked", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : false);
+        $(this).button("refresh");
+    });
+    $("#session" + " .slider").each(function() {
+        item_id = $(this).attr("id");
+        $(this).slider("value", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : 0);
+    });
+    //--- add change monitor ---
+    $("input").each(function() {
+        $(this).on("input change", function(event) {g_modified = true;});
+    });
+    g_modified = false;
+    // --- show and hide ---
     $("#toc").hide();
     $(".show").removeClass( "ui-icon-circle-close" );
     $(".show").addClass( "ui-icon-lightbulb" );
     $("#session .solution").hide();
+    $("#session").show();
 }
 
 function show_solution() {
     $(".show").toggleClass("ui-icon-lightbulb");
     $(".show").toggleClass("ui-icon-circle-close");
     $("#session .solution").toggle();
+}
+
+function save() {
+    console.log("saving lesson " + g_lesson + " session " + g_session);
+    var lessondata = g_storage[g_lesson];
+    var sessiondata = lessondata[g_session];
+    if (g_session == NEW) {
+        session = new Date().toISOString();
+        delete lessondata[g_session];
+        g_session = session;
+        session = "" + $( "#s" + g_lesson + " option" ).length + " - " + session;
+        $( "#s" + g_lesson ).children()[0].remove();
+        $( "#s" + g_lesson).prepend( $("<option>" + session + "</option>", {value: 0})); // value?
+        $( "#s" + g_lesson).prepend( $("<option>" + NEW + "</option>", {value: 0})); // value?
+    }
+    var item, item_id;
+    $("#session" + " input[type=text]").each(function(index, element) {
+        item_id = $(this).attr("id");
+        item = $(this).val();
+        sessiondata[item_id] = item;
+        //console.log("" + item_id + ": " + item);
+    });
+    $("#session" + " input[type=radio]").each(function(index, element) {
+        item_id = $(this).attr("id");
+        item = $(this).prop("checked")
+        sessiondata[item_id] = item;
+        //console.log("" + item_id + ": " + item);
+    });
+    $("#session" + " .slider").each(function() {
+        item_id = $(this).attr("id");
+        sessiondata[item_id] = $(this).slider("value");
+    });
+    lessondata[g_session] = sessiondata;
+    g_storage[g_lesson] = lessondata;
+    localStorage.setItem(localStorageKey, JSON.stringify(g_storage))
+    g_modified = false;
+    // show_local_storage();
+    //sync_with_server();
+}
+
+function home() {
+    if (g_modified) {
+        $("#dialog").dialog("open");
+    } else {
+        show_toc();
+    }
+}
+
+function show_toc() {
+    $("#session").hide();
+    $("control").hide();
+    $("#toc").show();
 }
