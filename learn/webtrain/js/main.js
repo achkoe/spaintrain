@@ -2,7 +2,7 @@ var g_storage;
 var g_modified;
 var g_lesson;
 var g_session;
-const localStorageKey = "nwebtrain";
+const localStorageKey = "webtrain";
 const NEW = "new";
 const maxPoints = 2;
 
