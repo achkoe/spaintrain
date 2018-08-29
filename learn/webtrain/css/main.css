@@ -140,7 +140,7 @@ input:focus  { background-color: cyan; color: black; }
 .rtablefoot { display: table-footer-group; }
 .rtablecell, .rtablehead { display: table-cell; }
 
-.solution {background-color: white; 
+.solution {background-color: white;
     padding-left: 1em;
 }
 
@@ -167,17 +167,17 @@ input:focus  { background-color: cyan; color: black; }
     flex: 1; /* Standard syntax */
     max-width:50px; /* and also a max-width */
 }
-.solution .column {
+.solution .column span {
     background-color: #0D1;
-    padding-left: 5px;
+    padding: 5px 10px;
     margin-right: 1em;
 }
 .slider .ui-slider-range {
     background-color: #0D1;
 }
 
-.ui-slider-handle { 
-    border-color: #0D1; 
+.ui-slider-handle {
+    border-color: #0D1;
 }
 
 .bar {
