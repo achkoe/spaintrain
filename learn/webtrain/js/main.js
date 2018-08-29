@@ -8,7 +8,6 @@ const maxPoints = 2;
 
 
 $(document).ready(function() {
-    var elem, toc, select, item_id;
 
     // --- initialize local storage if not already done ---
     if (!localStorage.getItem(localStorageKey)) {
@@ -22,7 +21,13 @@ $(document).ready(function() {
                 .append(
                     $("<span/>", {class:"ui-icon ui-icon-alert", style:"float: left; margin-right: .3em;"}),
                     $("<span/>", {id:"synctext"})
-    ))))
+    ))));
+    sync_with_server();
+});
+
+function init() {
+    var elem, toc, select, item_id;
+    g_storage = JSON.parse(localStorage.getItem(localStorageKey));
     // --- set up dialog ---
     $("body").append($("<div/>", {id:"dialog", title: "Quit without saving?"})
         .append($("<p/>", {text:"All changes are lost. Are you sure?"})
@@ -39,7 +44,6 @@ $(document).ready(function() {
             }
         }
     });
-    sync_with_server();
     // --- set up table of contents ---
     toc = $("<div/>", {id:"toc", class:"rtable"});
     for (var header in ld) {
@@ -66,7 +70,7 @@ $(document).ready(function() {
     $("body").append($("<div/>", {id:"session"}));
     $("body").append(elem.clone());
     show_toc();
-});
+}
 
 function build_session_select(lesson) {
     var lessondata = g_storage[lesson];
@@ -312,10 +316,12 @@ function sync_with_server() {
         localStorage.setItem(localStorageKey, JSON.stringify(data));
         console.log( "data synced" );
         show_sync(true);
+        init();
     })
     .fail(function() {
         show_sync(false);
         console.log( "data not synced" );
+        init();
     })
     .always(function() {
         console.log( "complete" );
