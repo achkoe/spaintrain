@@ -47,19 +47,10 @@ $(document).ready(function() {
         if (!g_storage[item_id]) {
             g_storage[item_id] = {};
         }
-        var lessondata = g_storage[item_id];
-        var sessionlist = Object.keys(lessondata);
-        sessionlist = sessionlist.sort().reverse();
-
-        select = $(`<select id='s${item_id}'/>`)
-        select.append( $(`<option>${NEW}</option>`))
-        for (var i = 0; i < sessionlist.length; i++) {
-            select.append( $(`<option> ${i + 1} - ${sessionlist[i]} </option>`))
-        }
         toc.append($("<div/>", {class:"rtablerow", id:`tr${item_id}`})
             .append(
                 $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#" + item_id, onclick:`show_lesson(${item_id}, '${header}')`})),
-                $("<div/>", {class:"rtablecell"}).append(select)
+                $("<div/>", {id:`o${item_id}`, class:"rtablecell"}).append(build_session_select(item_id))
         ));
     }
     $("body").append(toc);
@@ -77,6 +68,18 @@ $(document).ready(function() {
     show_toc();
 });
 
+function build_session_select(lesson) {
+    var lessondata = g_storage[lesson];
+    var sessionlist = Object.keys(lessondata);
+    sessionlist = sessionlist.sort().reverse();
+
+    select = $(`<select id='s${lesson}'/>`)
+    select.append( $(`<option>${NEW}</option>`))
+    for (var i = 0; i < sessionlist.length; i++) {
+        select.append( $(`<option> ${sessionlist.length - i} - ${sessionlist[i]} </option>`))
+    }
+    return select;
+}
 
 function show_lesson(lesson, lessonname) {
     //console.log(lessonname);
@@ -211,10 +214,12 @@ function save() {
         session = new Date().toISOString();
         delete lessondata[g_session];
         g_session = session;
-        session = "" + $( "#s" + g_lesson + " option" ).length + " - " + session;
-        $( "#s" + g_lesson ).children()[0].remove();
-        $( "#s" + g_lesson).prepend( $("<option>" + session + "</option>", {value: 0})); // value?
-        $( "#s" + g_lesson).prepend( $("<option>" + NEW + "</option>", {value: 0})); // value?
+        if (false) {
+            session = "" + $( "#s" + g_lesson + " option" ).length + " - " + session;
+            $( "#s" + g_lesson ).children()[0].remove();
+            $( "#s" + g_lesson).prepend( $("<option>" + session + "</option>", {value: 0})); // value?
+            $( "#s" + g_lesson).prepend( $("<option>" + NEW + "</option>", {value: 0})); // value?
+        }
     }
     var item, item_id;
     $("#session input[type=text]").each(function(index, element) {
@@ -237,8 +242,13 @@ function save() {
     lessondata[g_session] = sessiondata;
     g_storage[g_lesson] = lessondata;
     localStorage.setItem(localStorageKey, JSON.stringify(g_storage))
+
+    if (true) {
+        $(`#s${g_lesson}`).remove();
+        $(`#o${g_lesson}`).append(build_session_select(g_lesson));
+    }
+
     g_modified = false;
-    // show_local_storage();
     sync_with_server();
 }
 
