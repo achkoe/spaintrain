@@ -4,6 +4,7 @@ var g_lesson;
 var g_session;
 const localStorageKey = "nwebtrain";
 const NEW = "new";
+const maxPoints = 2;
 
 
 $(document).ready(function() {
@@ -14,6 +15,14 @@ $(document).ready(function() {
         localStorage.setItem(localStorageKey, JSON.stringify({}));
     }
     g_storage = JSON.parse(localStorage.getItem(localStorageKey));
+    // --- set up message panel
+    $("body").append($("<div/>", {id:"sync", class:"ui-widget hidden"})
+        .append($("<div/>", {class:"ui-state-error ui-corner-all", style:"padding: 0 .7em;"})
+            .append($("<p/>")
+                .append(
+                    $("<span/>", {class:"ui-icon ui-icon-alert", style:"float: left; margin-right: .3em;"}),
+                    $("<span/>", {id:"synctext"})
+    ))))
     // --- set up dialog ---
     $("body").append($("<div/>", {id:"dialog", title: "Quit without saving?"})
         .append($("<p/>", {text:"All changes are lost. Are you sure?"})
@@ -30,6 +39,7 @@ $(document).ready(function() {
             }
         }
     });
+    sync_with_server();
     // --- set up table of contents ---
     toc = $("<div/>", {id:"toc", class:"rtable"});
     for (var header in ld) {
@@ -41,14 +51,14 @@ $(document).ready(function() {
         var sessionlist = Object.keys(lessondata);
         sessionlist = sessionlist.sort().reverse();
 
-        select = $("<select id='s" + item_id + "'/>")
-        select.append( $("<option>" + NEW + "</option>"))
+        select = $(`<select id='s${item_id}'/>`)
+        select.append( $(`<option>${NEW}</option>`))
         for (var i = 0; i < sessionlist.length; i++) {
-            select.append( $("<option>" + (i + 1) + " - " + sessionlist[i] + "</option>"))
+            select.append( $(`<option> ${i + 1} - ${sessionlist[i]} </option>`))
         }
-        toc.append($("<div/>", {class:"rtablerow"})
+        toc.append($("<div/>", {class:"rtablerow", id:`tr${item_id}`})
             .append(
-                $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#" + item_id, onclick:"show_lesson('" + item_id + "', '" + header + "')"})),
+                $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#" + item_id, onclick:`show_lesson(${item_id}, '${header}')`})),
                 $("<div/>", {class:"rtablecell"}).append(select)
         ));
     }
@@ -64,6 +74,7 @@ $(document).ready(function() {
     $("body").append(elem);
     $("body").append($("<div/>", {id:"session"}));
     $("body").append(elem.clone());
+    show_toc();
 });
 
 
@@ -72,7 +83,7 @@ function show_lesson(lesson, lessonname) {
     var re = new RegExp("\\[([^\\]]+)\\]", "g");
 
     // --- get the selected session ---
-    var session = $( "#s" + lesson + " option:selected").text();
+    var session = $(`#s${lesson} option:selected`).text();
     //console.log(session)
     if (session == NEW) {
         sessionobj = g_storage[lesson];
@@ -115,23 +126,23 @@ function show_lesson(lesson, lessonname) {
                 taskclass = "task";
                 replacement += item.slice(pos, matches[matchindex]["index"])
                 pos = matches[matchindex]["index"];
-                name = '' + parseInt(lessonname) + '_' + taskindex + '_' + matchindex;
+                //name = '' + parseInt(lessonname) + '_' + taskindex + '_' + matchindex;
+                name = `${parseInt(lessonname)}_${taskindex}_${matchindex}`;
                 if (matches[matchindex][1].startsWith(":")) {
                     var enumitemlist = matches[matchindex][1].slice(2).split('|');
                     //console.log(enumitemlist);
                     replacement += "<span class='rbtask cbradio'>"
                     for (var enumindex = 0; enumindex < enumitemlist.length; enumindex++) {
-                        var id = name + '_' + enumindex;
+                        var id = `${name}_${enumindex}`;
                         if (enumitemlist[enumindex].startsWith('!')) {
                             enumitemlist[enumindex] = enumitemlist[enumindex].slice(1);
                             solutionlist.push(enumitemlist[enumindex]);
                         }
-                        replacement += '<input required="required" type="radio" id="' + id + '" name="' + name + '"/><label for="' + id + '">'
-                                    + enumitemlist[enumindex] + '</label>'
+                        replacement += `<input required="required" type="radio" id="${id}" name="${name}"/><label for="${id}">${enumitemlist[enumindex]}</label>`
                     }
                     replacement += "</span>"
                 } else {
-                    replacement += '<input required="required" type="text" id="' + name + '" name="' + name + '" size="' + matches[matchindex][1].length + '"/>'
+                    replacement += `<input required="required" type="text" id="${name}" name="${name}" size="${matches[matchindex][1].length}"/>`
                     solutionlist.push(matches[matchindex][1]);
                 }
                 pos += matches[matchindex][0].length;
@@ -142,7 +153,7 @@ function show_lesson(lesson, lessonname) {
             column.append($("<p/>", {class:taskclass, html:replacement}));
             if (taskclass == "task") {
                 column.append($("<div/>", {class:"flex-container solution"})
-                    .append($("<div/>", {class:"slider", id:"s_" + lesson + "_" + taskindex}),
+                    .append($("<div/>", {class:"slider", id:`s_${lesson}_${taskindex}`}),
                             $("<div/>", {class:"column"})
                             .append($("<span/>", {html: solutionlist.join(', ')}))));
             }
@@ -160,16 +171,16 @@ function show_lesson(lesson, lessonname) {
     var item_id;
     var lessondata = g_storage[g_lesson];
     var sessiondata = lessondata[g_session];
-    $("#session" + " input[type=text]").each(function(index, element) {
+    $("#session input[type=text]").each(function(index, element) {
         item_id = $(this).attr("id");
         $(this).val(sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : "")
     });
-    $("#session" + " input[type=radio]").each(function(index, element) {
+    $("#session input[type=radio]").each(function(index, element) {
         item_id = $(this).attr("id");
         $(this).prop("checked", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : false);
         $(this).button("refresh");
     });
-    $("#session" + " .slider").each(function() {
+    $("#session .slider").each(function() {
         item_id = $(this).attr("id");
         $(this).slider("value", sessiondata.hasOwnProperty(item_id) ? sessiondata[item_id] : 0);
     });
@@ -193,7 +204,7 @@ function show_solution() {
 }
 
 function save() {
-    console.log("saving lesson " + g_lesson + " session " + g_session);
+    console.log(`saving lesson ${g_lesson}, session ${g_session}`);
     var lessondata = g_storage[g_lesson];
     var sessiondata = lessondata[g_session];
     if (g_session == NEW) {
@@ -206,28 +217,29 @@ function save() {
         $( "#s" + g_lesson).prepend( $("<option>" + NEW + "</option>", {value: 0})); // value?
     }
     var item, item_id;
-    $("#session" + " input[type=text]").each(function(index, element) {
+    $("#session input[type=text]").each(function(index, element) {
         item_id = $(this).attr("id");
         item = $(this).val();
         sessiondata[item_id] = item;
         //console.log("" + item_id + ": " + item);
     });
-    $("#session" + " input[type=radio]").each(function(index, element) {
+    $("#session input[type=radio]").each(function(index, element) {
         item_id = $(this).attr("id");
         item = $(this).prop("checked")
         sessiondata[item_id] = item;
         //console.log("" + item_id + ": " + item);
     });
-    $("#session" + " .slider").each(function() {
+    $("#session .slider").each(function() {
         item_id = $(this).attr("id");
         sessiondata[item_id] = $(this).slider("value");
     });
+    console.log("g_session = " + g_session);
     lessondata[g_session] = sessiondata;
     g_storage[g_lesson] = lessondata;
     localStorage.setItem(localStorageKey, JSON.stringify(g_storage))
     g_modified = false;
     // show_local_storage();
-    //sync_with_server();
+    sync_with_server();
 }
 
 function home() {
@@ -241,5 +253,71 @@ function home() {
 function show_toc() {
     $("#session").hide();
     $("control").hide();
+    show_statistic();
     $("#toc").show();
+}
+
+function show_statistic() {
+    for (whichid in g_storage) {
+        var lessondata = g_storage[whichid];
+
+        var statistic = [];
+        if (Object.keys(lessondata).length <= 0) continue;
+        for (var session in lessondata) {
+            // filter solutions, they have a key starting with 's'
+            var solutions = Object.keys(lessondata[session]).filter(key => key.startsWith('s'));
+            var points = 0;
+            for (var i = 0; i < solutions.length; i++) {
+                points += lessondata[session][solutions[i]]
+            }
+            statistic.push(points);
+        }
+        console.log(statistic);
+        var text = `${points}/${maxPoints * solutions.length}`;
+        var title = statistic.slice(0, 11).reverse().join('|')
+        var icon;
+        // show trend with arrows or similar
+        if ((statistic.length < 2 ) || (statistic[statistic.length - 1] == statistic[statistic.length - 2])) {
+            icon = "ui-icon ui-icon-arrowthick-2-e-w";
+        } else
+        if (statistic[statistic.length - 1] > statistic[statistic.length - 2]) {
+            icon = "ui-icon ui-icon-arrowthick-1-ne";
+        } else
+        if (statistic[statistic.length - 1] < statistic[statistic.length - 2]) {
+            icon = "ui-icon ui-icon-arrowthick-1-se";
+        }
+        var trend = $(`<span class="trend ui-icon ${icon}"></span><span class="trend ui-widget ui-corner-all"  title="${title}">${text}</span>`);
+        $( `#tr${whichid} .trend`).remove();
+        $( `#tr${whichid}` ).append(trend);
+    }
+}
+
+function sync_with_server() {
+    // try to synchronize with server
+    $.ajaxSetup({timeout: 5000});
+    var jqxhr = $.post( "http://" + location.hostname + ":8080/json/",
+        JSON.stringify(g_storage),
+        null, "json")
+    .done(function(data) {
+        localStorage.setItem(localStorageKey, JSON.stringify(data));
+        console.log( "data synced" );
+        show_sync(true);
+    })
+    .fail(function() {
+        show_sync(false);
+        console.log( "data not synced" );
+    })
+    .always(function() {
+        console.log( "complete" );
+    });
+}
+
+function show_sync(synced) {
+    // show sync hint
+    $( "#sync" ).removeClass("hidden");
+    $( "#sync" ).show();
+    $("#synctext").text((synced ? "S" : "Not s") + "ynchronized with server");
+    $("#sync").fadeOut(4000, function() {
+        $(this).addClass("hidden");
+    });
 }
