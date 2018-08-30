@@ -22,7 +22,7 @@ $(document).ready(function() {
                     $("<span/>", {class:"ui-icon ui-icon-alert", style:"float: left; margin-right: .3em;"}),
                     $("<span/>", {id:"synctext"})
     ))));
-    sync_with_server();
+    sync_with_server(true);
 });
 
 function init() {
@@ -202,6 +202,7 @@ function show_lesson(lesson, lessonname) {
     $(".show").addClass( "ui-icon-lightbulb" );
     $("#session .solution").hide();
     $("#session").show();
+    $(".control").show();
 }
 
 function show_solution() {
@@ -253,7 +254,7 @@ function save() {
     }
 
     g_modified = false;
-    sync_with_server();
+    sync_with_server(false);
 }
 
 function home() {
@@ -266,7 +267,7 @@ function home() {
 
 function show_toc() {
     $("#session").hide();
-    $("control").hide();
+    $(".control").hide();
     show_statistic();
     $("#toc").show();
 }
@@ -306,7 +307,7 @@ function show_statistic() {
     }
 }
 
-function sync_with_server() {
+function sync_with_server(callinit) {
     // try to synchronize with server
     $.ajaxSetup({timeout: 5000});
     var jqxhr = $.post( "http://" + location.hostname + ":8080/json/",
@@ -316,12 +317,12 @@ function sync_with_server() {
         localStorage.setItem(localStorageKey, JSON.stringify(data));
         console.log( "data synced" );
         show_sync(true);
-        init();
+        if (callinit) init();
     })
     .fail(function() {
         show_sync(false);
         console.log( "data not synced" );
-        init();
+        if (callinit) init();
     })
     .always(function() {
         console.log( "complete" );
