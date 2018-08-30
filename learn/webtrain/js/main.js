@@ -216,15 +216,8 @@ function save() {
     var lessondata = g_storage[g_lesson];
     var sessiondata = lessondata[g_session];
     if (g_session == NEW) {
-        session = new Date().toISOString();
         delete lessondata[g_session];
-        g_session = session;
-        if (false) {
-            session = "" + $( "#s" + g_lesson + " option" ).length + " - " + session;
-            $( "#s" + g_lesson ).children()[0].remove();
-            $( "#s" + g_lesson).prepend( $("<option>" + session + "</option>", {value: 0})); // value?
-            $( "#s" + g_lesson).prepend( $("<option>" + NEW + "</option>", {value: 0})); // value?
-        }
+        g_session = new Date().toISOString();
     }
     var item, item_id;
     $("#session input[type=text]").each(function(index, element) {
@@ -243,15 +236,14 @@ function save() {
         item_id = $(this).attr("id");
         sessiondata[item_id] = $(this).slider("value");
     });
+    if (g_session.indexOf(NEW) !== -1) alert("g_session =" + g_session);
     console.log("g_session = " + g_session);
     lessondata[g_session] = sessiondata;
     g_storage[g_lesson] = lessondata;
     localStorage.setItem(localStorageKey, JSON.stringify(g_storage))
 
-    if (true) {
-        $(`#s${g_lesson}`).remove();
-        $(`#o${g_lesson}`).append(build_session_select(g_lesson));
-    }
+    $(`#s${g_lesson}`).remove();
+    $(`#o${g_lesson}`).append(build_session_select(g_lesson));
 
     g_modified = false;
     sync_with_server(false);
