@@ -16,9 +16,12 @@ class main:
     def POST(self, data):
         data = json.loads(web.data())
         # print "data: ", data
-        safe.update(data)
+        for key in data:
+            if key not in safe:
+                safe[key] = {}
+            safe[key].update(data[key])
         with open(safename, "w") as fh:
-            json.dump(safe, fh)
+            json.dump(safe, fh, indent=4)
         web.header('Access-Control-Allow-Origin', '*')
         return json.dumps(safe)
 
