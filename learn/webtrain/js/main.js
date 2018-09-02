@@ -55,7 +55,7 @@ function init() {
                 alert("Fund");
             }
         }
-        console.log(Object.keys(g_storage[item_id]);
+        console.log(Object.keys(g_storage[item_id]));
         toc.append($("<div/>", {class:"rtablerow", id:`tr${item_id}`})
             .append(
                 $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#" + item_id, onclick:`show_lesson(${item_id}, '${header}')`})),
