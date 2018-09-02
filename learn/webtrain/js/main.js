@@ -50,6 +50,10 @@ function init() {
         item_id = parseInt(header);
         if (!g_storage[item_id]) {
             g_storage[item_id] = {};
+        } else {
+            if (NEW in g_storage[item_id]) {
+                alert("Fund");
+            }
         }
         toc.append($("<div/>", {class:"rtablerow", id:`tr${item_id}`})
             .append(
