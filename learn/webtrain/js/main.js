@@ -3,17 +3,19 @@ var g_modified;
 var g_lesson;
 var g_session;
 const localStorageKey = "webtrain";
-const NEW = "new";
+var NEW = "new";
 const maxPoints = 2;
 
 
 $(document).ready(function() {
+
 
     // --- initialize local storage if not already done ---
     if (!localStorage.getItem(localStorageKey)) {
         localStorage.setItem(localStorageKey, JSON.stringify({}));
     }
     g_storage = JSON.parse(localStorage.getItem(localStorageKey));
+
     // --- set up message panel
     $("body").append($("<div/>", {id:"sync", class:"ui-widget hidden"})
         .append($("<div/>", {class:"ui-state-error ui-corner-all", style:"padding: 0 .7em;"})
@@ -51,11 +53,11 @@ function init() {
         if (!g_storage[item_id]) {
             g_storage[item_id] = {};
         } else {
-            if (NEW in Object.keys(g_storage[item_id])) {
-                alert("Fund");
+            if (Object.keys(g_storage[item_id]).includes(NEW)) {
+                delete g_storage[item_id][NEW];
             }
         }
-        console.log(Object.keys(g_storage[item_id]));
+        console.log("" + NEW + " in " + item_id + ": " + Object.keys(g_storage[item_id]).includes(NEW));
         toc.append($("<div/>", {class:"rtablerow", id:`tr${item_id}`})
             .append(
                 $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#" + item_id, onclick:`show_lesson(${item_id}, '${header}')`})),
