@@ -51,11 +51,11 @@ function init() {
         if (!g_storage[item_id]) {
             g_storage[item_id] = {};
         } else {
-            if (NEW in g_storage[item_id]) {
+            if (NEW in Object.keys(g_storage[item_id])) {
                 alert("Fund");
             }
         }
-        console.log(g_storage[item_id].keys());
+        console.log(Object.keys(g_storage[item_id]);
         toc.append($("<div/>", {class:"rtablerow", id:`tr${item_id}`})
             .append(
                 $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#" + item_id, onclick:`show_lesson(${item_id}, '${header}')`})),
