@@ -57,7 +57,9 @@ function init() {
                 delete g_storage[item_id][NEW];
             }
         }
-        console.log("" + NEW + " in " + item_id + ": " + Object.keys(g_storage[item_id]).includes(NEW));
+        if (Object.keys(g_storage[item_id]).includes(NEW)) {
+            console.log("" + NEW + " in " + item_id);
+        }
         toc.append($("<div/>", {class:"rtablerow", id:`tr${item_id}`})
             .append(
                 $("<div/>", {class:"rtablecell"}).append($("<a>", {html:header, href:"#" + item_id, onclick:`show_lesson(${item_id}, '${header}')`})),
@@ -67,16 +69,31 @@ function init() {
     $("body").append(toc);
     // --- set up upper and lower toolbar ---
     elem = $("<div/>", {class: "control"});
-    elem.append($("<button/>", {class:"ui-button ui-widget ui-corner-all ui-button-icon-only", title:"Guardar", onclick:"save()", html:"&nbsp;"})
+    elem.append($("<button/>", {class:"ui-button ui-widget ui-corner-all ui-button-icon-only", title:"Guardar (Ctrl-S)", onclick:"save()", html:"&nbsp;"})
         .append($("<span/>", {class:"ui-icon ui-icon-disk"})));
-    elem.append($("<button/>", {class:"ui-button ui-widget ui-corner-all ui-button-icon-only", title:"Inicio", onclick:"home()", html:"&nbsp;"})
+    elem.append($("<button/>", {class:"ui-button ui-widget ui-corner-all ui-button-icon-only", title:"Inicio (Ctrl-H)", onclick:"home()", html:"&nbsp;"})
         .append($("<span/>", {class:"ui-icon ui-icon-home"})));
-    elem.append($("<button/>", {class:"ui-button ui-widget ui-corner-all ui-button-icon-only", title:"Mostrar", onclick:"show_solution()", html:"&nbsp;"})
+    elem.append($("<button/>", {class:"ui-button ui-widget ui-corner-all ui-button-icon-only", title:"Mostrar (Ctrl-R)", onclick:"show_solution()", html:"&nbsp;"})
         .append($("<span/>", {class:"ui-icon ui-icon-lightbulb show"})));
     $("body").append(elem);
     $("body").append($("<div/>", {id:"session"}));
     $("body").append(elem.clone());
     show_toc();
+    // set up key handler
+    $(window).keydown(function(event) {
+            if (!event.ctrlKey || $("#session").is(":hidden")) return;
+            event.preventDefault();
+            // console.log("event.which:" + event.which + " event.ctrlKey:" + event.ctrlKey);
+            if (event.which == 83) { // Ctrl-S
+                save();
+            } else
+            if (event.which == 72) { // Ctrl-H
+                home();
+            } else
+            if (event.which == 82) { // Ctrl-R
+                show_solution();
+            }
+    });
 }
 
 function build_session_select(lesson) {
