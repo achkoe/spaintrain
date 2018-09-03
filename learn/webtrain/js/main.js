@@ -301,10 +301,10 @@ function show_statistic() {
             for (var i = 0; i < solutions.length; i++) {
                 points += lessondata[session][solutions[i]]
             }
-            statistic.push(points);
+            statistic.push("" + Number.parseFloat((100.0 * maxPoints * points) / (maxPoints * solutions.length)).toFixed(1) + "%");
         }
         console.log(statistic);
-        var text = `${points}/${maxPoints * solutions.length}`;
+        var text = "#" + statistic.length + ": " + statistic[statistic.length - 1];
         var title = statistic.slice(0, 11).reverse().join('|')
         var icon;
         // show trend with arrows or similar
