@@ -81,16 +81,17 @@ function init() {
     show_toc();
     // set up key handler
     $(window).keydown(function(event) {
-            if (!event.ctrlKey || $("#session").is(":hidden")) return;
-            event.preventDefault();
             // console.log("event.which:" + event.which + " event.ctrlKey:" + event.ctrlKey);
-            if (event.which == 83) { // Ctrl-S
+            if ((event.which == 83) && event.ctrlKey && (!$("#session").is(":hidden"))) { // Ctrl-S
+                event.preventDefault();
                 save();
             } else
-            if (event.which == 72) { // Ctrl-H
+            if ((event.which == 72) && event.ctrlKey && (!$("#session").is(":hidden"))) { // Ctrl-H
+                event.preventDefault();
                 home();
             } else
-            if (event.which == 82) { // Ctrl-R
+            if ((event.which == 82) && event.ctrlKey && (!$("#session").is(":hidden"))) { // Ctrl-R
+                event.preventDefault();
                 show_solution();
             }
     });
@@ -301,7 +302,7 @@ function show_statistic() {
             for (var i = 0; i < solutions.length; i++) {
                 points += lessondata[session][solutions[i]]
             }
-            statistic.push("" + Number.parseFloat((100.0 * maxPoints * points) / (maxPoints * solutions.length)).toFixed(1) + "%");
+            statistic.push("" + Number.parseFloat((100.0 * points) / (maxPoints * solutions.length)).toFixed(1) + "%");
         }
         console.log(statistic);
         var text = "#" + statistic.length + ": " + statistic[statistic.length - 1];
