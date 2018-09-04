@@ -9,7 +9,6 @@ txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
 aesfiles = $(addsuffix contents.aes, $(directories))
 
-
 book.pdf: book.tex $(texfiles)
 	# latexmk -pv -pdf book.tex
 	#xelatex book.tex
@@ -22,6 +21,9 @@ book.pdf: book.tex $(texfiles)
 %.tex: %.txt
 	python mtxt2tex.py -o $@ $<
 	cd $(dir $<) && sh ../../encrypt.sh && cd ..
+
+decrypt:
+	sh ../decrypt_all.sh $(aesfiles)
 
 
 c:	cleanup
