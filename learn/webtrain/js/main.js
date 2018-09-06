@@ -293,7 +293,8 @@ function show_statistic() {
     for (whichid in g_storage) {
         var lessondata = g_storage[whichid];
 
-        var statistic = [];
+        var statisticlist = [];
+        var pointlist = [];
         if (Object.keys(lessondata).length <= 0) continue;
         for (var session in lessondata) {
             // filter solutions, they have a key starting with 's'
@@ -302,23 +303,31 @@ function show_statistic() {
             for (var i = 0; i < solutions.length; i++) {
                 points += lessondata[session][solutions[i]]
             }
-            statistic.push("" + Number.parseFloat((100.0 * points) / (maxPoints * solutions.length)).toFixed(1) + "%");
+            pointlist.push("" + points + "/" + maxPoints * solutions.length);
+            statisticlist.push("" + Number.parseFloat((100.0 * points) / (maxPoints * solutions.length)).toFixed(1) + "%");
         }
-        console.log(statistic);
-        var text = "#" + statistic.length + ": " + statistic[statistic.length - 1];
-        var title = statistic.slice(0, 11).reverse().join('|')
+        console.log(whichid, statisticlist);
         var icon;
         // show trend with arrows or similar
-        if ((statistic.length < 2 ) || (statistic[statistic.length - 1] == statistic[statistic.length - 2])) {
+        if ((statisticlist.length < 2 ) || (statisticlist[statisticlist.length - 1] == statisticlist[statisticlist.length - 2])) {
             icon = "ui-icon ui-icon-arrowthick-2-e-w";
         } else
-        if (statistic[statistic.length - 1] > statistic[statistic.length - 2]) {
+        if (statisticlist[statisticlist.length - 1] > statisticlist[statisticlist.length - 2]) {
             icon = "ui-icon ui-icon-arrowthick-1-ne";
         } else
-        if (statistic[statistic.length - 1] < statistic[statistic.length - 2]) {
+        if (statisticlist[statisticlist.length - 1] < statisticlist[statisticlist.length - 2]) {
             icon = "ui-icon ui-icon-arrowthick-1-se";
         }
-        var trend = $(`<span class="trend ui-icon ${icon}"></span><span class="trend ui-widget ui-corner-all"  title="${title}">${text}</span>`);
+        if (false)  {
+                var text = "#" + statisticlist.length + ": " + statisticlist[statisticlist.length - 1];
+                var title = statisticlist.slice(0, 11).reverse().join('|')
+                var trend = $(`<span class="trend ui-icon ${icon}"></span><span class="trend ui-widget ui-corner-all"  title="${title}">${text}</span>`);
+        } else
+        {
+            var textlist = statisticlist.reverse().slice(0, 3).join(' | ');
+            var titlelist = pointlist.reverse().slice(0, 30).join(' | ');
+            var trend = $(`<span class="trend" title="${titlelist}""><span class="ui-icon ${icon}"></span> ${statisticlist.length}: ${textlist}</span>`);
+        }
         $( `#tr${whichid} .trend`).remove();
         $( `#tr${whichid}` ).append(trend);
     }
