@@ -325,7 +325,7 @@ function show_statistic() {
         } else
         {
             var textlist = statisticlist.reverse().slice(0, 3).join(' | ');
-            var titlelist = pointlist.reverse().slice(0, 30).join(' | ');
+            var titlelist = pointlist.reverse().slice(0, 32).join(' | ');
             var trend = $(`<span class="trend" title="${titlelist}""><span class="ui-icon ${icon}"></span> ${statisticlist.length}: ${textlist}</span>`);
         }
         $( `#tr${whichid} .trend`).remove();
