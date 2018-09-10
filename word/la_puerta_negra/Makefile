@@ -4,6 +4,7 @@ export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 directories += la_puerta_negra/
 directories += milonga/
 directories += burundanga/
+directories += tu_espalda_herida/
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
@@ -29,9 +30,11 @@ decrypt:
 c:	cleanup
 
 cleanup:
+	echo $(texfiles)
 	python mtxt2tex.py -c -o la_puerta_negra/contents.out.txt la_puerta_negra/contents.in.txt
 	python mtxt2tex.py -c -o milonga/contents.out.txt milonga/contents.in.txt
 	python mtxt2tex.py -c -o burundanga/contents.out.txt burundanga/contents.in.txt
+	python mtxt2tex.py -c -o tu_espalda_herida/contents.out.txt tu_espalda_herida/contents.in.txt
 
 clean:
 	latexmk -c
