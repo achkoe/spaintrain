@@ -1,8 +1,8 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 
 
-#directories += la_puerta_negra/
-#directories += milonga/
+directories += la_puerta_negra/
+directories += milonga/
 directories += burundanga/
 
 txtfiles = $(addsuffix contents.txt, $(directories))
