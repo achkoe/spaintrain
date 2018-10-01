@@ -5,6 +5,7 @@ directories += la_puerta_negra/
 directories += milonga/
 directories += burundanga/
 directories += tu_espalda_herida/
+directories += bano_de_sangre/
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
@@ -35,6 +36,7 @@ cleanup:
 	python mtxt2tex.py -c -o milonga/contents.out.txt milonga/contents.in.txt
 	python mtxt2tex.py -c -o burundanga/contents.out.txt burundanga/contents.in.txt
 	python mtxt2tex.py -c -o tu_espalda_herida/contents.out.txt tu_espalda_herida/contents.in.txt
+	python mtxt2tex.py -c -o bano_de_sangre/contents.out.txt bano_de_sangre/contents.in.txt
 
 clean:
 	latexmk -c
