@@ -5,7 +5,7 @@ directories += la_puerta_negra/
 directories += milonga/
 directories += burundanga/
 directories += tu_espalda_herida/
-directories += bano_de_sangre/
+#directories += bano_de_sangre/
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
