@@ -14,7 +14,7 @@ aesfiles = $(addsuffix contents.aes, $(directories))
 book.pdf: book.tex $(texfiles)
 	# latexmk -pv -pdf book.tex
 	#xelatex book.tex
-	latexmk -xelatex book.tex
+	latexmk -xelatex -g book.tex
 
 #la_puerta_negra/contents.tex: la_puerta_negra/contents.txt
 #	python mtxt2tex.py -o $@ $<
