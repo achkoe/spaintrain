@@ -224,9 +224,11 @@ def cleanup(args):
         for replacement in replacementlist:
             text = re.sub(replacement[0], replacement[1], text)
         text = re.sub(r"\.(\n?\s*\w)", lambda m: m.group(0).upper(), text, flags=re.U)
+        text = re.sub(r"^-\s*([a-z])(.*)", lambda m: u"- {}{}".format(m.group(1).upper(), m.group(2)), text, flags=re.M)
         text = re.sub(r"\?\?\s*", u"¿", text)
         text = re.sub(r"!!\s*", u"¡", text)
         text = re.sub(r"\s+,", ",", text)
+        text = re.sub(r"!\s+([a-z])", lambda m: u"! {}".format(m.group(1).upper()), text)
         return text
 
     with codecs.open(args.infile, encoding="utf-8") as fh:
