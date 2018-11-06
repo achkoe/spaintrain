@@ -160,7 +160,8 @@ def process_replace(text):
             except:
                 print(tr)
                 raise
-            return ' ' + matchobj.group(1) + u"\\footnote{{{}}}".format(tr[1])
+            #return ' ' + matchobj.group(1) + u"\\footnote{{{}}}".format(tr[1])
+            return ' ' + matchobj.group(1) + u"\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
         if r.find("section") != -1 and len(matchobj.groups()) > 1 and matchobj.group(2):
             return matchobj.expand(r) + "\\" + matchobj.group(2)
         return matchobj.expand(r)
