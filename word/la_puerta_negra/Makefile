@@ -1,52 +1,38 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 
-
-directories += la_puerta_negra/
-directories += milonga/
-directories += burundanga/
-directories += tu_espalda_herida/
-directories += bano_de_sangre/
-directories += sin_cobertura/
-directories += la_didactica_del_miedo/
-
+directories := la_puerta_negra/ milonga/ burundanga/ tu_espalda_herida/ bano_de_sangre/ sin_cobertura/ la_didactica_del_miedo/
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
 aesfiles = $(addsuffix contents.aes, $(directories))
 
-book.pdf: book.tex $(texfiles)
-	# latexmk -pv -pdf book.tex
-	#xelatex book.tex
+
+current := $(lastword $(texfiles))
+
+current: book.tex $(current)
+	$(file > chapters.tex,\input{$(current)})
 	latexmk -xelatex -g book.tex
 
-#la_puerta_negra/contents.tex: la_puerta_negra/contents.txt
-#	python mtxt2tex.py -o $@ $<
-#	../encrypt.sh $< la_puerta_negra/contents.aes
+
+all := $(addsuffix }\clearpage,$(addprefix \input{,$(texfiles)))
+
+all: book.tex $(texfiles)
+	$(file > chapters.tex,$(all))
+	latexmk -xelatex -g book.tex
+
 
 %.tex: %.txt
 	python mtxt2tex.py -o $@ $<
 	cd $(dir $<) && sh ../../encrypt.sh && cd ..
 
-decrypt:
-	sh ../decrypt_all.sh $(aesfiles)
 
-
-c:	cleanup
-
+c: cleanup
 cleanup:
-	echo $(texfiles)
-	python mtxt2tex.py -c -o la_puerta_negra/contents.out.txt la_puerta_negra/contents.in.txt
-	python mtxt2tex.py -c -o milonga/contents.out.txt milonga/contents.in.txt
-	python mtxt2tex.py -c -o burundanga/contents.out.txt burundanga/contents.in.txt
-	python mtxt2tex.py -c -o tu_espalda_herida/contents.out.txt tu_espalda_herida/contents.in.txt
-	python mtxt2tex.py -c -o bano_de_sangre/contents.out.txt bano_de_sangre/contents.in.txt
-	python mtxt2tex.py -c -o sin_cobertura/contents.out.txt sin_cobertura/contents.in.txt
-	python mtxt2tex.py -c -o la_didactica_del_miedo/contents.out.txt la_didactica_del_miedo/contents.in.txt
+	python mtxt2tex.py -c -o $(addsuffix .out.txt,$(basename $(current))) $(addsuffix .in.txt,$(basename $(current)))
 
-clean:
-	latexmk -c
 
-.PHONY: clean cleanup decrypt
+decrypt:
+	cd $(dir $(lastword $(aesfiles))) && sh ../../decrypt.sh && cd ..
 
-t:
-	echo $(texfiles)
+decryptall:
+	sh ../decryptall.sh $(directories)
