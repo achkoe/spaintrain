@@ -36,3 +36,6 @@ decrypt:
 
 decryptall:
 	sh ../decryptall.sh $(directories)
+
+view:
+	xreader book.pdf &
