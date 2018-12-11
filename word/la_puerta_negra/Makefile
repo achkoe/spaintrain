@@ -2,7 +2,7 @@ export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 
 directories := la_puerta_negra/ milonga/ burundanga/ tu_espalda_herida/ bano_de_sangre/ sin_cobertura/ la_didactica_del_miedo/
 directories += esa_nave_me_llevara_para_siempre/
-#directories += el_precio_del_alabastro/
+directories += el_precio_del_alabastro/
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
