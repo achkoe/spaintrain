@@ -16,7 +16,6 @@ def query_verb(verb):
     soup = BeautifulSoup(r.content, "html.parser")
 
     table = soup.find(class_="konjugator")
-    irregular = table.find(class_="irreg") is not None
 
     search = []
     for tr in table.find_all("tr", attrs={"class": ""}):
@@ -46,7 +45,7 @@ def query_verb(verb):
     # ---
     tense = []
     for ul in table.find_all("ul", attrs={"class": "tense"}):
-        tense.append([li.text for li in ul.select("li")])
+        tense.append({"irreg": ul.find(class_="irreg") is not None, "tense": [li.text for li in ul.select("li")]})
 
     replacementlist = [
         ("Presente", "presente"),
@@ -70,22 +69,22 @@ def query_verb(verb):
         ("Negativo", "imperativonegativo"),]
     assert len(tense) == len(replacementlist)
     for t, r in zip(tense, replacementlist):
-        assert t[0] == r[0], "{!r} != {!r}".format(t[0], r[0])
-        t[0] = r[1]
+        assert t["tense"][0] == r[0], "{!r} != {!r}".format(t[0], r[0])
+        t["tense"][0] = r[1]
 
     rdict = dict(base)
-    rdict.update({"A_irregular": irregular})
+    rdict.update({"A_irregular": {}})
 
     for index in range(len(tense)):
-        t = tense[index]
-        keylist = ["s1", "s2", "s3", "p1", "p2","p3"]
+        t = tense[index]["tense"]
+        keylist = ["s1", "s2", "s3", "p1", "p2", "p3"]
         if t[0].startswith("imperativo"):
             keylist = keylist[1:]
         valuelist = t[1:]
         assert len(keylist) == len(valuelist)
         value = dict(zip(keylist, valuelist))
         rdict[t[0]] = value
-
+        rdict["A_irregular"].update({t[0]: tense[index]["irreg"]})
     return rdict
 
 
@@ -96,9 +95,11 @@ def get_allverbs():
 
 
 if __name__ == '__main__':
+    outputfile = "_verben.json"
     parser = argparse.ArgumentParser()
     parser.add_argument("--getverbs", action="store_true", help="get verbs from internet")
     parser.add_argument("--verbfile", action="store", help="use verbs from file")
+    parser.add_argument("--outfile", "-o", action="store", default=outputfile, help="output file, default %(default)s")
     args = parser.parse_args()
     print(args)
 
@@ -115,9 +116,8 @@ if __name__ == '__main__':
     else:
         allverbs = json.load(open("{}".format(verblistfile)))
 
-    outputfile = "_verben.json"
     try:
-        rlist = json.load(open(outputfile, "r"))
+        rlist = json.load(open(args.outputfile, "r"))
     except:
         rlist = []
 

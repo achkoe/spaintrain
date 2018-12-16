@@ -6,6 +6,11 @@ NO, YES = 0, 1
 EXPORT_IRREGULAR = True
 EXPORT_REGULAR = False
 
+
+def is_to_export(item):
+    return item["A_irregular"]["presente"] is True and item["A_priority"] <= 10
+
+
 export = {
     u'anterior': NO,
     u'subjuntivoimperfecto': NO,
@@ -77,9 +82,7 @@ if __name__ == '__main__':
     linebreak = u"<br/>"
     exportlist = [key for key in export if export[key] == YES]
     for item in rlist:
-        if not EXPORT_IRREGULAR and item["A_irregular"]:
-            continue
-        if not EXPORT_REGULAR and not item["A_irregular"]:
+        if not is_to_export(item):
             continue
         for key in exportlist:
             assert not key.startswith(u"A_")
