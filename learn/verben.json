@@ -37855,7 +37855,7 @@
     },
     {
         "A_english": "to throw",
-        "A_german": "werfen",
+        "A_german": "hinauswerfen, fortjagen, hinwerfen, ...",
         "A_infinitivo": "echar",
         "A_irregular": {
             "anterior": false,
@@ -38395,7 +38395,7 @@
     },
     {
         "A_english": "to move, to excite",
-        "A_german": "be(rühren), bewegen",
+        "A_german": "jmdn. ergreifen, be(rühren), bewegen",
         "A_infinitivo": "emocionar",
         "A_irregular": {
             "anterior": false,
@@ -38756,7 +38756,7 @@
     },
     {
         "A_english": "to employ",
-        "A_german": "beschäftigen",
+        "A_german": "jmdn. beschäftigen, etw. verwenden",
         "A_infinitivo": "emplear",
         "A_irregular": {
             "anterior": false,
@@ -38935,7 +38935,7 @@
     },
     {
         "A_english": "to begin",
-        "A_german": "angehen",
+        "A_german": "etw. angehen, etw. unternehmen",
         "A_infinitivo": "emprender",
         "A_irregular": {
             "anterior": false,
@@ -39293,7 +39293,7 @@
     },
     {
         "A_english": "to bewitch",
-        "A_german": "bezaubern",
+        "A_german": "jmdn. bezaubern, jmdn. entzücken",
         "A_infinitivo": "encantar",
         "A_irregular": {
             "anterior": false,
@@ -39475,7 +39475,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "anvertrauen, übertragen",
+        "A_german": "jmdn. beauftragen, etw. in Auftrag geben",
         "A_infinitivo": "encargar",
         "A_irregular": {
             "anterior": false,
@@ -40018,7 +40018,7 @@
     },
     {
         "A_english": "to poll",
-        "A_german": "befragen",
+        "A_german": "jmdn. befragen",
         "A_infinitivo": "encuestar",
         "A_irregular": {
             "anterior": false,
@@ -40197,7 +40197,7 @@
     },
     {
         "A_english": "to deceive",
-        "A_german": "trügen, betrügen",
+        "A_german": "betrügen, trügen",
         "A_infinitivo": "engañar",
         "A_irregular": {
             "anterior": false,
@@ -40558,7 +40558,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "verstehen",
+        "A_german": "verstehen, begreifen",
         "A_infinitivo": "entender",
         "A_irregular": {
             "anterior": false,
@@ -40737,7 +40737,7 @@
     },
     {
         "A_english": "to enter",
-        "A_german": "hineingehen",
+        "A_german": "hineingehen, in etw. eintreten",
         "A_infinitivo": "entrar",
         "A_irregular": {
             "anterior": false,
@@ -40919,7 +40919,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "abgeben",
+        "A_german": "etw. abgeben, abliefern, aushändigen",
         "A_infinitivo": "entregar",
         "A_irregular": {
             "anterior": false,
@@ -41101,7 +41101,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "versenden, schicken",
+        "A_german": "etw. versenden, schicken",
         "A_infinitivo": "enviar",
         "A_irregular": {
             "anterior": false,
@@ -41280,7 +41280,7 @@
     },
     {
         "A_english": "to envy",
-        "A_german": "beneiden",
+        "A_german": "jmdn./etw. beneiden",
         "A_infinitivo": "envidiar",
         "A_irregular": {
             "anterior": false,
@@ -41462,7 +41462,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "irren",
+        "A_german": "sich irren, etw. verfehlen",
         "A_infinitivo": "errar",
         "A_irregular": {
             "anterior": false,
@@ -41823,7 +41823,7 @@
     },
     {
         "A_english": "to hide",
-        "A_german": "verstecken",
+        "A_german": "jmdn./etw. verstecken, verbergen",
         "A_infinitivo": "esconder",
         "A_irregular": {
             "anterior": false,
@@ -42727,7 +42727,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "festlegen, festsetzen",
+        "A_german": "etw. herstellen (Geschätsverbindung), etw. etablieren",
         "A_infinitivo": "establecer",
         "A_irregular": {
             "anterior": false,
@@ -43088,7 +43088,7 @@
     },
     {
         "A_english": "to estimate",
-        "A_german": "schätzen",
+        "A_german": "jmdn./etw. schätzen, jmdn./etw. einschätzen",
         "A_infinitivo": "estimar",
         "A_irregular": {
             "anterior": false,
@@ -43446,7 +43446,7 @@
     },
     {
         "A_english": "to avoid",
-        "A_german": "vermeiden",
+        "A_german": "vermeiden, umgehen",
         "A_infinitivo": "evitar",
         "A_irregular": {
             "anterior": false,
@@ -43628,7 +43628,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "fordern",
+        "A_german": "verlangen, beanspruchen, fordern",
         "A_infinitivo": "exigir",
         "A_irregular": {
             "anterior": false,
@@ -44168,7 +44168,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "darstellen, schildern",
+        "A_german": "erklären, schildern, erläutern",
         "A_infinitivo": "explicar",
         "A_irregular": {
             "anterior": false,
@@ -44350,7 +44350,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "darlegen, vortragen",
+        "A_german": "ausstellen, darlegen, vortragen",
         "A_infinitivo": "exponer",
         "A_irregular": {
             "anterior": false,
@@ -45069,7 +45069,7 @@
     },
     {
         "A_english": "to deport",
-        "A_german": "ausweisen, verbannen",
+        "A_german": "etw. vermissen, jmdn. verwundern, jmdn. verbannen",
         "A_infinitivo": "extrañar",
         "A_irregular": {
             "anterior": false,
@@ -45433,7 +45433,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "herstellen",
+        "A_german": "herstellen, fabrizieren",
         "A_infinitivo": "fabricar",
         "A_irregular": {
             "anterior": false,
@@ -45612,7 +45612,7 @@
     },
     {
         "A_english": "to be missing",
-        "A_german": "fehlen",
+        "A_german": "fehlen, ausbleiben",
         "A_infinitivo": "faltar",
         "A_irregular": {
             "anterior": false,
@@ -46152,7 +46152,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "abschließen, beenden",
+        "A_german": "abschließen, beenden, finalizieren",
         "A_infinitivo": "finalizar",
         "A_irregular": {
             "anterior": false,
@@ -46331,7 +46331,7 @@
     },
     {
         "A_english": "to die",
-        "A_german": "sterben",
+        "A_german": "hinscheiden, sterben",
         "A_infinitivo": "finar",
         "A_irregular": {
             "anterior": false,
@@ -46513,7 +46513,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "vortäuschen",
+        "A_german": "fingieren, vortäuschen",
         "A_infinitivo": "fingir",
         "A_irregular": {
             "anterior": false,
@@ -46871,7 +46871,7 @@
     },
     {
         "A_english": "to float",
-        "A_german": "treiben, schweben",
+        "A_german": "herumschwimmen, treiben, schweben",
         "A_infinitivo": "flotar",
         "A_irregular": {
             "anterior": false,
@@ -47053,7 +47053,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "braten",
+        "A_german": "braten, frittieren",
         "A_infinitivo": "freír",
         "A_irregular": {
             "anterior": false,
@@ -47590,7 +47590,7 @@
     },
     {
         "A_english": "to found",
-        "A_german": "gründen",
+        "A_german": "etw. gründen, etw. aus der Taufe heben",
         "A_infinitivo": "fundar",
         "A_irregular": {
             "anterior": false,
@@ -47769,7 +47769,7 @@
     },
     {
         "A_english": "to win",
-        "A_german": "gewinnen",
+        "A_german": "gewinnen, etw. verdienen",
         "A_infinitivo": "ganar",
         "A_irregular": {
             "anterior": false,
