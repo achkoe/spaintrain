@@ -47948,7 +47948,7 @@
     },
     {
         "A_english": "to spend",
-        "A_german": "ausgeben",
+        "A_german": "ausgeben, aufbrauchen, abnutzen",
         "A_infinitivo": "gastar",
         "A_irregular": {
             "anterior": false,
@@ -48127,7 +48127,7 @@
     },
     {
         "A_english": "to revolve, to spin",
-        "A_german": "drehen",
+        "A_german": "drehen, wenden, abbiegen",
         "A_infinitivo": "girar",
         "A_irregular": {
             "anterior": false,
@@ -48309,7 +48309,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "regieren",
+        "A_german": "regieren, leiten, herrschen",
         "A_infinitivo": "gobernar",
         "A_irregular": {
             "anterior": false,
@@ -49389,7 +49389,7 @@
     },
     {
         "A_english": "to stuff, to fill",
-        "A_german": "sättigen",
+        "A_german": "jmdn. mit etw. belästigen, jmdn./etw. mit etw. überhäufen",
         "A_infinitivo": "hartar",
         "A_irregular": {
             "anterior": false,
@@ -49571,7 +49571,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "verletzen",
+        "A_german": "verletzen, verwunden, beschädigen",
         "A_infinitivo": "herir",
         "A_irregular": {
             "anterior": false,
@@ -49753,7 +49753,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "kochen, brodeln",
+        "A_german": "sieden, kochen, aufkochen, brodeln",
         "A_infinitivo": "hervir",
         "A_irregular": {
             "anterior": false,
@@ -49935,7 +49935,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "fliehen",
+        "A_german": "flüchten, fliehen",
         "A_infinitivo": "huir",
         "A_irregular": {
             "anterior": false,
@@ -50296,7 +50296,7 @@
     },
     {
         "A_english": "to imagine",
-        "A_german": "vorstellen",
+        "A_german": "vorstellen, ersinnen",
         "A_infinitivo": "imaginar",
         "A_irregular": {
             "anterior": false,
@@ -50478,7 +50478,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "verhindern",
+        "A_german": "verhindern, unterbinden",
         "A_infinitivo": "impedir",
         "A_irregular": {
             "anterior": false,
@@ -50657,7 +50657,7 @@
     },
     {
         "A_english": "to implant, to establish",
-        "A_german": "einführen, errichten",
+        "A_german": "einführen, einsetzen, implantieren",
         "A_infinitivo": "implantar",
         "A_irregular": {
             "anterior": false,
@@ -50839,7 +50839,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "aufdrängen",
+        "A_german": "aufdrängen, aufzwingen",
         "A_infinitivo": "imponer",
         "A_irregular": {
             "anterior": false,
@@ -51021,7 +51021,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "einschließen, umfassen",
+        "A_german": "einschließen, enthalten, mitzählen",
         "A_infinitivo": "incluir",
         "A_irregular": {
             "anterior": false,
@@ -51382,7 +51382,7 @@
     },
     {
         "A_english": "to inform",
-        "A_german": "informieren",
+        "A_german": "informieren, mitteilen",
         "A_infinitivo": "informar",
         "A_irregular": {
             "anterior": false,
@@ -51564,7 +51564,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "einnehmen, essen, trinken",
+        "A_german": "einnehmen, schlucken, etw. zu sich nehmen",
         "A_infinitivo": "ingerir",
         "A_irregular": {
             "anterior": false,
@@ -51746,7 +51746,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "untersuchen",
+        "A_german": "untersuchen, nachforschen",
         "A_infinitivo": "inquirir",
         "A_irregular": {
             "anterior": false,
@@ -51928,7 +51928,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "anmelden",
+        "A_german": "jmdm./etw. eintragen, anmelden",
         "A_infinitivo": "inscribir",
         "A_irregular": {
             "anterior": false,
@@ -52829,7 +52829,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "hineinstecken, einführen",
+        "A_german": "einstecken, einführen",
         "A_infinitivo": "introducir",
         "A_irregular": {
             "anterior": false,
@@ -53733,7 +53733,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "hissen",
+        "A_german": "hissen, hieven",
         "A_infinitivo": "izar",
         "A_irregular": {
             "anterior": false,
