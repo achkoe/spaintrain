@@ -54276,7 +54276,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "werfen",
+        "A_german": "werfen, abschießen, schleudern",
         "A_infinitivo": "lanzar",
         "A_irregular": {
             "anterior": false,
@@ -54455,7 +54455,7 @@
     },
     {
         "A_english": "to ballast",
-        "A_german": "(mit Ballast) beladen",
+        "A_german": "etw. beschweren, Ballast aufnehmen",
         "A_infinitivo": "lastrar",
         "A_irregular": {
             "anterior": false,
@@ -54634,7 +54634,7 @@
     },
     {
         "A_english": "to wash",
-        "A_german": "waschen",
+        "A_german": "waschen, spülen",
         "A_infinitivo": "lavar",
         "A_irregular": {
             "anterior": false,
@@ -55356,7 +55356,7 @@
     },
     {
         "A_english": "to clean",
-        "A_german": "putzen",
+        "A_german": "putzen, reinigen",
         "A_infinitivo": "limpiar",
         "A_irregular": {
             "anterior": false,
@@ -55896,7 +55896,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "ankommen",
+        "A_german": "ankommen, eintreffen",
         "A_infinitivo": "llegar",
         "A_irregular": {
             "anterior": false,
@@ -56075,7 +56075,7 @@
     },
     {
         "A_english": "to take, to charge",
-        "A_german": "tragen, führen",
+        "A_german": "jmdn./etw. mitbringen, tragen, anhaben",
         "A_infinitivo": "llevar",
         "A_irregular": {
             "anterior": false,
@@ -56794,7 +56794,7 @@
     },
     {
         "A_english": "to order",
-        "A_german": "befehlen",
+        "A_german": "jmdn./etw. schicken, befehlen",
         "A_infinitivo": "mandar",
         "A_irregular": {
             "anterior": false,
@@ -56976,7 +56976,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "instand halten",
+        "A_german": "etw. aufrecht erhalten, instand halten",
         "A_infinitivo": "mantener",
         "A_irregular": {
             "anterior": false,
@@ -57337,7 +57337,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "markieren",
+        "A_german": "markieren, kennzeichnen, wählen",
         "A_infinitivo": "marcar",
         "A_irregular": {
             "anterior": false,
@@ -57516,7 +57516,7 @@
     },
     {
         "A_english": "to go",
-        "A_german": "gehen",
+        "A_german": "marschieren, weggehen",
         "A_infinitivo": "marchar",
         "A_irregular": {
             "anterior": false,
@@ -57695,7 +57695,7 @@
     },
     {
         "A_english": "to pester",
-        "A_german": "belästigen",
+        "A_german": "jmnd. belästigen, jmnd. schwindlig machen",
         "A_infinitivo": "marear",
         "A_irregular": {
             "anterior": false,
@@ -57874,7 +57874,7 @@
     },
     {
         "A_english": "to miss",
-        "A_german": "danebenschießen",
+        "A_german": "danebenschießen, vom richtigen Weg abkommen",
         "A_infinitivo": "marrar",
         "A_irregular": {
             "anterior": false,
@@ -58235,7 +58235,7 @@
     },
     {
         "A_english": "to kill",
-        "A_german": "töten",
+        "A_german": "töten, umbringen",
         "A_infinitivo": "matar",
         "A_irregular": {
             "anterior": false,
@@ -59139,7 +59139,7 @@
     },
     {
         "A_english": "to insert, to put",
-        "A_german": "(hinein)stecken",
+        "A_german": "(hinein)stecken, hineinpressen",
         "A_infinitivo": "meter",
         "A_irregular": {
             "anterior": false,
@@ -59497,7 +59497,7 @@
     },
     {
         "A_english": "to bother",
-        "A_german": "stören",
+        "A_german": "stören, plagen, ärgern",
         "A_infinitivo": "molestar",
         "A_irregular": {
             "anterior": false,
@@ -59676,7 +59676,7 @@
     },
     {
         "A_english": "to get on, to mount",
-        "A_german": "aufsteigen, aufsitzen",
+        "A_german": "montieren, aufstellen",
         "A_infinitivo": "montar",
         "A_irregular": {
             "anterior": false,
@@ -60222,7 +60222,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "(vor)zeigen",
+        "A_german": "(vor)zeigen, aufweisen",
         "A_infinitivo": "mostrar",
         "A_irregular": {
             "anterior": false,
@@ -60404,7 +60404,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "bewegen",
+        "A_german": "etw. bewegen, verrücken",
         "A_infinitivo": "mover",
         "A_irregular": {
             "anterior": false,
@@ -60583,7 +60583,7 @@
     },
     {
         "A_english": "to change",
-        "A_german": "ändern",
+        "A_german": "etw. ändern, wechseln",
         "A_infinitivo": "mudar",
         "A_irregular": {
             "anterior": false,
@@ -61123,7 +61123,7 @@
     },
     {
         "A_english": "to narrate",
-        "A_german": "erzählen",
+        "A_german": "erzählen, berichten",
         "A_infinitivo": "narrar",
         "A_irregular": {
             "anterior": false,
@@ -61845,7 +61845,7 @@
     },
     {
         "A_english": "to quote, to mention",
-        "A_german": "nennen, angeben",
+        "A_german": "benennen, bezeichnen",
         "A_infinitivo": "nombrar",
         "A_irregular": {
             "anterior": false,
@@ -64369,7 +64369,7 @@
     },
     {
         "A_english": "to opt",
-        "A_german": "wählen",
+        "A_german": "wählen, für jmdn./etw. stimmen",
         "A_infinitivo": "optar",
         "A_irregular": {
             "anterior": false,
@@ -64548,7 +64548,7 @@
     },
     {
         "A_english": "to order",
-        "A_german": "ordnen",
+        "A_german": "ordnen, aufräumen, befehlen",
         "A_infinitivo": "ordenar",
         "A_irregular": {
             "anterior": false,
@@ -64909,7 +64909,7 @@
     },
     {
         "A_english": "to direct, to adjust",
-        "A_german": "ausrichten, einstellen",
+        "A_german": "orientieren, ausrichten, einstellen",
         "A_infinitivo": "orientar",
         "A_irregular": {
             "anterior": false,
@@ -65270,7 +65270,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "leiden",
+        "A_german": "an etw. kranken, etw. erleiden",
         "A_infinitivo": "padecer",
         "A_irregular": {
             "anterior": false,
@@ -65631,7 +65631,7 @@
     },
     {
         "A_english": "to stop",
-        "A_german": "anhalten",
+        "A_german": "anhalten, stoppen",
         "A_infinitivo": "parar",
         "A_irregular": {
             "anterior": false,
@@ -65813,7 +65813,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "aussehen, scheinen",
+        "A_german": "scheinen, wie etw. aussehen, ",
         "A_infinitivo": "parecer",
         "A_irregular": {
             "anterior": false,
@@ -66171,7 +66171,7 @@
     },
     {
         "A_english": "to divide",
-        "A_german": "(zer)teilen",
+        "A_german": "spalten, (zer)teilen, einteilen",
         "A_infinitivo": "partir",
         "A_irregular": {
             "anterior": false,
@@ -66711,7 +66711,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "bitten",
+        "A_german": "bitten, bestellen, verlangen",
         "A_infinitivo": "pedir",
         "A_irregular": {
             "anterior": false,
@@ -68334,7 +68334,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "(ver)bleiben",
+        "A_german": "(ver)bleiben, verharren, verweilen",
         "A_infinitivo": "permanecer",
         "A_irregular": {
             "anterior": false,
@@ -68513,7 +68513,7 @@
     },
     {
         "A_english": "to permit",
-        "A_german": "erlauben",
+        "A_german": "erlauben, gestatten",
         "A_infinitivo": "permitir",
         "A_irregular": {
             "anterior": false,
@@ -68695,7 +68695,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "verfolgen",
+        "A_german": "verfolgen, nacheilen",
         "A_infinitivo": "perseguir",
         "A_irregular": {
             "anterior": false,
@@ -68877,7 +68877,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "gehören",
+        "A_german": "gehören, angehören",
         "A_infinitivo": "pertenecer",
         "A_irregular": {
             "anterior": false,
@@ -69059,7 +69059,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "brennen, scharf sein",
+        "A_german": "stechen, brennen, piksen",
         "A_infinitivo": "picar",
         "A_irregular": {
             "anterior": false,
@@ -69417,7 +69417,7 @@
     },
     {
         "A_english": "to fail",
-        "A_german": "versagen",
+        "A_german": "versagen, auf. etw. klicken, sticheln",
         "A_infinitivo": "pinchar",
         "A_irregular": {
             "anterior": false,
@@ -69596,7 +69596,7 @@
     },
     {
         "A_english": "to paint",
-        "A_german": "malen",
+        "A_german": "malen; anstreichen",
         "A_infinitivo": "pintar",
         "A_irregular": {
             "anterior": false,
@@ -70136,7 +70136,7 @@
     },
     {
         "A_english": "to hover, to plan",
-        "A_german": "schweben, planen",
+        "A_german": "planen, schweben, gleiten",
         "A_infinitivo": "planear",
         "A_irregular": {
             "anterior": false,
@@ -70318,7 +70318,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "planen",
+        "A_german": "planen, verplanen",
         "A_infinitivo": "planificar",
         "A_irregular": {
             "anterior": false,
@@ -70861,7 +70861,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "stellen",
+        "A_german": "stellen, legen, setzen",
         "A_infinitivo": "poner",
         "A_irregular": {
             "anterior": false,
@@ -71043,7 +71043,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "besitzen",
+        "A_german": "besitzen, innehaben",
         "A_infinitivo": "poseer",
         "A_irregular": {
             "anterior": false,
@@ -71947,7 +71947,7 @@
     },
     {
         "A_english": "to reward",
-        "A_german": "belohnen",
+        "A_german": "belohnen, prämieren",
         "A_infinitivo": "premiar",
         "A_irregular": {
             "anterior": false,
@@ -72126,7 +72126,7 @@
     },
     {
         "A_english": "to take root",
-        "A_german": "Wurzeln schlagen",
+        "A_german": "anmachen, ergreifen, wurzeln",
         "A_infinitivo": "prender",
         "A_irregular": {
             "anterior": false,
@@ -73203,7 +73203,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "vorhersehen",
+        "A_german": "absehen, erahnen, vorhersehen",
         "A_infinitivo": "prever",
         "A_irregular": {
             "anterior": false,
@@ -73385,7 +73385,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "beweisen",
+        "A_german": "probieren, beweisen, testen",
         "A_infinitivo": "probar",
         "A_irregular": {
             "anterior": false,
@@ -74832,7 +74832,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "(ver)sorgen",
+        "A_german": "(ver)sorgen, ausrüsten",
         "A_infinitivo": "proveer",
         "A_irregular": {
             "anterior": false,
