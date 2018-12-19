@@ -172,21 +172,26 @@ def makeworksheet(args):
 
 def ankitest(args):
     col = Collection(args._path)
+    print dir(col)
+    print help(col.findReplace)
     cnt = Counter()
     # query = "deck:SpainTrain2 OR deck:Spaintrain1"
     # query = "rated:1"
-    idlist = col.findCards(args.query)
-    print len(idlist)
+    idlist = col.findCards(unicode(args.query))
+    #print len(idlist)
     for id_ in idlist:
         card = col.getCard(id_)
         note = card.note()
         itemdict = dict(note.items())
-        if "verb" in itemdict.get("wordclass", "").lower():
+        #if "verb" in itemdict.get("wordclass", "").lower():
+        if 1:
             #print itemdict[u"Rückseite"]
             #print itemdict[u"Vorderseite"]
+            note.fields[0] = note.fields[0] + "."
             cnt[itemdict[u"Vorderseite"]] += 1
+    col.save()
     col.close()
-    print u"\n".join(cnt.keys())
+    #print u"\n".join(cnt.keys())
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)

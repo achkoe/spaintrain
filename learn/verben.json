@@ -75375,7 +75375,7 @@
     },
     {
         "A_english": "to remain",
-        "A_german": "bleiben",
+        "A_german": "bleiben, zurückbleiben, noch vorhonden sein",
         "A_infinitivo": "quedar",
         "A_irregular": {
             "anterior": false,
@@ -75554,7 +75554,7 @@
     },
     {
         "A_english": "to complain",
-        "A_german": "(be)klagen",
+        "A_german": "knurren, maulen, meckern",
         "A_infinitivo": "quejar",
         "A_irregular": {
             "anterior": false,
@@ -75736,7 +75736,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "wollen",
+        "A_german": "wollen, mögen",
         "A_infinitivo": "querer",
         "A_irregular": {
             "anterior": false,
@@ -75915,7 +75915,7 @@
     },
     {
         "A_english": "to remove, to take off, to pull off",
-        "A_german": "entfernen, abnehmen, abziehen",
+        "A_german": "wegnehmen, entfernen, abnehmen, abziehen",
         "A_infinitivo": "quitar",
         "A_irregular": {
             "anterior": false,
@@ -76279,7 +76279,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "verwirklichen",
+        "A_german": "verwirklichen, realisieren",
         "A_infinitivo": "realizar",
         "A_irregular": {
             "anterior": false,
@@ -76458,7 +76458,7 @@
     },
     {
         "A_english": "to collect, to seek",
-        "A_german": "erhalten, ersuchen",
+        "A_german": "erlangen, erbitten, erreichen",
         "A_infinitivo": "recabar",
         "A_irregular": {
             "anterior": false,
@@ -76822,7 +76822,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "ablehnen",
+        "A_german": "ablehnen, verschmähen",
         "A_infinitivo": "rechazar",
         "A_irregular": {
             "anterior": false,
@@ -77183,7 +77183,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "einsammeln, abholen",
+        "A_german": "aufheben, aufsammeln, abholen",
         "A_infinitivo": "recoger",
         "A_irregular": {
             "anterior": false,
@@ -77726,7 +77726,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "erkennen",
+        "A_german": "erkennen, wiedererkennen",
         "A_infinitivo": "reconocer",
         "A_irregular": {
             "anterior": false,
@@ -79710,7 +79710,7 @@
     },
     {
         "A_english": "to reign",
-        "A_german": "regieren",
+        "A_german": "herrschen, regieren",
         "A_infinitivo": "reinar",
         "A_irregular": {
             "anterior": false,
@@ -80250,7 +80250,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "leuchten",
+        "A_german": "erstrahlen, leuchten",
         "A_infinitivo": "relucir",
         "A_irregular": {
             "anterior": false,
@@ -80432,7 +80432,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "einbringen, abwerfen",
+        "A_german": "leisten, erbringen",
         "A_infinitivo": "rendir",
         "A_irregular": {
             "anterior": false,
@@ -80611,7 +80611,7 @@
     },
     {
         "A_english": "to rebound, to have an effect on sth",
-        "A_german": "rückwirken, zurückprallen",
+        "A_german": "auswirken, nachwirken",
         "A_infinitivo": "repercutir",
         "A_irregular": {
             "anterior": false,
@@ -82589,7 +82589,7 @@
     },
     {
         "A_english": "to portray, to depict",
-        "A_german": "porträtieren",
+        "A_german": "schildern, abbilden, porträtieren",
         "A_infinitivo": "retratar",
         "A_irregular": {
             "anterior": false,
@@ -83311,7 +83311,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "brechen",
+        "A_german": "brechen, kaputt machen",
         "A_infinitivo": "romper",
         "A_irregular": {
             "anterior": false,
@@ -83857,7 +83857,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "(heraus)nehmen",
+        "A_german": "(heraus)nehmen, herausziehen",
         "A_infinitivo": "sacar",
         "A_irregular": {
             "anterior": false,
@@ -84218,7 +84218,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "weggehen, verlassen",
+        "A_german": "ausgehen, weggehen, verlassen",
         "A_infinitivo": "salir",
         "A_irregular": {
             "anterior": false,
@@ -84397,7 +84397,7 @@
     },
     {
         "A_english": "to jump",
-        "A_german": "springen",
+        "A_german": "springen, hüpfen",
         "A_infinitivo": "saltar",
         "A_irregular": {
             "anterior": false,
@@ -85119,7 +85119,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "verführen",
+        "A_german": "verführen, bestechen",
         "A_infinitivo": "seducir",
         "A_irregular": {
             "anterior": false,
@@ -85301,7 +85301,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "folgen",
+        "A_german": "fortfahren, weitermachen, folgen",
         "A_infinitivo": "seguir",
         "A_irregular": {
             "anterior": false,
@@ -85662,7 +85662,7 @@
     },
     {
         "A_english": "to sentence",
-        "A_german": "verurteilen",
+        "A_german": "verurteilen, entscheiden",
         "A_infinitivo": "sentenciar",
         "A_irregular": {
             "anterior": false,
@@ -86933,7 +86933,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "fliesen",
+        "A_german": "mit Platten belegen, fliesen",
         "A_infinitivo": "solar",
         "A_irregular": {
             "anterior": false,
@@ -87294,7 +87294,7 @@
     },
     {
         "A_english": "to ask for, to solicit",
-        "A_german": "ersuchen, bitten",
+        "A_german": "bewerben, beantragen",
         "A_infinitivo": "solicitar",
         "A_irregular": {
             "anterior": false,
@@ -88016,7 +88016,7 @@
     },
     {
         "A_english": "to support, to stand",
-        "A_german": "halten, tragen",
+        "A_german": "aushalten, ertragen, erdulden",
         "A_infinitivo": "soportar",
         "A_irregular": {
             "anterior": false,
@@ -88735,7 +88735,7 @@
     },
     {
         "A_english": "to succeed, to follow on",
-        "A_german": "(nach)folgen, beerben",
+        "A_german": "geschehen, passieren, ereignen",
         "A_infinitivo": "suceder",
         "A_irregular": {
             "anterior": false,
@@ -89093,7 +89093,7 @@
     },
     {
         "A_english": "to bear",
-        "A_german": "ertragen",
+        "A_german": "leiden, ertragen",
         "A_infinitivo": "sufrir",
         "A_irregular": {
             "anterior": false,
@@ -89639,7 +89639,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "herausquellen, (heraus)sprudeln",
+        "A_german": "aufkommen, auftreten, entstehen",
         "A_infinitivo": "surgir",
         "A_irregular": {
             "anterior": false,
@@ -89821,7 +89821,7 @@
         "A_exported": [
             "presente"
         ],
-        "A_german": "unterschreiben",
+        "A_german": "unterschreiben, unterzeichnen",
         "A_infinitivo": "suscribir",
         "A_irregular": {
             "anterior": false,
