@@ -12277,7 +12277,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos bañado",
             "p2": "hubisteis bañado",
@@ -12456,7 +12456,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos bailado",
             "p2": "hubisteis bailado",
@@ -12635,7 +12635,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos bajado",
             "p2": "hubisteis bajado",
@@ -12814,7 +12814,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos barrido",
             "p2": "hubisteis barrido",
@@ -12993,7 +12993,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos bebido",
             "p2": "hubisteis bebido",
@@ -13172,7 +13172,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos besado",
             "p2": "hubisteis besado",
@@ -13351,7 +13351,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos borrado",
             "p2": "hubisteis borrado",
@@ -13533,7 +13533,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos bostezado",
             "p2": "hubisteis bostezado",
@@ -13715,7 +13715,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos buscado",
             "p2": "hubisteis buscado",
@@ -13897,7 +13897,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cabido",
             "p2": "hubisteis cabido",
@@ -14079,7 +14079,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos caído",
             "p2": "hubisteis caído",
@@ -14261,7 +14261,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos cagado",
             "p2": "hubisteis cagado",
@@ -14440,7 +14440,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos calculado",
             "p2": "hubisteis calculado",
@@ -14622,7 +14622,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos calentado",
             "p2": "hubisteis calentado",
@@ -14801,7 +14801,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos callado",
             "p2": "hubisteis callado",
@@ -14980,7 +14980,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos callejeado",
             "p2": "hubisteis callejeado",
@@ -15159,7 +15159,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cambiado",
             "p2": "hubisteis cambiado",
@@ -15338,7 +15338,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos caminado",
             "p2": "hubisteis caminado",
@@ -15517,7 +15517,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos cansado",
             "p2": "hubisteis cansado",
@@ -15696,7 +15696,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cantado",
             "p2": "hubisteis cantado",
@@ -15875,7 +15875,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos casado",
             "p2": "hubisteis casado",
@@ -16054,7 +16054,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos causado",
             "p2": "hubisteis causado",
@@ -16233,7 +16233,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos cavado",
             "p2": "hubisteis cavado",
@@ -16412,7 +16412,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos celebrado",
             "p2": "hubisteis celebrado",
@@ -16591,7 +16591,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cenado",
             "p2": "hubisteis cenado",
@@ -16773,7 +16773,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cerrado",
             "p2": "hubisteis cerrado",
@@ -16952,7 +16952,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos chalado",
             "p2": "hubisteis chalado",
@@ -17131,7 +17131,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos charlado",
             "p2": "hubisteis charlado",
@@ -17310,7 +17310,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos chateado",
             "p2": "hubisteis chateado",
@@ -17492,7 +17492,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos chocado",
             "p2": "hubisteis chocado",
@@ -17671,7 +17671,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos clamado",
             "p2": "hubisteis clamado",
@@ -17853,7 +17853,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos cocido",
             "p2": "hubisteis cocido",
@@ -18032,7 +18032,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cocinado",
             "p2": "hubisteis cocinado",
@@ -18214,7 +18214,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cogido",
             "p2": "hubisteis cogido",
@@ -18393,7 +18393,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos cojeado",
             "p2": "hubisteis cojeado",
@@ -18575,7 +18575,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos colgado",
             "p2": "hubisteis colgado",
@@ -18754,7 +18754,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos combatido",
             "p2": "hubisteis combatido",
@@ -18933,7 +18933,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos comentado",
             "p2": "hubisteis comentado",
@@ -19115,7 +19115,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos comenzado",
             "p2": "hubisteis comenzado",
@@ -19294,7 +19294,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos comido",
             "p2": "hubisteis comido",
@@ -19473,7 +19473,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos comerciado",
             "p2": "hubisteis comerciado",
@@ -19652,7 +19652,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cometido",
             "p2": "hubisteis cometido",
@@ -19831,7 +19831,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos comparado",
             "p2": "hubisteis comparado",
@@ -20013,7 +20013,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos comparecido",
             "p2": "hubisteis comparecido",
@@ -20192,7 +20192,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos compartido",
             "p2": "hubisteis compartido",
@@ -20374,7 +20374,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos competido",
             "p2": "hubisteis competido",
@@ -20553,7 +20553,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos complementado",
             "p2": "hubisteis complementado",
@@ -20732,7 +20732,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos completado",
             "p2": "hubisteis completado",
@@ -20914,7 +20914,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos compuesto",
             "p2": "hubisteis compuesto",
@@ -21093,7 +21093,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos comprado",
             "p2": "hubisteis comprado",
@@ -21272,7 +21272,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos comprendido",
             "p2": "hubisteis comprendido",
@@ -21454,7 +21454,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos comprobado",
             "p2": "hubisteis comprobado",
@@ -21633,7 +21633,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos comprometido",
             "p2": "hubisteis comprometido",
@@ -21815,7 +21815,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos comunicado",
             "p2": "hubisteis comunicado",
@@ -21997,7 +21997,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos conducido",
             "p2": "hubisteis conducido",
@@ -22176,7 +22176,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos conectado",
             "p2": "hubisteis conectado",
@@ -22358,7 +22358,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos confesado",
             "p2": "hubisteis confesado",
@@ -22540,7 +22540,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos confiado",
             "p2": "hubisteis confiado",
@@ -22719,7 +22719,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos confundido",
             "p2": "hubisteis confundido",
@@ -22901,7 +22901,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos conocido",
             "p2": "hubisteis conocido",
@@ -23083,7 +23083,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos conseguido",
             "p2": "hubisteis conseguido",
@@ -23262,7 +23262,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos constado",
             "p2": "hubisteis constado",
@@ -23444,7 +23444,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos construido",
             "p2": "hubisteis construido",
@@ -23623,7 +23623,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos consumido",
             "p2": "hubisteis consumido",
@@ -23987,7 +23987,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos contenido",
             "p2": "hubisteis contenido",
@@ -24166,7 +24166,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos contestado",
             "p2": "hubisteis contestado",
@@ -24348,7 +24348,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos continuado",
             "p2": "hubisteis continuado",
@@ -24530,7 +24530,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos contradicho",
             "p2": "hubisteis contradicho",
@@ -24712,7 +24712,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos contraído",
             "p2": "hubisteis contraído",
@@ -24891,7 +24891,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos contrastado",
             "p2": "hubisteis contrastado",
@@ -25070,7 +25070,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos controlado",
             "p2": "hubisteis controlado",
@@ -25252,7 +25252,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos convencido",
             "p2": "hubisteis convencido",
@@ -25434,7 +25434,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos convertido",
             "p2": "hubisteis convertido",
@@ -25613,7 +25613,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos copiado",
             "p2": "hubisteis copiado",
@@ -25795,7 +25795,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos correcto",
             "p2": "hubisteis correcto",
@@ -25974,7 +25974,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos corrido",
             "p2": "hubisteis corrido",
@@ -26153,7 +26153,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cortado",
             "p2": "hubisteis cortado",
@@ -26332,7 +26332,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos cosido",
             "p2": "hubisteis cosido",
@@ -26514,7 +26514,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos costado",
             "p2": "hubisteis costado",
@@ -26693,7 +26693,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos creado",
             "p2": "hubisteis creado",
@@ -26875,7 +26875,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos crecido",
             "p2": "hubisteis crecido",
@@ -27057,7 +27057,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos creído",
             "p2": "hubisteis creído",
@@ -27239,7 +27239,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos cruzado",
             "p2": "hubisteis cruzado",
@@ -27421,7 +27421,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos cubierto",
             "p2": "hubisteis cubierto",
@@ -27600,7 +27600,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos cuidado",
             "p2": "hubisteis cuidado",
@@ -27779,7 +27779,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos cumplido",
             "p2": "hubisteis cumplido",
@@ -37878,7 +37878,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos echado",
             "p2": "hubisteis echado",
@@ -38057,7 +38057,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos elaborado",
             "p2": "hubisteis elaborado",
@@ -38239,7 +38239,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos elegido",
             "p2": "hubisteis elegido",
@@ -38418,7 +38418,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos emocionado",
             "p2": "hubisteis emocionado",
@@ -38600,7 +38600,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos empezado",
             "p2": "hubisteis empezado",
@@ -38779,7 +38779,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos empleado",
             "p2": "hubisteis empleado",
@@ -38958,7 +38958,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos emprendido",
             "p2": "hubisteis emprendido",
@@ -39137,7 +39137,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos enamorado",
             "p2": "hubisteis enamorado",
@@ -39316,7 +39316,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos encantado",
             "p2": "hubisteis encantado",
@@ -39498,7 +39498,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos encargado",
             "p2": "hubisteis encargado",
@@ -39680,7 +39680,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos encendido",
             "p2": "hubisteis encendido",
@@ -39862,7 +39862,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos encontrado",
             "p2": "hubisteis encontrado",
@@ -40041,7 +40041,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos encuestado",
             "p2": "hubisteis encuestado",
@@ -40220,7 +40220,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos engañado",
             "p2": "hubisteis engañado",
@@ -40399,7 +40399,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos enseñado",
             "p2": "hubisteis enseñado",
@@ -40581,7 +40581,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos entendido",
             "p2": "hubisteis entendido",
@@ -40760,7 +40760,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos entrado",
             "p2": "hubisteis entrado",
@@ -40942,7 +40942,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos entregado",
             "p2": "hubisteis entregado",
@@ -41124,7 +41124,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos enviado",
             "p2": "hubisteis enviado",
@@ -41303,7 +41303,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos envidiado",
             "p2": "hubisteis envidiado",
@@ -41485,7 +41485,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos errado",
             "p2": "hubisteis errado",
@@ -41667,7 +41667,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos escogido",
             "p2": "hubisteis escogido",
@@ -41846,7 +41846,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos escondido",
             "p2": "hubisteis escondido",
@@ -42028,7 +42028,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos escrito",
             "p2": "hubisteis escrito",
@@ -42207,7 +42207,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos escuchado",
             "p2": "hubisteis escuchado",
@@ -42386,7 +42386,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos esperado",
             "p2": "hubisteis esperado",
@@ -42568,7 +42568,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos esquiado",
             "p2": "hubisteis esquiado",
@@ -42750,7 +42750,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos establecido",
             "p2": "hubisteis establecido",
@@ -42932,7 +42932,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos estado",
             "p2": "hubisteis estado",
@@ -43111,7 +43111,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos estimado",
             "p2": "hubisteis estimado",
@@ -43290,7 +43290,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos estudiado",
             "p2": "hubisteis estudiado",
@@ -43469,7 +43469,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos evitado",
             "p2": "hubisteis evitado",
@@ -43651,7 +43651,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos exigido",
             "p2": "hubisteis exigido",
@@ -43830,7 +43830,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos existido",
             "p2": "hubisteis existido",
@@ -44009,7 +44009,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos expandido",
             "p2": "hubisteis expandido",
@@ -44191,7 +44191,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos explicado",
             "p2": "hubisteis explicado",
@@ -44373,7 +44373,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos expuesto",
             "p2": "hubisteis expuesto",
@@ -44552,7 +44552,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos exportado",
             "p2": "hubisteis exportado",
@@ -44731,7 +44731,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos expresado",
             "p2": "hubisteis expresado",
@@ -44913,7 +44913,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos extendido",
             "p2": "hubisteis extendido",
@@ -45092,7 +45092,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos extrañado",
             "p2": "hubisteis extrañado",
@@ -45274,7 +45274,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos extraído",
             "p2": "hubisteis extraído",
@@ -45456,7 +45456,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos fabricado",
             "p2": "hubisteis fabricado",
@@ -45635,7 +45635,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos faltado",
             "p2": "hubisteis faltado",
@@ -45814,7 +45814,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos fechado",
             "p2": "hubisteis fechado",
@@ -45993,7 +45993,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos fijado",
             "p2": "hubisteis fijado",
@@ -46175,7 +46175,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos finalizado",
             "p2": "hubisteis finalizado",
@@ -46354,7 +46354,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos finado",
             "p2": "hubisteis finado",
@@ -46536,7 +46536,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos fingido",
             "p2": "hubisteis fingido",
@@ -46715,7 +46715,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos firmado",
             "p2": "hubisteis firmado",
@@ -46894,7 +46894,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos flotado",
             "p2": "hubisteis flotado",
@@ -47076,7 +47076,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos freído",
             "p2": "hubisteis freído",
@@ -47255,7 +47255,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos fumado",
             "p2": "hubisteis fumado",
@@ -47434,7 +47434,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos funcionado",
             "p2": "hubisteis funcionado",
@@ -47613,7 +47613,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos fundado",
             "p2": "hubisteis fundado",
@@ -47792,7 +47792,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos ganado",
             "p2": "hubisteis ganado",
@@ -47971,7 +47971,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos gastado",
             "p2": "hubisteis gastado",
@@ -48150,7 +48150,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos girado",
             "p2": "hubisteis girado",
@@ -48332,7 +48332,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos gobernado",
             "p2": "hubisteis gobernado",
@@ -48511,7 +48511,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos gritado",
             "p2": "hubisteis gritado",
@@ -48690,7 +48690,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos gustado",
             "p2": "hubisteis gustado",
@@ -48872,7 +48872,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos habido",
             "p2": "hubisteis habido",
@@ -49051,7 +49051,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos hablado",
             "p2": "hubisteis hablado",
@@ -49233,7 +49233,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos hecho",
             "p2": "hubisteis hecho",
@@ -49412,7 +49412,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos hartado",
             "p2": "hubisteis hartado",
@@ -49594,7 +49594,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos herido",
             "p2": "hubisteis herido",
@@ -49776,7 +49776,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos hervido",
             "p2": "hubisteis hervido",
@@ -49958,7 +49958,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos huido",
             "p2": "hubisteis huido",
@@ -50140,7 +50140,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos identificado",
             "p2": "hubisteis identificado",
@@ -50319,7 +50319,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos imaginado",
             "p2": "hubisteis imaginado",
@@ -50501,7 +50501,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos impedido",
             "p2": "hubisteis impedido",
@@ -50680,7 +50680,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos implantado",
             "p2": "hubisteis implantado",
@@ -50862,7 +50862,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos impuesto",
             "p2": "hubisteis impuesto",
@@ -51044,7 +51044,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos incluido",
             "p2": "hubisteis incluido",
@@ -51226,7 +51226,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos influido",
             "p2": "hubisteis influido",
@@ -51405,7 +51405,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos informado",
             "p2": "hubisteis informado",
@@ -51587,7 +51587,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos ingerido",
             "p2": "hubisteis ingerido",
@@ -51769,7 +51769,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos inquirido",
             "p2": "hubisteis inquirido",
@@ -51951,7 +51951,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos inscrito",
             "p2": "hubisteis inscrito",
@@ -52133,7 +52133,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos insinuado",
             "p2": "hubisteis insinuado",
@@ -52312,7 +52312,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos intentado",
             "p2": "hubisteis intentado",
@@ -52491,7 +52491,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos intercambiado",
             "p2": "hubisteis intercambiado",
@@ -52670,7 +52670,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos interesado",
             "p2": "hubisteis interesado",
@@ -52852,7 +52852,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos introducido",
             "p2": "hubisteis introducido",
@@ -53031,7 +53031,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos inventado",
             "p2": "hubisteis inventado",
@@ -53213,7 +53213,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos invertido",
             "p2": "hubisteis invertido",
@@ -53392,7 +53392,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos invitado",
             "p2": "hubisteis invitado",
@@ -53574,7 +53574,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos ido",
             "p2": "hubisteis ido",
@@ -53756,7 +53756,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos izado",
             "p2": "hubisteis izado",
@@ -53935,7 +53935,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos jodido",
             "p2": "hubisteis jodido",
@@ -54117,7 +54117,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos jugado",
             "p2": "hubisteis jugado",
@@ -54299,7 +54299,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos lanzado",
             "p2": "hubisteis lanzado",
@@ -54478,7 +54478,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos lastrado",
             "p2": "hubisteis lastrado",
@@ -54657,7 +54657,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos lavado",
             "p2": "hubisteis lavado",
@@ -54839,7 +54839,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos leído",
             "p2": "hubisteis leído",
@@ -55018,7 +55018,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos levantado",
             "p2": "hubisteis levantado",
@@ -55200,7 +55200,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos liado",
             "p2": "hubisteis liado",
@@ -55379,7 +55379,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos limpiado",
             "p2": "hubisteis limpiado",
@@ -55558,7 +55558,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos llamado",
             "p2": "hubisteis llamado",
@@ -55737,7 +55737,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos llameado",
             "p2": "hubisteis llameado",
@@ -55919,7 +55919,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos llegado",
             "p2": "hubisteis llegado",
@@ -56098,7 +56098,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos llevado",
             "p2": "hubisteis llevado",
@@ -56277,7 +56277,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos llorado",
             "p2": "hubisteis llorado",
@@ -56459,7 +56459,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos llovido",
             "p2": "hubisteis llovido",
@@ -56638,7 +56638,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos maleado",
             "p2": "hubisteis maleado",
@@ -56817,7 +56817,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos mandado",
             "p2": "hubisteis mandado",
@@ -56999,7 +56999,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos mantenido",
             "p2": "hubisteis mantenido",
@@ -57178,7 +57178,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos maquillado",
             "p2": "hubisteis maquillado",
@@ -57360,7 +57360,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos marcado",
             "p2": "hubisteis marcado",
@@ -57539,7 +57539,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos marchado",
             "p2": "hubisteis marchado",
@@ -57718,7 +57718,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos mareado",
             "p2": "hubisteis mareado",
@@ -57897,7 +57897,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos marrado",
             "p2": "hubisteis marrado",
@@ -58079,7 +58079,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos masticado",
             "p2": "hubisteis masticado",
@@ -58258,7 +58258,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos matado",
             "p2": "hubisteis matado",
@@ -58440,7 +58440,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos medido",
             "p2": "hubisteis medido",
@@ -58619,7 +58619,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos mejorado",
             "p2": "hubisteis mejorado",
@@ -58801,7 +58801,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos mentido",
             "p2": "hubisteis mentido",
@@ -58983,7 +58983,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos merendado",
             "p2": "hubisteis merendado",
@@ -59162,7 +59162,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos metido",
             "p2": "hubisteis metido",
@@ -59341,7 +59341,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos mirado",
             "p2": "hubisteis mirado",
@@ -59520,7 +59520,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos molestado",
             "p2": "hubisteis molestado",
@@ -59699,7 +59699,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos montado",
             "p2": "hubisteis montado",
@@ -59881,7 +59881,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos mordido",
             "p2": "hubisteis mordido",
@@ -60063,7 +60063,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos muerto",
             "p2": "hubisteis muerto",
@@ -60245,7 +60245,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos mostrado",
             "p2": "hubisteis mostrado",
@@ -60427,7 +60427,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos movido",
             "p2": "hubisteis movido",
@@ -60606,7 +60606,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos mudado",
             "p2": "hubisteis mudado",
@@ -60788,7 +60788,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos nacido",
             "p2": "hubisteis nacido",
@@ -60967,7 +60967,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos nadado",
             "p2": "hubisteis nadado",
@@ -61146,7 +61146,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos narrado",
             "p2": "hubisteis narrado",
@@ -61328,7 +61328,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos navegado",
             "p2": "hubisteis navegado",
@@ -61507,7 +61507,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos necesitado",
             "p2": "hubisteis necesitado",
@@ -61689,7 +61689,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos nevado",
             "p2": "hubisteis nevado",
@@ -61868,7 +61868,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos nombrado",
             "p2": "hubisteis nombrado",
@@ -62047,7 +62047,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos notado",
             "p2": "hubisteis notado",
@@ -62229,7 +62229,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos oído",
             "p2": "hubisteis oído",
@@ -62411,7 +62411,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos obedecido",
             "p2": "hubisteis obedecido",
@@ -62593,7 +62593,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos obligado",
             "p2": "hubisteis obligado",
@@ -62772,7 +62772,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos observado",
             "p2": "hubisteis observado",
@@ -62954,7 +62954,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos obtenido",
             "p2": "hubisteis obtenido",
@@ -63133,7 +63133,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos ocupado",
             "p2": "hubisteis ocupado",
@@ -63312,7 +63312,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos ocurrido",
             "p2": "hubisteis ocurrido",
@@ -63491,7 +63491,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos odiado",
             "p2": "hubisteis odiado",
@@ -63673,7 +63673,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos ofrecido",
             "p2": "hubisteis ofrecido",
@@ -63855,7 +63855,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos olido",
             "p2": "hubisteis olido",
@@ -64034,7 +64034,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos olvidado",
             "p2": "hubisteis olvidado",
@@ -64213,7 +64213,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos opinado",
             "p2": "hubisteis opinado",
@@ -64392,7 +64392,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos optado",
             "p2": "hubisteis optado",
@@ -64571,7 +64571,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos ordenado",
             "p2": "hubisteis ordenado",
@@ -64753,7 +64753,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos organizado",
             "p2": "hubisteis organizado",
@@ -64932,7 +64932,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos orientado",
             "p2": "hubisteis orientado",
@@ -65111,7 +65111,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos oscilado",
             "p2": "hubisteis oscilado",
@@ -65293,7 +65293,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos padecido",
             "p2": "hubisteis padecido",
@@ -65475,7 +65475,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos pagado",
             "p2": "hubisteis pagado",
@@ -65654,7 +65654,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos parado",
             "p2": "hubisteis parado",
@@ -65836,7 +65836,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos parecido",
             "p2": "hubisteis parecido",
@@ -66015,7 +66015,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos participado",
             "p2": "hubisteis participado",
@@ -66194,7 +66194,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos partido",
             "p2": "hubisteis partido",
@@ -66373,7 +66373,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos pasado",
             "p2": "hubisteis pasado",
@@ -66552,7 +66552,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos paseado",
             "p2": "hubisteis paseado",
@@ -66734,7 +66734,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos pedido",
             "p2": "hubisteis pedido",
@@ -66916,7 +66916,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos pegado",
             "p2": "hubisteis pegado",
@@ -67095,7 +67095,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos peinado",
             "p2": "hubisteis peinado",
@@ -67274,7 +67274,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos peleado",
             "p2": "hubisteis peleado",
@@ -67453,7 +67453,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos penado",
             "p2": "hubisteis penado",
@@ -67635,7 +67635,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos pensado",
             "p2": "hubisteis pensado",
@@ -67817,7 +67817,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos perdido",
             "p2": "hubisteis perdido",
@@ -67996,7 +67996,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos perdonado",
             "p2": "hubisteis perdonado",
@@ -68175,7 +68175,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos perfeccionado",
             "p2": "hubisteis perfeccionado",
@@ -68357,7 +68357,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos permanecido",
             "p2": "hubisteis permanecido",
@@ -68536,7 +68536,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos permitido",
             "p2": "hubisteis permitido",
@@ -68718,7 +68718,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos perseguido",
             "p2": "hubisteis perseguido",
@@ -68900,7 +68900,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos pertenecido",
             "p2": "hubisteis pertenecido",
@@ -69082,7 +69082,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos picado",
             "p2": "hubisteis picado",
@@ -69261,7 +69261,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos pillado",
             "p2": "hubisteis pillado",
@@ -69440,7 +69440,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos pinchado",
             "p2": "hubisteis pinchado",
@@ -69619,7 +69619,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos pintado",
             "p2": "hubisteis pintado",
@@ -69801,7 +69801,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos placido",
             "p2": "hubisteis placido",
@@ -69980,7 +69980,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos planchado",
             "p2": "hubisteis planchado",
@@ -70159,7 +70159,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos planeado",
             "p2": "hubisteis planeado",
@@ -70341,7 +70341,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos planificado",
             "p2": "hubisteis planificado",
@@ -70520,7 +70520,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos plantado",
             "p2": "hubisteis plantado",
@@ -70702,7 +70702,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos podido",
             "p2": "hubisteis podido",
@@ -70884,7 +70884,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos puesto",
             "p2": "hubisteis puesto",
@@ -71066,7 +71066,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos poseído",
             "p2": "hubisteis poseído",
@@ -71248,7 +71248,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos practicado",
             "p2": "hubisteis practicado",
@@ -71430,7 +71430,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos predicho",
             "p2": "hubisteis predicho",
@@ -71612,7 +71612,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos preferido",
             "p2": "hubisteis preferido",
@@ -71791,7 +71791,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos preguntado",
             "p2": "hubisteis preguntado",
@@ -71970,7 +71970,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos premiado",
             "p2": "hubisteis premiado",
@@ -72149,7 +72149,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos prendido",
             "p2": "hubisteis prendido",
@@ -72328,7 +72328,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos preocupado",
             "p2": "hubisteis preocupado",
@@ -72507,7 +72507,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos preparado",
             "p2": "hubisteis preparado",
@@ -72686,7 +72686,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos presentado",
             "p2": "hubisteis presentado",
@@ -72865,7 +72865,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos prestado",
             "p2": "hubisteis prestado",
@@ -73044,7 +73044,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos presumido",
             "p2": "hubisteis presumido",
@@ -73226,7 +73226,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos previsto",
             "p2": "hubisteis previsto",
@@ -73408,7 +73408,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos probado",
             "p2": "hubisteis probado",
@@ -73590,7 +73590,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos producido",
             "p2": "hubisteis producido",
@@ -73769,7 +73769,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos programado",
             "p2": "hubisteis programado",
@@ -73951,7 +73951,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos prohibido",
             "p2": "hubisteis prohibido",
@@ -74130,7 +74130,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos prometido",
             "p2": "hubisteis prometido",
@@ -74309,7 +74309,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos pronunciado",
             "p2": "hubisteis pronunciado",
@@ -74491,7 +74491,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos propuesto",
             "p2": "hubisteis propuesto",
@@ -74673,7 +74673,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos protegido",
             "p2": "hubisteis protegido",
@@ -74855,7 +74855,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos proveído",
             "p2": "hubisteis proveído",
@@ -75037,7 +75037,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos provocado",
             "p2": "hubisteis provocado",
@@ -75219,7 +75219,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos publicado",
             "p2": "hubisteis publicado",
@@ -75398,7 +75398,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos quedado",
             "p2": "hubisteis quedado",
@@ -75577,7 +75577,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos quejado",
             "p2": "hubisteis quejado",
@@ -75759,7 +75759,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos querido",
             "p2": "hubisteis querido",
@@ -75938,7 +75938,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos quitado",
             "p2": "hubisteis quitado",
@@ -76120,7 +76120,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos reído",
             "p2": "hubisteis reído",
@@ -76302,7 +76302,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos realizado",
             "p2": "hubisteis realizado",
@@ -76481,7 +76481,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos recabado",
             "p2": "hubisteis recabado",
@@ -76663,7 +76663,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos recargado",
             "p2": "hubisteis recargado",
@@ -76845,7 +76845,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos rechazado",
             "p2": "hubisteis rechazado",
@@ -77024,7 +77024,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos recibido",
             "p2": "hubisteis recibido",
@@ -77206,7 +77206,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos recogido",
             "p2": "hubisteis recogido",
@@ -77388,7 +77388,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos recomendado",
             "p2": "hubisteis recomendado",
@@ -77567,7 +77567,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos reconciliado",
             "p2": "hubisteis reconciliado",
@@ -77749,7 +77749,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos reconocido",
             "p2": "hubisteis reconocido",
@@ -77931,7 +77931,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos recordado",
             "p2": "hubisteis recordado",
@@ -78110,7 +78110,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos recuperado",
             "p2": "hubisteis recuperado",
@@ -78289,7 +78289,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos redactado",
             "p2": "hubisteis redactado",
@@ -78471,7 +78471,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos reducido",
             "p2": "hubisteis reducido",
@@ -78653,7 +78653,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos referido",
             "p2": "hubisteis referido",
@@ -78832,7 +78832,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos regalado",
             "p2": "hubisteis regalado",
@@ -79014,7 +79014,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos regado",
             "p2": "hubisteis regado",
@@ -79193,7 +79193,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos regresado",
             "p2": "hubisteis regresado",
@@ -79372,7 +79372,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos regulado",
             "p2": "hubisteis regulado",
@@ -79554,7 +79554,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos rehecho",
             "p2": "hubisteis rehecho",
@@ -79733,7 +79733,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos reinado",
             "p2": "hubisteis reinado",
@@ -79912,7 +79912,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos reiterado",
             "p2": "hubisteis reiterado",
@@ -80091,7 +80091,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos relajado",
             "p2": "hubisteis relajado",
@@ -80273,7 +80273,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos relucido",
             "p2": "hubisteis relucido",
@@ -80455,7 +80455,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos rendido",
             "p2": "hubisteis rendido",
@@ -80634,7 +80634,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos repercutido",
             "p2": "hubisteis repercutido",
@@ -80816,7 +80816,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos repetido",
             "p2": "hubisteis repetido",
@@ -80995,7 +80995,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos reportado",
             "p2": "hubisteis reportado",
@@ -81174,7 +81174,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos reprochado",
             "p2": "hubisteis reprochado",
@@ -81353,7 +81353,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos reservado",
             "p2": "hubisteis reservado",
@@ -81532,7 +81532,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos resistido",
             "p2": "hubisteis resistido",
@@ -81714,7 +81714,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos resuelto",
             "p2": "hubisteis resuelto",
@@ -81893,7 +81893,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos respetado",
             "p2": "hubisteis respetado",
@@ -82072,7 +82072,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos respondido",
             "p2": "hubisteis respondido",
@@ -82251,7 +82251,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos resumido",
             "p2": "hubisteis resumido",
@@ -82433,7 +82433,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos retraído",
             "p2": "hubisteis retraído",
@@ -82612,7 +82612,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos retratado",
             "p2": "hubisteis retratado",
@@ -82794,7 +82794,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos reunido",
             "p2": "hubisteis reunido",
@@ -82973,7 +82973,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos revolucionado",
             "p2": "hubisteis revolucionado",
@@ -83152,7 +83152,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos robado",
             "p2": "hubisteis robado",
@@ -83334,7 +83334,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos roto",
             "p2": "hubisteis roto",
@@ -83516,7 +83516,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos roncado",
             "p2": "hubisteis roncado",
@@ -83698,7 +83698,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos sabido",
             "p2": "hubisteis sabido",
@@ -83880,7 +83880,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos sacado",
             "p2": "hubisteis sacado",
@@ -84059,7 +84059,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos saciado",
             "p2": "hubisteis saciado",
@@ -84241,7 +84241,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos salido",
             "p2": "hubisteis salido",
@@ -84420,7 +84420,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos saltado",
             "p2": "hubisteis saltado",
@@ -84599,7 +84599,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos saludado",
             "p2": "hubisteis saludado",
@@ -84778,7 +84778,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos salvado",
             "p2": "hubisteis salvado",
@@ -84960,7 +84960,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos satisfecho",
             "p2": "hubisteis satisfecho",
@@ -85142,7 +85142,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos seducido",
             "p2": "hubisteis seducido",
@@ -85324,7 +85324,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos seguido",
             "p2": "hubisteis seguido",
@@ -85506,7 +85506,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos sentado",
             "p2": "hubisteis sentado",
@@ -85685,7 +85685,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos sentenciado",
             "p2": "hubisteis sentenciado",
@@ -85867,7 +85867,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos sentido",
             "p2": "hubisteis sentido",
@@ -86046,7 +86046,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos separado",
             "p2": "hubisteis separado",
@@ -86228,7 +86228,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos sido",
             "p2": "hubisteis sido",
@@ -86410,7 +86410,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos servido",
             "p2": "hubisteis servido",
@@ -86592,7 +86592,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos significado",
             "p2": "hubisteis significado",
@@ -86774,7 +86774,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos soñado",
             "p2": "hubisteis soñado",
@@ -86956,7 +86956,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos solado",
             "p2": "hubisteis solado",
@@ -87138,7 +87138,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos solido",
             "p2": "hubisteis solido",
@@ -87317,7 +87317,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos solicitado",
             "p2": "hubisteis solicitado",
@@ -87496,7 +87496,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos solucionado",
             "p2": "hubisteis solucionado",
@@ -87678,7 +87678,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos sonado",
             "p2": "hubisteis sonado",
@@ -87860,7 +87860,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos sonreído",
             "p2": "hubisteis sonreído",
@@ -88039,7 +88039,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos soportado",
             "p2": "hubisteis soportado",
@@ -88218,7 +88218,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos sorprendido",
             "p2": "hubisteis sorprendido",
@@ -88400,7 +88400,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos sostenido",
             "p2": "hubisteis sostenido",
@@ -88579,7 +88579,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos subido",
             "p2": "hubisteis subido",
@@ -88758,7 +88758,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos sucedido",
             "p2": "hubisteis sucedido",
@@ -88937,7 +88937,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos sudado",
             "p2": "hubisteis sudado",
@@ -89116,7 +89116,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos sufrido",
             "p2": "hubisteis sufrido",
@@ -89298,7 +89298,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos sugerido",
             "p2": "hubisteis sugerido",
@@ -89480,7 +89480,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos supuesto",
             "p2": "hubisteis supuesto",
@@ -89662,7 +89662,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos surgido",
             "p2": "hubisteis surgido",
@@ -89844,7 +89844,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos suscrito",
             "p2": "hubisteis suscrito",
@@ -90026,7 +90026,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos sustituido",
             "p2": "hubisteis sustituido",
@@ -90205,7 +90205,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos tardado",
             "p2": "hubisteis tardado",
@@ -90387,7 +90387,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos teñido",
             "p2": "hubisteis teñido",
@@ -90566,7 +90566,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos tejido",
             "p2": "hubisteis tejido",
@@ -90745,7 +90745,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos temido",
             "p2": "hubisteis temido",
@@ -90927,7 +90927,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos tendido",
             "p2": "hubisteis tendido",
@@ -91109,7 +91109,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos tenido",
             "p2": "hubisteis tenido",
@@ -91288,7 +91288,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos terminado",
             "p2": "hubisteis terminado",
@@ -91467,7 +91467,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos tirado",
             "p2": "hubisteis tirado",
@@ -91649,7 +91649,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos tocado",
             "p2": "hubisteis tocado",
@@ -91828,7 +91828,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos tomado",
             "p2": "hubisteis tomado",
@@ -92007,7 +92007,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos trabajado",
             "p2": "hubisteis trabajado",
@@ -92189,7 +92189,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos traducido",
             "p2": "hubisteis traducido",
@@ -92371,7 +92371,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos traído",
             "p2": "hubisteis traído",
@@ -92550,7 +92550,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos trajeado",
             "p2": "hubisteis trajeado",
@@ -92729,7 +92729,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos tramitado",
             "p2": "hubisteis tramitado",
@@ -92911,7 +92911,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos transferido",
             "p2": "hubisteis transferido",
@@ -93090,7 +93090,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos transmitido",
             "p2": "hubisteis transmitido",
@@ -93269,7 +93269,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos transportado",
             "p2": "hubisteis transportado",
@@ -93448,7 +93448,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos trasladado",
             "p2": "hubisteis trasladado",
@@ -93627,7 +93627,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos tratado",
             "p2": "hubisteis tratado",
@@ -93806,7 +93806,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos tuteado",
             "p2": "hubisteis tuteado",
@@ -93988,7 +93988,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos ungido",
             "p2": "hubisteis ungido",
@@ -94170,7 +94170,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos unificado",
             "p2": "hubisteis unificado",
@@ -94349,7 +94349,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos unido",
             "p2": "hubisteis unido",
@@ -94528,7 +94528,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos usado",
             "p2": "hubisteis usado",
@@ -94710,7 +94710,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos utilizado",
             "p2": "hubisteis utilizado",
@@ -94892,7 +94892,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos valido",
             "p2": "hubisteis valido",
@@ -95071,7 +95071,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos valorado",
             "p2": "hubisteis valorado",
@@ -95253,7 +95253,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos vencido",
             "p2": "hubisteis vencido",
@@ -95432,7 +95432,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos vendido",
             "p2": "hubisteis vendido",
@@ -95614,7 +95614,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos venido",
             "p2": "hubisteis venido",
@@ -95796,7 +95796,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos visto",
             "p2": "hubisteis visto",
@@ -95978,7 +95978,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 3,
         "anterior": {
             "p1": "hubimos vertido",
             "p2": "hubisteis vertido",
@@ -96160,7 +96160,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos vestido",
             "p2": "hubisteis vestido",
@@ -96339,7 +96339,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos viajado",
             "p2": "hubisteis viajado",
@@ -96518,7 +96518,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos visitado",
             "p2": "hubisteis visitado",
@@ -96697,7 +96697,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos vivido",
             "p2": "hubisteis vivido",
@@ -96879,7 +96879,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos volado",
             "p2": "hubisteis volado",
@@ -97061,7 +97061,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": true
         },
-        "A_priority": 10000,
+        "A_priority": 1,
         "anterior": {
             "p1": "hubimos vuelto",
             "p2": "hubisteis vuelto",
@@ -97240,7 +97240,7 @@
             "subjuntivopluscuamperfecto": false,
             "subjuntivopresente": false
         },
-        "A_priority": 10000,
+        "A_priority": 2,
         "anterior": {
             "p1": "hubimos votado",
             "p2": "hubisteis votado",
