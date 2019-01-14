@@ -8,6 +8,7 @@ EXPORT_REGULAR = False
 
 
 def is_to_export(item):
+    return item["A_priority"] <= 1
     return item["A_irregular"]["presente"] is True and item["A_priority"] <= 10
 
 
