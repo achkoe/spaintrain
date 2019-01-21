@@ -13,6 +13,8 @@ aesfiles = $(addsuffix contents.aes, $(directories))
 
 current := $(lastword $(texfiles))
 
+ankifile = anki.txt
+
 current: book.tex $(current)
 	$(file > chapters.tex,\input{$(current)})
 	latexmk -xelatex -g book.tex
@@ -26,9 +28,14 @@ all: book.tex $(texfiles)
 
 
 %.tex: %.txt
-	python mtxt2tex.py -o $@ $<
+	python mtxt2tex.py -o $@ $< >> anki.txt
 	cd $(dir $<) && sh ../../encrypt.sh && cd ..
 
+_anki:
+	rm -f $(ankifile)
+	touch $(ankifile)
+
+anki: _anki $(texfiles)
 
 c: cleanup
 cleanup:

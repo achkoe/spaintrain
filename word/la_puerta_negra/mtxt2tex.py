@@ -238,6 +238,27 @@ def cleanup(args):
     args.outfile.write(fmt(prepare(text)))
 
 
+def analyzeanki(args):
+    def cmpfn(*args):
+        itemlist = []
+        for arg in args:
+            item = arg.split(u"|")
+            assert len(item) == 3, item
+            item = item[1]
+            if item.startswith(u"la ") or item.startswith(u"el "):
+                item = item[2:].strip()
+            itemlist.append(item)
+        print(itemlist)
+        assert len(itemlist) == 2
+        return cmp(itemlist[0].lower(), itemlist[1].lower())
+
+
+    with codecs.open(args.infile, encoding="utf-8") as fh:
+        textlist = fh.read().splitlines()
+    textlist.sort(cmp=cmpfn)
+    args.outfile.write(u"\n".join(textlist))
+
+
 class Test(unittest.TestCase):
     def setUp(self):
         refmarker = "%%REFERENCE\n"
@@ -289,6 +310,7 @@ if __name__ == '__main__':
     parser.add_argument("infile", help="input file")
     parser.add_argument("--outfile", "-o", help="output file")
     parser.add_argument("--cleanup", "-c", action="store_true", help="write dirty input file to clean output file")
+    parser.add_argument("--analyze", "-a", action="store_true", help="analyze anki input file")
     args = parser.parse_args()
     if args.outfile is None:
         args.outfile = sys.stdout
@@ -296,6 +318,8 @@ if __name__ == '__main__':
         args.outfile = codecs.open(args.outfile, "wb", encoding="utf-8")
     if args.cleanup:
         cleanup(args)
+    elif args.analyze:
+        analyzeanki(args)
     else:
         process(args)
     print("Wrote output to {}".format(args.outfile.name))
