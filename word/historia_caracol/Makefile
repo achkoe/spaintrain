@@ -1,10 +1,6 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 
-directories := la_puerta_negra/ milonga/ burundanga/ tu_espalda_herida/ bano_de_sangre/ sin_cobertura/ la_didactica_del_miedo/
-directories += esa_nave_me_llevara_para_siempre/
-directories += el_precio_del_alabastro/
-directories += los_ninos_del_cuenta/
-directories += t/
+directories := ./
 
 txtfiles = $(addsuffix contents.txt, $(directories))
 texfiles = $(addsuffix contents.tex, $(directories))
@@ -12,8 +8,6 @@ aesfiles = $(addsuffix contents.aes, $(directories))
 
 
 current := $(lastword $(texfiles))
-
-ankifile = anki.txt
 
 current: book.tex $(current)
 	$(file > chapters.tex,\input{$(current)})
@@ -28,16 +22,9 @@ all: book.tex $(texfiles)
 
 
 %.tex: %.txt
-	python mtxt2tex.py --silent -o $@ $< >> _$(ankifile)
-	cd $(dir $<) && sh ../../encrypt.sh && cd ..
+	python mtxt2tex.py -o $@ $<
+	cd $(dir $<) && sh ../encrypt.sh && cd ..
 
-_anki:
-	rm -f _$(ankifile)
-	touch _$(ankifile)
-
-anki: _anki $(texfiles)
-	python mtxt2tex.py --analyze -o $(ankifile) _$(ankifile)
-	rm -f _$(ankifile)
 
 c: cleanup
 cleanup:

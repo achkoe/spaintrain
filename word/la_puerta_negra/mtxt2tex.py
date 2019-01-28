@@ -248,7 +248,7 @@ def analyzeanki(args):
             if item.startswith(u"la ") or item.startswith(u"el "):
                 item = item[2:].strip()
             itemlist.append(item)
-        print(itemlist)
+        #print(itemlist)
         assert len(itemlist) == 2
         return cmp(itemlist[0].lower(), itemlist[1].lower())
 
@@ -311,6 +311,8 @@ if __name__ == '__main__':
     parser.add_argument("--outfile", "-o", help="output file")
     parser.add_argument("--cleanup", "-c", action="store_true", help="write dirty input file to clean output file")
     parser.add_argument("--analyze", "-a", action="store_true", help="analyze anki input file")
+    parser.add_argument("--silent", "-s", action="store_true", help="silent output")
+
     args = parser.parse_args()
     if args.outfile is None:
         args.outfile = sys.stdout
@@ -322,4 +324,5 @@ if __name__ == '__main__':
         analyzeanki(args)
     else:
         process(args)
-    print("Wrote output to {}".format(args.outfile.name))
+    if not args.silent:
+        print("Wrote output to {}".format(args.outfile.name))
