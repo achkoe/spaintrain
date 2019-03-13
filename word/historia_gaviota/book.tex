@@ -1,6 +1,8 @@
 %\documentclass[oneside,10pt]{book}
-\documentclass[landscape, pagesize, DIV=15, fontsize=11pt, parskip=half, oneside, BCOR=5mm]{scrartcl}
-%\usepackage[T1]{fontenc}
+%\documentclass[landscape, pagesize, DIV=15, fontsize=11pt, parskip=half, oneside, BCOR=5mm]{scrartcl}
+\documentclass[fontsize=11pt]{scrartcl}
+\usepackage[textwidth=10cm, lmargin=2cm, rmargin=5cm ]{geometry}
+\usepackage{sidenotes}
 \usepackage{fontspec}
 \usepackage{latexsym}
 \usepackage{pifont}
@@ -9,9 +11,6 @@
 \usepackage{parskip}
 \setlength{\parindent}{1em}
 
-\usepackage{perpage} %the perpage package
-\MakePerPage{footnote} %the perpage package command
-
 %\usepackage{polyglossia,fontspec,xunicode}
 %\setmainlanguage{english}
 \usepackage{enumitem}
@@ -19,10 +18,6 @@
 \hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
 \usepackage[utf8]{inputenc}
 \usepackage[german, spanish]{babel}
-\usepackage[]{paracol}
-\columnsep20pt
-\columnseprule0.4pt
-%\usepackage{marginnote}
 
 \newcommand{\ndots}{\ldots~}
 
