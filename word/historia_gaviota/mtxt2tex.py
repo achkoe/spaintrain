@@ -100,8 +100,8 @@ envdict = {
 def process(args):
     with codecs.open(args.infile, 'r', "utf-8") as fh:
         text = fh.read()
-    text = process_environment(text, envdict["description"])
-    text = process_environment(text, envdict["sabiasque"])
+    #text = process_environment(text, envdict["description"])
+    #text = process_environment(text, envdict["sabiasque"])
     text = process_dashes(process_replace(text))
     # text = process_replace(text)
     linelist = text.splitlines()
@@ -151,6 +151,11 @@ def process_replace(text):
 
 
 def process_dashes(text):
+    """
+    First append to all lines starting with "-" [pattern matching "^(-.*)$"] the characters "\\"
+    Second substitute all line pairs where first line not ends with "\\" and second line starts with '-'
+    with stgh
+    """
     return re.sub("([^\\\\])\n-", "\\1 \\\\\\\\\n-", re.sub("^(-.*)$", r"\1 \\\\", text, flags=re.M), flags=re.M)
 
 
