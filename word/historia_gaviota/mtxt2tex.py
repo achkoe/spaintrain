@@ -71,31 +71,6 @@ def process_environment(text, ddict):
     return "\n".join(linelist)
 
 
-envdict = {
-    "description": {
-        "b": ":bd",
-        "e": ":ed",
-        "br": r"{{"
-              r"\definecolor{{light}}{{gray}}{{0.9}}"
-              r"\colorbox{{light}}{{"
-              r"\begin{{minipage}}{{0.45\textwidth}}"
-              r"{}"
-              r"\begin{{description}}[font=\normalfont, itemsep=0ex, parsep=0ex]",
-        "er": "\end{description}\end{minipage}}}"
-    },
-    "sabiasque": {
-        "b": ":bs",
-        "e": ":es",
-        "br": u"{{"
-              u"\\definecolor{{light}}{{gray}}{{0.95}}"
-              u"\\colorbox{{light}}{{"
-              u"\\begin{{minipage}}{{0.45\\textwidth}}"
-              u"\\hrule\\vskip0.5em"
-              u"{}\\\\",
-        "er": u"\\vskip0.5em\\hrule\\end{minipage}}}"
-    }
-}
-
 
 def process(args):
     with codecs.open(args.infile, 'r', "utf-8") as fh:
