@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-"""Postprocessor for LaTex."""
+"""Postprocessor for LaTex to."""
 from __future__ import print_function
 import argparse
 import sys
