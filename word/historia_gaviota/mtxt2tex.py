@@ -94,7 +94,7 @@ def process_replace(text):
             (ur"-->", {"r": ur"$\\rightarrow$ ", "flags": 0}),
             (ur"\.att", {"r": ur"\\danger{}", "flags": 0}),
             (ur"\.rem", {"r": ur"\\eye{}", "flags": 0}),
-            (ur"\.\.\.", {"r": ur"$\\ldots$ ", "flags": 0}),
+            (ur"\.\.\.", {"r": ur"$\\ndots$ ", "flags": 0}),
             (ur"//(.+?)//", {"r": ur"\\textit{\1}", "flags": 0}),
             (ur"\|\|([^|]+)\|\|", {"r": ur"\\fbox{\1}", "flags": 0}),
             (ur"<(.+)>", {"r": ur"\\begin{small}\1\\end{small}", "flags": 0}),
