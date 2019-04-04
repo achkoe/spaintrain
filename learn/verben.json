@@ -359,9 +359,7 @@
     }, 
     {
         "A_english": "to advocate", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "sich für jmdn. einsetzen, auf etwas plädieren", 
         "A_infinitivo": "abogar", 
         "A_irregular": {
@@ -1084,7 +1082,9 @@
     }, 
     {
         "A_english": "to end", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "enden", 
         "A_infinitivo": "acabar", 
         "A_irregular": {
@@ -1980,9 +1980,7 @@
     }, 
     {
         "A_english": "to bring nearer", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "heranbringen, herbringen", 
         "A_infinitivo": "acercar", 
         "A_irregular": {
@@ -2523,7 +2521,9 @@
     }, 
     {
         "A_english": "to accompany", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "begleiten", 
         "A_infinitivo": "acompañar", 
         "A_irregular": {
@@ -3246,9 +3246,7 @@
     }, 
     {
         "A_english": "to update", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "aktualisieren", 
         "A_infinitivo": "actualizar", 
         "A_irregular": {
@@ -3789,7 +3787,9 @@
     }, 
     {
         "A_english": "to foretell, to guess", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "(er)raten, erahnen", 
         "A_infinitivo": "adivinar", 
         "A_irregular": {
@@ -5049,7 +5049,9 @@
     }, 
     {
         "A_english": "to save", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "sparen", 
         "A_infinitivo": "ahorrar", 
         "A_irregular": {
@@ -5590,9 +5592,7 @@
     }, 
     {
         "A_english": "to cite, to argue", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "vorbringen, geltend machen", 
         "A_infinitivo": "alegar", 
         "A_irregular": {
@@ -5951,7 +5951,9 @@
     }, 
     {
         "A_english": "to feed", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "ernähren, verpflegen", 
         "A_infinitivo": "alimentar", 
         "A_irregular": {
@@ -6131,9 +6133,7 @@
     }, 
     {
         "A_english": "to have lunch", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "zu Mittag essen", 
         "A_infinitivo": "almorzar", 
         "A_irregular": {
@@ -6313,7 +6313,9 @@
     }, 
     {
         "A_english": "to accommodate", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "beherbergen, einquartieren", 
         "A_infinitivo": "alojar", 
         "A_irregular": {
@@ -6493,7 +6495,9 @@
     }, 
     {
         "A_english": "to rent (out)", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "(ver)mieten", 
         "A_infinitivo": "alquilar", 
         "A_irregular": {
@@ -6673,7 +6677,9 @@
     }, 
     {
         "A_english": "to love", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "lieben", 
         "A_infinitivo": "amar", 
         "A_irregular": {
@@ -6853,9 +6859,7 @@
     }, 
     {
         "A_english": "to analyze", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "analysieren", 
         "A_infinitivo": "analizar", 
         "A_irregular": {
@@ -7575,7 +7579,9 @@
     }, 
     {
         "A_english": "to announce", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "ankündigen, verkünden", 
         "A_infinitivo": "anunciar", 
         "A_irregular": {
@@ -8301,9 +8307,7 @@
     }, 
     {
         "A_english": "to feel like", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "Lust haben", 
         "A_infinitivo": "apetecer", 
         "A_irregular": {
@@ -8841,7 +8845,9 @@
     }, 
     {
         "A_english": "to learn", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "lernen", 
         "A_infinitivo": "aprender", 
         "A_irregular": {
@@ -9021,9 +9027,7 @@
     }, 
     {
         "A_english": "to approve", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "zustimmen, billigen, genehmigen", 
         "A_infinitivo": "aprobar", 
         "A_irregular": {
@@ -9382,7 +9386,9 @@
     }, 
     {
         "A_english": "to appear, to sprout, to", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "hinweisen, notieren, zielen", 
         "A_infinitivo": "apuntar", 
         "A_irregular": {
@@ -9562,7 +9568,9 @@
     }, 
     {
         "A_english": "to sort out, to repair", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "in Ordnung bringen, regeln", 
         "A_infinitivo": "arreglar", 
         "A_irregular": {
@@ -10458,9 +10466,7 @@
     }, 
     {
         "A_english": "to pay attention", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "betreuen, behandeln", 
         "A_infinitivo": "atender", 
         "A_irregular": {
@@ -10640,9 +10646,7 @@
     }, 
     {
         "A_english": "to cross", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "überqueren, durchschreiten", 
         "A_infinitivo": "atravesar", 
         "A_irregular": {
@@ -10822,9 +10826,7 @@
     }, 
     {
         "A_english": "to attribute", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "zuschreiben, beimessen", 
         "A_infinitivo": "atribuir", 
         "A_irregular": {
@@ -11183,9 +11185,7 @@
     }, 
     {
         "A_english": "to unite, to join forces", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "vereinen, verbinden", 
         "A_infinitivo": "aunar", 
         "A_irregular": {
@@ -11365,9 +11365,7 @@
     }, 
     {
         "A_english": "to automate", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "automatisieren", 
         "A_infinitivo": "automatizar", 
         "A_irregular": {
@@ -11729,7 +11727,9 @@
     }, 
     {
         "A_english": "to notify", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "melden, benachrichten", 
         "A_infinitivo": "avisar", 
         "A_irregular": {
@@ -12088,7 +12088,9 @@
     }, 
     {
         "A_english": "to help", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "helfen", 
         "A_infinitivo": "ayudar", 
         "A_irregular": {
@@ -12268,7 +12270,9 @@
     }, 
     {
         "A_english": "to bath", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "baden", 
         "A_infinitivo": "bañar", 
         "A_irregular": {
@@ -12448,7 +12452,9 @@
     }, 
     {
         "A_english": "to dance", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "tanzen", 
         "A_infinitivo": "bailar", 
         "A_irregular": {
@@ -12628,7 +12634,9 @@
     }, 
     {
         "A_english": "to go down", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "sinken, herunterkommen,heruntergehen", 
         "A_infinitivo": "bajar", 
         "A_irregular": {
@@ -12987,7 +12995,9 @@
     }, 
     {
         "A_english": "to drink", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "trinken", 
         "A_infinitivo": "beber", 
         "A_irregular": {
@@ -13167,7 +13177,9 @@
     }, 
     {
         "A_english": "to kiss", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "küssen", 
         "A_infinitivo": "besar", 
         "A_irregular": {
@@ -13526,9 +13538,7 @@
     }, 
     {
         "A_english": "to yawn", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "gähnen", 
         "A_infinitivo": "bostezar", 
         "A_irregular": {
@@ -14254,9 +14264,7 @@
     }, 
     {
         "A_english": "to have a shit", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "scheißen", 
         "A_infinitivo": "cagar", 
         "A_irregular": {
@@ -14615,9 +14623,7 @@
     }, 
     {
         "A_english": "to heat (up)", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(er)wärmen", 
         "A_infinitivo": "calentar", 
         "A_irregular": {
@@ -15155,7 +15161,9 @@
     }, 
     {
         "A_english": "to change", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "(ver)ändern", 
         "A_infinitivo": "cambiar", 
         "A_irregular": {
@@ -15335,7 +15343,9 @@
     }, 
     {
         "A_english": "to go, to walk", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "gehen, wandern", 
         "A_infinitivo": "caminar", 
         "A_irregular": {
@@ -15694,7 +15704,9 @@
     }, 
     {
         "A_english": "to sing", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "singen", 
         "A_infinitivo": "cantar", 
         "A_irregular": {
@@ -15874,7 +15886,9 @@
     }, 
     {
         "A_english": "to marry", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "heiraten", 
         "A_infinitivo": "casar", 
         "A_irregular": {
@@ -16591,7 +16605,9 @@
     }, 
     {
         "A_english": "to have dinner", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "zu Abend essen", 
         "A_infinitivo": "cenar", 
         "A_irregular": {
@@ -16953,7 +16969,9 @@
     }, 
     {
         "A_english": "to drive crazy", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "verrückt machen", 
         "A_infinitivo": "chalar", 
         "A_irregular": {
@@ -17133,7 +17151,9 @@
     }, 
     {
         "A_english": "to chat", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "plaudern", 
         "A_infinitivo": "charlar", 
         "A_irregular": {
@@ -17313,7 +17333,9 @@
     }, 
     {
         "A_english": "to chat", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "chatten", 
         "A_infinitivo": "chatear", 
         "A_irregular": {
@@ -17493,9 +17515,7 @@
     }, 
     {
         "A_english": "to collide", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "kollidieren, zusammenstoßen", 
         "A_infinitivo": "chocar", 
         "A_irregular": {
@@ -17854,9 +17874,7 @@
     }, 
     {
         "A_english": "to cook", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "sieden, etw. garen", 
         "A_infinitivo": "cocer", 
         "A_irregular": {
@@ -18036,7 +18054,9 @@
     }, 
     {
         "A_english": "to cook", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "kochen", 
         "A_infinitivo": "cocinar", 
         "A_irregular": {
@@ -19299,7 +19319,9 @@
     }, 
     {
         "A_english": "to eat", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "essen", 
         "A_infinitivo": "comer", 
         "A_irregular": {
@@ -19658,7 +19680,9 @@
     }, 
     {
         "A_english": "to commit", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "begehen, verüben", 
         "A_infinitivo": "cometer", 
         "A_irregular": {
@@ -20017,9 +20041,7 @@
     }, 
     {
         "A_english": "to appear", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "erscheinen, auftreten", 
         "A_infinitivo": "comparecer", 
         "A_irregular": {
@@ -20918,9 +20940,7 @@
     }, 
     {
         "A_english": "to put together", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "komponieren, zusammenstellen", 
         "A_infinitivo": "componer", 
         "A_irregular": {
@@ -21100,7 +21120,9 @@
     }, 
     {
         "A_english": "to buy", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "kaufen", 
         "A_infinitivo": "comprar", 
         "A_irregular": {
@@ -21280,7 +21302,9 @@
     }, 
     {
         "A_english": "to understand", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "verstehen", 
         "A_infinitivo": "comprender", 
         "A_irregular": {
@@ -21821,9 +21845,7 @@
     }, 
     {
         "A_english": "to communicate", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "kommunizieren", 
         "A_infinitivo": "comunicar", 
         "A_irregular": {
@@ -22728,7 +22750,9 @@
     }, 
     {
         "A_english": "to mistake", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "verwechseln", 
         "A_infinitivo": "confundir", 
         "A_irregular": {
@@ -23451,9 +23475,7 @@
     }, 
     {
         "A_english": "to build", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "konstruieren, bauen", 
         "A_infinitivo": "construir", 
         "A_irregular": {
@@ -23994,9 +24016,7 @@
     }, 
     {
         "A_english": "to contain", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "enthalten, beinhalten, zurückhalten, unterdrücken", 
         "A_infinitivo": "contener", 
         "A_irregular": {
@@ -24176,7 +24196,9 @@
     }, 
     {
         "A_english": "to answer", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "antworten", 
         "A_infinitivo": "contestar", 
         "A_irregular": {
@@ -24538,9 +24560,7 @@
     }, 
     {
         "A_english": "to contradict", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "widersprechen", 
         "A_infinitivo": "contradecir", 
         "A_irregular": {
@@ -25442,9 +25462,7 @@
     }, 
     {
         "A_english": "to convert", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "konvertieren", 
         "A_infinitivo": "convertir", 
         "A_irregular": {
@@ -25624,7 +25642,9 @@
     }, 
     {
         "A_english": "to copy", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "kopieren", 
         "A_infinitivo": "copiar", 
         "A_irregular": {
@@ -25804,9 +25824,7 @@
     }, 
     {
         "A_english": "to correct", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "korrigieren, verbessern", 
         "A_infinitivo": "corregir", 
         "A_irregular": {
@@ -25986,7 +26004,9 @@
     }, 
     {
         "A_english": "to run", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "rennen, hetzen, rasen", 
         "A_infinitivo": "correr", 
         "A_irregular": {
@@ -26166,7 +26186,9 @@
     }, 
     {
         "A_english": "to cut", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "schneiden", 
         "A_infinitivo": "cortar", 
         "A_irregular": {
@@ -26525,9 +26547,7 @@
     }, 
     {
         "A_english": "to cost", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "kosten, zu stehen kommen", 
         "A_infinitivo": "costar", 
         "A_irregular": {
@@ -26886,9 +26906,7 @@
     }, 
     {
         "A_english": "to grow, to increase", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "zunehmen, wachsen", 
         "A_infinitivo": "crecer", 
         "A_irregular": {
@@ -27250,9 +27268,7 @@
     }, 
     {
         "A_english": "to cross", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "kreuzen", 
         "A_infinitivo": "cruzar", 
         "A_irregular": {
@@ -27432,9 +27448,7 @@
     }, 
     {
         "A_english": "to cover", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "bedecken", 
         "A_infinitivo": "cubrir", 
         "A_irregular": {
@@ -27614,7 +27628,9 @@
     }, 
     {
         "A_english": "to take care", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "aufpassen", 
         "A_infinitivo": "cuidar", 
         "A_irregular": {
@@ -27973,7 +27989,9 @@
     }, 
     {
         "A_english": "to harm", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "schaden", 
         "A_infinitivo": "dañar", 
         "A_irregular": {
@@ -28514,7 +28532,9 @@
     }, 
     {
         "A_english": "to have to", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "müssen, sollen", 
         "A_infinitivo": "deber", 
         "A_irregular": {
@@ -28694,9 +28714,7 @@
     }, 
     {
         "A_english": "to decline, to lose strength", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "abnehmen, herunterkommen, verfallen", 
         "A_infinitivo": "decaer", 
         "A_irregular": {
@@ -28876,7 +28894,9 @@
     }, 
     {
         "A_english": "to decide", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "entscheiden", 
         "A_infinitivo": "decidir", 
         "A_irregular": {
@@ -29238,9 +29258,7 @@
     }, 
     {
         "A_english": "to dedicate", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "widmen", 
         "A_infinitivo": "dedicar", 
         "A_irregular": {
@@ -29420,9 +29438,7 @@
     }, 
     {
         "A_english": "to defend", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verteidigen", 
         "A_infinitivo": "defender", 
         "A_irregular": {
@@ -29781,7 +29797,9 @@
     }, 
     {
         "A_english": "to stop", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "lassen, unterlassen, belassen", 
         "A_infinitivo": "dejar", 
         "A_irregular": {
@@ -29961,9 +29979,7 @@
     }, 
     {
         "A_english": "to delegate", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "bevollmächtigen, delegieren", 
         "A_infinitivo": "delegar", 
         "A_irregular": {
@@ -30322,9 +30338,7 @@
     }, 
     {
         "A_english": "to demonstrate, to show", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "beweisen, belegen, demonstrieren", 
         "A_infinitivo": "demostrar", 
         "A_irregular": {
@@ -31223,7 +31237,9 @@
     }, 
     {
         "A_english": "to develop", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "entwickeln", 
         "A_infinitivo": "desarrollar", 
         "A_irregular": {
@@ -31403,7 +31419,9 @@
     }, 
     {
         "A_english": "to have breakfast", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "frühstücken", 
         "A_infinitivo": "desayunar", 
         "A_irregular": {
@@ -31583,7 +31601,9 @@
     }, 
     {
         "A_english": "to rest", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "ausruhen", 
         "A_infinitivo": "descansar", 
         "A_irregular": {
@@ -32306,7 +32326,9 @@
     }, 
     {
         "A_english": "to want, to wish", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "wünschen", 
         "A_infinitivo": "desear", 
         "A_irregular": {
@@ -32665,9 +32687,7 @@
     }, 
     {
         "A_english": "to unwrap, to unpick", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "auspacken, auftrennen, zerlegen", 
         "A_infinitivo": "deshacer", 
         "A_irregular": {
@@ -33029,9 +33049,7 @@
     }, 
     {
         "A_english": "to take off, to unstick", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "abmachen, ablösen, abziehen", 
         "A_infinitivo": "despegar", 
         "A_irregular": {
@@ -33393,9 +33411,7 @@
     }, 
     {
         "A_english": "to move, to displace", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verschieben, verrücken", 
         "A_infinitivo": "desplazar", 
         "A_irregular": {
@@ -34297,9 +34313,7 @@
     }, 
     {
         "A_english": "to occur", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "geschehen, vorkommen, werden, in Erscheinung treten", 
         "A_infinitivo": "devenir", 
         "A_irregular": {
@@ -34661,7 +34675,9 @@
     }, 
     {
         "A_english": "to draw", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "zeichnen", 
         "A_infinitivo": "dibujar", 
         "A_irregular": {
@@ -35202,7 +35218,9 @@
     }, 
     {
         "A_english": "to forgive", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "verzeihen", 
         "A_infinitivo": "disculpar", 
         "A_irregular": {
@@ -35382,7 +35400,9 @@
     }, 
     {
         "A_english": "to discuss", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "diskutieren", 
         "A_infinitivo": "discutir", 
         "A_irregular": {
@@ -35562,7 +35582,9 @@
     }, 
     {
         "A_english": "to draw, to design", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "zeichnen, entwerfen", 
         "A_infinitivo": "diseñar", 
         "A_irregular": {
@@ -35742,9 +35764,7 @@
     }, 
     {
         "A_english": "to disguise", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verkleiden", 
         "A_infinitivo": "disfrazar", 
         "A_irregular": {
@@ -35924,7 +35944,9 @@
     }, 
     {
         "A_english": "to enjoy", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "genießen", 
         "A_infinitivo": "disfrutar", 
         "A_irregular": {
@@ -36104,9 +36126,7 @@
     }, 
     {
         "A_english": "to diminish, to decline", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "nachlassen, mindern, etw. herabsetzen", 
         "A_infinitivo": "disminuir", 
         "A_irregular": {
@@ -36468,7 +36488,9 @@
     }, 
     {
         "A_english": "to divide", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "teilen", 
         "A_infinitivo": "dividir", 
         "A_irregular": {
@@ -37370,7 +37392,9 @@
     }, 
     {
         "A_english": "to shower", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "duschen", 
         "A_infinitivo": "duchar", 
         "A_irregular": {
@@ -37550,7 +37574,9 @@
     }, 
     {
         "A_english": "to doubt", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "zweifeln", 
         "A_infinitivo": "dudar", 
         "A_irregular": {
@@ -37730,7 +37756,9 @@
     }, 
     {
         "A_english": "to last", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "dauern", 
         "A_infinitivo": "durar", 
         "A_irregular": {
@@ -37910,7 +37938,9 @@
     }, 
     {
         "A_english": "to throw", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "hinauswerfen, fortjagen, hinwerfen, ...", 
         "A_infinitivo": "echar", 
         "A_irregular": {
@@ -38269,9 +38299,7 @@
     }, 
     {
         "A_english": "to choose, to elect", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(aus)wählen", 
         "A_infinitivo": "elegir", 
         "A_irregular": {
@@ -39528,9 +39556,7 @@
     }, 
     {
         "A_english": "to put in charge", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "jmdn. beauftragen, etw. in Auftrag geben", 
         "A_infinitivo": "encargar", 
         "A_irregular": {
@@ -39710,9 +39736,7 @@
     }, 
     {
         "A_english": "to light, to ignite", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(an)zünden", 
         "A_infinitivo": "encender", 
         "A_irregular": {
@@ -40432,7 +40456,9 @@
     }, 
     {
         "A_english": "to teach", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "lehren, unterrichten", 
         "A_infinitivo": "enseñar", 
         "A_irregular": {
@@ -40794,7 +40820,9 @@
     }, 
     {
         "A_english": "to enter", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "hineingehen, in etw. eintreten", 
         "A_infinitivo": "entrar", 
         "A_irregular": {
@@ -40974,9 +41002,7 @@
     }, 
     {
         "A_english": "to hand over", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "etw. abgeben, abliefern, aushändigen", 
         "A_infinitivo": "entregar", 
         "A_irregular": {
@@ -41156,9 +41182,7 @@
     }, 
     {
         "A_english": "to send, to mail", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "etw. versenden, schicken", 
         "A_infinitivo": "enviar", 
         "A_irregular": {
@@ -41517,9 +41541,7 @@
     }, 
     {
         "A_english": "to err", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "sich irren, etw. verfehlen", 
         "A_infinitivo": "errar", 
         "A_irregular": {
@@ -41699,9 +41721,7 @@
     }, 
     {
         "A_english": "to choose", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "auswählen", 
         "A_infinitivo": "escoger", 
         "A_irregular": {
@@ -42242,7 +42262,9 @@
     }, 
     {
         "A_english": "to listen", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "zuhören", 
         "A_infinitivo": "escuchar", 
         "A_irregular": {
@@ -42422,7 +42444,9 @@
     }, 
     {
         "A_english": "to wait, to hope", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "warten, hoffen", 
         "A_infinitivo": "esperar", 
         "A_irregular": {
@@ -42602,9 +42626,7 @@
     }, 
     {
         "A_english": "to ski", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "Ski laufen (fahren)", 
         "A_infinitivo": "esquiar", 
         "A_irregular": {
@@ -42784,9 +42806,7 @@
     }, 
     {
         "A_english": "to establish", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "etw. herstellen (Geschäftsverbindung), etw. etablieren", 
         "A_infinitivo": "establecer", 
         "A_irregular": {
@@ -43327,7 +43347,9 @@
     }, 
     {
         "A_english": "to study", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "studieren", 
         "A_infinitivo": "estudiar", 
         "A_irregular": {
@@ -43507,7 +43529,9 @@
     }, 
     {
         "A_english": "to avoid", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "vermeiden, umgehen", 
         "A_infinitivo": "evitar", 
         "A_irregular": {
@@ -43687,9 +43711,7 @@
     }, 
     {
         "A_english": "to demand", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verlangen, beanspruchen, fordern", 
         "A_infinitivo": "exigir", 
         "A_irregular": {
@@ -44227,9 +44249,7 @@
     }, 
     {
         "A_english": "to tell, to explain", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "erklären, schildern, erläutern", 
         "A_infinitivo": "explicar", 
         "A_irregular": {
@@ -44409,9 +44429,7 @@
     }, 
     {
         "A_english": "to show, to display", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "ausstellen, darlegen, vortragen", 
         "A_infinitivo": "exponer", 
         "A_irregular": {
@@ -44949,9 +44967,7 @@
     }, 
     {
         "A_english": "to spread", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "ausbreiten, verteilen", 
         "A_infinitivo": "extender", 
         "A_irregular": {
@@ -45131,7 +45147,9 @@
     }, 
     {
         "A_english": "to deport", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "etw. vermissen, jmdn. verwundern, jmdn. verbannen", 
         "A_infinitivo": "extrañar", 
         "A_irregular": {
@@ -45311,9 +45329,7 @@
     }, 
     {
         "A_english": "to extract, to remove", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "extrahieren, herausziehen", 
         "A_infinitivo": "extraer", 
         "A_irregular": {
@@ -45493,9 +45509,7 @@
     }, 
     {
         "A_english": "to manufacture", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "herstellen, fabrizieren", 
         "A_infinitivo": "fabricar", 
         "A_irregular": {
@@ -45675,7 +45689,9 @@
     }, 
     {
         "A_english": "to be missing", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "fehlen, ausbleiben", 
         "A_infinitivo": "faltar", 
         "A_irregular": {
@@ -46213,9 +46229,7 @@
     }, 
     {
         "A_english": "to finish", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "abschließen, beenden, finalizieren", 
         "A_infinitivo": "finalizar", 
         "A_irregular": {
@@ -46574,9 +46588,7 @@
     }, 
     {
         "A_english": "to pretend", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "fingieren, vortäuschen", 
         "A_infinitivo": "fingir", 
         "A_irregular": {
@@ -46756,7 +46768,9 @@
     }, 
     {
         "A_english": "to sign", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "unterschreiben", 
         "A_infinitivo": "firmar", 
         "A_irregular": {
@@ -47115,9 +47129,7 @@
     }, 
     {
         "A_english": "to fry", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "braten, frittieren", 
         "A_infinitivo": "freír", 
         "A_irregular": {
@@ -47834,7 +47846,9 @@
     }, 
     {
         "A_english": "to win", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "gewinnen, etw. verdienen", 
         "A_infinitivo": "ganar", 
         "A_irregular": {
@@ -48014,7 +48028,9 @@
     }, 
     {
         "A_english": "to spend", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "ausgeben, aufbrauchen, abnutzen", 
         "A_infinitivo": "gastar", 
         "A_irregular": {
@@ -48194,7 +48210,9 @@
     }, 
     {
         "A_english": "to revolve, to spin", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "drehen, wenden, abbiegen", 
         "A_infinitivo": "girar", 
         "A_irregular": {
@@ -48374,9 +48392,7 @@
     }, 
     {
         "A_english": "to govern", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "regieren, leiten, herrschen", 
         "A_infinitivo": "gobernar", 
         "A_irregular": {
@@ -48556,7 +48572,9 @@
     }, 
     {
         "A_english": "to shout, to yell", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "schreien", 
         "A_infinitivo": "gritar", 
         "A_irregular": {
@@ -48736,7 +48754,9 @@
     }, 
     {
         "A_english": "to like", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "gefallen", 
         "A_infinitivo": "gustar", 
         "A_irregular": {
@@ -49098,7 +49118,9 @@
     }, 
     {
         "A_english": "to talk", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "sprechen", 
         "A_infinitivo": "hablar", 
         "A_irregular": {
@@ -49639,9 +49661,7 @@
     }, 
     {
         "A_english": "to injure", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verletzen, verwunden, beschädigen", 
         "A_infinitivo": "herir", 
         "A_irregular": {
@@ -49821,9 +49841,7 @@
     }, 
     {
         "A_english": "to boil", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "sieden, kochen, aufkochen, brodeln", 
         "A_infinitivo": "hervir", 
         "A_irregular": {
@@ -50003,9 +50021,7 @@
     }, 
     {
         "A_english": "to flee", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "flüchten, fliehen", 
         "A_infinitivo": "huir", 
         "A_irregular": {
@@ -50185,9 +50201,7 @@
     }, 
     {
         "A_english": "to identify", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "identifizieren", 
         "A_infinitivo": "identificar", 
         "A_irregular": {
@@ -50367,7 +50381,9 @@
     }, 
     {
         "A_english": "to imagine", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "vorstellen, ersinnen", 
         "A_infinitivo": "imaginar", 
         "A_irregular": {
@@ -50547,9 +50563,7 @@
     }, 
     {
         "A_english": "to prevent", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verhindern, unterbinden", 
         "A_infinitivo": "impedir", 
         "A_irregular": {
@@ -51090,9 +51104,7 @@
     }, 
     {
         "A_english": "to include", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "einschließen, enthalten, mitzählen", 
         "A_infinitivo": "incluir", 
         "A_irregular": {
@@ -51272,9 +51284,7 @@
     }, 
     {
         "A_english": "to influence", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "beeinflussen", 
         "A_infinitivo": "influir", 
         "A_irregular": {
@@ -51633,9 +51643,7 @@
     }, 
     {
         "A_english": "to take, to ingest", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "einnehmen, schlucken, etw. zu sich nehmen", 
         "A_infinitivo": "ingerir", 
         "A_irregular": {
@@ -51815,9 +51823,7 @@
     }, 
     {
         "A_english": "to inquire", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "untersuchen, nachforschen", 
         "A_infinitivo": "inquirir", 
         "A_irregular": {
@@ -51997,9 +52003,7 @@
     }, 
     {
         "A_english": "to register", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "jmdm./etw. eintragen, anmelden", 
         "A_infinitivo": "inscribir", 
         "A_irregular": {
@@ -52179,9 +52183,7 @@
     }, 
     {
         "A_english": "to insinuate", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "andeuten, jmdm. etw. nahe legen", 
         "A_infinitivo": "insinuar", 
         "A_irregular": {
@@ -52361,7 +52363,9 @@
     }, 
     {
         "A_english": "to try, to intend", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "versuchen, beabsichtigen", 
         "A_infinitivo": "intentar", 
         "A_irregular": {
@@ -52899,9 +52903,7 @@
     }, 
     {
         "A_english": "to insert, to introduce", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "einstecken, einführen", 
         "A_infinitivo": "introducir", 
         "A_irregular": {
@@ -53260,9 +53262,7 @@
     }, 
     {
         "A_english": "to invest", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "investieren", 
         "A_infinitivo": "invertir", 
         "A_irregular": {
@@ -53803,9 +53803,7 @@
     }, 
     {
         "A_english": "to hoist", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "hissen, hieven", 
         "A_infinitivo": "izar", 
         "A_irregular": {
@@ -55068,7 +55066,9 @@
     }, 
     {
         "A_english": "to lift, to pick up", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "(hoch)heben", 
         "A_infinitivo": "levantar", 
         "A_irregular": {
@@ -55248,9 +55248,7 @@
     }, 
     {
         "A_english": "to tie up, to wrap up", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "zusammenbinden, einwickeln", 
         "A_infinitivo": "liar", 
         "A_irregular": {
@@ -55609,7 +55607,9 @@
     }, 
     {
         "A_english": "to call", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "(an)rufen, nennen", 
         "A_infinitivo": "llamar", 
         "A_irregular": {
@@ -56150,7 +56150,9 @@
     }, 
     {
         "A_english": "to take, to charge", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "jmdn./etw. mitbringen, tragen, anhaben", 
         "A_infinitivo": "llevar", 
         "A_irregular": {
@@ -56509,9 +56511,7 @@
     }, 
     {
         "A_english": "to rain", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "regnen", 
         "A_infinitivo": "llover", 
         "A_irregular": {
@@ -57049,9 +57049,7 @@
     }, 
     {
         "A_english": "to maintain", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "etw. aufrecht erhalten, instand halten", 
         "A_infinitivo": "mantener", 
         "A_irregular": {
@@ -57410,9 +57408,7 @@
     }, 
     {
         "A_english": "to mark", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "markieren, kennzeichnen, wählen", 
         "A_infinitivo": "marcar", 
         "A_irregular": {
@@ -58129,9 +58125,7 @@
     }, 
     {
         "A_english": "to chew", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "kauen", 
         "A_infinitivo": "masticar", 
         "A_irregular": {
@@ -59033,9 +59027,7 @@
     }, 
     {
         "A_english": "to have a snack", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "vespern", 
         "A_infinitivo": "merendar", 
         "A_irregular": {
@@ -59394,7 +59386,9 @@
     }, 
     {
         "A_english": "to look at", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "(an)schauen", 
         "A_infinitivo": "mirar", 
         "A_irregular": {
@@ -59932,9 +59926,7 @@
     }, 
     {
         "A_english": "to bite", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "beißen", 
         "A_infinitivo": "morder", 
         "A_irregular": {
@@ -60114,9 +60106,7 @@
     }, 
     {
         "A_english": "to die", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "sterben", 
         "A_infinitivo": "morir", 
         "A_irregular": {
@@ -60296,9 +60286,7 @@
     }, 
     {
         "A_english": "to show", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(vor)zeigen, aufweisen", 
         "A_infinitivo": "mostrar", 
         "A_irregular": {
@@ -60478,9 +60466,7 @@
     }, 
     {
         "A_english": "to move", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "etw. bewegen, verrücken", 
         "A_infinitivo": "mover", 
         "A_irregular": {
@@ -61379,9 +61365,7 @@
     }, 
     {
         "A_english": "to navegar", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "navigieren", 
         "A_infinitivo": "navegar", 
         "A_irregular": {
@@ -61561,7 +61545,9 @@
     }, 
     {
         "A_english": "to need", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "benötigen", 
         "A_infinitivo": "necesitar", 
         "A_irregular": {
@@ -61741,9 +61727,7 @@
     }, 
     {
         "A_english": "to snow", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "schneien", 
         "A_infinitivo": "nevar", 
         "A_irregular": {
@@ -63006,9 +62990,7 @@
     }, 
     {
         "A_english": "to obtain, to gain", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "erlangen, erhalten", 
         "A_infinitivo": "obtener", 
         "A_irregular": {
@@ -64089,7 +64071,9 @@
     }, 
     {
         "A_english": "to forget", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "vergessen", 
         "A_infinitivo": "olvidar", 
         "A_irregular": {
@@ -64269,7 +64253,9 @@
     }, 
     {
         "A_english": "to give an opinion, to think", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "meinen, denken", 
         "A_infinitivo": "opinar", 
         "A_irregular": {
@@ -64807,9 +64793,7 @@
     }, 
     {
         "A_english": "to organize", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "organisieren", 
         "A_infinitivo": "organizar", 
         "A_irregular": {
@@ -65347,9 +65331,7 @@
     }, 
     {
         "A_english": "to suffer", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "an etw. kranken, etw. erleiden", 
         "A_infinitivo": "padecer", 
         "A_irregular": {
@@ -65711,7 +65693,9 @@
     }, 
     {
         "A_english": "to stop", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "anhalten, stoppen", 
         "A_infinitivo": "parar", 
         "A_irregular": {
@@ -66431,7 +66415,9 @@
     }, 
     {
         "A_english": "to pass, to go through", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "vorbeigehen, durchgehen", 
         "A_infinitivo": "pasar", 
         "A_irregular": {
@@ -66972,9 +66958,7 @@
     }, 
     {
         "A_english": "to stick", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(an)kleben", 
         "A_infinitivo": "pegar", 
         "A_irregular": {
@@ -68413,9 +68397,7 @@
     }, 
     {
         "A_english": "to remain", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(ver)bleiben, verharren, verweilen", 
         "A_infinitivo": "permanecer", 
         "A_irregular": {
@@ -68774,9 +68756,7 @@
     }, 
     {
         "A_english": "to chase, to pursue", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verfolgen, nacheilen", 
         "A_infinitivo": "perseguir", 
         "A_irregular": {
@@ -68956,9 +68936,7 @@
     }, 
     {
         "A_english": "to belong", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "gehören, angehören", 
         "A_infinitivo": "pertenecer", 
         "A_irregular": {
@@ -69138,9 +69116,7 @@
     }, 
     {
         "A_english": "to sting, to be hot", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "stechen, brennen, piksen", 
         "A_infinitivo": "picar", 
         "A_irregular": {
@@ -69857,9 +69833,7 @@
     }, 
     {
         "A_english": "to please", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "gefallen", 
         "A_infinitivo": "placer", 
         "A_irregular": {
@@ -70397,9 +70371,7 @@
     }, 
     {
         "A_english": "to plan", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "planen, verplanen", 
         "A_infinitivo": "planificar", 
         "A_irregular": {
@@ -71122,9 +71094,7 @@
     }, 
     {
         "A_english": "to possess", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "besitzen, innehaben", 
         "A_infinitivo": "poseer", 
         "A_irregular": {
@@ -71304,9 +71274,7 @@
     }, 
     {
         "A_english": "to practice, to perform", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(aus)üben", 
         "A_infinitivo": "practicar", 
         "A_irregular": {
@@ -71486,9 +71454,7 @@
     }, 
     {
         "A_english": "to predict, to forecast", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "voraussagen, vorhersagen", 
         "A_infinitivo": "predecir", 
         "A_irregular": {
@@ -71850,7 +71816,9 @@
     }, 
     {
         "A_english": "to ask", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "fragen", 
         "A_infinitivo": "preguntar", 
         "A_irregular": {
@@ -73283,9 +73251,7 @@
     }, 
     {
         "A_english": "to foresee", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "absehen, erahnen, vorhersehen", 
         "A_infinitivo": "prever", 
         "A_irregular": {
@@ -73465,9 +73431,7 @@
     }, 
     {
         "A_english": "to prove", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "probieren, beweisen, testen", 
         "A_infinitivo": "probar", 
         "A_irregular": {
@@ -73647,9 +73611,7 @@
     }, 
     {
         "A_english": "to produce, to create", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "produzieren, herstellen", 
         "A_infinitivo": "producir", 
         "A_irregular": {
@@ -74548,9 +74510,7 @@
     }, 
     {
         "A_english": "to propose", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "vorschlagen", 
         "A_infinitivo": "proponer", 
         "A_irregular": {
@@ -74730,9 +74690,7 @@
     }, 
     {
         "A_english": "to protect", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(be)schützen", 
         "A_infinitivo": "proteger", 
         "A_irregular": {
@@ -74912,9 +74870,7 @@
     }, 
     {
         "A_english": "to provide", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(ver)sorgen, ausrüsten", 
         "A_infinitivo": "proveer", 
         "A_irregular": {
@@ -75094,9 +75050,7 @@
     }, 
     {
         "A_english": "to provoke", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "provozieren", 
         "A_infinitivo": "provocar", 
         "A_irregular": {
@@ -75276,9 +75230,7 @@
     }, 
     {
         "A_english": "to publish", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "veröffentlichen", 
         "A_infinitivo": "publicar", 
         "A_irregular": {
@@ -75458,7 +75410,9 @@
     }, 
     {
         "A_english": "to remain", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "bleiben, zurückbleiben, noch vorhonden sein", 
         "A_infinitivo": "quedar", 
         "A_irregular": {
@@ -75999,7 +75953,9 @@
     }, 
     {
         "A_english": "to remove, to take off, to pull off", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "wegnehmen, entfernen, abnehmen, abziehen", 
         "A_infinitivo": "quitar", 
         "A_irregular": {
@@ -76179,9 +76135,7 @@
     }, 
     {
         "A_english": "to laugh", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "lachen", 
         "A_infinitivo": "reír", 
         "A_irregular": {
@@ -76361,9 +76315,7 @@
     }, 
     {
         "A_english": "to carry out, to make", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verwirklichen, realisieren", 
         "A_infinitivo": "realizar", 
         "A_irregular": {
@@ -76722,9 +76674,7 @@
     }, 
     {
         "A_english": "to recharge", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "aufladen", 
         "A_infinitivo": "recargar", 
         "A_irregular": {
@@ -76904,9 +76854,7 @@
     }, 
     {
         "A_english": "to reject", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "ablehnen, verschmähen", 
         "A_infinitivo": "rechazar", 
         "A_irregular": {
@@ -77086,7 +77034,9 @@
     }, 
     {
         "A_english": "to receive", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "erhalten", 
         "A_infinitivo": "recibir", 
         "A_irregular": {
@@ -78531,9 +78481,7 @@
     }, 
     {
         "A_english": "to reduce", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "reduzieren", 
         "A_infinitivo": "reducir", 
         "A_irregular": {
@@ -78713,9 +78661,7 @@
     }, 
     {
         "A_english": "to recount, to refer", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "berichten, sich beziehen", 
         "A_infinitivo": "referir", 
         "A_irregular": {
@@ -78895,7 +78841,9 @@
     }, 
     {
         "A_english": "to give", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "schenken", 
         "A_infinitivo": "regalar", 
         "A_irregular": {
@@ -79075,9 +79023,7 @@
     }, 
     {
         "A_english": "to water", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "gießen", 
         "A_infinitivo": "regar", 
         "A_irregular": {
@@ -79615,9 +79561,7 @@
     }, 
     {
         "A_english": "to redo", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "noch einmal machen", 
         "A_infinitivo": "rehacer", 
         "A_irregular": {
@@ -80334,9 +80278,7 @@
     }, 
     {
         "A_english": "to shine", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "erstrahlen, leuchten", 
         "A_infinitivo": "relucir", 
         "A_irregular": {
@@ -80516,9 +80458,7 @@
     }, 
     {
         "A_english": "to yield", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "leisten, erbringen", 
         "A_infinitivo": "rendir", 
         "A_irregular": {
@@ -81238,7 +81178,9 @@
     }, 
     {
         "A_english": "to reproach", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "vorwerfen, vorhalten", 
         "A_infinitivo": "reprochar", 
         "A_irregular": {
@@ -81776,9 +81718,7 @@
     }, 
     {
         "A_english": "to (re)solve", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "lösen, klären", 
         "A_infinitivo": "resolver", 
         "A_irregular": {
@@ -82137,7 +82077,9 @@
     }, 
     {
         "A_english": "to reply", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "antworten", 
         "A_infinitivo": "responder", 
         "A_irregular": {
@@ -82496,9 +82438,7 @@
     }, 
     {
         "A_english": "to bring back", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "wiederbringen", 
         "A_infinitivo": "retraer", 
         "A_irregular": {
@@ -82857,9 +82797,7 @@
     }, 
     {
         "A_english": "to assemble, to gather", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "versammeln, vereinen", 
         "A_infinitivo": "reunir", 
         "A_irregular": {
@@ -83218,7 +83156,9 @@
     }, 
     {
         "A_english": "to rob", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "rauben", 
         "A_infinitivo": "robar", 
         "A_irregular": {
@@ -83580,9 +83520,7 @@
     }, 
     {
         "A_english": "to snore", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "schnarchen", 
         "A_infinitivo": "roncar", 
         "A_irregular": {
@@ -85024,9 +84962,7 @@
     }, 
     {
         "A_english": "to satisfy", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "befriedigen", 
         "A_infinitivo": "satisfacer", 
         "A_irregular": {
@@ -85206,9 +85142,7 @@
     }, 
     {
         "A_english": "to seduce", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verführen, bestechen", 
         "A_infinitivo": "seducir", 
         "A_irregular": {
@@ -87020,9 +86954,7 @@
     }, 
     {
         "A_english": "to tile", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "mit Platten belegen, fliesen", 
         "A_infinitivo": "solar", 
         "A_irregular": {
@@ -87742,9 +87674,7 @@
     }, 
     {
         "A_english": "to ring", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "klingeln", 
         "A_infinitivo": "sonar", 
         "A_irregular": {
@@ -88464,9 +88394,7 @@
     }, 
     {
         "A_english": "to hold up, to support", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(fest)halten, unterstützen", 
         "A_infinitivo": "sostener", 
         "A_irregular": {
@@ -88646,7 +88574,9 @@
     }, 
     {
         "A_english": "to go up, to rise", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "ansteigen, aufsteigen", 
         "A_infinitivo": "subir", 
         "A_irregular": {
@@ -88826,7 +88756,9 @@
     }, 
     {
         "A_english": "to succeed, to follow on", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "geschehen, passieren, ereignen", 
         "A_infinitivo": "suceder", 
         "A_irregular": {
@@ -89364,9 +89296,7 @@
     }, 
     {
         "A_english": "to suggest", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "jmdm. etw. vorschlagen, jmdm. etw. nahelegen", 
         "A_infinitivo": "sugerir", 
         "A_irregular": {
@@ -89546,9 +89476,7 @@
     }, 
     {
         "A_english": "to suppose", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "annehmen", 
         "A_infinitivo": "suponer", 
         "A_irregular": {
@@ -89728,9 +89656,7 @@
     }, 
     {
         "A_english": "to gush,", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "aufkommen, auftreten, entstehen", 
         "A_infinitivo": "surgir", 
         "A_irregular": {
@@ -89910,9 +89836,7 @@
     }, 
     {
         "A_english": "to sign", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "unterschreiben, unterzeichnen", 
         "A_infinitivo": "suscribir", 
         "A_irregular": {
@@ -90092,9 +90016,7 @@
     }, 
     {
         "A_english": "to substitute", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "ersetzen", 
         "A_infinitivo": "sustituir", 
         "A_irregular": {
@@ -90453,9 +90375,7 @@
     }, 
     {
         "A_english": "to dye", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "färben", 
         "A_infinitivo": "teñir", 
         "A_irregular": {
@@ -90993,9 +90913,7 @@
     }, 
     {
         "A_english": "to spread, to lay", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "ausbreiten, hinlegen", 
         "A_infinitivo": "tender", 
         "A_irregular": {
@@ -91715,9 +91633,7 @@
     }, 
     {
         "A_english": "to touch", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "berühren, musizieren", 
         "A_infinitivo": "tocar", 
         "A_irregular": {
@@ -91897,7 +91813,9 @@
     }, 
     {
         "A_english": "to turn, to take", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "abbiegen, nehmen", 
         "A_infinitivo": "tomar", 
         "A_irregular": {
@@ -92077,7 +91995,9 @@
     }, 
     {
         "A_english": "to work", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "arbeiten", 
         "A_infinitivo": "trabajar", 
         "A_irregular": {
@@ -92439,9 +92359,7 @@
     }, 
     {
         "A_english": "to bring", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(her)bringen, mitbringen", 
         "A_infinitivo": "traer", 
         "A_irregular": {
@@ -92979,9 +92897,7 @@
     }, 
     {
         "A_english": "to transfer", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "verlegen, transferieren", 
         "A_infinitivo": "transferir", 
         "A_irregular": {
@@ -94056,9 +93972,7 @@
     }, 
     {
         "A_english": "to anoint", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "eincremen", 
         "A_infinitivo": "ungir", 
         "A_irregular": {
@@ -94238,9 +94152,7 @@
     }, 
     {
         "A_english": "to unite", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(ver)einigen", 
         "A_infinitivo": "unificar", 
         "A_irregular": {
@@ -94420,7 +94332,9 @@
     }, 
     {
         "A_english": "to join, to unite", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "verbinden, zusammenfügen", 
         "A_infinitivo": "unir", 
         "A_irregular": {
@@ -94600,7 +94514,9 @@
     }, 
     {
         "A_english": "to use", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "benutzen, gebrauchen, anwenden", 
         "A_infinitivo": "usar", 
         "A_irregular": {
@@ -94780,9 +94696,7 @@
     }, 
     {
         "A_english": "to use", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "gebrauchen, verwerten", 
         "A_infinitivo": "utilizar", 
         "A_irregular": {
@@ -95323,9 +95237,7 @@
     }, 
     {
         "A_english": "to win", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "siegen", 
         "A_infinitivo": "vencer", 
         "A_irregular": {
@@ -95505,7 +95417,9 @@
     }, 
     {
         "A_english": "to sell", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "verkaufen", 
         "A_infinitivo": "vender", 
         "A_irregular": {
@@ -96049,9 +95963,7 @@
     }, 
     {
         "A_english": "to empty, to spill", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "auskippen, verschütten", 
         "A_infinitivo": "verter", 
         "A_irregular": {
@@ -96231,9 +96143,7 @@
     }, 
     {
         "A_english": "to dress", 
-        "A_exported": [
-            "presente"
-        ], 
+        "A_exported": [], 
         "A_german": "(be)kleiden", 
         "A_infinitivo": "vestir", 
         "A_irregular": {
@@ -96413,7 +96323,9 @@
     }, 
     {
         "A_english": "to travel", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "reisen", 
         "A_infinitivo": "viajar", 
         "A_irregular": {
@@ -96593,7 +96505,9 @@
     }, 
     {
         "A_english": "to visit", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "besuchen", 
         "A_infinitivo": "visitar", 
         "A_irregular": {
@@ -96773,7 +96687,9 @@
     }, 
     {
         "A_english": "to live", 
-        "A_exported": [], 
+        "A_exported": [
+            "presente"
+        ], 
         "A_german": "leben", 
         "A_infinitivo": "vivir", 
         "A_irregular": {
