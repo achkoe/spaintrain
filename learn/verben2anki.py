@@ -1,5 +1,5 @@
 # -*- coding: UTF-8 -*-
-import json
+import random
 import codecs
 import sqlite3
 from verbenedit import getmapping
@@ -37,8 +37,7 @@ replacementdict = {
 }
 
 pronomenlist = [
-    ("s1", u"yo"), ("s2", u"tú"), ("s3", u"él/ella/usted"),
-    ("p1", u"nosotros/-as"), ("p2", u"vosotros/-as"), ("p3", u"ellos/ellas/ustedes")
+    u"yo", u"tú", u"él/ella/usted", u"nosotros/-as", u"vosotros/-as", u"ellos/ellas/ustedes"
 ]
 
 
@@ -52,14 +51,48 @@ def export():
                  u'imperfecto', u'condicional', u'pluscuamperfecto', u'perfecto',
                  u'subjuntivopresente', u'presente', u'subjuntivofuturoperfecto',
                  u'gerundioreflexiv', u'futuro']
-    dbname = "verben.db"
+    dbname = infile
     conn = sqlite3.connect(dbname)
     cursor = conn.cursor()
     rlist = []
     for query in querylist:
-        cursor.execute("SELECT id from verben WHERE {}_export == 1".format(query))
-        if len(cursor.fetchall()) == 0:
+        cursor.execute("SELECT id from export WHERE {} == 1".format(query))
+        idlist = cursor.fetchall()
+        if len(idlist) == 0:
             continue
+        for id_ in idlist:
+            if query in ["participio", "gerundio", "gerundioreflexiv"]:
+                result = cursor.execute("""SELECT german, infinitivo, {} FROM verben WHERE id == ?""".format(query), id_).fetchone()
+                question = u"<b>{german}</b>{linebreak}Wie lautet das <b>{tense}</b>?".format(
+                    german=result[0],
+                    linebreak=linebreak,
+                    tense=replacementdict[query])
+                rlist.append([question, "{}{}{}".format(result[1], linebreak, result[-1])])
+            else:
+                result_a = cursor.execute("""SELECT german, infinitivo FROM verben WHERE id == ?""".format(query), id_).fetchone()
+                result_b = cursor.execute("""SELECT s1, s2, s3, p1, p2, p3 FROM {} WHERE id == ?""".format(query), id_).fetchone()
+                question = u"<b>{german}</b>{linebreak}Konjugation des Verbs im <b>{tense}</b>?".format(
+                    german=result_a[0],
+                    linebreak=linebreak,
+                    tense=replacementdict[query])
+                tlist = [result_a[1]]
+                for pronomen, result in zip(pronomenlist, result_b):
+                    if result is None:
+                        continue
+                    tlist.append("{} {}".format(pronomen, result))
+                rlist.append([question, linebreak.join(tlist)])
+            cursor.execute("UPDATE export set {} = 2 WHERE id == ?".format(query), id_)
+    conn.commit()
+    conn.close()
+
+    random.shuffle(rlist)
+    ostr = "\n".join(u"{}|{}|{}".format(ritem[0], ritem[1], "Verb") for ritem in rlist)
+    with codecs.open(outfile, "w", encoding="utf-8") as fh:
+        fh.write(ostr)
+
+    #print(rlist)
+    return
+    if 0:
         fieldmapping = ["german", "infinitiv"]
         if isinstance(mapping[query], dict):
             fieldmapping.extend(mapping[query].values())
@@ -111,16 +144,19 @@ def test(infinitiv, exporttime):
 
 
 def mark(verblist, tenselist):
-    dbname = "verben.db"
+    dbname = infile
     conn = sqlite3.connect(dbname)
     cursor = conn.cursor()
     query = ",".join(repr(v) for v in verblist)
-    print("DO NOT DO THIS AGAIN!!!!")
     if 0:
-        cursor.execute("SELECT infinitiv FROM verben WHERE infinitiv IN ({})".format(query))
-        print([v[0] for v in cursor.fetchall()])
-        for tense in tenselist:
-            cursor.execute("UPDATE verben SET {}_export = 1 WHERE infinitiv in ({})".format(tense, query))
+        cursor.execute("SELECT id, infinitivo FROM verben WHERE infinitivo IN ({})".format(query))
+        resultlist = cursor.fetchall()
+        for result in resultlist:
+            if cursor.execute("SELECT id FROM export WHERE id == ?", (result[0], )).fetchone() is not None:
+                continue
+            fieldlist = ["id"] + tenselist
+            valuelist = [str(result[0])] + ["1"] * len(tenselist)
+            cursor.execute("""INSERT INTO export ({}) VALUES ({})""".format(",".join(fieldlist), ",".join(valuelist)))
     conn.commit()
     conn.close()
 
