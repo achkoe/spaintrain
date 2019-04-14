@@ -112,7 +112,7 @@ def process_replace(text):
             if matchobj.group(2).count("|") == 2:
                 try:
                     #wordlist.append("{1}|{0}|{2}".format(tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
-                    wordlist.append((tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
+                    wordlist.append((tr[0].strip().encode('utf-8'), tr[1].strip().encode('utf-8'), tr[2].strip().encode('utf-8')))
                     #print("{1}|{0}|{2}".format(tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
                 except Exception:
                     print(tr)
@@ -131,10 +131,8 @@ def process_replace(text):
         b_ = b[0]
         if a_.startswith("el") or a_.startswith("la"):
             a_ = a_.split()[-1]
-            print(a_)
         if b_.startswith("el") or b_.startswith("la"):
             b_ = b_.split()[-1]
-            print(b_)
         return cmp(a_.lower(), b_.lower())
 
     wordlist.sort(cmp=cmpfn)

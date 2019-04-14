@@ -109,6 +109,7 @@ def process(args):
 
 
 def process_replace(text):
+    wordlist = []
     subdict = OrderedDict([
             (ur"“", {"r": ur'"', "flags": 0}),
             (ur"”", {"r": ur'"', "flags": 0}),
@@ -135,7 +136,7 @@ def process_replace(text):
             tr = matchobj.group(2).split("|")
             if matchobj.group(2).count("|") == 2:
                 try:
-                    print("{1}|{0}|{2}".format(tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
+                    wordlist.append((tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
                 except Exception:
                     print(tr)
                     raise
@@ -147,6 +148,8 @@ def process_replace(text):
     for key, replacement in subdict.iteritems():
         rf = partial(replfn, replacement['r'])
         text = re.sub(key, rf, text, flags=replacement['flags'])
+    for w in wordlist:
+        print("{0}|{1}|{2}".format(*w))
     return text
 
 
