@@ -6,4 +6,5 @@ book.pdf: book.tex contents.tex
 
 contents.tex: contents.txt
 	python mtxt2tex.py -o $@ $<
-	sh password.txt
+	cd $(dir $<) && sh ../encrypt.sh && cd ..
+	#sh password.txt
