@@ -9,6 +9,8 @@ import sqlite3
 import re
 import locale
 import random
+import json
+from functools import partial
 
 assert sys.version_info[0] == 3
 DBNAME = "wordslibros.db"
@@ -78,18 +80,17 @@ def collect_words():
             word.append(infodict.get(fileitem, fileitem)["n"])
             assert len(word) == 5, word
             wordlist.append(word[1:])
+    sortfn = partial(keyfn, 0)
+    return sorted(wordlist, key=sortfn)
 
-    def keyfn(a):
-        a_ = a[0]
-        if a_.startswith("el ") or a_.startswith("la ") or a_.startswith("las ") or a_.startswith("los ") or a_.startswith("a ") or a_.startswith("en "):
-            a_ = a_.split()[1]
-            #print(a_)
-        return locale.strxfrm(a_)
-        return a_
 
-    return sorted(wordlist, key=keyfn)
-    wordlist.sort(key=keyfn)
-    return wordlist
+def keyfn(index, a):
+    a_ = a[index]
+    if a_.startswith("el ") or a_.startswith("la ") or a_.startswith("las ") or a_.startswith("los ") or a_.startswith("a ") or a_.startswith("en "):
+        a_ = a_.split()[1]
+        #print(a_)
+    return locale.strxfrm(a_)
+    return a_
 
 
 def create_database():
@@ -122,16 +123,23 @@ def import_database(wordlist):
     con.close()
 
 
+def import_merged():
+    with open("wordslibros_merged.json") as fh:
+        wordlist = json.load(fh)
+    return wordlist
+
+
 def export_database():
     con = sqlite3.connect(DBNAME)
     cur = con.cursor()
     cur.execute("SELECT * FROM words")
+    wordlist = cur.fetchall()
+    print(wordlist)
+    sortfn = partial(keyfn, 1)
+    wordlist = sorted(wordlist, key=sortfn)
     with open("wordslibros.txt", "w") as fh:
-        while True:
-            data = cur.fetchone()
-            if data is None:
-                break
-            print(data, file=fh)
+        for word in wordlist:
+            print(word, file=fh)
     con.close()
 
 
@@ -169,7 +177,8 @@ if __name__ == '__main__':
     parser.add_argument("--create", help="create database", action="store_true", default=False)
     parser.add_argument("--import", dest="imp", help="update database from wordslibros.txt", action="store_true", default=False)
     parser.add_argument("--export", help="export database to wordslibros.txt", action="store_true", default=False)
-    parser.add_argument("--exportanki", help="export", action="store_true", default=False)
+    parser.add_argument("--exportanki", help="export for anki", action="store_true", default=False)
+    parser.add_argument("--importmerged", help="import from wordslibros_merged.txt", action="store_true", default=False)
     parser.add_argument("-n", "--number", help="number of exports", action="store", type=int, default=10)
 
     args = parser.parse_args()
@@ -183,5 +192,7 @@ if __name__ == '__main__':
         export_database()
     if args.imp:
         update_database()
+    if args.importmerged:
+        import_database(import_merged())
     if args.exportanki:
         exportanki(args)
