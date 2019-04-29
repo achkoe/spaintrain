@@ -86,7 +86,7 @@ def collect_words():
 
 def keyfn(index, a):
     a_ = a[index]
-    if a_.startswith("el ") or a_.startswith("la ") or a_.startswith("las ") or a_.startswith("los ") or a_.startswith("a ") or a_.startswith("en "):
+    if a_.startswith("el ") or a_.startswith("la ") or a_.startswith("las ") or a_.startswith("los ") or a_.startswith("a ") or a_.startswith("en ") or a_.startswith("el/la "):
         a_ = a_.split()[1]
         #print(a_)
     return locale.strxfrm(a_)
