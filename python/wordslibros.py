@@ -178,7 +178,7 @@ if __name__ == '__main__':
     parser.add_argument("--import", dest="imp", help="update database from wordslibros.txt", action="store_true", default=False)
     parser.add_argument("--export", help="export database to wordslibros.txt", action="store_true", default=False)
     parser.add_argument("--exportanki", help="export for anki", action="store_true", default=False)
-    parser.add_argument("--importmerged", help="import from wordslibros_merged.txt", action="store_true", default=False)
+    parser.add_argument("--importmerged", help="import from wordslibros_merged.json", action="store_true", default=False)
     parser.add_argument("-n", "--number", help="number of exports", action="store", type=int, default=10)
 
     args = parser.parse_args()
