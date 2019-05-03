@@ -166,7 +166,7 @@ def exportanki(args):
     print(slist)
     cur.execute("SELECT spain, german, type, source FROM words WHERE id in ({})".format(",".join(slist)))
     print(cur.fetchall())
-    cur.execute("UPDATE words SET exported = 1 WHERE id in ({})".format(",".join(slist)))
+    #cur.execute("UPDATE words SET exported = 1 WHERE id in ({})".format(",".join(slist)))
     con.commit()
     con.close()
 
