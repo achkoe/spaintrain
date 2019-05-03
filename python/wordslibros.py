@@ -11,6 +11,7 @@ import locale
 import random
 import json
 from functools import partial
+from datetime import datetime
 
 assert sys.version_info[0] == 3
 DBNAME = "wordslibros.db"
@@ -97,7 +98,7 @@ def create_database():
     con = sqlite3.connect(DBNAME)
     cur = con.cursor()
     cur.execute("DROP TABLE IF EXISTS words")
-    cur.execute("CREATE TABLE WORDS (id INTEGER PRIMARY KEY AUTOINCREMENT, spain TEXT, german TEXT, type TEXT, source TEXT, exported INTEGER)")
+    cur.execute("CREATE TABLE WORDS (id INTEGER PRIMARY KEY AUTOINCREMENT, spain TEXT, german TEXT, type TEXT, source TEXT, exported INTEGER, created INTEGER, updated INTEGER)")
     con.commit()
     con.close()
 
@@ -114,7 +115,10 @@ def import_database(wordlist):
         else:
             word.append(0)
             try:
-                cur.execute("INSERT INTO WORDS (spain, german, type, source, exported) VALUES (?, ?, ?, ?, ?)", word)
+                now = datetime.now().timestamp()
+                word.append(now)
+                word.append(now)
+                cur.execute("INSERT INTO WORDS (spain, german, type, source, exported, created, updated) VALUES (?, ?, ?, ?, ?, ?, ?)", word)
                 #print("OKAY: {}".format(word))
             except:
                 print("FAIL: {}".format(word))
@@ -139,7 +143,7 @@ def export_database():
     wordlist = sorted(wordlist, key=sortfn)
     with open("wordslibros.txt", "w") as fh:
         for word in wordlist:
-            print(word, file=fh)
+            print(word[:-2], file=fh)
     con.close()
 
 
@@ -152,6 +156,7 @@ def update_database():
         arg = eval(line)
         #print("UPDATE words SET spain = {1!r}, german = {2!r}, type = {3!r}, source = {4!r}, exported = {5!r} WHERE id == {0}".format(*arg))
         cur.execute("UPDATE words SET spain = {1!r}, german = {2!r}, type = {3!r}, source = {4!r}, exported = {5!r} WHERE id == {0}".format(*arg))
+        cur.execute("UPDATE words SET updated = {1} WHERE id == {0}".format(arg[0], datetime.now().timestamp()))
     con.commit()
     con.close()
 
@@ -163,9 +168,12 @@ def exportanki(args):
     idlist = [item[0] for item in cur.fetchall()]
     number = min(args.number, len(idlist))
     slist = [str(s) for s in random.sample(idlist, number)]
-    print(slist)
+    # print(slist)
     cur.execute("SELECT spain, german, type, source FROM words WHERE id in ({})".format(",".join(slist)))
-    print(cur.fetchall())
+    with open("wordslibros4anki.txt", "w") as fh:
+        for item in cur.fetchall():
+            print("{0}|{1}|{2}|{3}".format(*item), file=fh)
+
     #cur.execute("UPDATE words SET exported = 1 WHERE id in ({})".format(",".join(slist)))
     con.commit()
     con.close()
