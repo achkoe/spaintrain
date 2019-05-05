@@ -173,8 +173,7 @@ def exportanki(args):
     with open("wordslibros4anki.txt", "w") as fh:
         for item in cur.fetchall():
             print("{0}|{1}|{2}|{3}".format(*item), file=fh)
-
-    #cur.execute("UPDATE words SET exported = 1 WHERE id in ({})".format(",".join(slist)))
+    cur.execute("UPDATE words SET exported = 1 WHERE id in ({})".format(",".join(slist)))
     con.commit()
     con.close()
 
