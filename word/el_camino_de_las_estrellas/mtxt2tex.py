@@ -14,7 +14,7 @@ import unittest
 
 logging.basicConfig(level=logging.INFO, format="%(lineno)d: %(msg)s")
 
-PAIRSSTART = ur"""
+PAIRSSTART = u"""
 \beforeeledchapter
 \begin{pairs}
 """
