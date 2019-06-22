@@ -27,21 +27,22 @@ def collect_words():
     #for f in filelist: print(f)
     #sys.exit(0)
     filelist = [
-        "../word/desaparecidas/contents.txt",
-        "../word/un_dia_en_malaga/contents.txt",
-        "../word/recetas_con_gusto/contents.txt",
-        "../word/un_dia_en_barcelona/contents.txt",
-        "../word/teruel/contents.txt",
-        "../word/historia_gaviota/contents.txt",
-        "../word/asesinato_en_cadiz/contents.txt",
-        "../word/descubre_el_caribe/contents.txt",
-        "../word/negocio_mortal/contents.txt",
-        "../word/curriculum/contents.txt",
-        "../word/ataque_en_la_montana/contents.txt",
-        "../word/cocina/contents.txt",
-        "../word/historia_caracol/contents.txt",
-        "../word/una_siesta_fatal/contents.txt",
-        "../word/crimen_de_la_giralda/contents.txt",
+        # "../word/desaparecidas/contents.txt",
+        # "../word/un_dia_en_malaga/contents.txt",
+        # "../word/recetas_con_gusto/contents.txt",
+        # "../word/un_dia_en_barcelona/contents.txt",
+        # "../word/teruel/contents.txt",
+        # "../word/historia_gaviota/contents.txt",
+        # "../word/asesinato_en_cadiz/contents.txt",
+        # "../word/descubre_el_caribe/contents.txt",
+        # "../word/negocio_mortal/contents.txt",
+        # "../word/curriculum/contents.txt",
+        # "../word/ataque_en_la_montana/contents.txt",
+        # "../word/cocina/contents.txt",
+        # "../word/historia_caracol/contents.txt",
+        # "../word/una_siesta_fatal/contents.txt",
+        # "../word/crimen_de_la_giralda/contents.txt",
+        "../word/el_camino_de_las_estrellas/contents.txt"
     ]
 
     regexp = re.compile(u"\[[^\]]*\]")
@@ -62,6 +63,7 @@ def collect_words():
         "../word/cocina/contents.txt": {"n": "Cocina", "s": True},
         "../word/una_siesta_fatal/contents.txt": {"n": "Una siesta fatal", "s": True},
         "../word/crimen_de_la_giralda/contents.txt": {"n": "Crimen de la giralda", "s": False},
+        "../word/el_camino_de_las_estrellas/contents.txt": {"n": "El camino de las estrellas", "s": False}
     }
     wordlist = []
     for fileitem in filelist:
