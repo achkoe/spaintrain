@@ -112,6 +112,7 @@ def process_replace(text):
             if matchobj.group(2).count("|") == 2:
                 try:
                     #wordlist.append("{1}|{0}|{2}".format(tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
+                    tr = [item.replace(":", "<br/>") for item in tr]
                     wordlist.append((tr[0].strip().encode('utf-8'), tr[1].strip().encode('utf-8'), tr[2].strip().encode('utf-8')))
                     #print("{1}|{0}|{2}".format(tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
                 except Exception:
