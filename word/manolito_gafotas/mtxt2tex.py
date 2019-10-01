@@ -130,16 +130,21 @@ def process_replace(text):
     def cmpfn(a, b):
         a_ = a[0]
         b_ = b[0]
-        if a_.startswith("el") or a_.startswith("la"):
-            a_ = a_.split()[-1]
-        if b_.startswith("el") or b_.startswith("la"):
-            b_ = b_.split()[-1]
+        wlist = a_.split()
+        if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el"):
+            a_ = wlist[1]
+        wlist = b_.split()
+        if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el"):
+            b_ = wlist[1]
         return cmp(a_.lower(), b_.lower())
 
     wordlist.sort(cmp=cmpfn)
-    for w in wordlist:
-        print("{0}|{1}|{2}".format(*w))
-    return text
+    with open("_words.txt", "w") as fh:
+        for w in wordlist:
+            if wordlist.count(w[0]) > 1:
+                print("ATT: {}".format(w[0]))
+            print("{0}|{1}|{2}".format(*w), file=fh)
+        return text
 
 
 def process_dashes(text):
