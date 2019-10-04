@@ -85,7 +85,7 @@ def prepimport2anki(args):
 
 
 def import2anki(args):
-    # with hel from https://www.juliensobczak.com/tell/2016/12/26/anki-scripting.html
+    # with help from https://www.juliensobczak.com/tell/2016/12/26/anki-scripting.html
     config = {
         "path": "/home/achim/Dokumente/Anki/Benutzer 1/collection.anki2",
         "deckname": "SpainTrain2",
@@ -95,11 +95,11 @@ def import2anki(args):
         "delimiter": u"|"
     }
     if args.config:
-        with open(args.config) as fh:
-            config = json.load(fh, encoding="utf-8")
+        with open("ankiutils.configurations") as fh:
+            config = json.load(fh, encoding="utf-8")[args.config]
             assert("path" in config and "deckname" in config and "modelname" in config)
             assert("mappinglist" in config and "delimiter" in config)
-    ##print config
+    print config
     with codecs.open(args.inputfile, 'r', encoding="utf-8") as fh:
         textlist = fh.read().splitlines()
     datalist = [item.split(config["delimiter"]) for item in textlist]
@@ -116,6 +116,7 @@ def import2anki(args):
 
         for item, mapping in zip(itemlist, config["mappinglist"]):
             ##print item, mapping
+            ##print(note.fields)
             note.fields[mapping] = item
         note.fields[3] = unicode(args.source, "utf-8")
 

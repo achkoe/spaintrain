@@ -2,6 +2,7 @@
 import random
 import codecs
 import sqlite3
+import argparse
 from verbenedit import getmapping
 
 
@@ -148,7 +149,7 @@ def mark(verblist, tenselist):
     conn = sqlite3.connect(dbname)
     cursor = conn.cursor()
     query = ",".join(repr(v) for v in verblist)
-    if 0:
+    if 1:
         cursor.execute("SELECT id, infinitivo FROM verben WHERE infinitivo IN ({})".format(query))
         resultlist = cursor.fetchall()
         for result in resultlist:
@@ -161,7 +162,7 @@ def mark(verblist, tenselist):
     conn.close()
 
 
-if __name__ == '__main__':
+def markselected():
     tenselist = [
         "condicional", "futuro", "imperativoafirmativo", "imperfecto", "indefinido",
         "presente", "subjuntivopresente", "gerundio", "participio"]
@@ -192,5 +193,26 @@ if __name__ == '__main__':
         u'sonre\xedr', u'subir', u'suceder', u'tener', u'tomar', u'trabajar', u'traducir', u'unir', u'usar',
         u'valer', u'vender', u'venir', u'ver', u'viajar', u'visitar', u'vivir', u'volar', u'volver']
     mark(verblist, tenselist)
-    if 1:
+
+
+def show_unexported():
+    dbname = infile
+    conn = sqlite3.connect(dbname)
+    cursor = conn.cursor()
+    cursor.execute("SELECT infinitivo, german FROM verben WHERE id NOT IN (SELECT id FROM export)")
+    #print([item[0] for item in cursor.fetchall()])
+    print(u"\n".join(u"{0}: {1}".format(*item) for item in cursor.fetchall()))
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-m", "--markselected", action="store_true")
+    parser.add_argument("-e", "--export", action="store_true")
+    parser.add_argument("-s", "--showunexported", action="store_true")
+    args = parser.parse_args()
+    if args.markselected:
+        markselected()
+    if args.export:
         export()
+    if args.showunexported:
+        show_unexported()
