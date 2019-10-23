@@ -166,10 +166,8 @@ def markselected():
     tenselist = [
         "condicional", "futuro", "imperativoafirmativo", "imperfecto", "indefinido",
         "presente", "subjuntivopresente", "gerundio", "participio"]
-    verblist = [
-        "explicar", "deletrear", "costar", "vestir", "aconsejar", "cansar", "funcionar",
-        "hartar", "interesar", "limpiar", "mandar", "notar", "ocurrir", "preocupar",
-        "quejar", "reservar", "suponer", "tirar"]
+    verblist = ["aprobar", "asustar", "calentar", "construir", "demostrar", "disminuir", "encender",
+        "fingir", "merendar", "odiar", "proponer"]
     mark(verblist, tenselist)
 
 
