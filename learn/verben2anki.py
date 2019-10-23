@@ -177,7 +177,12 @@ def show_unexported():
     dbname = infile
     conn = sqlite3.connect(dbname)
     cursor = conn.cursor()
-    cursor.execute("SELECT infinitivo, german FROM verben WHERE id NOT IN (SELECT id FROM export)")
+    cursor.execute("SELECT id, infinitivo, german FROM verben WHERE id NOT IN (SELECT id FROM export)")
+    for item in cursor.fetchall():
+        cursor.execute("SELECT presente FROM irregular WHERE id == ?", (item[0], ))
+        irregular = ["", "[i]"][cursor.fetchone()[0]]
+        item = list(item) + [irregular]
+        print("{1}: {2} {3}".format(*item))
     #print([item[0] for item in cursor.fetchall()])
     print(u"\n".join(u"{0}: {1}".format(*item) for item in cursor.fetchall()))
 
