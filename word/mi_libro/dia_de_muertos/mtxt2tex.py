@@ -103,7 +103,7 @@ def process_replace(text):
             (ur"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": ur"\\section*{\1}", "flags": re.MULTILINE}),
             (ur"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": ur"\\subsection{\1}", "flags": re.MULTILINE}),
             (ur"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": ur"\\subsection*{\1}", "flags": re.MULTILINE}),
-            (ur"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": ur"\\subsubsection*{\1}", "flags": re.MULTILINE}),
+            (ur"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": ur"\\paragraph*{\1}", "flags": re.MULTILINE}),
             (ur"\s*/(\d+)/\s*", {"r": ur"~\\sidenote{\1}", "flags": 0})])
 
     def replfn(r, matchobj):
