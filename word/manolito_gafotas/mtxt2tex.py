@@ -201,7 +201,7 @@ def cleanup(args):
 
     def prepare(text):
         replacementlist = (('\(\s+', '('), (u'“', '"'), (u'”', '"'),
-                           (' {2,}', ' '), (' +" +', ' "'), (u'…', '\\ndots'))
+                           (' {2,}', ' '), (' +" +', ' "'), (u'…', '\\\\ndots'))
         for replacement in replacementlist:
             text = re.sub(replacement[0], replacement[1], text)
         text = re.sub(r"\.(\n?\s*\w)", lambda m: m.group(0).upper(), text, flags=re.U)
