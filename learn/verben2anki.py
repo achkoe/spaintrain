@@ -42,9 +42,8 @@ pronomenlist = [
 ]
 
 
-def export():
+def export(testmode=False):
     linebreak = u"<br/>"
-    mapping = getmapping()
     querylist = [u'anterior', u'subjuntivoimperfecto', u'imperativoafirmativo',
                  u'imperativonegativo', u'gerundio', u'indefinido', u'subjuntivofuturo',
                  u'subjuntivoperfecto', u'participio', u'subjuntivopluscuamperfecto',
@@ -81,8 +80,12 @@ def export():
                     if result is None:
                         continue
                     tlist.append("{} {}".format(pronomen, result))
+                if query == "subjuntivoimperfecto":
+                    for pronomen, result, repl in zip(pronomenlist, result_b, ["se", "ses", "se", "semos", "seis", "sen"]):
+                        tlist.append("{} {}{}".format(pronomen, result[:-len(repl)], repl))
                 rlist.append([question, linebreak.join(tlist)])
-            cursor.execute("UPDATE export set {} = 2 WHERE id == ?".format(query), id_)
+            if not testmode:
+                cursor.execute("UPDATE export set {} = 2 WHERE id == ?".format(query), id_)
     conn.commit()
     conn.close()
 
@@ -93,41 +96,6 @@ def export():
 
     #print(rlist)
     return
-    if 0:
-        fieldmapping = ["german", "infinitiv"]
-        if isinstance(mapping[query], dict):
-            fieldmapping.extend(mapping[query].values())
-        else:
-            fieldmapping.append(mapping[query])
-        cursor.execute("SELECT {} FROM verben WHERE {}_export == 1".format(",".join(fieldmapping), query))
-        for result in cursor.fetchall():
-            if query in ["participio", "gerundio", "gerundioreflexiv"]:
-                question = u"<b>{german}</b>{linebreak}Wie lautet das <b>{tense}</b>?".format(
-                    german=result[0],
-                    linebreak=linebreak,
-                    tense=replacementdict[query])
-                rlist.append([question, "{}{}{}".format(result[1], linebreak, result[-1])])
-            else:
-                question = u"<b>{german}</b>{linebreak}Konjugation des Verbs im <b>{tense}</b>?".format(
-                    german=result[0],
-                    linebreak=linebreak,
-                    tense=replacementdict[query])
-                tlist = [result[1]]
-                for pronomen in pronomenlist:
-                    try:
-                        index = fieldmapping.index("{}_{}".format(query, pronomen[0]))
-                    except ValueError:
-                        continue
-                    tlist.append(u"{} {}".format(pronomen[1], result[index]))
-                rlist.append([question, linebreak.join(tlist)])
-
-        cursor.execute("UPDATE verben SET {0}_export = 2 WHERE {0}_export == 1".format(query))
-    conn.commit()
-    conn.close()
-
-    ostr = "\n".join(u"{}|{}|{}".format(ritem[0], ritem[1], "Verb") for ritem in rlist)
-    with codecs.open(outfile, "w", encoding="utf-8") as fh:
-        fh.write(ostr)
 
 
 def test(infinitiv, exporttime):
@@ -153,21 +121,23 @@ def mark(verblist, tenselist):
         cursor.execute("SELECT id, infinitivo FROM verben WHERE infinitivo IN ({})".format(query))
         resultlist = cursor.fetchall()
         for result in resultlist:
-            if cursor.execute("SELECT id FROM export WHERE id == ?", (result[0], )).fetchone() is not None:
-                continue
-            fieldlist = ["id"] + tenselist
-            valuelist = [str(result[0])] + ["1"] * len(tenselist)
-            cursor.execute("""INSERT INTO export ({}) VALUES ({})""".format(",".join(fieldlist), ",".join(valuelist)))
+            print(result)
+            if cursor.execute("SELECT id FROM export WHERE id == ?", (result[0], )).fetchone() is None:
+                cursor.execute("""INSERT INTO export ({}) VALUES ({})""".format("id", result[0]))
+            for tense in tenselist:
+                cursor.execute("""SELECT id FROM export WHERE id == ? AND {} IS NOT NULL""".format(tense), (result[0], ))
+                r = cursor.fetchone()
+                if not r:
+                    cursor.execute("""UPDATE export SET {!r} = "1" WHERE id == ?""".format(tense), (result[0], ))
+                else:
+                    print("ignored {} {}".format(tense, result[1]))
     conn.commit()
     conn.close()
 
 
 def markselected():
-    tenselist = [
-        "condicional", "futuro", "imperativoafirmativo", "imperfecto", "indefinido",
-        "presente", "subjuntivopresente", "gerundio", "participio"]
-    verblist = ["aprobar", "asustar", "calentar", "construir", "demostrar", "disminuir", "encender",
-        "fingir", "merendar", "odiar", "proponer"]
+    tenselist = ["subjuntivoimperfecto"]
+    verblist = ["hablar"]
     mark(verblist, tenselist)
 
 
@@ -190,10 +160,12 @@ if __name__ == '__main__':
     parser.add_argument("-m", "--markselected", action="store_true")
     parser.add_argument("-e", "--export", action="store_true")
     parser.add_argument("-s", "--showunexported", action="store_true")
+    parser.add_argument("-t", "--test", action="store_true", help="dont mark exported")
+
     args = parser.parse_args()
     if args.markselected:
         markselected()
     if args.export:
-        export()
+        export(args.test)
     if args.showunexported:
         show_unexported()
