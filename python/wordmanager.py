@@ -21,7 +21,6 @@ class MainWindow(QtWidgets.QMainWindow):
         self.menuBar().addMenu(self.fileMenu)
         #
         self.table_widget = QtWidgets.QTableWidget()
-        self.table_widget.setSortingEnabled(True)
         self.populate()
         self.table_widget.setColumnWidth(1, 2 * self.table_widget.columnWidth(1))
         self.table_widget.setColumnWidth(2, 4 * self.table_widget.columnWidth(2))
@@ -30,6 +29,8 @@ class MainWindow(QtWidgets.QMainWindow):
         self.setWindowState(QtCore.Qt.WindowMaximized)
 
     def populate(self):
+        self.table_widget.setSortingEnabled(False)
+        self.table_widget.clear()
         columnlist = "exported spain german source type created updated id".split()
         con = sqlite3.connect(DBFILENAME)
         cur = con.cursor()
@@ -58,6 +59,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 self.table_widget.setItem(row, column, widget)
         self.table_widget.setHorizontalHeaderLabels([item.capitalize() for item in columnlist[:-1]])
         [self.table_widget.horizontalHeaderItem(column).setTextAlignment(QtCore.Qt.AlignLeft) for column in range(self.table_widget.columnCount())]
+        self.table_widget.setSortingEnabled(True)
 
     def save(self):
         self.save_(dosave=True)
@@ -90,7 +92,6 @@ class MainWindow(QtWidgets.QMainWindow):
         con.commit()
         con.close()
 
-        self.table_widget.clear()
         self.populate()
 
 

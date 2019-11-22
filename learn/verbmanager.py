@@ -88,10 +88,11 @@ class MainWindow(QtWidgets.QMainWindow):
                     rlist.append([question, "{}{}{}".format(infinitivo, linebreak, result[0])])
                 else:
                     result = cur.execute("""SELECT s1, s2, s3, p1, p2, p3 FROM {} WHERE id == ?""".format(tense), (verben_id, )).fetchone()
-                    question = u"<b>{german}</b>{linebreak}Konjugation des Verbs im <b>{tense}</b>?".format(
+                    question = u'<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="{color}">{tense}</font></u></b>?'.format(
                         german=german,
                         linebreak=linebreak,
-                        tense=replacementdict[tense])
+                        tense=replacementdict[tense],
+                        color="#ef2929" if tense == "subjuntivoimperfecto" else "#000000")
                     tlist = [infinitivo, ""]
                     for pronomen, item in zip(pronomenlist, result):
                         if item is None:
