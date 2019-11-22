@@ -1,9 +1,11 @@
 import sys
 import sqlite3
+from datetime import datetime
 from PySide2 import QtWidgets, QtCore
 
 
 DBFILENAME = "wordslibros.db"
+EXPORTFILENAME = "wordslibros4anki.txt"
 
 
 class MainWindow(QtWidgets.QMainWindow):
@@ -28,19 +30,23 @@ class MainWindow(QtWidgets.QMainWindow):
         self.setWindowState(QtCore.Qt.WindowMaximized)
 
     def populate(self):
+        columnlist = "exported spain german source type created updated id".split()
         con = sqlite3.connect(DBFILENAME)
         cur = con.cursor()
-        columnlist = "exported spain german source type created updated".split()
         cur.execute("""SELECT {} FROM WORDS""".format(",".join(columnlist)))
         worditemlist = cur.fetchall()
         self.table_widget.setRowCount(len(worditemlist))
         self.table_widget.setColumnCount(7)
         for row, worditem in enumerate(worditemlist):
-            for column in range(len(columnlist)):
-                widget = QtWidgets.QTableWidgetItem(str(worditem[column]))
-                widget.setToolTip(str(worditem[column]))
-                #widget.setFlags(QtCore.Qt.ItemIsEnabled)
+            for column in range(len(columnlist) - 1):
+                if column in [5, 6]:
+                    text = datetime.fromtimestamp(int(worditem[column])).isoformat()
+                else:
+                    text = str(worditem[column])
+                widget = QtWidgets.QTableWidgetItem(text)
+                widget.setToolTip(text)
                 if column == 0:
+                    widget._id = worditem[-1]
                     if worditem[0] == 0:
                         widget.setFlags(QtCore.Qt.ItemIsUserCheckable | QtCore.Qt.ItemIsEditable | QtCore.Qt.ItemIsEnabled)
                         widget.setCheckState(QtCore.Qt.Unchecked)
@@ -50,6 +56,8 @@ class MainWindow(QtWidgets.QMainWindow):
                         widget.setFlags(QtCore.Qt.ItemIsUserCheckable)
                         widget.setCheckState(QtCore.Qt.Checked)
                 self.table_widget.setItem(row, column, widget)
+        self.table_widget.setHorizontalHeaderLabels([item.capitalize() for item in columnlist[:-1]])
+        [self.table_widget.horizontalHeaderItem(column).setTextAlignment(QtCore.Qt.AlignLeft) for column in range(self.table_widget.columnCount())]
 
     def save(self):
         self.save_(dosave=True)
@@ -58,7 +66,32 @@ class MainWindow(QtWidgets.QMainWindow):
         self.save_(dosave=False)
 
     def save_(self, dosave):
-        pass
+        slist = []
+        for row in range(self.table_widget.rowCount()):
+            item = self.table_widget.item(row, 0)
+            checked = item.checkState() == QtCore.Qt.Checked and item.flags() & QtCore.Qt.ItemIsEnabled != 0
+            if not checked:
+                continue
+            slist.append(str(item._id))
+
+        if len(slist) == 0:
+            return
+
+        con = sqlite3.connect(DBFILENAME)
+        cur = con.cursor()
+        cur.execute("SELECT spain, german, type, source FROM words WHERE id in ({})".format(",".join(slist)))
+        filename = EXPORTFILENAME
+        with open(filename, "w") as fh:
+            for item in cur.fetchall():
+                print("{0}|{1}|{2}|{3}".format(*item), file=fh)
+        if dosave:
+            now = datetime.now().timestamp()
+            cur.execute("UPDATE words SET exported = 1, updated = ? WHERE id in ({})".format(",".join(slist)), (now, ))
+        con.commit()
+        con.close()
+
+        self.table_widget.clear()
+        self.populate()
 
 
 if __name__ == '__main__':
