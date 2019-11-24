@@ -1,6 +1,8 @@
 import sys
 import sqlite3
 from datetime import datetime
+from functools import partial
+import locale
 from PySide2 import QtWidgets, QtCore
 
 
@@ -11,12 +13,14 @@ EXPORTFILENAME = "wordslibros4anki.txt"
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        self.action_save = QtWidgets.QAction("&Export and save...", self, shortcut="Ctrl+S", triggered=self.save, enabled=True)
-        self.action_export = QtWidgets.QAction("&Export only...", self, shortcut="Ctrl+Alt+S", triggered=self.export, enabled=True)
-        self.action_exit = QtWidgets.QAction("E&xit", self, shortcut="Ctrl+Q", triggered=self.close)
+        self.action_save = QtWidgets.QAction("&Export and save", self, shortcut="Ctrl+S", triggered=self.save, enabled=True)
+        self.action_export = QtWidgets.QAction("Export &only", self, shortcut="Ctrl+Alt+S", triggered=self.export, enabled=True)
+        self.action_exall = QtWidgets.QAction("Export &all", self, shortcut="Ctrl+A", triggered=self.export_all, enabled=True)
+        self.action_exit = QtWidgets.QAction("E&xit", self, shortcut="Alt+X", triggered=self.close)
         self.fileMenu = QtWidgets.QMenu("&File", self)
         self.fileMenu.addAction(self.action_save)
         self.fileMenu.addAction(self.action_export)
+        self.fileMenu.addAction(self.action_exall)
         self.fileMenu.addAction(self.action_exit)
         self.menuBar().addMenu(self.fileMenu)
         #
@@ -93,6 +97,27 @@ class MainWindow(QtWidgets.QMainWindow):
         con.close()
 
         self.populate()
+
+    def export_all(self):
+        con = sqlite3.connect(DBFILENAME)
+        cur = con.cursor()
+        cur.execute("SELECT * FROM words")
+        wordlist = cur.fetchall()
+        print(wordlist)
+        sortfn = partial(self.keyfn, 1)
+        wordlist = sorted(wordlist, key=sortfn)
+        with open("wordslibros.txt", "w") as fh:
+            for word in wordlist:
+                print(word[:-2], file=fh)
+        con.close()
+
+    def keyfn(self, index, a):
+        a_ = a[index]
+        if a_.startswith("el ") or a_.startswith("la ") or a_.startswith("las ") or a_.startswith("los ") or a_.startswith("a ") or a_.startswith("en ") or a_.startswith("el/la "):
+            a_ = a_.split()[1]
+            #print(a_)
+        return locale.strxfrm(a_)
+        return a_
 
 
 if __name__ == '__main__':
