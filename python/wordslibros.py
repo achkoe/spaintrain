@@ -43,7 +43,8 @@ def collect_words():
         # "../word/una_siesta_fatal/contents.txt",
         # "../word/crimen_de_la_giralda/contents.txt",
         #"../word/el_camino_de_las_estrellas/contents.txt",
-        "../word/me_voy_o_me_quedo/contents.txt"
+        #"../word/me_voy_o_me_quedo/contents.txt"
+        "../word/manolito_gafotas/contents.txt"
     ]
 
     regexp = re.compile(u"\[[^\]]*\]")
@@ -66,22 +67,24 @@ def collect_words():
         "../word/crimen_de_la_giralda/contents.txt": {"n": "Crimen de la giralda", "s": False},
         "../word/el_camino_de_las_estrellas/contents.txt": {"n": "El camino de las estrellas", "s": False},
         "../word/me_voy_o_me_quedo/contents.txt": {"n": "Me voy o me quedo", "s": False},
+        "../word/manolito_gafotas/contents.txt": {"n": "Manolito Gafotas 1", "s": False},
     }
     wordlist = []
     for fileitem in filelist:
         assert fileitem in infodict, fileitem
 
-        with open(fileitem, "r") as fh:
+        with open(fileitem, "r", encoding="utf-8") as fh:
             text = fh.read()
         matchlist = regexp.findall(text)
         for matchitem in matchlist:
             if matchitem.count("|") < 2:
                 continue
+            matchitem = matchitem.replace("::", "<br/>")
             word = matchitem.strip("[]").split("|")
             if infodict[fileitem]["s"]:
                 word[1], word[2] = word[2], word[1]
             if "Subst" in word[-1] and not (word[1].startswith("el") or word[1].startswith("la") or word[1].startswith("los") or word[1].startswith("las")):
-                print("   {}: {}".format(infodict[fileitem]["n"], repr(word)))
+                print("!!   {}: {}".format(infodict[fileitem]["n"], repr(word)))
             word.append(infodict.get(fileitem, fileitem)["n"])
             assert len(word) == 5, word
             wordlist.append(word[1:])
