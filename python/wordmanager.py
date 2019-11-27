@@ -10,19 +10,46 @@ DBFILENAME = "wordslibros.db"
 EXPORTFILENAME = "wordslibros4anki.txt"
 
 
+class SpainTableWidgetItem(QtWidgets.QTableWidgetItem):
+
+    def __init__(self, value):
+        super().__init__(value)
+        self.value = value
+
+    def _keyfn(self, a_):
+        a_ = a_.strip().lower()
+        if a_.startswith("el ") or a_.startswith("la ") or a_.startswith("las ") or a_.startswith("los ") or a_.startswith("a ") or a_.startswith("en ") or a_.startswith("el/la "):
+            a_ = a_.split()[1]
+        return locale.strxfrm(a_)
+        return a_
+
+    def __lt__(self, other):
+        if isinstance(other, SpainTableWidgetItem):
+            return self._keyfn(self.value) < self._keyfn(other.value)
+
+        return super().__lt__(other)
+
+
 class MainWindow(QtWidgets.QMainWindow):
     def __init__(self):
         super().__init__()
-        self.action_save = QtWidgets.QAction("&Export and save", self, shortcut="Ctrl+S", triggered=self.save, enabled=True)
-        self.action_export = QtWidgets.QAction("Export &only", self, shortcut="Ctrl+Alt+S", triggered=self.export, enabled=True)
-        self.action_exall = QtWidgets.QAction("Export &all", self, shortcut="Ctrl+A", triggered=self.export_all, enabled=True)
-        self.action_exit = QtWidgets.QAction("E&xit", self, shortcut="Alt+X", triggered=self.close)
-        self.fileMenu = QtWidgets.QMenu("&File", self)
-        self.fileMenu.addAction(self.action_save)
-        self.fileMenu.addAction(self.action_export)
-        self.fileMenu.addAction(self.action_exall)
-        self.fileMenu.addAction(self.action_exit)
-        self.menuBar().addMenu(self.fileMenu)
+        action_save = QtWidgets.QAction("&Export and save", self, shortcut="Ctrl+S", triggered=self.save, enabled=True)
+        action_export = QtWidgets.QAction("Export &only", self, shortcut="Ctrl+Alt+S", triggered=self.export, enabled=True)
+        action_exall = QtWidgets.QAction("Export all", self, shortcut="Alt+A", triggered=self.export_all, enabled=True)
+        action_showall = QtWidgets.QAction("Show &all", self, shortcut="Ctrl+A", checkable=True)
+        action_showall.toggled.connect(self.show_all)
+        self.showall = action_showall.isChecked()
+        action_exit = QtWidgets.QAction("E&xit", self, shortcut="Alt+X", triggered=self.close)
+        fileMenu = QtWidgets.QMenu("&File", self)
+        fileMenu.addAction(action_save)
+        fileMenu.addAction(action_export)
+        fileMenu.addAction(action_exall)
+        fileMenu.addAction(action_exit)
+        self.menuBar().addMenu(fileMenu)
+        #
+        viewMenu = QtWidgets.QMenu("&View", self)
+        viewMenu.addAction(action_showall)
+        self.menuBar().addMenu(viewMenu)
         #
         self.table_widget = QtWidgets.QTableWidget()
         self.populate()
@@ -38,7 +65,7 @@ class MainWindow(QtWidgets.QMainWindow):
         columnlist = "exported spain german source type created updated id".split()
         con = sqlite3.connect(DBFILENAME)
         cur = con.cursor()
-        cur.execute("""SELECT {} FROM WORDS""".format(",".join(columnlist)))
+        cur.execute("""SELECT {} FROM WORDS WHERE {}""".format(",".join(columnlist), "1 == 1" if self.showall else "exported == 0"))
         worditemlist = cur.fetchall()
         self.table_widget.setRowCount(len(worditemlist))
         self.table_widget.setColumnCount(7)
@@ -60,10 +87,18 @@ class MainWindow(QtWidgets.QMainWindow):
                     else:
                         widget.setFlags(QtCore.Qt.ItemIsUserCheckable)
                         widget.setCheckState(QtCore.Qt.Checked)
+                elif column == 1:
+                    widget = SpainTableWidgetItem(text)
+                    widget.setToolTip(text)
                 self.table_widget.setItem(row, column, widget)
         self.table_widget.setHorizontalHeaderLabels([item.capitalize() for item in columnlist[:-1]])
         [self.table_widget.horizontalHeaderItem(column).setTextAlignment(QtCore.Qt.AlignLeft) for column in range(self.table_widget.columnCount())]
         self.table_widget.setSortingEnabled(True)
+
+    def show_all(self, state):
+        if state != self.showall:
+            self.showall = state
+            self.populate()
 
     def save(self):
         self.save_(dosave=True)
