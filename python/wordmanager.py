@@ -3,6 +3,7 @@ import sqlite3
 from datetime import datetime
 from functools import partial
 import locale
+import json
 from PySide2 import QtWidgets, QtCore
 
 
@@ -35,7 +36,7 @@ class MainWindow(QtWidgets.QMainWindow):
         super().__init__()
         action_save = QtWidgets.QAction("&Export and save", self, shortcut="Ctrl+S", triggered=self.save, enabled=True)
         action_export = QtWidgets.QAction("Export &only", self, shortcut="Ctrl+Alt+S", triggered=self.export, enabled=True)
-        action_exall = QtWidgets.QAction("Export all", self, shortcut="Alt+A", triggered=self.export_all, enabled=True)
+        action_exall = QtWidgets.QAction("Export for Roundtrip", self, shortcut="Alt+A", triggered=self.export_all, enabled=True)
         action_showall = QtWidgets.QAction("Show &all", self, shortcut="Ctrl+A", checkable=True)
         action_showall.toggled.connect(self.show_all)
         self.showall = action_showall.isChecked()
@@ -58,6 +59,7 @@ class MainWindow(QtWidgets.QMainWindow):
         #
         self.setCentralWidget(self.table_widget)
         self.setWindowState(QtCore.Qt.WindowMaximized)
+        self.statusBar().showMessage(DBFILENAME)
 
     def populate(self):
         self.table_widget.setSortingEnabled(False)
@@ -130,7 +132,7 @@ class MainWindow(QtWidgets.QMainWindow):
             cur.execute("UPDATE words SET exported = 1, updated = ? WHERE id in ({})".format(",".join(slist)), (now, ))
         con.commit()
         con.close()
-
+        self.statusBar().showMessage("Exported {}".format("and saved" if dosave else ""), 3000)
         self.populate()
 
     def export_all(self):
@@ -138,13 +140,16 @@ class MainWindow(QtWidgets.QMainWindow):
         cur = con.cursor()
         cur.execute("SELECT * FROM words")
         wordlist = cur.fetchall()
-        print(wordlist)
         sortfn = partial(self.keyfn, 1)
         wordlist = sorted(wordlist, key=sortfn)
-        with open("wordslibros.txt", "w") as fh:
-            for word in wordlist:
-                print(word[:-2], file=fh)
+        filename = "wordslibros.json"
+        with open(filename, "w", encoding="utf-8") as fh:
+            print("[", file=fh)
+            for index, word in enumerate(wordlist):
+                print("    ", json.dumps(word[:-2], ensure_ascii=False), "" if index + 1 == len(wordlist) else ",", file=fh)
+            print("]", file=fh)
         con.close()
+        self.statusBar().showMessage("Exported to {}".format(filename), 3000)
 
     def keyfn(self, index, a):
         a_ = a[index]
