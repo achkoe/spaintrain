@@ -191,7 +191,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--collect", help="collect words from word folder and update to database", action="store_true", default=False)
     parser.add_argument("--create", help="create database", action="store_true", default=False)
-    parser.add_argument("--import", dest="imp", help="update database from wordslibros.txt", action="store_true", default=False)
+    parser.add_argument("--update", dest="imp", help="update database from wordslibros.txt", action="store_true", default=False)
     parser.add_argument("--export", help="export database to wordslibros.txt", action="store_true", default=False)
     parser.add_argument("--exportanki", help="export for anki", action="store_true", default=False)
     parser.add_argument("--importmerged", help="import from wordslibros_merged.json", action="store_true", default=False)
