@@ -160,6 +160,8 @@ def update_database():
     con = sqlite3.connect(DBNAME)
     cur = con.cursor()
     for line in textlist:
+        if line.strip().startswith("#"):
+            continue
         arg = eval(line)
         #print("UPDATE words SET spain = {1!r}, german = {2!r}, type = {3!r}, source = {4!r}, exported = {5!r} WHERE id == {0}".format(*arg))
         cur.execute("UPDATE words SET spain = {1!r}, german = {2!r}, type = {3!r}, source = {4!r}, exported = {5!r} WHERE id == {0}".format(*arg))
