@@ -88,6 +88,7 @@ def import2anki(args):
     # with help from https://www.juliensobczak.com/tell/2016/12/26/anki-scripting.html
     config = {
         "path": "/home/achim/Dokumente/Anki/Benutzer 1/collection.anki2",
+        "path": "/home/achim/.local/share/Anki2/User 1/collection.anki2",
         "deckname": "SpainTrain2",
         "modelname": u'Einfach (beide Richtungen)',
         # mapping dataitem > anki field (0:Vorderseite, 1:Rückseite, 2:wordtype)
