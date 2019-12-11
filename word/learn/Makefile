@@ -15,13 +15,6 @@ current: book.tex $(current)
 	latexmk -xelatex -g book.tex
 
 
-all := $(addsuffix }\clearpage,$(addprefix \input{,$(texfiles)))
-
-all: book.tex $(texfiles)
-	$(file > chapters.tex,$(all))
-	#latexmk -xelatex -g book.tex
-
-
 %.tex: %.txt
 	python mtxt2tex.py -o $@ $<
 	echo $(basename $<)
@@ -34,10 +27,8 @@ cleanup:
 
 
 decrypt:
-	cd $(dir $(lastword $(aesfiles))) && sh ../../decrypt.sh && cd ..
+	sh ../decrypt_file.sh  $(addsuffix .aes, $(basename $(current))) $(addsuffix .txt, $(basename $(current)))
 
-decryptall:
-	sh ../decryptall.sh $(directories)
 
 view:
 	xreader book.pdf &
