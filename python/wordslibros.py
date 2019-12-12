@@ -189,12 +189,25 @@ def exportanki(args):
     print("Exported to {}".format(filename))
 
 
+def addwords():
+    with open("words.txt", "r", encoding="utf-8") as fh:
+        text = fh.read()
+    wordlist = [line.split("|")[1:] for line in text.splitlines()]
+    for word in wordlist:
+        print(word)
+    a = input("Import (y/n)?")
+    if a != "y":
+        return
+    import_database(wordlist)
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--collect", help="collect words from word folder and update to database", action="store_true", default=False)
     parser.add_argument("--create", help="create database", action="store_true", default=False)
     parser.add_argument("--update", dest="imp", help="update database from wordslibros.txt", action="store_true", default=False)
     parser.add_argument("--export", help="export database to wordslibros.txt", action="store_true", default=False)
+    parser.add_argument("--add", help="add verbs from words.txt", action="store_true", default=False)
     parser.add_argument("--exportanki", help="export for anki", action="store_true", default=False)
     parser.add_argument("--importmerged", help="import from wordslibros_merged.json", action="store_true", default=False)
     parser.add_argument("-n", "--number", help="number of exports", action="store", type=int, default=10)
@@ -214,3 +227,5 @@ if __name__ == '__main__':
         import_database(import_merged())
     if args.exportanki:
         exportanki(args)
+    if args.add:
+        addwords()
