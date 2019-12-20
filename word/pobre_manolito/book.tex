@@ -1,0 +1,48 @@
+%\documentclass[oneside,10pt]{book}
+%\documentclass[landscape, pagesize, DIV=15, fontsize=11pt, parskip=half, oneside, BCOR=5mm]{scrartcl}
+\documentclass[fontsize=11pt]{scrartcl}
+\usepackage[textwidth=10cm, lmargin=2cm, rmargin=5cm ]{geometry}
+%\usepackage{sidenotes}
+\usepackage{fontspec}
+\usepackage{latexsym}
+\usepackage{pifont}
+
+\usepackage{pst-node}
+%\usepackage{parskip}
+%\setlength{\parindent}{1em}
+\usepackage{perpage} %the perpage package
+\MakePerPage{footnote} %the perpage package command
+
+%\usepackage{polyglossia,fontspec,xunicode}
+%\setmainlanguage{english}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
+\usepackage[utf8]{inputenc}
+\usepackage[german, spanish]{babel}
+
+\newcommand{\ndots}{\ldots~}
+
+\begin{document}
+
+\title{Pobre Manolito}
+\date{}
+
+\maketitle
+\clearpage
+
+\newcommand{\rn}[1]{\Rnode{#1}}
+\newcommand{\rl}[2]{\ncline[linestyle=solid,arrows=->,nodesepA=0.5pt,linecolor=gray, strokeopacity=0.5]{#1}{#2}}
+\newcommand{\sidenote}[1]{\marginpar[#1]{\small\textit{#1}}}
+\newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\fillmiss}{\rule{2cm}{0.4pt}~}
+\newcommand{\choice}{$\Box$}
+\newcommand{\correctchoice}{\framebox[1em]{\ding{51}}}
+\newcommand{\falsechoice}{\framebox[1em]{\ding{53}}}
+\newcommand{\correction}[1]{~\ding{43}~\textbf{\textsl{#1}}}
+
+\newcommand{\mdash}{-}
+
+\input{contents}
+
+\end{document}
