@@ -153,6 +153,7 @@ def process_dashes(text):
     Second substitute all line pairs where first line not ends with "\\" and second line starts with '-'
     with stgh
     """
+    # text = re.sub("~\\\\\\\\", "\\\\\\\\ \\\\vspace{-\\\\baselineskip}", text)
     return re.sub("([^\\\\])\n-", "\\1 \\\\\\\\\n-", re.sub("^(-.*)$", r"\1 \\\\", text, flags=re.M), flags=re.M)
 
 
