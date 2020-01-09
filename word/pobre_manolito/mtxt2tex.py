@@ -147,7 +147,7 @@ def process_replace(text):
         return text
 
 
-def process_dashes(text):
+def _process_dashes(text):
     """
     First append to all lines starting with "-" [pattern matching "^(-.*)$"] the characters "\\"
     Second substitute all line pairs where first line not ends with "\\" and second line starts with '-'
@@ -155,6 +155,35 @@ def process_dashes(text):
     """
     # text = re.sub("~\\\\\\\\", "\\\\\\\\ \\\\vspace{-\\\\baselineskip}", text)
     return re.sub("([^\\\\])\n-", "\\1 \\\\\\\\\n-", re.sub("^(-.*)$", r"\1 \\\\", text, flags=re.M), flags=re.M)
+
+def process_dashes(text):
+    s_in, s_out = 0, 1
+    state = s_out
+    textlist = text.splitlines()
+    textlist.append("\n")
+    for index in range(len(textlist)):
+        line = textlist[index].strip()
+        if line.startswith("-") and not line.endswith("-"):
+            state = s_in
+            if textlist[index - 1].strip() != "":
+                textlist[index] = "\\\\" + textlist[index]
+        if state == s_in:
+            if line.endswith("~\\\\"):
+                textlist[index] += "\\par"
+                state = s_out
+            elif line.endswith("\\\\"):
+                state = s_out
+                textlist[index + 1] = "\\rule{1em}{0pt}" + textlist[index + 1]
+            elif textlist[index + 1].strip() == "":
+                state = s_out
+                textlist[index] += "\\\\"
+            else:
+                textlist[index] += " %"
+    return "\n".join(textlist)
+
+
+
+
 
 
 def _cleanup(args):
