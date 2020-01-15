@@ -89,6 +89,9 @@ def process_replace(text):
             (ur"“", {"r": ur'"', "flags": 0}),
             (ur"”", {"r": ur'"', "flags": 0}),
             (ur"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": ur"\2\\footnote{\1}", "flags": 0}),
+
+            (ur"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": ur"\1\\nwfootnote{\2}", "flags": 0}),
+
             (ur"\*\*([^*]+)\*\*", {"r": ur"\\textbf{\1}", "flags": 0}),
             (ur"__([^_]+)__", {"r": ur"\\uline{\1}", "flags": 0}),
             (ur'\"([^\"]+)\"', {"r": ur"\\glqq{}\1\\grqq{}", "flags": 0}),
