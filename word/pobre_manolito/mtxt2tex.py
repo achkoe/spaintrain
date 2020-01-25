@@ -77,20 +77,28 @@ def process(args):
         text = fh.read()
     #text = process_environment(text, envdict["description"])
     #text = process_environment(text, envdict["sabiasque"])
-    text = process_dashes(process_replace(text))
-    # text = process_replace(text)
+    text, alist = process_replace(text)
+    text = process_dashes(text)
     linelist = text.splitlines()
     analyze(args, linelist)
+    for item in alist:
+        print(u"\\paragraph{{g{0}: {1}}}~\\\\{2}\\\\".format(*item), file=args.outfile)
+
+
 
 
 def process_replace(text):
+    adict = {
+        "counter": 0,
+        "alist": []
+    }
     wordlist = []
     subdict = OrderedDict([
             (ur"“", {"r": ur'"', "flags": 0}),
             (ur"”", {"r": ur'"', "flags": 0}),
             (ur"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": ur"\2\\footnote{\1}", "flags": 0}),
 
-            (ur"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": ur"\1\\nwfootnote{\2}", "flags": 0}),
+            (ur"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": ur"endnote", "flags": 0}),
 
             (ur"\*\*([^*]+)\*\*", {"r": ur"\\textbf{\1}", "flags": 0}),
             (ur"__([^_]+)__", {"r": ur"\\uline{\1}", "flags": 0}),
@@ -111,7 +119,7 @@ def process_replace(text):
             (ur"\s*%(\d+)\s*", {"r": ur"~\\grammarnote{\1}", "flags": 0})
     ])
 
-    def replfn(r, matchobj):
+    def replfn(adict, r, matchobj):
         if r.find("footnote") != -1 and matchobj.group(2).count("|") in [2, 3]:
             tr = matchobj.group(2).split("|")
             if matchobj.group(2).count("|") == 2:
@@ -126,10 +134,14 @@ def process_replace(text):
             return ' ' + matchobj.group(1) + u"\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
         if r.find("section") != -1 and len(matchobj.groups()) > 1 and matchobj.group(2):
             return matchobj.expand(r) + "\\" + matchobj.group(2)
+        if r.find("endnote") != -1 and matchobj.group(0).count("|") == 1:
+            adict["counter"] += 1
+            adict["alist"].append((adict["counter"], matchobj.group(1), matchobj.group(2)))
+            return matchobj.group(1) + "$^{{g{}}}$".format(adict["counter"])
         return matchobj.expand(r)
 
     for key, replacement in subdict.iteritems():
-        rf = partial(replfn, replacement['r'])
+        rf = partial(replfn, adict, replacement['r'])
         text = re.sub(key, rf, text, flags=replacement['flags'])
 
     def cmpfn(a, b):
@@ -149,7 +161,7 @@ def process_replace(text):
             if wordlist.count(w[0]) > 1:
                 print("ATT: {}".format(w[0]))
             print("{0}|{1}|{2}".format(*w), file=fh)
-        return text
+    return text, adict["alist"]
 
 
 def _process_dashes(text):
@@ -185,10 +197,6 @@ def process_dashes(text):
             else:
                 textlist[index] += " %"
     return "\n".join(textlist)
-
-
-
-
 
 
 def _cleanup(args):
