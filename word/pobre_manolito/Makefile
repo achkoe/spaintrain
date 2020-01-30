@@ -24,6 +24,7 @@ all: book.tex $(texfiles)
 %.tex: %.txt
 	python mtxt2tex.py -o $@ $<
 	cd $(dir $<) && sh ../encrypt.sh && cd ..
+	cd $(dir $<) && sh ../encrypt2.sh && cd ..
 
 
 c: cleanup
