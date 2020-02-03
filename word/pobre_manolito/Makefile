@@ -18,7 +18,7 @@ all := $(addsuffix }\clearpage,$(addprefix \input{,$(texfiles)))
 
 all: book.tex $(texfiles)
 	$(file > chapters.tex,$(all))
-	latexmk -xelatex -g book.tex
+	latexmk -xelatex -quiet -g book.tex 1> xelatex.log 2>&1
 
 
 %.tex: %.txt
