@@ -1,0 +1,94 @@
+% we don't want ae.sty
+\expandafter\def\csname ver@ae.sty\endcsname{}
+
+\documentclass[25pt]{tikzposter} % See Section 3
+
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+
+\title{Subjuntivo}
+% \institute{Inst} % See Section 4.1
+%\author{Auth} \titlegraphic{Logo}
+%\usetheme{Basic} % See Section 5
+\usecolorpalette{BlueGrayOrange}
+\begin{document}
+\maketitle % See Section 4.1
+
+
+\begin{columns} % See Section 4.4
+\column{0.5} % See Section 4.4
+\block{quizá/s, tal vez, a lo mejor}{%
+    Nach den Adverbien \textbf{quizá/s} und \textbf{tal vez} kann der Indikativ oder der subjuntivo stehen. \\
+    Der \textbf{subjuntivo} drückt dabei die \textbf{geringere Wahrscheinlichkeit} aus.\\
+    \textbf{A lo mejor} kann anstelle von \textbf{quizá/s} und \textbf{tal vez} verwendet werden,
+    steht aber immer mit dem Indikativ. \\
+
+    \coloredbox[]{
+        \textbf{Quizás} es mejor así. \\
+        \textbf{Quizás} Marta tenga razón. \\
+        \textbf{Tal vez} va a llover hoy. \\
+        \textbf{Tal vez} vaya al cine esta noche. \\
+        \textbf{A lo mejor} hago  un pastel. \\
+        \textbf{A lo mejor} visito a mi padre. \\
+    }
+}
+\column{0.5}
+\block{aunque}{
+    Die Konjunktion \textbf{aunque} hat zwei Bedeutungen.
+
+    \textbf{aunque} + Indikativ $\Rightarrow$ obwohl \\
+    \textbf{aunque} + subjuntivo $\Rightarrow$ selbst wenn \\
+
+    \coloredbox[]{
+        \textbf{Aunque} gano poco,  me gusta mi trabajo. \\
+        \textbf{Aunque} no gane nada,  quiero trabajar aquí.
+    }
+
+}
+\end{columns}
+
+\begin{columns}
+\column{0.5}
+\block{Meinungsäußerungen}{
+    Nach Meinungsäußerungen benutzt man den Indikativ. \\
+
+    \textbf{creer que} \\
+    \textbf{pensar que}\\
+    \textbf{opinar que} \rule{80pt}{0pt} + Indikativ  \\
+    \textbf{estar seguro que}\\
+    \textbf{parecer que}\\
+
+    \coloredbox[]{
+        Creo que los animales se \textbf{aburren} en el zoo. \\
+        Pienso que los zoológicos \textbf{hacen} un buen trabajo.\\
+        Me parece que los animales se \textbf{aburren}.
+    }
+}
+\column{0.5}
+\block{Verneinte Meinungsäußerungen}{
+    Nach verneinten Meinungsäußerungen benutzt man den subjuntivo. \\
+
+    \textbf{nu creer que} \\
+    \textbf{no pensar que}\\
+    \textbf{no opinar que} \rule{80pt}{0pt} + subjuntivo  \\
+    \textbf{no estar seguro que}\\
+    \textbf{no parecer que}\\
+
+    \coloredbox[]{
+        No creo que eso \textbf{esté} bien.\\
+        No estoy seguro de que  \textbf{pueda} viajar.\\
+        No me parece que Nerón \textbf{sea} un perro feliz.
+    }
+}
+\end{columns}
+
+\end{document}
+
+
+
+
+
+
+
+
