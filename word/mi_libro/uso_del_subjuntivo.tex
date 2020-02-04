@@ -2,7 +2,7 @@
 \expandafter\def\csname ver@ae.sty\endcsname{}
 
 \documentclass[25pt]{tikzposter} % See Section 3
-
+\usepackage{multirow}
 \usepackage{fontspec}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
@@ -19,11 +19,17 @@
 \begin{columns} % See Section 4.4
 \column{0.5} % See Section 4.4
 \block{quizá/s, tal vez, a lo mejor}{%
-    Nach den Adverbien \textbf{quizá/s} und \textbf{tal vez} kann der Indikativ oder der subjuntivo stehen. \\
-    Der \textbf{subjuntivo} drückt dabei die \textbf{geringere Wahrscheinlichkeit} aus.\\
-    \textbf{A lo mejor} kann anstelle von \textbf{quizá/s} und \textbf{tal vez} verwendet werden,
-    steht aber immer mit dem Indikativ. \\
+    \Large
+    Nach Adverbien \textbf{quizá/s} und \textbf{tal vez}: \textbf{Indikativ} oder \textbf{subjuntivo}. \\
 
+    \begin{tabular}{lcll}
+        \textbf{Indikativ} & $\Rightarrow$ & \textbf{höhere} & \multirow{2}{10mm}{Wahrscheinlichkeit} \\
+        \textbf{subjuntivo} & $\Rightarrow$ & \textbf{geringere} \\
+    \end{tabular}
+    \vskip20pt
+    Anstelle von \textbf{quizá/s} und \textbf{tal vez} kann \textbf{a lo mejor} verwendet werden,
+    aber immer mit dem Indikativ.
+    \vskip20pt
     \coloredbox[]{
         \textbf{Quizás} es mejor así. \\
         \textbf{Quizás} Marta tenga razón. \\
@@ -35,11 +41,14 @@
 }
 \column{0.5}
 \block{aunque}{
-    Die Konjunktion \textbf{aunque} hat zwei Bedeutungen.
+    \Large
+    Die Konjunktion \textbf{aunque} hat zwei Bedeutungen. \\
 
-    \textbf{aunque} + Indikativ $\Rightarrow$ obwohl \\
-    \textbf{aunque} + subjuntivo $\Rightarrow$ selbst wenn \\
-
+    \begin{tabular}{llcl}
+    \multirow{2}{65mm}{\textbf{aunque} +} & \textbf{Indikativ} & $\Rightarrow$ & \textbf{obwohl} \\
+    & \textbf{subjuntivo} & $\Rightarrow$ & \textbf{selbst wenn} \\
+    \end{tabular}
+    \vskip20pt
     \coloredbox[]{
         \textbf{Aunque} gano poco,  me gusta mi trabajo. \\
         \textbf{Aunque} no gane nada,  quiero trabajar aquí.
@@ -51,13 +60,20 @@
 \begin{columns}
 \column{0.5}
 \block{Meinungsäußerungen}{
+    \Large
     Nach Meinungsäußerungen benutzt man den Indikativ. \\
 
-    \textbf{creer que} \\
+    \begin{tabular}{lll}
+    \textbf{creer que} &
+    \multirow{5}{15mm}{$\left.\rule{0pt}{110pt} \right\}$} &
+    \multirow{5}{25mm}{\textbf{Indikativ}} \\
     \textbf{pensar que}\\
-    \textbf{opinar que} \rule{80pt}{0pt} + Indikativ  \\
+    \textbf{opinar que}\\
     \textbf{estar seguro que}\\
     \textbf{parecer que}\\
+    \end{tabular}
+
+    \vskip20pt
 
     \coloredbox[]{
         Creo que los animales se \textbf{aburren} en el zoo. \\
@@ -67,19 +83,60 @@
 }
 \column{0.5}
 \block{Verneinte Meinungsäußerungen}{
+    \Large
     Nach verneinten Meinungsäußerungen benutzt man den subjuntivo. \\
 
-    \textbf{nu creer que} \\
+    \begin{tabular}{lll}
+    \textbf{nu creer que} &
+    \multirow{5}{15mm}{$\left.\rule{0pt}{110pt} \right\}$} &
+    \multirow{5}{25mm}{\textbf{subjuntivo}} \\
     \textbf{no pensar que}\\
-    \textbf{no opinar que} \rule{80pt}{0pt} + subjuntivo  \\
+    \textbf{no opinar que} \\
     \textbf{no estar seguro que}\\
     \textbf{no parecer que}\\
+    \end{tabular}
+
+    \vskip20pt
 
     \coloredbox[]{
         No creo que eso \textbf{esté} bien.\\
         No estoy seguro de que  \textbf{pueda} viajar.\\
         No me parece que Nerón \textbf{sea} un perro feliz.
     }
+}
+\end{columns}
+
+\begin{columns}
+\column{0.3}
+\block{Ausdrücke nur mit subjuntivo}{
+    \Large
+    \begin{tabular}{lcl}
+    \textbf{a menos que} & $\Rightarrow$ & es sei denn \\
+    \textbf{en (el) caso de que} & $\Rightarrow$ & falls \\
+    \textbf{antes de que} & $\Rightarrow$ & bevor
+    \end{tabular}
+}
+\column{0.7}
+\block{Temporale Konjunktionen}{
+    \Large
+    \begin{tabular}{llll}
+    \textbf{cuando} & \multirow{6}{165mm}{$\left.\rule{0pt}{130pt}\right\}$~Nebensatz bezieht sich auf~$\left\{\rule{0pt}{130pt}\right.$} & \multirow{3}{170mm}{\textbf{Vergangenheit, Gegenwart}} & \multirow{3}{90mm}{$\Rightarrow$ \textbf{Indikativ}} \\
+    \textbf{hasta que} \\
+    \textbf{tan pronto como} \\
+    \textbf{después de que} & & \multirow{3}{170mm}{\textbf{Zukunft}} & \multirow{3}{90mm}{$\Rightarrow$ \textbf{subjuntivo}} \\
+    \textbf{mientras} \\
+    \textbf{siempre que} \\
+    \end{tabular}
+    \vskip40pt
+    Unterschiedliche Übersetzungen je nach Modus
+    \vskip20pt
+    \begin{tabular}{lll}
+    \multirow{2}{90mm}{\textbf{mientras} +}    & \textbf{Indikativ}  & $\Rightarrow$ ~ während \\
+                                      & \textbf{subjuntivo} & $\Rightarrow$ ~ solange \\
+    \\
+    \multirow{2}{90mm}{\textbf{siempre que} +} & \textbf{Indikativ}  & $\Rightarrow$ ~ immer wenn \\
+                                      & \textbf{subjuntivo} & $\Rightarrow$ ~ sofern, vorausgesetzt dass
+    \end{tabular}
 }
 \end{columns}
 
