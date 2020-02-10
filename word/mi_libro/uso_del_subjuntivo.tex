@@ -1,14 +1,14 @@
 % we don't want ae.sty
 \expandafter\def\csname ver@ae.sty\endcsname{}
 
-\documentclass[25pt]{tikzposter} % See Section 3
+\documentclass[25pt, a0paper]{tikzposter} % See Section 3
 \usepackage{multirow}
 \usepackage{fontspec}
 \usepackage[utf8]{inputenc}
 \usepackage[ngerman]{babel}
 \usepackage{color}
 \newcommand{\hl}[1]{\textbf{\textcolor{magenta}{#1}}}
-\title{Subjuntivo}
+\title{Subjuntivo 1}
 % \institute{Inst} % See Section 4.1
 %\author{Auth} \titlegraphic{Logo}
 %\usetheme{Basic} % See Section 5
@@ -108,7 +108,7 @@
 \end{columns}
 %-------------------------------------------------------------------
 \begin{columns}
-\column{0.3}
+\column{0.35}
 \block{Ausdrücke nur mit subjuntivo}{
     \Large
     \begin{tabular}{lcl}
@@ -117,11 +117,23 @@
     \textbf{antes de que} & $\Rightarrow$ & bevor
     \end{tabular}
 }
-\column{0.7}
+\block{importar, dar, igual, ser indiferente}{
+    \Large
+    Nebensätze, die durch \hl{importar}, \hl{dar igual}, \hl{ser indiferente}
+    erfordern den \textbf{subjuntivo}.
+
+    \vskip20pt
+    \coloredbox{
+        \textbf{No me importa} que Pillar no me \textbf{invite}.\\
+        \textbf{¿Te da igual} el vendedor \textbf{sea} antipático?\\
+        \textbf{Me es indiferente que} mi novia \hl{gane} más dinero que yo.
+    }
+}
+\column{0.65}
 \block{Temporale Konjunktionen}{
     \Large
     \begin{tabular}{llll}
-    \textbf{cuando} & \multirow{6}{165mm}{$\left.\rule{0pt}{130pt}\right\}$~Nebensatz bezieht sich auf~$\left\{\rule{0pt}{130pt}\right.$} & \multirow{3}{170mm}{\textbf{Vergangenheit, Gegenwart}} & \multirow{3}{90mm}{$\Rightarrow$ \textbf{Indikativ}} \\
+    \textbf{cuando} & \multirow{6}{105mm}{$\left.\rule{0pt}{130pt}\right\}$~\parbox{6cm}{Nebensatz bezieht sich auf}~$\left\{\rule{0pt}{130pt}\right.$} & \multirow{3}{170mm}{\textbf{Vergangenheit, Gegenwart}} & \multirow{3}{90mm}{$\Rightarrow$ \textbf{Indikativ}} \\
     \textbf{hasta que} \\
     \textbf{tan pronto como} \\
     \textbf{después de que} & & \multirow{3}{170mm}{\textbf{Zukunft}} & \multirow{3}{90mm}{$\Rightarrow$ \textbf{subjuntivo}} \\
@@ -142,7 +154,7 @@
 \end{columns}
 %-----------------------------------------------------
 \begin{columns}
-\column{0.33}
+\column{0.33333}
 \block{Subjuntivo nach unpersönlichen Ausdrücken}{
     \Large
     \hl{es / está} + \textbf{Adjektiv} + \hl{que} \\
@@ -156,7 +168,7 @@
     }
 
 }
-\column{0.33}
+\column{0.33333}
 \block{Indikativ wenn etwas sicher oder wahr ist}{
     \Large
     \hl{es verdad}, \hl{es cierto}, \hl{es seguro}, \hl{es evidente} \\
@@ -167,9 +179,9 @@
     \coloredbox[]{
     \textbf{Es verdad que} Javier \textbf{trabaja} mucho. \\
     \textbf{Es seguro que} la empresa no \textbf{va} a cerrar.
-    }
-}
-\column{0.33}
+    }.
+}.
+\column{0.33333}
 \block{Subjuntivo bei Verneinung}{
     \Large
     \hl{no es verdad}, \hl{no es cierto}, \hl{no es seguro}, \hl{no es evidente} \\
@@ -179,21 +191,10 @@
 
     \coloredbox[]{
     \textbf{No es verdad que} Javier \textbf{trabaje} mucho. \\
-    \textbf{No es suguro que} la empresa no \textbf{vaya} a cerrar.
+    \textbf{No es sueuro que} la empresa \textbf{vaya} a cerrar.
     }
 }
 
-\end{columns}
-%-----------------------------------------------------
-\begin{columns}
-\column{0.3}
-\block{}{
-    \Large
-}
-\column{0.7}
-\block{}{
-    \Large
-}
 \end{columns}
 
 \end{document}

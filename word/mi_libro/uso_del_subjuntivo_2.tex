@@ -1,0 +1,60 @@
+% we don't want ae.sty
+\expandafter\def\csname ver@ae.sty\endcsname{}
+
+\documentclass[25pt, a0paper]{tikzposter} % See Section 3
+\usepackage{multirow}
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{color}
+\newcommand{\hl}[1]{\textbf{\textcolor{magenta}{#1}}}
+\title{Subjuntivo 2}
+% \institute{Inst} % See Section 4.1
+%\author{Auth} \titlegraphic{Logo}
+%\usetheme{Basic} % See Section 5
+\usecolorpalette{BlueGrayOrange}
+\begin{document}
+\maketitle % See Section 4.1
+
+
+\begin{columns}
+\column{0.6}
+\block{Hoffnung, Willensäußerung, Vorschläge, Ratschläge, Gefühlsäußerung}{
+    \Large
+    Nebensätzen, die Hoffnung$^1$, Willensäußerung$^2$, Vorschläge oder Ratschläge$^3$, Gefühlsäußerung$^4$
+    ausdrücken, erfordern immer den \textbf{subjuntivo}.
+    \coloredbox[]{
+    Espero que tengas suerte. $^1$\\
+    El jefe quiere que yo trabaje gratis. $^2$\\
+    Propongo que hagamos gimnasia. $^3$\\
+    Me gusta que cantes. $^4$\\
+    Lamento que no puedas venir. $^4$\\
+    }
+}
+\column{0.4}
+\block{Ojalá}{
+    \Large
+    Hauptsatz mit \textbf{ojalá} erfordert den \textbf{subjuntivo}.
+}
+\end{columns}
+%-----------------------------------------------------
+\begin{columns}
+\column{0.3}
+\block{}{
+    \Large
+}
+\column{0.7}
+\block{}{
+    \Large
+}
+\end{columns}
+
+\end{document}
+
+
+
+
+
+
+
+
