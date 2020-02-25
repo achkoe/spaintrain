@@ -85,6 +85,22 @@ def process(args):
         print(u"\\paragraph{{g{0}: {1}}}~\\\\{2}\\\\".format(*item), file=args.outfile)
 
 
+def check_duplicates(wordlist):
+    comparelist = []
+    for word in wordlist:
+        item = word[0]
+        if item.startswith("el ") or item.startswith("la "):
+            item = item[3:]
+        p = item.find("<br")
+        if p == -1:
+            p = len(item)
+        q = item.find(" ")
+        if q == -1:
+            q = len(item)
+        comparelist.append(item)
+    for index, item in enumerate(comparelist):
+        if comparelist.count(item) > 1:
+            print("WARNING: {}".format(wordlist[index][0]))
 
 
 def process_replace(text):
@@ -156,6 +172,7 @@ def process_replace(text):
         return cmp(a_.lower(), b_.lower())
 
     wordlist.sort(cmp=cmpfn)
+    check_duplicates(wordlist)
     with open("_words.txt", "w") as fh:
         for w in wordlist:
             if wordlist.count(w[0]) > 1:
