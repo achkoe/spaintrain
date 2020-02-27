@@ -27,6 +27,9 @@ all: book.tex $(texfiles)
 	cd $(dir $<) && sh ../encrypt2.sh && cd ..
 
 
+check:
+	python mtxt2tex.py -o contents.tex contents.txt
+
 c: cleanup
 cleanup:
 	python mtxt2tex.py -c -o $(addsuffix .out.txt,$(basename $(current))) $(addsuffix .in.txt,$(basename $(current)))
