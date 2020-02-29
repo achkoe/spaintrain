@@ -8,10 +8,9 @@
 \usepackage[ngerman]{babel}
 \usepackage{color}
 \newcommand{\hl}[1]{\textbf{\textcolor{magenta}{#1}}}
+\newcommand{\tb}[1]{\textbf{#1}}
 \title{Subjuntivo 2}
-% \institute{Inst} % See Section 4.1
-%\author{Auth} \titlegraphic{Logo}
-%\usetheme{Basic} % See Section 5
+\settitle{ \centering \vbox{\centering \color{titlefgcolor} {\bfseries \Huge \sc \@title \par} }}
 \usecolorpalette{BlueGrayOrange}
 \begin{document}
 \maketitle % See Section 4.1
@@ -19,33 +18,85 @@
 
 \begin{columns}
 \column{0.6}
-\block{Hoffnung, Willensäußerung, Vorschläge, Ratschläge, Gefühlsäußerung}{
+\block{Subjuntivo Presente: Konjugation}{
+    \setlength{\tabcolsep}{0.8em}
     \Large
-    Nebensätzen, die Hoffnung$^1$, Willensäußerung$^2$, Vorschläge oder Ratschläge$^3$, Gefühlsäußerung$^4$
-    ausdrücken, erfordern immer den \textbf{subjuntivo}.
-    \coloredbox[]{
-    Espero que tengas suerte. $^1$\\
-    El jefe quiere que yo trabaje gratis. $^2$\\
-    Propongo que hagamos gimnasia. $^3$\\
-    Me gusta que cantes. $^4$\\
-    Lamento que no puedas venir. $^4$\\
-    }
+    \begin{tabular}{lllllll}
+    \hline
+    \multicolumn{7}{l}{\tb{Regelmäßige Verben}} \\
+    \hline
+    tom\tb{ar}   & tom\tb{e} & tom\tb{es} & tom\tb{e} & tom\tb{emos} & tom\tb{éis} & tom\tb{en} \\
+    beb\tb{er}   & beb\tb{a} & beb\tb{as} & beb\tb{a} & beb\tb{amos} & beb\tb{áis} & beb\tb{an} \\
+    viv\tb{ir}   & viv\tb{a} & viv\tb{as} & viv\tb{a} & viv\tb{amos} & viv\tb{áis} & viv\tb{an} \\
+    \hline
+    \multicolumn{7}{l}{\tb{Verben auf -go}} \\
+    \hline
+    tener        & ten\hl{g}\tb{a}   & ten\hl{g}\tb{as}   & ten\hl{g}\tb{a}   & ten\hl{g}\tb{amos}   & ten\hl{g}\tb{áis}   & ten\hl{g}\tb{an}   \\
+    \hline
+    \multicolumn{7}{l}{\tb{Verben auf -zco}} \\
+    \hline
+    conocer      & cono\hl{zc}\tb{a} & cono\hl{zc}\tb{as} & cono\hl{zc}\tb{a} & cono\hl{zc}\tb{amos} & cono\hl{zc}\tb{áis} & cono\hl{zc}\tb{an} \\
+    \hline
+    \multicolumn{7}{l}{\tb{Änderung der Schreibung}} \\
+    \hline
+    buscar       & bus\hl{qu}\tb{e}  & bus\hl{qu}\tb{es}  & bus\hl{qu}\tb{e}  & bus\hl{qu}\tb{emos}  & bus\hl{qu}\tb{éis}  & bus\hl{qu}\tb{en}  \\
+    escoger      & esco\hl{j}\tb{a}  & esco\hl{j}\tb{as}  & esco\hl{j}\tb{a}  & esco\hl{j}\tb{amos}  & esco\hl{j}\tb{áis}  & esco\hl{j}\tb{an}  \\
+    empezar      & empie\hl{c}\tb{e} & empie\hl{c}\tb{es} & empie\hl{c}\tb{e} & empe\hl{c}\tb{emos}  & empe\hl{c}\tb{éis}  & empie\hl{c}\tb{en} \\
+    llegar       & lle\hl{gu}\tb{e}  & lle\hl{gu}\tb{es}  & lle\hl{gu}\tb{e}  & lle\hl{gu}\tb{emos}  & lle\hl{gu}\tb{éis}  & lle\hl{gu}\tb{en}  \\
+    \hline
+    \multicolumn{7}{l}{\tb{Änderung des Stammvokals}} \\
+    \hline
+    querer       & qu\hl{ie}r\tb{a}  & qu\hl{ie}r\tb{as}  & qu\hl{ie}r\tb{a}  & qu\hl{e}r\tb{amos}   & qu\hl{e}r\tb{áis}   & qu\hl{ie}r\tb{an}  \\
+    poder        & p\hl{ue}d\tb{a}   & p\hl{ue}d\tb{as}   & p\hl{ue}d\tb{a}   & p\hl{o}d\tb{amos}    & p\hl{o}d\tb{áis}    & p\hl{ue}d\tb{an}   \\
+    sentir       & s\hl{ie}nt\tb{a}  & s\hl{ie}nt\tb{as}  & s\hl{ie}nt\tb{a}  & s\hl{i}nt\tb{amos}   & s\hl{i}nt\tb{áis}   & s\hl{ie}nt\tb{an}  \\
+    dormir       & d\hl{ue}rm\tb{a}  & d\hl{ue}rm\tb{as}  & d\hl{ue}rm\tb{a}  & d\hl{u}rm\tb{amos}   & d\hl{u}rm\tb{áis}   & d\hl{ue}rm\tb{an}  \\
+    pedir        & p\hl{i}d\tb{a}    & p\hl{i}d\tb{as}    & p\hl{i}d\tb{a}    & p\hl{i}d\tb{amos}    & p\hl{i}d\tb{áis}    & p\hl{i}d\tb{an}
+    \end{tabular}
 }
 \column{0.4}
-\block{Ojalá}{
+\block{Subjuntivo Presente: unregelmäßige Verben}{
+    \setlength{\tabcolsep}{0.7em}
     \Large
-    Hauptsatz mit \textbf{ojalá} erfordert den \textbf{subjuntivo}.
+    \begin{tabular}{lllll}
+    ser         & estar        & haber        & ir           & saber         \\
+    se\tb{a}    & est\tb{é}    & hay\tb{a}    & vay\tb{a}    & sep\tb{a}     \\
+    se\tb{as}   & est\tb{és}   & hay\tb{as}   & vay\tb{as}   & sep\tb{as}    \\
+    se\tb{a}    & est\tb{é}    & hay\tb{a}    & vay\tb{a}    & sep\tb{a}     \\
+    se\tb{amos} & est\tb{emos} & hay\tb{amos} & vay\tb{amos} & sep\tb{amos}  \\
+    se\tb{áis}  & est\tb{éis}  & hay\tb{áis}  & vay\tb{áis}  & sep\tb{áis}   \\
+    se\tb{an}   & est\tb{én}   & hay\tb{an}   & vay\tb{an}   & sep\tb{an}
+    \end{tabular}
 }
 \end{columns}
 %-----------------------------------------------------
 \begin{columns}
 \column{0.3}
-\block{}{
+\block{Perfecto des Subjuntivo}{
     \Large
+    ~\hfill
+    \begin{tabular}{lll}
+    haya & \multirow{6}{70mm}{$\left.\rule{0pt}{130pt}\right\}$~+~Partizip} \\
+    hayas \\
+    haya \\
+    hayamos \\
+    hayáis \\
+    hayan
+    \end{tabular}
+    \hfill~
 }
 \column{0.7}
-\block{}{
+\block{Perfecto des Subjuntivo}{
     \Large
+    Bezieht sich auf die Vergangenheit, hat aber unmittelbaren Bezug zur Gegenwart.
+    \vskip20pt
+    \coloredbox[]{
+    Ojalá \textbf{haya pensado} en todo.\\
+    Espero que \textbf{hayas ido } a casa. \\
+    Le agradezco que nos \textbf{haya vistado}. \\
+    Me alegro de que nos \textbf{hayamos conocido}. \\
+    Lástima que no \textbf{hayáis visto} a los niños. \\
+    Es posible que \textbf{hayan quedado} tapas.
+    }
 }
 \end{columns}
 
