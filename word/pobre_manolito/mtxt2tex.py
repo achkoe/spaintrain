@@ -19,12 +19,12 @@ PAIRSSTART = u"""
 \begin{pairs}
 """
 
-PAIRSSTOP = ur"""
+PAIRSSTOP = r"""
 \end{pairs}
 \Columns
 """
 
-CHAPTERSTART = ur"""
+CHAPTERSTART = r"""
     \begin{{{side}}}
     \beginnumbering
     \pstart
@@ -32,7 +32,7 @@ CHAPTERSTART = ur"""
     \pend
 """
 
-CHAPTERSTOP = ur"""
+CHAPTERSTOP = r"""
     \endnumbering
     \end{{{side}}}
 """
@@ -69,7 +69,6 @@ def process_environment(text, ddict):
         elif inenvironment:
             linelist[index] = re.sub("<([^>]*)>", r"\item[\1]", line)
     return "\n".join(linelist)
-
 
 
 def process(args):
@@ -110,29 +109,29 @@ def process_replace(text):
     }
     wordlist = []
     subdict = OrderedDict([
-            (ur"“", {"r": ur'"', "flags": 0}),
-            (ur"”", {"r": ur'"', "flags": 0}),
-            (ur"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": ur"\2\\footnote{\1}", "flags": 0}),
+            (r"“", {"r": r'"', "flags": 0}),
+            (r"”", {"r": r'"', "flags": 0}),
+            (r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
 
-            (ur"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": ur"endnote", "flags": 0}),
+            (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
 
-            (ur"\*\*([^*]+)\*\*", {"r": ur"\\textbf{\1}", "flags": 0}),
-            (ur"__([^_]+)__", {"r": ur"\\uline{\1}", "flags": 0}),
-            (ur'\"([^\"]+)\"', {"r": ur"\\glqq{}\1\\grqq{}", "flags": 0}),
-            (ur"-->", {"r": ur"$\\rightarrow$ ", "flags": 0}),
-            (ur"\.att", {"r": ur"\\danger{}", "flags": 0}),
-            (ur"\.rem", {"r": ur"\\eye{}", "flags": 0}),
-            (ur"\.\.\.", {"r": ur"$\\ndots$ ", "flags": 0}),
-            (ur"//(.+?)//", {"r": ur"\\textit{\1}", "flags": 0}),
-            (ur"\|\|([^|]+)\|\|", {"r": ur"\\fbox{\1}", "flags": 0}),
-            (ur"<(.+)>", {"r": ur"\\begin{small}\1\\end{small}", "flags": 0}),
-            (ur"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": ur"\\section{\1}", "flags": re.MULTILINE}),
-            (ur"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": ur"\\section*{\1}", "flags": re.MULTILINE}),
-            (ur"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": ur"\\subsection{\1}", "flags": re.MULTILINE}),
-            (ur"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": ur"\\subsection*{\1}", "flags": re.MULTILINE}),
-            (ur"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": ur"\\subsubsection*{\1}", "flags": re.MULTILINE}),
-            (ur"\s*/(\d+)/\s*", {"r": ur"~\\sidenote{\1}", "flags": 0}),
-            (ur"\s*%(\d+)\s*", {"r": ur"~\\grammarnote{\1}", "flags": 0})
+            (r"\*\*([^*]+)\*\*", {"r": r"\\textbf{\1}", "flags": 0}),
+            (r"__([^_]+)__", {"r": r"\\uline{\1}", "flags": 0}),
+            (r'\"([^\"]+)\"', {"r": r"\\glqq{}\1\\grqq{}", "flags": 0}),
+            (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
+            (r"\.att", {"r": r"\\danger{}", "flags": 0}),
+            (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
+            (r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
+            (r"//(.+?)//", {"r": r"\\textit{\1}", "flags": 0}),
+            (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
+            (r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
+            (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"\\section{\1}", "flags": re.MULTILINE}),
+            (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\section*{\1}", "flags": re.MULTILINE}),
+            (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"\\subsection{\1}", "flags": re.MULTILINE}),
+            (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"\\subsection*{\1}", "flags": re.MULTILINE}),
+            (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
+            (r"\s*/(\d+)/\s*", {"r": r"~\\sidenote{\1}", "flags": 0}),
+            (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0})
     ])
 
     def replfn(adict, r, matchobj):
@@ -276,6 +275,48 @@ def cleanup(args):
         text = fh.read()
 
     args.outfile.write(fmt(prepare(text)))
+
+
+def make_dictionary():
+    with open("_words.txt") as fh:
+        wordlist = fh.read().splitlines()
+        outlist = []
+        firstletterlist = []
+        for index, line in enumerate(wordlist):
+            line = line.replace("<br/>", "; ")
+            wlist = line.split("|")
+            esword = wlist[0]
+            if esword.startswith("el ") or esword.startswith("la ") or esword.startswith("los ") or esword.startswith("las ") or esword.startswith("a "):
+                firstletter = esword.split(" ")[1][0]
+            else:
+                firstletter = esword[0]
+            if firstletter not in firstletterlist:
+                firstletterlist.append(firstletter)
+                outlist.append("\\hypertarget{{a{}}}{{\\item[{}]}}".format(len(firstletterlist), wlist[0]))
+            else:
+                outlist.append("\\item[{}]".format(wlist[0]))
+            outlist.append("{}".format(wlist[1]))
+    link = " - ".join("\\hyperlink{{a{}}}{{{}}}".format(i, a) for i, a in enumerate(firstletterlist))
+    print(link)
+    with open("dictionary.tex", "w") as fh:
+        fh.write(r"""
+            \documentclass[fontsize=11pt]{{scrartcl}}
+            \usepackage{{fontspec}}
+            \usepackage{{latexsym}}
+            \usepackage{{pifont}}
+
+            \usepackage[colorlinks=true, anchorcolor=red]{{hyperref}}
+            \hypersetup{{colorlinks, linkcolor=red, citecolor=blue, urlcolor=red}}
+            \usepackage[utf8]{{inputenc}}
+            \usepackage[german, spanish]{{babel}}
+            \begin{{document}}
+            {link}
+            \begin{{description}}
+            {d}
+            \end{{description}}
+            \end{{document}}
+            """.format(d="\n".join(outlist), link=link))
+    pass
 
 
 class Test(unittest.TestCase):
