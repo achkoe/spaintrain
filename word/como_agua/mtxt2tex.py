@@ -286,10 +286,11 @@ def make_dictionary():
             line = line.replace("<br/>", "; ")
             wlist = line.split("|")
             esword = wlist[0]
-            if esword.startswith("el ") or esword.startswith("la ") or esword.startswith("los ") or esword.startswith("las ") or esword.startswith("a "):
+            if esword.startswith("el ") or esword.startswith("la ") or esword.startswith("los ") or esword.startswith("las ") or esword.startswith("a ") or esword.startswith("de "):
                 firstletter = esword.split(" ")[1][0]
             else:
                 firstletter = esword[0]
+            print(esword, firstletter)
             if firstletter not in firstletterlist:
                 firstletterlist.append(firstletter)
                 outlist.append("\\hypertarget{{a{}}}{{\\item[{}]}}".format(len(firstletterlist), wlist[0]))

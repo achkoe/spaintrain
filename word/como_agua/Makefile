@@ -24,7 +24,7 @@ all: book.tex $(texfiles)
 
 %.tex: %.txt
 	python mtxt2tex.py -o $@ $<
-	python3 -c "import mtxt2tex as m; m.make_dictionary()"
+	python -c "import mtxt2tex as m; m.make_dictionary()"
 	cd $(dir $<) && sh ../encrypt.sh && cd ..
 	cd $(dir $<) && sh ../encrypt2.sh && cd ..
 
