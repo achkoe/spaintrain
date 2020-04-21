@@ -163,10 +163,10 @@ def process_replace(text):
         a_ = a[0]
         b_ = b[0]
         wlist = a_.split()
-        if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el"):
+        if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de"):
             a_ = wlist[1]
         wlist = b_.split()
-        if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el"):
+        if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de"):
             b_ = wlist[1]
         return cmp(a_.lower(), b_.lower())
 
@@ -279,6 +279,7 @@ def cleanup(args):
 
 def make_dictionary():
     with open("_words.txt") as fh:
+        s = 0
         wordlist = fh.read().splitlines()
         outlist = []
         firstletterlist = []
@@ -291,9 +292,15 @@ def make_dictionary():
             else:
                 firstletter = esword[0]
             print(esword, firstletter)
+            firstletter = firstletter.upper()
             if firstletter not in firstletterlist:
                 firstletterlist.append(firstletter)
-                outlist.append("\\hypertarget{{a{}}}{{\\item[{}]}}".format(len(firstletterlist), wlist[0]))
+                if s != 0:
+                    outlist.append("\\end{description}")
+                outlist.append("\\hypertarget{{a{}}}{{\\section*{{{}}}}}".format(len(firstletterlist), firstletter))
+                outlist.append("\\begin{description}")
+                s = 1
+                outlist.append("\\item[{}]".format(wlist[0]))
             else:
                 outlist.append("\\item[{}]".format(wlist[0]))
             outlist.append("{}".format(wlist[1]))
@@ -312,7 +319,7 @@ def make_dictionary():
             \usepackage[german, spanish]{{babel}}
             \begin{{document}}
             {link}
-            \begin{{description}}
+
             {d}
             \end{{description}}
             \end{{document}}
