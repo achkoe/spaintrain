@@ -296,9 +296,9 @@ def make_dictionary():
             if firstletter not in firstletterlist:
                 firstletterlist.append(firstletter)
                 if s != 0:
-                    outlist.append("\\end{description}")
+                    outlist.append("\\end{compactdesc}")
                 outlist.append("\\hypertarget{{a{}}}{{\\section*{{{}}}}}".format(len(firstletterlist), firstletter))
-                outlist.append("\\begin{description}")
+                outlist.append("\\begin{compactdesc}")
                 s = 1
                 outlist.append("\\item[{}]".format(wlist[0]))
             else:
@@ -312,6 +312,7 @@ def make_dictionary():
             \usepackage{{fontspec}}
             \usepackage{{latexsym}}
             \usepackage{{pifont}}
+            \usepackage{{paralist}}
 
             \usepackage[colorlinks=true, anchorcolor=red]{{hyperref}}
             \hypersetup{{colorlinks, linkcolor=red, citecolor=blue, urlcolor=red}}
@@ -321,7 +322,7 @@ def make_dictionary():
             {link}
 
             {d}
-            \end{{description}}
+            \end{{compactdesc}}
             \end{{document}}
             """.format(d="\n".join(outlist), link=link))
     pass
