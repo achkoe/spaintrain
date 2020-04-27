@@ -44,7 +44,8 @@ def collect_words():
         # "../word/crimen_de_la_giralda/contents.txt",
         #"../word/el_camino_de_las_estrellas/contents.txt",
         #"../word/me_voy_o_me_quedo/contents.txt"
-        "../word/manolito_gafotas/contents.txt"
+        #"../word/manolito_gafotas/contents.txt"
+        "../word/pobre_manolito/contents.txt"
     ]
 
     regexp = re.compile(u"\[[^\]]*\]")
@@ -68,6 +69,7 @@ def collect_words():
         "../word/el_camino_de_las_estrellas/contents.txt": {"n": "El camino de las estrellas", "s": False},
         "../word/me_voy_o_me_quedo/contents.txt": {"n": "Me voy o me quedo", "s": False},
         "../word/manolito_gafotas/contents.txt": {"n": "Manolito Gafotas 1", "s": False},
+        "../word/pobre_manolito/contents.txt": {"n": "Pobre Manolito", "s": False},
     }
     wordlist = []
     for fileitem in filelist:
