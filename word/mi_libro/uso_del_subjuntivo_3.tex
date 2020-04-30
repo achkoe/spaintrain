@@ -1,0 +1,180 @@
+% we don't want ae.sty
+\expandafter\def\csname ver@ae.sty\endcsname{}
+
+\documentclass[25pt, a0paper]{tikzposter} % See Section 3
+\usepackage{multirow}
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{color}
+\newcommand{\hl}[1]{\textbf{\textcolor{magenta}{#1}}}
+\newcommand{\tb}[1]{\textbf{#1}}
+\title{Subjuntivo 3}
+
+\settitle{ \centering \vbox{\centering \color{titlefgcolor} {\bfseries \Huge \sc \@title \par} }}
+
+\usecolorpalette{BlueGrayOrange}
+\colorlet{innerblocktitlebgcolor}{colorOne}%
+\colorlet{innerblocktitlefgcolor}{white}%
+%\colorlet{innerblockbodybgcolor}{colorThree!30!white}%
+%\colorlet{innerblockbodyfgcolor}{black}%
+
+
+\begin{document}
+\maketitle % See Section 4.1
+
+
+\block{presente, pretérito perfecto, futuro simple, imperativo}{
+    \setlength{\tabcolsep}{0em}
+    \begin{center}
+    \Large
+    Wenn im Hauptsatz \\
+    \tb{presente}, \tb{pretérito perfecto}, \tb{futuro simple}, \tb{imperativo} \\
+    steht, folgt im Nebensatz:
+    \end{center}
+    \vskip20pt
+    \begin{tabular}{cc}
+        \innerblock[bodywidthscale=0.45, titlewidthscale=0.45]{
+            \Large
+            presente de subjuntivo
+        }{
+            \centering
+            \Large
+            wenn die Handlung in der \tb{Gegenwart} oder \tb{Zukunft} erfolgt
+            \vskip20pt
+            \coloredbox[]{
+                Me \hl{piden} que les \hl{cuente} sobre Peru. \\
+                Me \hl{han pedido} que les \hl{cuente} sobre Peru. \\
+                \hl{Haŕe} lo que \hl{pueda}. \\
+                \hl{Llámame} cuando \hl{puedas}.
+            }
+        }
+        &
+        \innerblock[bodywidthscale=0.45, titlewidthscale=0.45]{
+            \Large
+            perfecto de subjuntivo
+        }{
+            \centering
+            \Large
+            wenn die Handlung \tb{bereits erfolgt} ist
+            \vskip20pt
+            \coloredbox[]{
+                Me \hl{alegro} de que me \hl{hayan invitado}. \\
+                Me \hl{he alegrado} de que me \hl{hayan invitado}. \\
+                Te \hl{daré} el nombre cuando me \hl{hayan confirmado} la reserva. \\
+                \hl{Llámame} cuando \hl{hayas descansado}.
+            }
+        }
+    \end{tabular}
+}
+
+\block{pretérito imperfecto, pretérito indefindo, pretérito pluscuamperfecto}{
+    \setlength{\tabcolsep}{0em}
+    \begin{center}
+    \Large
+    Wenn im Hauptsatz \\
+    \tb{pretérito imperfecto}, \tb{pretérito indefindo}, \tb{pretérito pluscuamperfecto} \\
+    steht, folgt im Nebensatz:
+    \end{center}
+    \vskip20pt
+    \begin{tabular}{cc}
+        \innerblock[bodywidthscale=0.45, titlewidthscale=0.45]{
+            \Large
+            imperfecto de subjuntivo
+        }{
+            \centering
+            \Large
+            wenn die Handlung \tb{gleichzeitig} oder \tb{nachzeitig} erfolgt.
+            \vskip20pt
+            \coloredbox[]{
+                No \hl{podían} creer  que el clima \hl{fuera} así. \\
+                Me \hl{pidieron} que los  \hl{acompañara}. \\
+                Me \hl{habían recomendado} que \hl{fuera} personalmente.
+            }
+        }
+        &
+        \innerblock[bodywidthscale=0.45, titlewidthscale=0.45]{
+            \Large
+            pluscuamperfecto de subjuntivo
+        }{
+            \centering
+            \Large
+            wenn die Handlung \tb{vor} einer anderen Handlung erfolgt.
+            \vskip20pt
+            \coloredbox[]{
+                No \hl{podían} creer que no \hl{hubiera habido} ciudades. \\
+                \hl{Se quejaron} de que no les \hl{hubiera informado} bien. \\
+                 Me \hl{habían dicho} que \hl{hubiera tenido} que esperar.
+            }
+        }
+    \end{tabular}
+}
+
+\block{condicional simple}{
+    \setlength{\tabcolsep}{0em}
+    \begin{center}
+    \Large
+    Wenn im Hauptsatz \\
+    \tb{condicional simple} \\
+    steht, folgt im Nebensatz:
+    \vskip20pt
+    \innerblock[bodywidthscale=0.45, titlewidthscale=0.45]{
+        \Large
+        imperfecto de subjuntivo
+    }{
+        \vskip20pt
+        \coloredbox[]{
+            Me \hl{encantaría} que \hl{tomáramos} unos mates.
+            Me \hl{gustaría} que \hl{conocieran} a mis país.
+        }
+    }
+    \end{center}
+}
+
+\block{condicional compuesto}{
+    \setlength{\tabcolsep}{0em}
+    \begin{center}
+    \Large
+    Wenn im Hauptsatz \\
+    \tb{condicional compuesto} \\
+    steht, folgt im Nebensatz:
+    \end{center}
+    \vskip20pt
+    \begin{tabular}{cc}
+        \innerblock[bodywidthscale=0.45, titlewidthscale=0.45]{
+            \Large
+            imperfecto de subjuntivo
+        }{
+            \centering
+            \Large
+            bei \tb{Gleichzeitigkeit} oder \tb{Vorzeitigkeit}.
+            \vskip20pt
+            \coloredbox[]{
+                Me \hl{habría encantado} que lo \hl{vieras} todo.
+            }
+        }
+        &
+        \innerblock[bodywidthscale=0.45, titlewidthscale=0.45]{
+            \Large
+            pluscuamperfecto de subjuntivo
+        }{
+            \centering
+            \Large
+            bei \tb{Nachzeitigkeit}.
+            \vskip20pt
+            \coloredbox[]{
+                Me \hl{habría gustado} que \hl{hubieran conocido} más.
+            }
+        }
+    \end{tabular}
+}
+
+\end{document}
+
+
+
+
+
+
+
+
