@@ -1,0 +1,1403 @@
+{
+    "168_a_presente_subjuntivo": {
+        "image": "images_hueber_2/168_a_presente_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/168_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": [
+            {
+                "name": "2020-05-20-1",
+                "textlist": [
+                    {
+                        "x": 868.0,
+                        "y": 267.0,
+                        "text": "habl\u00e9is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 872.0,
+                        "y": 239.0,
+                        "text": "hablemos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 870.0,
+                        "y": 202.0,
+                        "text": "hable",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 869.0,
+                        "y": 173.0,
+                        "text": "hables",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 874.0,
+                        "y": 137.0,
+                        "text": "hable",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 732.0,
+                        "y": 270.0,
+                        "text": "beb\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 726.0,
+                        "y": 236.0,
+                        "text": "bebamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 729.0,
+                        "y": 200.0,
+                        "text": "beba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 727.0,
+                        "y": 139.0,
+                        "text": "beba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 587.0,
+                        "y": 304.0,
+                        "text": "suban",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 587.0,
+                        "y": 205.0,
+                        "text": "suba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 587.0,
+                        "y": 175.0,
+                        "text": "subas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 586.0,
+                        "y": 140.0,
+                        "text": "suba",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 447.0,
+                        "y": 303.0,
+                        "text": "coman",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 443.0,
+                        "y": 272.0,
+                        "text": "com\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 445.0,
+                        "y": 232.0,
+                        "text": "comamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 447.0,
+                        "y": 171.0,
+                        "text": "comas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 303.0,
+                        "y": 299.0,
+                        "text": "tomen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 303.0,
+                        "y": 268.0,
+                        "text": "tom\u00e9is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 298.0,
+                        "y": 208.0,
+                        "text": "tome",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 303.0,
+                        "y": 170.0,
+                        "text": "tomes",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "169_a_presente_subjuntivo": {
+        "image": "images_hueber_2/169_a_presente_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/169_s_a.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "169_b_presente_subjuntivo": {
+        "image": "images_hueber_2/169_b_presente_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/169_s_b.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "170_a_preterito_imperfecto_subjuntvo": {
+        "image": "images_hueber_2/170_a_preterito_imperfecto_subjuntvo.png",
+        "solution": {
+            "image": "images_hueber_2/170_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "171_a_presente_preterito_imperfecto_subjuntivo": {
+        "image": "images_hueber_2/171_a_presente_preterito_imperfecto_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/171_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "172_a_preterito_perfecto_subjuntivo": {
+        "image": "images_hueber_2/172_a_preterito_perfecto_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/172_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "173_a_preterito_pluscuamperfecto_subjuntivo": {
+        "image": "images_hueber_2/173_a_preterito_pluscuamperfecto_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/173_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "174_a_subjuntivo_in_hauptsaetzen": {
+        "image": "images_hueber_2/174_a_subjuntivo_in_hauptsaetzen.png",
+        "solution": {
+            "image": "images_hueber_2/174_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "175_a_subjuntivo_wuensche_ojala": {
+        "image": "images_hueber_2/175_a_subjuntivo_wuensche_ojala.png",
+        "solution": {
+            "image": "images_hueber_2/175_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "176_a_subjuntivo_wuensche_preterito_perfecto_pluscuamperfecto": {
+        "image": "images_hueber_2/176_a_subjuntivo_wuensche_preterito_perfecto_pluscuamperfecto.png",
+        "solution": {
+            "image": "images_hueber_2/176_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "177_a_subjuntivo_wuensche": {
+        "image": "images_hueber_2/177_a_subjuntivo_wuensche.png",
+        "solution": {
+            "image": "images_hueber_2/177_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "178_a_indicativo_oder_subjuntivo": {
+        "image": "images_hueber_2/178_a_indicativo_oder_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/178_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "179_a_subjuntivo_in_dass_saetzen": {
+        "image": "images_hueber_2/179_a_subjuntivo_in_dass_saetzen.png",
+        "solution": {
+            "image": "images_hueber_2/179_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "180_a_subjuntivo": {
+        "image": "images_hueber_2/180_a_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/180_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "181_a_subjuntivo": {
+        "image": "images_hueber_2/181_a_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/181_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "182_a_que_subjuntivo": {
+        "image": "images_hueber_2/182_a_que_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/182_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "183_a_subjuntivo_verneinung": {
+        "image": "images_hueber_2/183_a_subjuntivo_verneinung.png",
+        "solution": {
+            "image": "images_hueber_2/183_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "184_a_zeitenfolge_dass_subjuntivo": {
+        "image": "images_hueber_2/184_a_zeitenfolge_dass_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/184_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "185_a_subjuntivo": {
+        "image": "images_hueber_2/185_a_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/185_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "186_a_subjuntivo": {
+        "image": "images_hueber_2/186_a_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/186_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "187_a_subjuntivo": {
+        "image": "images_hueber_2/187_a_subjuntivo.png",
+        "solution": {
+            "image": "images_hueber_2/187_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "188_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/188_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/188_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "189_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/189_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/189_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "190_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/190_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/190_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "191_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/191_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/191_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "192_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/192_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/192_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "193_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/193_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/193_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "194_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/194_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/194_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "195_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/195_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/195_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "196_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/196_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/196_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "197_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/197_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/197_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "198_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/198_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/198_b_subjuntivo_adverbiale_nebensaetze.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "198_s": {
+        "image": "images_hueber_2/198_s.png",
+        "solution": {
+            "image": "images_hueber_2/199_a_subjuntivo_adverbiale_nebensaetze.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "199_s": {
+        "image": "images_hueber_2/199_s.png",
+        "solution": {
+            "image": "images_hueber_2/200_a_subjuntivo_adverbiale_nebensaetze.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "200_s": {
+        "image": "images_hueber_2/200_s.png",
+        "solution": {
+            "image": "images_hueber_2/201_a_subjuntivo_adverbiale_nebensaetze.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "201_s": {
+        "image": "images_hueber_2/201_s.png",
+        "solution": {
+            "image": "images_hueber_2/202_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "202_s": {
+        "image": "images_hueber_2/202_s.png",
+        "solution": {
+            "image": "images_hueber_2/203_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "203_s": {
+        "image": "images_hueber_2/203_s.png",
+        "solution": {
+            "image": "images_hueber_2/204_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "204_s": {
+        "image": "images_hueber_2/204_s.png",
+        "solution": {
+            "image": "images_hueber_2/205_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "205_s": {
+        "image": "images_hueber_2/205_s.png",
+        "solution": {
+            "image": "images_hueber_2/206_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "206_s": {
+        "image": "images_hueber_2/206_s.png",
+        "solution": {
+            "image": "images_hueber_2/207_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "207_s": {
+        "image": "images_hueber_2/207_s.png",
+        "solution": {
+            "image": "images_hueber_2/208_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "208_s": {
+        "image": "images_hueber_2/208_s.png",
+        "solution": {
+            "image": "images_hueber_2/209_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "209_s": {
+        "image": "images_hueber_2/209_s.png",
+        "solution": {
+            "image": "images_hueber_2/210_a_konditionalsaetze_subjuntivo.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "210_a_subjuntivo_relativsaetze": {
+        "image": "images_hueber_2/210_a_subjuntivo_relativsaetze.png",
+        "solution": {
+            "image": "images_hueber_2/210_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "211_a_subjuntivo_relativsaetze": {
+        "image": "images_hueber_2/211_a_subjuntivo_relativsaetze.png",
+        "solution": {
+            "image": "images_hueber_2/211_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "212_a_subjuntivo_relativsaetze": {
+        "image": "images_hueber_2/212_a_subjuntivo_relativsaetze.png",
+        "solution": {
+            "image": "images_hueber_2/212_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "213_a_subjuntivo_relativsaetze": {
+        "image": "images_hueber_2/213_a_subjuntivo_relativsaetze.png",
+        "solution": {
+            "image": "images_hueber_2/213_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "214_a_subjuntivo_relativsaetze": {
+        "image": "images_hueber_2/214_a_subjuntivo_relativsaetze.png",
+        "solution": {
+            "image": "images_hueber_2/214_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "215_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/215_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/215_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "216_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/216_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/216_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    },
+    "217_a_subjuntivo_adverbiale_nebensaetze": {
+        "image": "images_hueber_2/217_a_subjuntivo_adverbiale_nebensaetze.png",
+        "solution": {
+            "image": "images_hueber_2/217_s.png"
+        },
+        "config": [
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294923520,
+                "name": "Default Pen"
+            },
+            {
+                "font": "Noto Sans [unknown],14,-1,5,50,0,0,0,0,0",
+                "color": 4294907027,
+                "name": "Correction Pen"
+            },
+            {
+                "font": "Helvetica,14,-1,5,50,0,0,0,0,0",
+                "color": 4278233600,
+                "name": "Remark Pen"
+            }
+        ],
+        "sessionlist": []
+    }
+}

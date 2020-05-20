@@ -23,7 +23,7 @@ import logging
 import traceback
 import random
 from PyQt5 import QtCore, QtGui, QtWidgets, QtPrintSupport
-import nncharts
+#import nncharts
 
 wintitle = "Text Writer"
 """str: Windows Title shown in the title bar."""
@@ -1138,6 +1138,6 @@ if __name__ == '__main__':
     logging.basicConfig(level=LOGDICT[args.log],
                         format='%(levelname)s:%(lineno)d:%(message)s')
     textwriter = TextWriter(args)
-    nncharts.init(textwriter)
+    #nncharts.init(textwriter)
     textwriter.show()
     sys.exit(app.exec_())
