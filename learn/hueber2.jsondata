@@ -198,7 +198,398 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2020-05-21-1",
+                "textlist": [
+                    {
+                        "x": 508.0,
+                        "y": 950.0,
+                        "text": "jueguen",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 508.0,
+                        "y": 834.0,
+                        "text": "juegue",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 508.0,
+                        "y": 756.0,
+                        "text": "juegue",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 878.0,
+                        "y": 909.0,
+                        "text": "ofrezc\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 880.0,
+                        "y": 949.0,
+                        "text": "ofrezcan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 878.0,
+                        "y": 866.0,
+                        "text": "ofrezcamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 888.0,
+                        "y": 792.0,
+                        "text": "ofrezcas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 884.0,
+                        "y": 832.0,
+                        "text": "ofrezca",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 879.0,
+                        "y": 749.0,
+                        "text": "ofrezca",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 743.0,
+                        "y": 947.0,
+                        "text": "duerman",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 736.0,
+                        "y": 905.0,
+                        "text": "durm\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 732.0,
+                        "y": 869.0,
+                        "text": "durmamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 736.0,
+                        "y": 792.0,
+                        "text": "duermas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 738.0,
+                        "y": 829.0,
+                        "text": "duerma",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 733.0,
+                        "y": 749.0,
+                        "text": "duerma",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 598.0,
+                        "y": 954.0,
+                        "text": "mientan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 594.0,
+                        "y": 912.0,
+                        "text": "mint\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 588.0,
+                        "y": 793.0,
+                        "text": "mientas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 591.0,
+                        "y": 834.0,
+                        "text": "mienta",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 594.0,
+                        "y": 758.0,
+                        "text": "mienta",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 438.0,
+                        "y": 950.0,
+                        "text": "juguen",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 449.0,
+                        "y": 907.0,
+                        "text": "jugu\u00e9is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 445.0,
+                        "y": 874.0,
+                        "text": "juguemos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 444.0,
+                        "y": 833.0,
+                        "text": "jugue",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 441.0,
+                        "y": 757.0,
+                        "text": "jugue",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 301.0,
+                        "y": 956.0,
+                        "text": "prueben",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 300.0,
+                        "y": 918.0,
+                        "text": "prob\u00e9is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 297.0,
+                        "y": 878.0,
+                        "text": "probemos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 301.0,
+                        "y": 798.0,
+                        "text": "pruebes",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 299.0,
+                        "y": 835.0,
+                        "text": "pruebe",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 297.0,
+                        "y": 754.0,
+                        "text": "pruebe",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 878.0,
+                        "y": 489.0,
+                        "text": "empiecen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 877.0,
+                        "y": 451.0,
+                        "text": "empec\u00e9is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 873.0,
+                        "y": 402.0,
+                        "text": "empecemos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 875.0,
+                        "y": 327.0,
+                        "text": "empieces",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 874.0,
+                        "y": 366.0,
+                        "text": "empiece",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 872.0,
+                        "y": 290.0,
+                        "text": "empiece",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 731.0,
+                        "y": 490.0,
+                        "text": "vengan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 734.0,
+                        "y": 450.0,
+                        "text": "veng\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 732.0,
+                        "y": 410.0,
+                        "text": "vengamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 731.0,
+                        "y": 333.0,
+                        "text": "vengas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 732.0,
+                        "y": 371.0,
+                        "text": "venga",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 727.0,
+                        "y": 293.0,
+                        "text": "venga",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 589.0,
+                        "y": 493.0,
+                        "text": "construyan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 582.0,
+                        "y": 452.0,
+                        "text": "construy\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 580.0,
+                        "y": 412.0,
+                        "text": "construyamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 583.0,
+                        "y": 335.0,
+                        "text": "construyas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 584.0,
+                        "y": 369.0,
+                        "text": "construya",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 580.0,
+                        "y": 290.0,
+                        "text": "construya",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 449.0,
+                        "y": 490.0,
+                        "text": "sirvan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 444.0,
+                        "y": 451.0,
+                        "text": "sirv\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 443.0,
+                        "y": 417.0,
+                        "text": "sirvamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 445.0,
+                        "y": 369.0,
+                        "text": "sirva",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 440.0,
+                        "y": 331.0,
+                        "text": "sirvas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 442.0,
+                        "y": 295.0,
+                        "text": "sirva",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "169_b_presente_subjuntivo": {
         "image": "images_hueber_2/169_b_presente_subjuntivo.png",
