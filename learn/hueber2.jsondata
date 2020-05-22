@@ -613,7 +613,167 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2020-05-22-1",
+                "textlist": [
+                    {
+                        "x": 861.0,
+                        "y": 644.0,
+                        "text": "sep\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 860.0,
+                        "y": 604.0,
+                        "text": "sepamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 867.0,
+                        "y": 515.0,
+                        "text": "sepas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 861.0,
+                        "y": 478.0,
+                        "text": "sepa",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 695.0,
+                        "y": 682.0,
+                        "text": "sean",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 694.0,
+                        "y": 642.0,
+                        "text": "se\u00e1is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 695.0,
+                        "y": 517.0,
+                        "text": "seas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 695.0,
+                        "y": 472.0,
+                        "text": "sea",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 535.0,
+                        "y": 678.0,
+                        "text": "hayan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 533.0,
+                        "y": 600.0,
+                        "text": "hayamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 537.0,
+                        "y": 555.0,
+                        "text": "haya",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 539.0,
+                        "y": 512.0,
+                        "text": "hayas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 372.0,
+                        "y": 474.0,
+                        "text": "vaya",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 209.0,
+                        "y": 636.0,
+                        "text": "est\u00e9is",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 210.0,
+                        "y": 587.0,
+                        "text": "estemos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 214.0,
+                        "y": 515.0,
+                        "text": "est\u00e9s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 215.0,
+                        "y": 471.0,
+                        "text": "est\u00e9",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 57.0,
+                        "y": 668.0,
+                        "text": "den",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 58.0,
+                        "y": 591.0,
+                        "text": "demos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 54.0,
+                        "y": 550.0,
+                        "text": "d\u00e9",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 50.0,
+                        "y": 497.0,
+                        "text": "des",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 373.0,
+                        "y": 592.0,
+                        "text": "vayamos",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "170_a_preterito_imperfecto_subjuntvo": {
         "image": "images_hueber_2/170_a_preterito_imperfecto_subjuntvo.png",
