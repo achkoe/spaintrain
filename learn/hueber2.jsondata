@@ -797,7 +797,258 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2020-05-23-1",
+                "textlist": [
+                    {
+                        "x": 811.0,
+                        "y": 571.0,
+                        "text": "durmierais/durmieseis",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 799.0,
+                        "y": 458.0,
+                        "text": "pudi\u00e9ramos/pudi\u00e9semos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 848.0,
+                        "y": 427.0,
+                        "text": "dijeran/dijesen",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 317.0,
+                        "y": 424.0,
+                        "text": "dijeron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 722.0,
+                        "y": 383.0,
+                        "text": "vendiera/vendiese",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 339.0,
+                        "y": 389.0,
+                        "text": "vendieron",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 727.0,
+                        "y": 219.0,
+                        "text": "supi\u00e9ramos/supi\u00e9semos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 712.0,
+                        "y": 688.0,
+                        "text": "prefirieras/prefierises",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 192.0,
+                        "y": 697.0,
+                        "text": "prefirieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 708.0,
+                        "y": 657.0,
+                        "text": "tuvieran/tuviesen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 188.0,
+                        "y": 660.0,
+                        "text": "tuvieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 718.0,
+                        "y": 620.0,
+                        "text": "pidiera/pidiese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 184.0,
+                        "y": 625.0,
+                        "text": "pidieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 709.0,
+                        "y": 586.0,
+                        "text": "durmiereis/durmieseis",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 183.0,
+                        "y": 595.0,
+                        "text": "durmierion",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 715.0,
+                        "y": 539.0,
+                        "text": "creyera/creyese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 177.0,
+                        "y": 565.0,
+                        "text": "creyeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 725.0,
+                        "y": 496.0,
+                        "text": "tradujeras/tradujeses",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 246.0,
+                        "y": 489.0,
+                        "text": "tradujeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 701.0,
+                        "y": 460.0,
+                        "text": "pudiemos",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 240.0,
+                        "y": 455.0,
+                        "text": "pudiereon",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 727.0,
+                        "y": 429.0,
+                        "text": "diera/diese",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 237.0,
+                        "y": 424.0,
+                        "text": "dieron",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 724.0,
+                        "y": 397.0,
+                        "text": "vindiera/vindiese",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 241.0,
+                        "y": 392.0,
+                        "text": "vindieron",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 723.0,
+                        "y": 361.0,
+                        "text": "leyeran/leyesen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 239.0,
+                        "y": 358.0,
+                        "text": "leyeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 722.0,
+                        "y": 328.0,
+                        "text": "quisiera",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 238.0,
+                        "y": 324.0,
+                        "text": "quisieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 728.0,
+                        "y": 299.0,
+                        "text": "vinieras/vinieses",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 241.0,
+                        "y": 290.0,
+                        "text": "vienieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 727.0,
+                        "y": 265.0,
+                        "text": "comprarais/compraseis",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 239.0,
+                        "y": 257.0,
+                        "text": "compraron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 727.0,
+                        "y": 234.0,
+                        "text": "supieramos/supiesemos",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 236.0,
+                        "y": 227.0,
+                        "text": "supieron",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "171_a_presente_preterito_imperfecto_subjuntivo": {
         "image": "images_hueber_2/171_a_presente_preterito_imperfecto_subjuntivo.png",
