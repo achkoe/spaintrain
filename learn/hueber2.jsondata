@@ -1416,6 +1416,256 @@
                         "state": 1
                     }
                 ]
+            },
+            {
+                "name": "2020-05-26-1",
+                "textlist": [
+                    {
+                        "x": 821.0,
+                        "y": 689.0,
+                        "text": "prefierieras/prefirieses",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 822.0,
+                        "y": 576.0,
+                        "text": "durmierais/durmieseis",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 836.0,
+                        "y": 492.0,
+                        "text": "tradujeras/tradujeses",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 807.0,
+                        "y": 449.0,
+                        "text": "pudi\u00e9ramos/pudi\u00e9semos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 853.0,
+                        "y": 296.0,
+                        "text": "vinieras/vienieses",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 814.0,
+                        "y": 257.0,
+                        "text": "comprarais/compraseis",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 804.0,
+                        "y": 220.0,
+                        "text": "supi\u00e9ramos/supi\u00e9semos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 640.0,
+                        "y": 689.0,
+                        "text": "prefieras/prefieses",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 193.0,
+                        "y": 696.0,
+                        "text": "prefirieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 704.0,
+                        "y": 656.0,
+                        "text": "tuvieran/tuviesen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 190.0,
+                        "y": 663.0,
+                        "text": "tuvieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 717.0,
+                        "y": 621.0,
+                        "text": "pidiera/pidiese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 197.0,
+                        "y": 627.0,
+                        "text": "pidieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 659.0,
+                        "y": 590.0,
+                        "text": "durmier\u00e1is/durmies\u00e9is",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 183.0,
+                        "y": 593.0,
+                        "text": "durmieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 714.0,
+                        "y": 547.0,
+                        "text": "creyera/creyese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 185.0,
+                        "y": 555.0,
+                        "text": "creyeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 616.0,
+                        "y": 491.0,
+                        "text": "tradujieras/tradujieses",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 235.0,
+                        "y": 487.0,
+                        "text": "tradujeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 681.0,
+                        "y": 463.0,
+                        "text": "pudieramos/pudiesemos",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 231.0,
+                        "y": 454.0,
+                        "text": "pudieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 718.0,
+                        "y": 426.0,
+                        "text": "dijeran/dijesen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 232.0,
+                        "y": 421.0,
+                        "text": "dijeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 718.0,
+                        "y": 391.0,
+                        "text": "vendiera/vendiese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 227.0,
+                        "y": 388.0,
+                        "text": "vendieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 722.0,
+                        "y": 361.0,
+                        "text": "leyeran/leyesen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 238.0,
+                        "y": 355.0,
+                        "text": "leyeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 724.0,
+                        "y": 328.0,
+                        "text": "quisiera/quisiese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 239.0,
+                        "y": 324.0,
+                        "text": "quisieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 684.0,
+                        "y": 296.0,
+                        "text": "viniera/vieniese",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 234.0,
+                        "y": 291.0,
+                        "text": "vinieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 684.0,
+                        "y": 269.0,
+                        "text": "comprar\u00e1is/compras\u00e9is",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 237.0,
+                        "y": 257.0,
+                        "text": "compraron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 683.0,
+                        "y": 235.0,
+                        "text": "supieramos/supiesemos",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 235.0,
+                        "y": 229.0,
+                        "text": "supieron",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
@@ -2117,7 +2367,139 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2020-05-26-1",
+                "textlist": [
+                    {
+                        "x": 773.0,
+                        "y": 426.0,
+                        "text": "hubiera tra\u00eddo",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 720.0,
+                        "y": 524.0,
+                        "text": "hubi\u00e9ramos comprado",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 58.0,
+                        "y": 431.0,
+                        "text": "h",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 55.0,
+                        "y": 461.0,
+                        "text": "g",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 58.0,
+                        "y": 563.0,
+                        "text": "f",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 59.0,
+                        "y": 627.0,
+                        "text": "e",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 56.0,
+                        "y": 499.0,
+                        "text": "d",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 53.0,
+                        "y": 529.0,
+                        "text": "c",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 57.0,
+                        "y": 664.0,
+                        "text": "b",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 55.0,
+                        "y": 589.0,
+                        "text": "a",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 436.0,
+                        "y": 662.0,
+                        "text": "hubieran tenido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 220.0,
+                        "y": 629.0,
+                        "text": "hubiera escrito",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 323.0,
+                        "y": 596.0,
+                        "text": "hubieran prestado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 220.0,
+                        "y": 558.0,
+                        "text": "hubierais conseguido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 232.0,
+                        "y": 528.0,
+                        "text": "hubieramos comprado",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 165.0,
+                        "y": 498.0,
+                        "text": "hubiera gastado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 313.0,
+                        "y": 464.0,
+                        "text": "hubieras hecho",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 284.0,
+                        "y": 427.0,
+                        "text": "hubiera traido",
+                        "fontindex": 0,
+                        "state": 2
+                    }
+                ]
+            }
+        ]
     },
     "174_a_subjuntivo_in_hauptsaetzen": {
         "image": "images_hueber_2/174_a_subjuntivo_in_hauptsaetzen.png",
