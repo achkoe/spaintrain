@@ -2851,6 +2851,67 @@
                         "state": 2
                     }
                 ]
+            },
+            {
+                "name": "2020-06-28-1",
+                "textlist": [
+                    {
+                        "x": 482.0,
+                        "y": 724.0,
+                        "text": "se haya ido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 480.0,
+                        "y": 655.0,
+                        "text": "hayan salido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 564.0,
+                        "y": 586.0,
+                        "text": "te hayas enterado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 551.0,
+                        "y": 519.0,
+                        "text": "os hay\u00e1is confundido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 637.0,
+                        "y": 459.0,
+                        "text": "nos hayamos perdido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 493.0,
+                        "y": 424.0,
+                        "text": "haya olvidado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 380.0,
+                        "y": 390.0,
+                        "text": "se haya despertado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 229.0,
+                        "y": 353.0,
+                        "text": "hayan abierto",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
@@ -3111,7 +3172,104 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2020-06-28-1",
+                "textlist": [
+                    {
+                        "x": 502.0,
+                        "y": 1114.0,
+                        "text": "\u00a1Ojal\u00e1 no me hubiera gastado todo el dinero!",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 488.0,
+                        "y": 1039.0,
+                        "text": "\u00a1Ojal\u00e1 no me hubiera peleado con el jefe!",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 560.0,
+                        "y": 835.0,
+                        "text": "\u00a1Ojal\u00e1 no tuviera que levantarme temprano!",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 507.0,
+                        "y": 565.0,
+                        "text": "\u00a1Ojal\u00e1 no haya perdido el dinero del autob\u00fas!",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 473.0,
+                        "y": 504.0,
+                        "text": "\u00a1Ojal\u00e1 no haya tenido un accidente!",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 66.0,
+                        "y": 1117.0,
+                        "text": "\u00a1Ojal\u00e1 no se hubiera gastado todo el dinero!",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 70.0,
+                        "y": 1048.0,
+                        "text": "\u00a1Ojal\u00e1 no se hubiera peleado con el jefe!",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 129.0,
+                        "y": 833.0,
+                        "text": "\u00a1Ojal\u00e1 no tuviera que levantarse temprano!",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 132.0,
+                        "y": 770.0,
+                        "text": "\u00a1Ojal\u00e1 pudiera viajar a Italia!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 570.0,
+                        "text": "\u00a1Ojal\u00e1 no pierda el dinero del autob\u00fas!",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 132.0,
+                        "y": 502.0,
+                        "text": "\u00a1Ojal\u00e1 no tenga un accidente!",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 127.0,
+                        "y": 306.0,
+                        "text": "\u00a1Ojal\u00e1 vuelvas pronto a casa!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 130.0,
+                        "y": 241.0,
+                        "text": "\u00a1Ojal\u00e1 no sea nada malo!",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "176_a_subjuntivo_wuensche_preterito_perfecto_pluscuamperfecto": {
         "image": "images_hueber_2/176_a_subjuntivo_wuensche_preterito_perfecto_pluscuamperfecto.png",
