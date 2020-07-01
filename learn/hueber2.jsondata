@@ -3268,6 +3268,81 @@
                         "state": 1
                     }
                 ]
+            },
+            {
+                "name": "2020-07-01-1",
+                "textlist": [
+                    {
+                        "x": 416.0,
+                        "y": 769.0,
+                        "text": "\u00a1Ojal\u00e1 pudiera viajar a Italia!",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 420.0,
+                        "y": 304.0,
+                        "text": "\u00a1Ojal\u00e1 vuelvas pronto a casa!",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 71.0,
+                        "y": 1115.0,
+                        "text": "\u00a1Ojal\u00e1 no me hubiera gastado todo el dinero!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 69.0,
+                        "y": 1044.0,
+                        "text": "\u00a1Ojal\u00e1 no me hubiera peleado con el jefe!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 128.0,
+                        "y": 833.0,
+                        "text": "\u00a1Ojal\u00e1 tuviera que levantarme temprano!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 128.0,
+                        "y": 768.0,
+                        "text": "\u00a1Ojal\u00e1 pusiera viajar a Italia!",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 128.0,
+                        "y": 568.0,
+                        "text": "\u00a1Ojal\u00e1 no haya perdido el dinero del autobus!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 501.0,
+                        "text": "\u00a1Ojal\u00e1 no haya tenido un accidente!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 304.0,
+                        "text": "\u00a1Ojal\u00e1 vuelva pronto a casa!",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 128.0,
+                        "y": 240.0,
+                        "text": "\u00a1Ojal\u00e1 no sea nada malo!",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
