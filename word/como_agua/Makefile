@@ -31,6 +31,7 @@ all: book.tex $(texfiles)
 
 check:
 	python mtxt2tex.py -o contents.tex contents.txt
+	python -c "import mtxt2tex as m; m.make_dictionary()"
 
 c: cleanup
 cleanup:
