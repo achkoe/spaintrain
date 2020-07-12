@@ -3402,6 +3402,130 @@
                         "state": 2
                     }
                 ]
+            },
+            {
+                "name": "2020-07-12-1",
+                "textlist": [
+                    {
+                        "x": 422.0,
+                        "y": 413.0,
+                        "text": "hubiera tra\u00eddo",
+                        "fontindex": 2,
+                        "state": 0
+                    },
+                    {
+                        "x": 60.0,
+                        "y": 432.0,
+                        "text": "h",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 63.0,
+                        "y": 462.0,
+                        "text": "g",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 60.0,
+                        "y": 558.0,
+                        "text": "f",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 60.0,
+                        "y": 625.0,
+                        "text": "e",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 53.0,
+                        "y": 495.0,
+                        "text": "d",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 51.0,
+                        "y": 530.0,
+                        "text": "c",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 55.0,
+                        "y": 661.0,
+                        "text": "b",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 61.0,
+                        "y": 595.0,
+                        "text": "a",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 432.0,
+                        "y": 660.0,
+                        "text": "hubieran tenido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 217.0,
+                        "y": 627.0,
+                        "text": "hubiera escrito",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 319.0,
+                        "y": 596.0,
+                        "text": "hubieran prestado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 223.0,
+                        "y": 561.0,
+                        "text": "hubierais conseguido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 224.0,
+                        "y": 530.0,
+                        "text": "hubi\u00e9ramos comprado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 165.0,
+                        "y": 497.0,
+                        "text": "hubiera gustado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 310.0,
+                        "y": 461.0,
+                        "text": "hubieras hecho",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 294.0,
+                        "y": 428.0,
+                        "text": "hubiera traido",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
@@ -3702,7 +3826,62 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2020-07-12-1",
+                "textlist": [
+                    {
+                        "x": 119.0,
+                        "y": 648.0,
+                        "text": "\u00a1Qui\u00e9n pudiera comer todos los d\u00edas en un restaurante!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 117.0,
+                        "y": 587.0,
+                        "text": "\u00a1Qui\u00e9n tuviera una azotea enorme!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 111.0,
+                        "y": 519.0,
+                        "text": "\u00a1Qui\u00e9n se hubiera podido comprar una casa en el centro de Barcelona!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 121.0,
+                        "y": 451.0,
+                        "text": "\u00a1Qui\u00e9n se hubiera casado con una mujer multimillonaria!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 119.0,
+                        "y": 382.0,
+                        "text": "\u00a1Qui\u00e9n ganara 10.000 euros al mes!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 321.0,
+                        "text": "\u00a1Qui\u00e9n hubiera viajado por todo el mundo!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 120.0,
+                        "y": 248.0,
+                        "text": "\u00a1Qui\u00e9n fuera tan guapo como un modelo!",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "177_a_subjuntivo_wuensche": {
         "image": "images_hueber_2/177_a_subjuntivo_wuensche.png",
