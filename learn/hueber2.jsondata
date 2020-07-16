@@ -3801,6 +3801,74 @@
                         "state": 1
                     }
                 ]
+            },
+            {
+                "name": "2020-07-16-1",
+                "textlist": [
+                    {
+                        "x": 437.0,
+                        "y": 303.0,
+                        "text": "\u00a1Ojal\u00e1 vuelvas pronto a casa!",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 69.0,
+                        "y": 1117.0,
+                        "text": "\u00a1Ojal\u00e1 no me hubiera gastado todo el dinero!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 74.0,
+                        "y": 1047.0,
+                        "text": "\u00a1Ojal\u00e1 no me hubiera peleado con el jefe!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 123.0,
+                        "y": 835.0,
+                        "text": "\u00a1Ojal\u00e1 no tuviera que levantarme temprano!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 132.0,
+                        "y": 768.0,
+                        "text": "\u00a1Ojal\u00e1 pudiera viajar a Italia!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 571.0,
+                        "text": "\u00a1Ojal\u00e1 no haya perdido el dinero del autob\u00fas!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 125.0,
+                        "y": 501.0,
+                        "text": "\u00a1Ojal\u00e1 no haya tenido un accidente!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 132.0,
+                        "y": 302.0,
+                        "text": "\u00a1Ojal\u00e1 vuelva pronto a casa!",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 121.0,
+                        "y": 239.0,
+                        "text": "\u00a1Ojal\u00e1 no sea nada malo!",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
@@ -3905,7 +3973,69 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2020-07-16-1",
+                "textlist": [
+                    {
+                        "x": 497.0,
+                        "y": 310.0,
+                        "text": "b",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 477.0,
+                        "y": 372.0,
+                        "text": "c",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 459.0,
+                        "y": 458.0,
+                        "text": "e",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 465.0,
+                        "y": 418.0,
+                        "text": "a",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 496.0,
+                        "y": 271.0,
+                        "text": "g",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 483.0,
+                        "y": 229.0,
+                        "text": "h",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 482.0,
+                        "y": 163.0,
+                        "text": "f",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 478.0,
+                        "y": 114.0,
+                        "text": "d",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "178_a_indicativo_oder_subjuntivo": {
         "image": "images_hueber_2/178_a_indicativo_oder_subjuntivo.png",
