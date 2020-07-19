@@ -306,24 +306,12 @@ def make_dictionary():
             outlist.append("{}".format(wlist[1]))
     link = " - ".join("\\hyperlink{{a{}}}{{{}}}".format(i, a) for i, a in enumerate(firstletterlist))
     print(link)
-    with open("dictionary.tex", "w") as fh:
+    with open("ddictionary.tex", "w") as fh:
         fh.write(r"""
-            \documentclass[fontsize=11pt]{{scrartcl}}
-            \usepackage{{fontspec}}
-            \usepackage{{latexsym}}
-            \usepackage{{pifont}}
-            \usepackage{{paralist}}
-
-            \usepackage[colorlinks=true, anchorcolor=red]{{hyperref}}
-            \hypersetup{{colorlinks, linkcolor=red, citecolor=blue, urlcolor=red}}
-            \usepackage[utf8]{{inputenc}}
-            \usepackage[german, spanish]{{babel}}
-            \begin{{document}}
             {link}
 
             {d}
             \end{{compactdesc}}
-            \end{{document}}
             """.format(d="\n".join(outlist), link=link))
     pass
 
