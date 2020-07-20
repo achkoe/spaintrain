@@ -275,45 +275,6 @@ def cleanup(args):
     args.outfile.write(fmt(prepare(text)))
 
 
-def _make_dictionary():
-    with open("_words.txt") as fh:
-        s = 0
-        wordlist = fh.read().splitlines()
-        outlist = []
-        firstletterlist = []
-        for index, line in enumerate(wordlist):
-            line = line.replace("<br/>", "; ")
-            wlist = line.split("|")
-            esword = wlist[0]
-            if esword.startswith("el ") or esword.startswith("la ") or esword.startswith("los ") or esword.startswith("las ") or esword.startswith("a ") or esword.startswith("de "):
-                firstletter = esword.split(" ")[1][0]
-            else:
-                firstletter = esword[0]
-            print(esword, firstletter)
-            firstletter = firstletter.upper()
-            if firstletter not in firstletterlist:
-                firstletterlist.append(firstletter)
-                if s != 0:
-                    outlist.append("\\end{compactdesc}")
-                outlist.append("\\hypertarget{{a{}}}{{\\section*{{{}}}}}".format(len(firstletterlist), firstletter))
-                outlist.append("\\begin{compactdesc}")
-                s = 1
-                outlist.append("\\item[{}]".format(wlist[0]))
-            else:
-                outlist.append("\\item[{}]".format(wlist[0]))
-            outlist.append("{}".format(wlist[1]))
-    link = " - ".join("\\hyperlink{{a{}}}{{{}}}".format(i, a) for i, a in enumerate(firstletterlist))
-    print(link)
-    with open("ddictionary.tex", "w") as fh:
-        fh.write(r"""
-            {link}
-
-            {d}
-            \end{{compactdesc}}
-            """.format(d="\n".join(outlist), link=link))
-    pass
-
-
 def make_dictionary(withlink=True):
     with open("_words.txt") as fh:
         wordlist = fh.read().splitlines()
