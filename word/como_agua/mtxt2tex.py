@@ -41,6 +41,7 @@ SIDE = ["Leftside", "Rightside"]
 
 ESPANIOL, GERMAN = 0, 1
 
+SORTDICT = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}
 
 def analyze(args, linelist):
     for lineno, line in enumerate(linelist):
@@ -139,10 +140,8 @@ def process_replace(text):
             tr = matchobj.group(2).split("|")
             if matchobj.group(2).count("|") == 2:
                 try:
-                    #wordlist.append("{1}|{0}|{2}".format(tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
                     tr = [item.replace("::", "<br/>") for item in tr]
-                    wordlist.append((tr[0].strip().encode('utf-8'), tr[1].strip().encode('utf-8'), tr[2].strip().encode('utf-8')))
-                    #print("{1}|{0}|{2}".format(tr[0].encode('utf-8'), tr[1].encode('utf-8'), tr[2].encode('utf-8')))
+                    wordlist.append((tr[0].strip(), tr[1].strip(), tr[2].strip()))
                 except Exception:
                     print(tr)
                     raise
@@ -155,22 +154,21 @@ def process_replace(text):
             return matchobj.group(1) + "$^{{g{}}}$".format(adict["counter"])
         return matchobj.expand(r)
 
-    for key, replacement in subdict.iteritems():
+    for key, replacement in subdict.items():
         rf = partial(replfn, adict, replacement['r'])
         text = re.sub(key, rf, text, flags=replacement['flags'])
 
-    def cmpfn(a, b):
+    def keyfn(a):
         a_ = a[0]
-        b_ = b[0]
         wlist = a_.split()
         if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de"):
             a_ = wlist[1]
-        wlist = b_.split()
-        if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de"):
-            b_ = wlist[1]
-        return cmp(a_.lower(), b_.lower())
+        alist = list(a_)
+        alist[0] = SORTDICT.get(alist[0], alist[0])
+        a_ = "".join(alist)
+        return a_
 
-    wordlist.sort(cmp=cmpfn)
+    wordlist.sort(key=keyfn)
     check_duplicates(wordlist)
     with open("_words.txt", "w") as fh:
         for w in wordlist:
@@ -277,7 +275,7 @@ def cleanup(args):
     args.outfile.write(fmt(prepare(text)))
 
 
-def make_dictionary():
+def _make_dictionary():
     with open("_words.txt") as fh:
         s = 0
         wordlist = fh.read().splitlines()
@@ -313,6 +311,35 @@ def make_dictionary():
             {d}
             \end{{compactdesc}}
             """.format(d="\n".join(outlist), link=link))
+    pass
+
+
+def make_dictionary(withlink=True):
+    with open("_words.txt") as fh:
+        wordlist = fh.read().splitlines()
+        outlist = []
+        firstletterlist = []
+        for index, line in enumerate(wordlist):
+            line = line.replace("<br/>", "; ")
+            wlist = line.split("|")
+            esword = wlist[0]
+            if esword.startswith("el ") or esword.startswith("la ") or esword.startswith("los ") or esword.startswith("las ") or esword.startswith("a ") or esword.startswith("de "):
+                firstletter = esword.split(" ")[1][0]
+            else:
+                firstletter = esword[0]
+            firstletter = SORTDICT.get(firstletter, firstletter)
+            firstletter = firstletter.upper()
+            if firstletter not in firstletterlist:
+                firstletterlist.append(firstletter)
+                outlist.append("\\hypertarget{{a{}}}{{\\section*{{{}}}}}".format(len(firstletterlist), firstletter))
+            outlist.append("\\textbf{{{0}}}\\enspace--\\enspace{{{1}}}\\\\".format(*wlist))
+    link = " - ".join("\\hyperlink{{a{}}}{{{}}}".format(i, a) for i, a in enumerate(firstletterlist))
+    with open("ddictionary.tex", "w") as fh:
+        fh.write(r"""
+            {link}
+
+            {d}
+            """.format(d="\n".join(outlist), link=link if withlink else ""))
     pass
 
 
