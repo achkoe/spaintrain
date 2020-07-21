@@ -23,14 +23,14 @@ all: book.tex $(texfiles)
 
 
 %.tex: %.txt
-	python3 mtxt2tex.py -o $@ $<
-	python3 -c "import mtxt2tex as m; m.make_dictionary(withlink=False)"
+	python mtxt2tex.py -o $@ $<
+	python -c "import mtxt2tex as m; m.make_dictionary(withlink=False)"
 	cd $(dir $<) && sh ../encrypt.sh && cd ..
 	cd $(dir $<) && sh ../encrypt2.sh && cd ..
 
 
 check:
-	python3 mtxt2tex.py -o contents.tex contents.txt
+	python mtxt2tex.py -o contents.tex contents.txt
 	python -c "import mtxt2tex as m; m.make_dictionary()"
 
 c: cleanup
