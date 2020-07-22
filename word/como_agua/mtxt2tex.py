@@ -1,20 +1,18 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-"""Postprocessor for LaTex to."""
-from __future__ import print_function
+"""Postprocessor for text to LaTex."""
 import argparse
 import sys
 import re
 import logging
 import textwrap
-import codecs
 from collections import OrderedDict
 from functools import partial
 import unittest
 
 logging.basicConfig(level=logging.INFO, format="%(lineno)d: %(msg)s")
 
-PAIRSSTART = u"""
+PAIRSSTART = """
 \beforeeledchapter
 \begin{pairs}
 """
@@ -43,6 +41,7 @@ ESPANIOL, GERMAN = 0, 1
 
 SORTDICT = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}
 
+
 def analyze(args, linelist):
     for lineno, line in enumerate(linelist):
         if line.strip().startswith(".g"):
@@ -57,32 +56,15 @@ def analyze(args, linelist):
             print(line, file=args.outfile)
 
 
-def process_environment(text, ddict):
-    inenvironment = False
-    linelist = text.splitlines()
-    for index, line in enumerate(linelist):
-        if line.strip().startswith(ddict["b"]):
-            inenvironment = True
-            linelist[index] = ddict["br"].format(line.strip()[3:].strip())
-        elif line.strip().startswith(ddict["e"]) and inenvironment:
-            inenvironment = False
-            linelist[index] = ddict["er"]
-        elif inenvironment:
-            linelist[index] = re.sub("<([^>]*)>", r"\item[\1]", line)
-    return "\n".join(linelist)
-
-
 def process(args):
-    with codecs.open(args.infile, 'r', "utf-8") as fh:
+    with open(args.infile, "r") as fh:
         text = fh.read()
-    #text = process_environment(text, envdict["description"])
-    #text = process_environment(text, envdict["sabiasque"])
     text, alist = process_replace(text)
     text = process_dashes(text)
     linelist = text.splitlines()
     analyze(args, linelist)
     for item in alist:
-        print(u"\\paragraph{{g{0}: {1}}}~\\\\{2}\\\\".format(*item), file=args.outfile)
+        print("\\paragraph{{g{0}: {1}}}~\\\\{2}\\\\".format(*item), file=args.outfile)
 
 
 def check_duplicates(wordlist):
@@ -110,29 +92,29 @@ def process_replace(text):
     }
     wordlist = []
     subdict = OrderedDict([
-            (r"“", {"r": r'"', "flags": 0}),
-            (r"”", {"r": r'"', "flags": 0}),
-            (r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
+        (r"“", {"r": r'"', "flags": 0}),
+        (r"”", {"r": r'"', "flags": 0}),
+        (r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
 
-            (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
+        (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
 
-            (r"\*\*([^*]+)\*\*", {"r": r"\\textbf{\1}", "flags": 0}),
-            (r"__([^_]+)__", {"r": r"\\uline{\1}", "flags": 0}),
-            (r'\"([^\"]+)\"', {"r": r"\\glqq{}\1\\grqq{}", "flags": 0}),
-            (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
-            (r"\.att", {"r": r"\\danger{}", "flags": 0}),
-            (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
-            (r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
-            (r"//(.+?)//", {"r": r"\\textit{\1}", "flags": 0}),
-            (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
-            (r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
-            (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"\\section{\1}", "flags": re.MULTILINE}),
-            (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\section*{\1}", "flags": re.MULTILINE}),
-            (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"\\subsection{\1}", "flags": re.MULTILINE}),
-            (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"\\subsection*{\1}", "flags": re.MULTILINE}),
-            (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
-            (r"\s*/(\d+)/\s*", {"r": r"~\\sidenote{\1}", "flags": 0}),
-            (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0})
+        (r"\*\*([^*]+)\*\*", {"r": r"\\textbf{\1}", "flags": 0}),
+        (r"__([^_]+)__", {"r": r"\\uline{\1}", "flags": 0}),
+        (r'\"([^\"]+)\"', {"r": r"\\glqq{}\1\\grqq{}", "flags": 0}),
+        (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
+        (r"\.att", {"r": r"\\danger{}", "flags": 0}),
+        (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
+        (r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
+        (r"//(.+?)//", {"r": r"\\textit{\1}", "flags": 0}),
+        (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
+        (r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
+        (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"\\section{\1}", "flags": re.MULTILINE}),
+        (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\section*{\1}", "flags": re.MULTILINE}),
+        (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"\\subsection{\1}", "flags": re.MULTILINE}),
+        (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"\\subsection*{\1}", "flags": re.MULTILINE}),
+        (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
+        (r"\s*/(\d+)/\s*", {"r": r"~\\sidenote{\1}", "flags": 0}),
+        (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0})
     ])
 
     def replfn(adict, r, matchobj):
@@ -145,7 +127,7 @@ def process_replace(text):
                 except Exception:
                     print(tr)
                     raise
-            return ' ' + matchobj.group(1) + u"\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
+            return ' ' + matchobj.group(1) + "\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
         if r.find("section") != -1 and len(matchobj.groups()) > 1 and matchobj.group(2):
             return matchobj.expand(r) + "\\" + matchobj.group(2)
         if r.find("endnote") != -1 and matchobj.group(0).count("|") == 1:
@@ -153,10 +135,6 @@ def process_replace(text):
             adict["alist"].append((adict["counter"], matchobj.group(1), matchobj.group(2)))
             return matchobj.group(1) + "$^{{g{}}}$".format(adict["counter"])
         return matchobj.expand(r)
-
-    for key, replacement in subdict.items():
-        rf = partial(replfn, adict, replacement['r'])
-        text = re.sub(key, rf, text, flags=replacement['flags'])
 
     def keyfn(a):
         a_ = a[0]
@@ -168,6 +146,10 @@ def process_replace(text):
         a_ = "".join(alist)
         return a_
 
+    for key, replacement in subdict.items():
+        rf = partial(replfn, adict, replacement['r'])
+        text = re.sub(key, rf, text, flags=replacement['flags'])
+
     wordlist.sort(key=keyfn)
     check_duplicates(wordlist)
     with open("_words.txt", "w") as fh:
@@ -177,15 +159,6 @@ def process_replace(text):
             print("{0}|{1}|{2}".format(*w), file=fh)
     return text, adict["alist"]
 
-
-def _process_dashes(text):
-    """
-    First append to all lines starting with "-" [pattern matching "^(-.*)$"] the characters "\\"
-    Second substitute all line pairs where first line not ends with "\\" and second line starts with '-'
-    with stgh
-    """
-    # text = re.sub("~\\\\\\\\", "\\\\\\\\ \\\\vspace{-\\\\baselineskip}", text)
-    return re.sub("([^\\\\])\n-", "\\1 \\\\\\\\\n-", re.sub("^(-.*)$", r"\1 \\\\", text, flags=re.M), flags=re.M)
 
 def process_dashes(text):
     s_in, s_out = 0, 1
@@ -213,39 +186,6 @@ def process_dashes(text):
     return "\n".join(textlist)
 
 
-def _cleanup(args):
-    def main(text):
-        def fn_capital_after_fullstop(mo):
-            return u". {}".format(mo.group(1).upper())
-
-        def fn_capital_after_dash(mo):
-            return u"- {}{}".format(mo.group(1).upper(), mo.group(2))
-
-        regexp_fs = re.compile(r"\.\s+([a-z])")
-        regexp_cm = re.compile(r"\,\s+")
-        regexp_qm = re.compile(r"\?\?\s*")
-        regexp_ex = re.compile(r"!!\s*")
-        regexp_ld = re.compile(r"…")
-        regexp_sp = re.compile(r"[ ]+")
-        regexp_nl = re.compile(r"\.(?!\n)")
-        regexp_ds = re.compile(r"^-\s*([a-z])(.*)", re.M)
-
-        text = regexp_ds.sub(fn_capital_after_dash, text)
-        text = regexp_fs.sub(fn_capital_after_fullstop, text)
-        text = regexp_cm.sub(", ", text)
-        text = regexp_qm.sub(u"¿", text)
-        text = regexp_ex.sub(u"¡", text)
-        text = regexp_ld.sub(u"\\ndots", text)
-        text = regexp_sp.sub(u" ", text)
-        text = regexp_nl.sub(u".\n", text)
-
-        return text
-
-    with codecs.open(args.infile, encoding="utf-8") as fh:
-        text = fh.read()
-    args.outfile.write(main(text))
-
-
 def cleanup(args):
     maxwidth = 72
 
@@ -257,19 +197,19 @@ def cleanup(args):
         return textwrap.dedent('\n'.join(p.strip() for p in buf))
 
     def prepare(text):
-        replacementlist = (('\(\s+', '('), (u'“', '"'), (u'”', '"'),
+        replacementlist = ((r'\(\s+', '('), (u'“', '"'), (u'”', '"'),
                            (' {2,}', ' '), (' +" +', ' "'), (u'…', '\\\\ndots'))
         for replacement in replacementlist:
             text = re.sub(replacement[0], replacement[1], text)
         text = re.sub(r"\.(\n?\s*\w)", lambda m: m.group(0).upper(), text, flags=re.U)
-        text = re.sub(r"^-\s*([a-z])(.*)", lambda m: u"- {}{}".format(m.group(1).upper(), m.group(2)), text, flags=re.M)
-        text = re.sub(r"\?\?\s*", u"¿", text)
-        text = re.sub(r"!!\s*", u"¡", text)
+        text = re.sub(r"^-\s*([a-z])(.*)", lambda m: "- {}{}".format(m.group(1).upper(), m.group(2)), text, flags=re.M)
+        text = re.sub(r"\?\?\s*", "¿", text)
+        text = re.sub(r"!!\s*", "¡", text)
         text = re.sub(r"\s+,", ",", text)
-        text = re.sub(r"!\s+([a-z])", lambda m: u"! {}".format(m.group(1).upper()), text)
+        text = re.sub(r"!\s+([a-z])", lambda m: "! {}".format(m.group(1).upper()), text)
         return text
 
-    with codecs.open(args.infile, encoding="utf-8") as fh:
+    with open(args.infile, encoding="utf-8") as fh:
         text = fh.read()
 
     args.outfile.write(fmt(prepare(text)))
@@ -359,7 +299,7 @@ if __name__ == '__main__':
     if args.outfile is None:
         args.outfile = sys.stdout
     else:
-        args.outfile = codecs.open(args.outfile, "wb", encoding="utf-8")
+        args.outfile = open(args.outfile, "w")
     if args.cleanup:
         cleanup(args)
     else:
