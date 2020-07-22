@@ -1,4 +1,9 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
+ifeq ($(USER),dekoehac)
+	PYTHON = python
+else
+	PYTHON = python3
+endif
 
 directories := ./
 
@@ -23,19 +28,19 @@ all: book.tex $(texfiles)
 
 
 %.tex: %.txt
-	python mtxt2tex.py -o $@ $<
-	python -c "import mtxt2tex as m; m.make_dictionary(withlink=False)"
+	$(PYTHON) mtxt2tex.py -o $@ $<
+	$(PYTHON) -c "import mtxt2tex as m; m.make_dictionary(withlink=False)"
 	cd $(dir $<) && sh ../encrypt.sh && cd ..
 	cd $(dir $<) && sh ../encrypt2.sh && cd ..
 
 
 check:
-	python mtxt2tex.py -o contents.tex contents.txt
-	python -c "import mtxt2tex as m; m.make_dictionary()"
+	$(PYTHON) mtxt2tex.py -o contents.tex contents.txt
+	$(PYTHON) -c "import mtxt2tex as m; m.make_dictionary()"
 
 c: cleanup
 cleanup:
-	python mtxt2tex.py -c -o $(addsuffix .out.txt,$(basename $(current))) $(addsuffix .in.txt,$(basename $(current)))
+	$(PYTHON) mtxt2tex.py -c -o $(addsuffix .out.txt,$(basename $(current))) $(addsuffix .in.txt,$(basename $(current)))
 
 
 decrypt:
