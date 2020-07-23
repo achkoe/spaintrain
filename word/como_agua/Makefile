@@ -1,5 +1,5 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
-ifeq ($(USER),dekoehac)
+ifeq ($(MINGW_CHOST),x86_64-w64-mingw32)
 	PYTHON = python
 else
 	PYTHON = python3
