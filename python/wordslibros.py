@@ -192,7 +192,7 @@ def exportanki(args):
 
 
 def addwords():
-    with open("words.txt", "r", encoding="utf-8") as fh:
+    with open("wordslibros.in.txt", "r", encoding="utf-8") as fh:
         text = fh.read()
     wordlist = [line.split("|")[1:] for line in text.splitlines()]
     for word in wordlist:
@@ -209,7 +209,7 @@ if __name__ == '__main__':
     parser.add_argument("--create", help="create database", action="store_true", default=False)
     parser.add_argument("--update", dest="imp", help="update database from wordslibros.txt", action="store_true", default=False)
     parser.add_argument("--export", help="export database to wordslibros.txt", action="store_true", default=False)
-    parser.add_argument("--add", help="add verbs from words.txt", action="store_true", default=False)
+    parser.add_argument("--add", help="add verbs from wordslibros.in.txt", action="store_true", default=False)
     parser.add_argument("--exportanki", help="export for anki", action="store_true", default=False)
     parser.add_argument("--importmerged", help="import from wordslibros_merged.json", action="store_true", default=False)
     parser.add_argument("-n", "--number", help="number of exports", action="store", type=int, default=10)

@@ -133,7 +133,7 @@ class MainWindow(QtWidgets.QMainWindow):
             cur.execute("UPDATE words SET exported = 1, updated = ? WHERE id in ({})".format(",".join(slist)), (now, ))
         con.commit()
         con.close()
-        self.statusBar().showMessage("Exported {}".format("and saved" if dosave else ""), 3000)
+        self.statusBar().showMessage("Exported {} to {}".format("and saved" if dosave else "", filename), 3000)
         self.populate()
 
     def export_all(self):

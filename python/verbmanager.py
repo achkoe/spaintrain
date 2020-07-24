@@ -112,6 +112,7 @@ class MainWindow(QtWidgets.QMainWindow):
         ostr = "\n".join(u"{}|{}|{}".format(ritem[0], ritem[1], "Verb") for ritem in rlist)
         with codecs.open(OUTFILENAME, "w", encoding="utf-8") as fh:
             fh.write(ostr)
+        self.statusBar().showMessage("Exported to {}".format(OUTFILENAME), 3000)
         if dosave:
             con.commit()
             con.close()
