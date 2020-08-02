@@ -4598,6 +4598,88 @@
                         "state": 1
                     }
                 ]
+            },
+            {
+                "name": "2020-08-02-1",
+                "textlist": [
+                    {
+                        "x": 414.0,
+                        "y": 306.0,
+                        "text": "haya dicho",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 401.0,
+                        "y": 505.0,
+                        "text": "cambie",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 610.0,
+                        "y": 432.0,
+                        "text": "provoque",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 491.0,
+                        "y": 372.0,
+                        "text": "est\u00e9",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 376.0,
+                        "y": 342.0,
+                        "text": "haga",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 361.0,
+                        "y": 304.0,
+                        "text": "diga",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 444.0,
+                        "y": 277.0,
+                        "text": "ganen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 432.0,
+                        "y": 243.0,
+                        "text": "d\u00e9",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 599.0,
+                        "y": 205.0,
+                        "text": "puedan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 516.0,
+                        "y": 175.0,
+                        "text": "tengamos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 464.0,
+                        "y": 111.0,
+                        "text": "salude",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
@@ -4623,7 +4705,125 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2020-08-02-1",
+                "textlist": [
+                    {
+                        "x": 389.0,
+                        "y": 438.0,
+                        "text": "se divierta",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 495.0,
+                        "y": 385.0,
+                        "text": "prefieres",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 421.0,
+                        "y": 346.0,
+                        "text": "hay",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 821.0,
+                        "y": 251.0,
+                        "text": "hab\u00e9is ordenado",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 562.0,
+                        "y": 211.0,
+                        "text": "llegan",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 358.0,
+                        "y": 132.0,
+                        "text": "hay\u00e1is conseguido",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 296.0,
+                        "y": 415.0,
+                        "text": "se diverta",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 408.0,
+                        "y": 385.0,
+                        "text": "prefieras",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 352.0,
+                        "y": 347.0,
+                        "text": "haya",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 461.0,
+                        "y": 314.0,
+                        "text": "hayamos podido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 585.0,
+                        "y": 279.0,
+                        "text": "quiere",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 344.0,
+                        "y": 246.0,
+                        "text": "hay\u00e1is ordenado",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 481.0,
+                        "y": 211.0,
+                        "text": "lleguen",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 537.0,
+                        "y": 180.0,
+                        "text": "sepas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 314.0,
+                        "y": 149.0,
+                        "text": "consig\u00e1is",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 518.0,
+                        "y": 112.0,
+                        "text": "han olvidado",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "182_a_que_subjuntivo": {
         "image": "images_hueber_2/182_a_que_subjuntivo.png",
