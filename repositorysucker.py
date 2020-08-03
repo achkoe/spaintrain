@@ -13,51 +13,27 @@ import sys
 import yaml
 
 
-def get_svn_command(configitem):
-    addopt = []
-    addopt += ['--revision', configitem['revision']] if 'revision' in configitem else []
-    return ['checkout', '--non-interactive', '--depth', 'infinity'] + addopt + [configitem['url'], configitem['path']]
-
-
-def get_git_command(configitem):
-    addopt = ['clone']
-    addopt += ['--branch', configitem['branch']] if 'branch' in configitem else []
-    return addopt + [configitem['url'], configitem['path']]
-
-
 def parse_configuration(configlist, rootpath):
     assert isinstance(configlist, list), 'configuration is not a list'
     assert all([isinstance(item, dict) for item in configlist]), 'configuration contains items which are not a dict'
-    for key in ['url', 'path']:
-        assert all([key in item for item in configlist]), 'configuration contains items with no {key}'.format(key=key)
-    scmtypelist = ('git', 'svn')
+    assert all(['command' in item for item in configlist]), 'configuration contains items with no command'
+
     for item in configlist:
-        # check or determine scm type
-        if 'scmtype' in item:
-            assert item['scmtype'] in scmtypelist, 'invalid value for scmtype: {!r}'.format(item['scmtype'])
-        else:
-            po = urlparse(item['url'])
-            if po.path.endswith('.git') or po.netloc.startswith('dettgit'):
-                item['scmtype'] = 'git'
-            elif po.path.startswith('/svn') or po.netloc.startswith('dettsvn'):
-                item['scmtype'] = 'svn'
-            else:
-                raise AssertionError('unable to determine scm type from url')
-        # replace '(root)' occurences in path with the actual root path and normalize path
-        item['path'] = os.path.abspath(item['path'].replace('(root)', rootpath))
-        # add command if not already existing
-        if 'command' not in item:
-            item['command'] = [get_git_command, get_svn_command][scmtypelist.index(item['scmtype'])](item)
-        else:
-            assert isinstance(item['command'], list), 'command is not a list'
-            for index, _ in enumerate(item['command']):
-                item['command'][index] = item['command'][index].replace('(root)', rootpath)
-                item['command'][index] = item['command'][index].replace('(url)', item['url'])
+        print(item['command'])
+        if not isinstance(item['command'], list):
+            item['command'] = [item['command']]
+        for index, _ in enumerate(item['command']):
+            for key in ['path', 'url', 'revision']:
+                if key not in item:
+                    continue
+                # replace (<key>) occurences in command with the actual value
+                item['command'][index] = item['command'][index].replace("({})".format(key), str(item[key]))
+            item['command'][index] = item['command'][index].replace('(root)', rootpath)
 
 
 def write_output(configlist, platform):
     for item in configlist:
-        print("{} {}".format(item['scmtype'], ' '.join([str(_) for _ in item['command']])))
+        print('\n'.join([str(_) for _ in item['command']]))
 
 
 if __name__ == '__main__':

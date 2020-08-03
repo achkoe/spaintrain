@@ -1,24 +1,23 @@
 ---
 # git clone, head revision
 - name: Repository Sucker
-  scmtype: git
   url: https://dettgit.intra.ifm/scm/onx-testing/repositorysucker.git
   path: (root)
-# git clone, revision -1
-- name: Repository Sucker
-  scmtype: git
+  command: git clone (url) (path)
+# git clone and git checkout revision 171270415520f0fe49f79df26bbf96b49988b8b6
+- name: Repository Sucker older revision
   url: https://dettgit.intra.ifm/scm/onx-testing/repositorysucker.git
-  path: (root)revision
+  path: (root)/revision
+  revision: 171270415520f0fe49f79df26bbf96b49988b8b6
+  command: [git clone (url) (path), git checkout (revision)]
+# svn checkout, head revision
+- name: svn checkout head
+  url: http://dettsvn.tt.de.ifm/svn/sy/libraries/esw/sandbox/dekoehac/quicklaunch
+  path: (root)/ql
+  command: [svn checkout --non-interactive --depth infinity (url) (path)]
+# svn checkout older revision 229674
+- name: svn checkout older revision
+  url: http://dettsvn.tt.de.ifm/svn/sy/libraries/esw/sandbox/dekoehac/quicklaunch
+  command: [svn checkout --non-interactive --depth infinity (url) (root)/ql/revision --revision (revision)]
+  revision: 229674
 
-- name: Title 3
-  url: https://dettgit.intra.ifm/scm/onx-testing/repositorysucker.git
-  path: (root)/test
-  revision: 1234
-- name: Title 4
-  url: http://dettsvn.tt.de.ifm/svn/iCV-Algo/public/O2I5xxIntegration/tags/00.05.10/components/O2I5xxAlgorithms/JSON
-  path: (root)/test
-  command: [checkout, --non-interactive, --depth, infinity, (url), (root)]
-- name: Title 5
-  url: http://dettsvn.tt.de.ifm/svn/iCV-Algo/public/O2I5xxIntegration/tags/00.05.10/components/O2I5xxAlgorithms/JSON
-  path: (root)/test
-  revision: 124
