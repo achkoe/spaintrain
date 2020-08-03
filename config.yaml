@@ -1,0 +1,24 @@
+---
+# git clone, head revision
+- name: Repository Sucker
+  scmtype: git
+  url: https://dettgit.intra.ifm/scm/onx-testing/repositorysucker.git
+  path: (root)
+# git clone, revision -1
+- name: Repository Sucker
+  scmtype: git
+  url: https://dettgit.intra.ifm/scm/onx-testing/repositorysucker.git
+  path: (root)revision
+
+- name: Title 3
+  url: https://dettgit.intra.ifm/scm/onx-testing/repositorysucker.git
+  path: (root)/test
+  revision: 1234
+- name: Title 4
+  url: http://dettsvn.tt.de.ifm/svn/iCV-Algo/public/O2I5xxIntegration/tags/00.05.10/components/O2I5xxAlgorithms/JSON
+  path: (root)/test
+  command: [checkout, --non-interactive, --depth, infinity, (url), (root)]
+- name: Title 5
+  url: http://dettsvn.tt.de.ifm/svn/iCV-Algo/public/O2I5xxIntegration/tags/00.05.10/components/O2I5xxAlgorithms/JSON
+  path: (root)/test
+  revision: 124
