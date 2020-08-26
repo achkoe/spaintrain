@@ -39,7 +39,7 @@ SIDE = ["Leftside", "Rightside"]
 
 ESPANIOL, GERMAN = 0, 1
 
-SORTDICT = {'á': 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}
+SORTDICT = {'á': 'a', chr(195): 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}
 
 
 def analyze(args, linelist):
@@ -57,7 +57,7 @@ def analyze(args, linelist):
 
 
 def process(args):
-    with open(args.infile, "r") as fh:
+    with open(args.infile, "r", encoding="utf-8") as fh:
         text = fh.read()
     text, alist = process_replace(text)
     text = process_dashes(text)
@@ -141,9 +141,8 @@ def process_replace(text):
         wlist = a_.split()
         if len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de"):
             a_ = wlist[1]
-        alist = list(a_)
-        alist[0] = SORTDICT.get(alist[0], alist[0])
-        a_ = "".join(alist)
+        for k, r in SORTDICT.items():
+            a_ = a_.replace(k, r)
         return a_
 
     for key, replacement in subdict.items():
@@ -235,7 +234,7 @@ def make_dictionary(withlink=True):
                 outlist.append("\\hypertarget{{a{}}}{{\\section*{{{}}}}}".format(len(firstletterlist), firstletter))
             outlist.append("\\textbf{{{0}}}\\enspace--\\enspace{{{1}}}\\\\".format(*wlist))
     link = " - ".join("\\hyperlink{{a{}}}{{{}}}".format(i, a) for i, a in enumerate(firstletterlist))
-    with open("ddictionary.tex", "w") as fh:
+    with open("ddictionary.tex", "w", encoding="utf-8") as fh:
         fh.write(r"""
             {link}
 
@@ -299,7 +298,7 @@ if __name__ == '__main__':
     if args.outfile is None:
         args.outfile = sys.stdout
     else:
-        args.outfile = open(args.outfile, "w")
+        args.outfile = open(args.outfile, "w", encoding="utf-8")
     if args.cleanup:
         cleanup(args)
     else:
