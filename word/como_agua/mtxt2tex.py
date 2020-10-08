@@ -232,7 +232,7 @@ def make_dictionary(withlink=True):
             if firstletter not in firstletterlist:
                 firstletterlist.append(firstletter)
                 outlist.append("\\hypertarget{{a{}}}{{\\section*{{{}}}}}".format(len(firstletterlist), firstletter))
-            outlist.append("\\textbf{{{0}}}\\enspace--\\enspace{{{1}}}\\\\".format(*wlist))
+            outlist.append("\\textbf{{{0}}}\\enspace--\\enspace{{{1}}}\\hfill\\\\".format(*wlist))
     link = " - ".join("\\hyperlink{{a{}}}{{{}}}".format(i, a) for i, a in enumerate(firstletterlist))
     with open("ddictionary.tex", "w", encoding="utf-8") as fh:
         fh.write(r"""
