@@ -222,6 +222,7 @@ def make_dictionary(withlink=True):
         for index, line in enumerate(wordlist):
             line = line.replace("<br/>", "; ")
             wlist = line.split("|")
+            wlist[1] = "\\foreignlanguage{{german}}{{{}}}".format(wlist[1])
             esword = wlist[0]
             if esword.startswith("el ") or esword.startswith("la ") or esword.startswith("los ") or esword.startswith("las ") or esword.startswith("a ") or esword.startswith("de "):
                 firstletter = esword.split(" ")[1][0]
@@ -232,7 +233,7 @@ def make_dictionary(withlink=True):
             if firstletter not in firstletterlist:
                 firstletterlist.append(firstletter)
                 outlist.append("\\hypertarget{{a{}}}{{\\section*{{{}}}}}".format(len(firstletterlist), firstletter))
-            outlist.append("\\textbf{{{0}}}\\enspace--\\enspace{{{1}}}\\hfill\\\\".format(*wlist))
+            outlist.append("\\textbf{{{0}}}\\enspace--\\enspace{{{1}}}\\hfill~\\\\".format(*wlist))
     link = " - ".join("\\hyperlink{{a{}}}{{{}}}".format(i, a) for i, a in enumerate(firstletterlist))
     with open("ddictionary.tex", "w", encoding="utf-8") as fh:
         fh.write(r"""
