@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 ""
 import sys
 import sqlite3
@@ -9,7 +11,7 @@ from PySide2 import QtWidgets, QtCore
 
 
 DBFILENAME = "wordslibros.db"
-EXPORTFILENAME = "wordslibros4anki.txt"
+EXPORTFILENAME = "wordmanger.out.txt"
 
 
 class SpainTableWidgetItem(QtWidgets.QTableWidgetItem):

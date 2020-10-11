@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 import sqlite3
 import codecs
@@ -5,7 +6,7 @@ import random
 from PySide2 import QtWidgets, QtCore
 
 DBFILENAME = "verben.db"
-OUTFILENAME = "verben4anki.txt"
+OUTFILENAME = "verbmanager.out.txt"
 
 
 class MainWindow(QtWidgets.QMainWindow):
