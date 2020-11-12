@@ -155,7 +155,11 @@ def process_replace(text):
         for w in wordlist:
             if wordlist.count(w[0]) > 1:
                 print("ATT: {}".format(w[0]))
-            print("{0}|{1}|{2}".format(*w), file=fh)
+            try:
+                print("{0}|{1}|{2}".format(*w), file=fh)
+            except Exception:
+                print(repr(w))
+                raise
     return text, adict["alist"]
 
 
