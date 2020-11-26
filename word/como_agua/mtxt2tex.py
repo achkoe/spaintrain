@@ -118,16 +118,19 @@ def process_replace(text):
     ])
 
     def replfn(adict, r, matchobj):
-        if r.find("footnote") != -1 and matchobj.group(2).count("|") in [2, 3]:
-            tr = matchobj.group(2).split("|")
-            if matchobj.group(2).count("|") == 2:
-                try:
-                    tr = [item.replace("::", "<br/>") for item in tr]
-                    wordlist.append((tr[0].strip(), tr[1].strip(), tr[2].strip()))
-                except Exception:
-                    print(tr)
-                    raise
-            return ' ' + matchobj.group(1) + "\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
+        if r.find("footnote") != -1:
+            if matchobj.group(0).count("|") in [2, 3]:
+                tr = matchobj.group(2).split("|")
+                if matchobj.group(2).count("|") == 2:
+                    try:
+                        tr = [item.replace("::", "<br/>") for item in tr]
+                        wordlist.append((tr[0].strip(), tr[1].strip(), tr[2].strip()))
+                    except Exception:
+                        print(tr)
+                        raise
+                return ' ' + matchobj.group(1) + "\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
+            elif matchobj.group(0).count("|") > 1:
+                raise ValueError("invalid translation tag: {}".format(matchobj.group(0)))
         if r.find("section") != -1 and len(matchobj.groups()) > 1 and matchobj.group(2):
             return matchobj.expand(r) + "\\" + matchobj.group(2)
         if r.find("endnote") != -1 and matchobj.group(0).count("|") == 1:
