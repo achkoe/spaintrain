@@ -74,7 +74,7 @@ class TextEdit(QtWidgets.QPlainTextEdit):
         Replaces the key sequences ~n, ??, !! followed by Tab with unicode charceters.
         """
         if event.key() in [QtCore.Qt.Key_Return, QtCore.Qt.Key_Enter]:
-            if 0 == int(event.modifiers() & (QtCore.Qt.ShiftModifier | QtCore.Qt.ControlModifier)):
+            if 0 == int(event.modifiers() & int(QtCore.Qt.ShiftModifier | QtCore.Qt.ControlModifier)):
                 # 'enter' key pressed without Shift or Ctrl key pressed
                 event.ignore()
                 return
