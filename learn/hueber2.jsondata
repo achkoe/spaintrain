@@ -2521,6 +2521,207 @@
                         "state": 1
                     }
                 ]
+            },
+            {
+                "name": "2020-12-18-1",
+                "textlist": [
+                    {
+                        "x": 724.0,
+                        "y": 690.0,
+                        "text": "prefirieras/prefirieses",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 184.0,
+                        "y": 695.0,
+                        "text": "prefirieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 717.0,
+                        "y": 658.0,
+                        "text": "tuvieran/tuviesen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 193.0,
+                        "y": 663.0,
+                        "text": "tuvieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 705.0,
+                        "y": 623.0,
+                        "text": "pidiera/pidiese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 176.0,
+                        "y": 625.0,
+                        "text": "pidieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 716.0,
+                        "y": 587.0,
+                        "text": "durmierais/durmieseis",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 187.0,
+                        "y": 593.0,
+                        "text": "durmierion",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 709.0,
+                        "y": 552.0,
+                        "text": "creyera/creyese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 176.0,
+                        "y": 555.0,
+                        "text": "creyeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 728.0,
+                        "y": 491.0,
+                        "text": "tradujeras/tradujeses",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 226.0,
+                        "y": 491.0,
+                        "text": "tradujeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 728.0,
+                        "y": 462.0,
+                        "text": "pudi\u00e9ramos/pudi\u00e9semos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 225.0,
+                        "y": 454.0,
+                        "text": "pudieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 726.0,
+                        "y": 428.0,
+                        "text": "dijeran/dijesen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 224.0,
+                        "y": 421.0,
+                        "text": "dijeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 730.0,
+                        "y": 397.0,
+                        "text": "vendiera/vendiese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 225.0,
+                        "y": 393.0,
+                        "text": "vendieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 731.0,
+                        "y": 361.0,
+                        "text": "leyeran/leyesen",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 233.0,
+                        "y": 354.0,
+                        "text": "leyeron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 728.0,
+                        "y": 332.0,
+                        "text": "quisiera/quisiese",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 230.0,
+                        "y": 328.0,
+                        "text": "quisieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 723.0,
+                        "y": 296.0,
+                        "text": "vinieras/vinieses",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 236.0,
+                        "y": 287.0,
+                        "text": "vinieron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 729.0,
+                        "y": 266.0,
+                        "text": "comprarais/compraseis",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 229.0,
+                        "y": 260.0,
+                        "text": "compraron",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 723.0,
+                        "y": 234.0,
+                        "text": "supi\u00e9ramos/supi\u00e9semos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 234.0,
+                        "y": 224.0,
+                        "text": "supieron",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
@@ -4386,6 +4587,67 @@
                         "x": 121.0,
                         "y": 239.0,
                         "text": "\u00a1Ojal\u00e1 no sea nada malo!",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            },
+            {
+                "name": "2020-12-18-1",
+                "textlist": [
+                    {
+                        "x": 72.0,
+                        "y": 1112.0,
+                        "text": "\u00a1Ojal\u00e1 no me hubiera gastado todo el dinero!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 75.0,
+                        "y": 1049.0,
+                        "text": "\u00a1Ojal\u00e1 no me hubiera peleado con el jefe!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 128.0,
+                        "y": 832.0,
+                        "text": "\u00a1Ojal\u00e1 no tuviera que levantarme temprano!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 124.0,
+                        "y": 762.0,
+                        "text": "\u00a1Ojal\u00e1 pudiera viajar a Italia!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 135.0,
+                        "y": 566.0,
+                        "text": "\u00a1Ojal\u00e1 no haya perdido el dinero del autob\u00fas!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 132.0,
+                        "y": 504.0,
+                        "text": "\u00a1Ojal\u00e1 no haya tenido un accidente!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 126.0,
+                        "y": 306.0,
+                        "text": "\u00a1Ojal\u00e1 vuelvas pronto a casa!",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 122.0,
+                        "y": 240.0,
+                        "text": "\u00a1Ojal\u00e1 no sea nado malo!",
                         "fontindex": 0,
                         "state": 1
                     }
