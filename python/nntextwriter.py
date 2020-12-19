@@ -892,7 +892,6 @@ class TextWriter(QtWidgets.QMainWindow):
             self.askToSave()
         self.db.lessonName = self.overviewWidget.item(row, 0)._data
         self.db.lessonRow = row
-        self.db.lessonItem = self.overviewWidget.item(row, 3)
         self.updateSessions(0)
         self.setTitle()
         self.sessionMenu.actions()[self.db.sessionindex].setChecked(True)
@@ -911,11 +910,11 @@ class TextWriter(QtWidgets.QMainWindow):
             self.printAct.setEnabled(True)
 
     def lessonChanged(self, currentRow, currentColumn, previousRow, previousColumn):
-        if getattr(self.db, "lessonItem", None):
+        if getattr(self.db, "lessonRow", None):
             current = self.overviewWidget.item(currentRow, currentColumn)
             if current is None:
                 return
-            self.db.lessonItem.setBackground(current.background())
+            self.overviewWidget.item(self.db.lessonRow, 3).setBackground(current.background())
 
     def config2Qt(self, config):
         """Deserializer for config
@@ -1139,7 +1138,7 @@ class TextWriter(QtWidgets.QMainWindow):
         if index == 0 and getattr(self.db, "lessonRow", None):
             self.overviewWidget.selectRow(self.db.lessonRow)
             #self.db.lessonItem.setBackground(QtGui.QColor("#FFAAFF"))
-            self.db.lessonItem.setBackground(self.overviewWidget.palette().highlight())
+            self.overviewWidget.item(self.db.lessonRow, 3).setBackground(self.overviewWidget.palette().highlight())
         elif index == 1:
             self.writerWidget.imageLabel.setFocus()
 
