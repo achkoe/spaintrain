@@ -6559,6 +6559,81 @@
                         "state": 1
                     }
                 ]
+            },
+            {
+                "name": "2020-12-20-1",
+                "textlist": [
+                    {
+                        "x": 619.0,
+                        "y": 1249.0,
+                        "text": "este verano haga mucho calor.",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 315.0,
+                        "y": 1443.0,
+                        "text": "el m\u00e9dico  te haga un chequeo cuando te encuentras mal.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 288.0,
+                        "y": 1381.0,
+                        "text": "en Espa\u00f1a cada vez hay m\u00e1s zonas des\u00e9rticas.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 346.0,
+                        "y": 1314.0,
+                        "text": "los ni\u00f1os aprendan sus lecciones todos los d\u00edas.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 292.0,
+                        "y": 1250.0,
+                        "text": "este verano haya mucho calor.",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 276.0,
+                        "y": 1177.0,
+                        "text": "Nuria ha abandonado a su marido.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 281.0,
+                        "y": 1118.0,
+                        "text": "la gente proteste por la subida de los precios.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 339.0,
+                        "y": 1048.0,
+                        "text": "Gregorio no pueda venir a verme esta tarde.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 249.0,
+                        "y": 983.0,
+                        "text": "mi prima va a conseguir el trabajo.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 296.0,
+                        "y": 915.0,
+                        "text": "mi madre tenga que trabajar m\u00e1s en la case que mi padre.",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
