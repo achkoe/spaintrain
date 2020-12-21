@@ -1146,6 +1146,7 @@ class TextWriter(QtWidgets.QMainWindow):
 if __name__ == '__main__':
     LOGDICT = {"info": logging.INFO, "critical": logging.CRITICAL, "debug": logging.DEBUG}
     app = QtWidgets.QApplication([sys.argv[0]] + ["-style", "Fusion"] + sys.argv[1:])
+    app.setStyleSheet("QTableWidget { selection-background-color: lightblue }");
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("filename", default=None, nargs='?')
     parser.add_argument("--log", choices=LOGDICT.keys(), default="critical", help="log level, default '%(default)s'")
@@ -1156,3 +1157,5 @@ if __name__ == '__main__':
     #nncharts.init(textwriter)
     textwriter.show()
     sys.exit(app.exec_())
+
+#
