@@ -114,7 +114,13 @@ def process_replace(text):
         (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"\\subsection*{\1}", "flags": re.MULTILINE}),
         (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
         (r"\s*/(\d+)/\s*", {"r": r"~\\sidenote{\1}", "flags": 0}),
-        (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0})
+        (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0}),
+        (r"^\.beginitemize", {"r": r"\\begin{compactitem}", "flags": re.MULTILINE}),
+        (r"^\.enditemize", {"r": r"\\end{compactitem}", "flags": re.MULTILINE}),
+        (r"^\.beginitshape", {"r": r"\\begin{itshape}", "flags": re.MULTILINE}),
+        (r"^\.enditshape", {"r": r"\\end{itshape}", "flags": re.MULTILINE}),
+        (r"^\.beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
+        (r"^\.endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
     ])
 
     def replfn(adict, r, matchobj):
