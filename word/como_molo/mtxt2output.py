@@ -6,65 +6,14 @@ import sys
 import re
 import logging
 import textwrap
+import json
 from collections import OrderedDict
 from functools import partial
-import unittest
 
 logging.basicConfig(level=logging.INFO, format="%(lineno)d: %(msg)s")
 
-PAIRSSTART = """
-\beforeeledchapter
-\begin{pairs}
-"""
-
-PAIRSSTOP = r"""
-\end{pairs}
-\Columns
-"""
-
-CHAPTERSTART = r"""
-    \begin{{{side}}}
-    \beginnumbering
-    \pstart
-    {line}
-    \pend
-"""
-
-CHAPTERSTOP = r"""
-    \endnumbering
-    \end{{{side}}}
-"""
-
-SIDE = ["Leftside", "Rightside"]
-
-ESPANIOL, GERMAN = 0, 1
 
 SORTDICT = {'á': 'a', chr(195): 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}
-
-
-def analyze(args, linelist):
-    for lineno, line in enumerate(linelist):
-        if line.strip().startswith(".g"):
-            print("\\switchcolumn[1]", file=args.outfile)
-        elif line.strip().startswith(".begintwocol"):
-            print("\\begin{paracol}{2}", file=args.outfile)
-        elif line.strip().startswith(".endtwocol"):
-            print("\\end{paracol}", file=args.outfile)
-        elif line.strip().startswith(".e"):
-            print("\\switchcolumn[0]*", file=args.outfile)
-        else:
-            print(line, file=args.outfile)
-
-
-def process(args):
-    with open(args.infile, "r", encoding="utf-8") as fh:
-        text = fh.read()
-    text, alist = process_replace(text)
-    text = process_dashes(text)
-    linelist = text.splitlines()
-    analyze(args, linelist)
-    for item in alist:
-        print("\\paragraph{{g{0}: {1}}}~\\\\{2}\\\\".format(*item), file=args.outfile)
 
 
 def check_duplicates(wordlist):
@@ -85,7 +34,7 @@ def check_duplicates(wordlist):
             print("WARNING: {}".format(wordlist[index][0]))
 
 
-def process_replace(text):
+def process_replace_tex(text):
     adict = {
         "counter": 0,
         "alist": []
@@ -95,9 +44,7 @@ def process_replace(text):
         (r"“", {"r": r'"', "flags": 0}),
         (r"”", {"r": r'"', "flags": 0}),
         (r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
-
         (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
-
         (r"\*\*([^*]+)\*\*", {"r": r"\\textbf{\1}", "flags": 0}),
         (r"__([^_]+)__", {"r": r"\\uline{\1}", "flags": 0}),
         (r'\"([^\"]+)\"', {"r": r"\\glqq{}\1\\grqq{}", "flags": 0}),
@@ -117,8 +64,8 @@ def process_replace(text):
         (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0}),
         (r"^\.beginitemize", {"r": r"\\begin{compactitem}", "flags": re.MULTILINE}),
         (r"^\.enditemize", {"r": r"\\end{compactitem}", "flags": re.MULTILINE}),
-        (r"^\.beginenum", {"r": r"\\begin{compactenum}", "flags": re.MULTILINE}),
-        (r"^\.endenum", {"r": r"\\end{compactenum}", "flags": re.MULTILINE}),
+        (r"^\\beginenum", {"r": r"\\begin{compactenum}", "flags": re.MULTILINE}),
+        (r"^\\endenum", {"r": r"\\end{compactenum}", "flags": re.MULTILINE}),
         (r"^\.beginitshape", {"r": r"\\begin{itshape}", "flags": re.MULTILINE}),
         (r"^\.enditshape", {"r": r"\\end{itshape}", "flags": re.MULTILINE}),
         (r"^\.beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
@@ -174,6 +121,100 @@ def process_replace(text):
     return text, adict["alist"]
 
 
+def process_replace_html(text):
+    adict = {
+        "counter": 0,
+        "alist": []
+    }
+    wordlist = []
+    subdict = OrderedDict([
+        # replace quote characters
+        (r"“", {"r": r'"', "flags": 0}),
+        (r"”", {"r": r'"', "flags": 0}),
+        #(r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
+        #(r'\"([^\"]+)\"', {"r": r"\\glqq{}\1\\grqq{}", "flags": 0}),
+        # comments
+        (r"%.*$", {"r": "", "flags": re.MULTILINE}),
+        # replace translation tags
+        (r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r'<abbr class="translation", title="\1">\2</abbr>', "flags": 0}),
+        # do not know if we need it
+        (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
+        # ** is bold
+        (r"\*\*([^*]+)\*\*", {"r": r"<b>\1</b>", "flags": 0}),
+        #
+        (r"__([^_]+)__", {"r": r"\\uline{\1}", "flags": 0}),
+        (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
+        (r"\.att", {"r": r"\\danger{}", "flags": 0}),
+        (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
+        (r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
+        (r"//(.+?)//", {"r": r"<i>\1</i>", "flags": 0}),
+        (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
+        # headers
+        (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"<h1<\1</h1>", "flags": re.MULTILINE}),
+        (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"<h1>\1</h1>", "flags": re.MULTILINE}),
+        (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"<h2>\1</h2>", "flags": re.MULTILINE}),
+        (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"<h2>\1</h2>", "flags": re.MULTILINE}),
+        (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"<h3>\1</h3>", "flags": re.MULTILINE}),
+        # Spiegelstrich
+        (r"^-\s+(.*)$", {"r": r"<br/>- \1", "flags": re.MULTILINE}),
+        # line breaks
+        (r"\\\\", {"r": "<br/>", "flags": 0}),
+        # empty lines
+        ("^$", {"r": "<br/><!-- --><br/>", "flags": re.MULTILINE}),
+        # original page number
+        (r"\s*/(\d+)/\s*", {"r": r" ", "flags": 0}),
+        # ndots
+        (r"\\ndots", {"r": r"&hellip;", "flags": 0}),
+        # vskip, phantom
+        (r"\\vskip([^\s])", {"r": r"<br/>", "flags": 0}),
+        (r"\\phantom\{[^\}]*\}", {"r": r"", "flags": 0}),
+
+        #
+        (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0}),
+        # itemize
+        (r"^\\beginitemize", {"r": r"<ul>", "flags": re.MULTILINE}),
+        (r"^\\enditemize", {"r": r"</ul>", "flags": re.MULTILINE}),
+        (r"^\\beginenum", {"r": r"<ol>", "flags": re.MULTILINE}),
+        (r"^\\endenum", {"r": r"</ol>", "flags": re.MULTILINE}),
+        (r"^\s*\\item\s+(.*)$", {"r": r"<li>\1</li>", "flags": re.MULTILINE}),
+        # italic style
+        (r"^\\beginitshape", {"r": r"<i>", "flags": re.MULTILINE}),
+        (r"^\\enditshape", {"r": r"</i>", "flags": re.MULTILINE}),
+        # quoted
+        (r"^\\beginquote", {"r": r"<q>", "flags": re.MULTILINE}),
+        (r"^\\endquote", {"r": r"</q>", "flags": re.MULTILINE}),
+        # important: this has to be last
+        (r"<br/>(?:\s*<br/>)+", {"r": "<br/>", "flags": 0})
+    ])
+
+    def replfn(adict, r, matchobj):
+        if r.find("translation") != -1:
+            if matchobj.group(0).count("|") in [2, 3]:
+                tr = matchobj.group(2).split("|")
+                if matchobj.group(2).count("|") == 2:
+                    try:
+                        tr = [item.replace("::", "<br/>") for item in tr]
+                    except Exception:
+                        print(tr)
+                        raise
+                return ' <abbr title="{1}">{0}</abbr>'.format(matchobj.group(1), "{}".format(re.sub(r"<br\s*/>", ", ", tr[1])))
+                return ' ' + matchobj.group(1) + "\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
+            elif matchobj.group(0).count("|") > 1:
+                raise ValueError("invalid translation tag: {}".format(matchobj.group(0)))
+        if r.find("section") != -1 and len(matchobj.groups()) > 1 and matchobj.group(2):
+            return matchobj.expand(r) + "\\" + matchobj.group(2)
+        if r.find("endnote") != -1 and matchobj.group(0).count("|") == 1:
+            adict["counter"] += 1
+            adict["alist"].append((adict["counter"], matchobj.group(1), matchobj.group(2)))
+            return matchobj.group(1) + "$^{{g{}}}$".format(adict["counter"])
+        return matchobj.expand(r)
+
+    for key, replacement in subdict.items():
+        rf = partial(replfn, adict, replacement['r'])
+        text = re.sub(key, rf, text, flags=replacement['flags'])
+
+    return text
+
 def process_dashes(text):
     s_in, s_out = 0, 1
     state = s_out
@@ -200,7 +241,10 @@ def process_dashes(text):
     return "\n".join(textlist)
 
 
-def cleanup(args):
+def make_cleanup(args):
+    """Read file contents.in.txt, process t and write result to
+       contents.out.txt
+    """
     maxwidth = 72
 
     def fmt(text):
@@ -223,13 +267,16 @@ def cleanup(args):
         text = re.sub(r"!\s+([a-z])", lambda m: "! {}".format(m.group(1).upper()), text)
         return text
 
-    with open(args.infile, encoding="utf-8") as fh:
+    with open("contents.in.txt", encoding="utf-8") as fh:
         text = fh.read()
 
-    args.outfile.write(fmt(prepare(text)))
+    with open("contents.out.txt", "w") as fh:
+        fh.write(fmt(prepare(text)))
+
+    return "output written to contents.out.txt"
 
 
-def make_dictionary(withlink=True):
+def make_dictionary(args):
     with open("_words.txt") as fh:
         wordlist = fh.read().splitlines()
         outlist = []
@@ -255,68 +302,86 @@ def make_dictionary(withlink=True):
             {link}
 
             {d}
-            """.format(d="\n".join(outlist), link=link if withlink else ""))
-    pass
+            """.format(d="\n".join(outlist), link=link if args.with_link else ""))
+    return "output writen to ddictionary.tex"
 
 
-class Test(unittest.TestCase):
-    def setUp(self):
-        refmarker = "%%REFERENCE\n"
-        with open("sample.txt") as fh:
-            text = fh.read()
-        pos = text.find(refmarker)
-        self.testpattern = text[:pos]
-        pos += len(refmarker)
-        self.refpattern = text[pos:]
+def process_tex(args):
+    """Read contents.txt, procooeoss it and write result to content.tex"""
+    with open("contents.txt", "r", encoding="utf-8") as fh:
+        text = fh.read()
+    text, alist = process_replace_tex(text)
+    text = process_dashes(text)
+    with open("contents.tex", "w") as fh:
+        fh.write(text)
+    return "output written to contents.tex"
 
-    def __test_process_replace(self):
-        #print(self.testpattern)
-        self.testpattern = process_replace(self.testpattern)
-        #print(self.testpattern)
-        #return
-        testlist = self.testpattern.splitlines()
-        reflist = self.refpattern.splitlines()
-        # print(reflist)
-        #self.assertEqual(len(testlist), len(reflist))
-        print()
-        index = 1
-        for refline, testline in zip(reflist, testlist):
-            print("r{:05}: {}".format(index, repr(refline)))
-            print("a{:05}: {}".format(index, repr(testline)))
-            self.assertEqual(testline, refline)
-            index += 1
 
-    def test_process_dashes(self):
-        self.testpattern = process_dashes(process_replace(self.testpattern))
-        testlist = self.testpattern.splitlines()
-        reflist = self.refpattern.splitlines()
-        print()
-        index = 1
-        for refline, testline in zip(reflist, testlist):
-            print("r{:05}: {}".format(index, repr(refline)))
-            print("a{:05}: {}".format(index, repr(testline)))
-            self.assertEqual(testline, refline, "\n{!r}\n!=\n{!r}".format(testline, refline))
-            index += 1
+def process_ebook(args):
+    from ebooklib import epub
+    import uuid
 
-    def test_pattern_dashes(self):
-        testpattern = "1234\n-abc\n12345"
-        resultpattern = process_dashes(testpattern)
-        print(resultpattern)
-        self.assertEqual(resultpattern, "1234 \\\\\n-abc \\\\\n12345")
+    with open("contents.txt", "r", encoding="utf-8") as fh:
+        text = fh.read()
+    text = process_replace_html(text)
+
+    book = epub.EpubBook()
+    book.set_identifier(str(uuid.uuid1()))
+    title = args.config.get("title", "No title")
+    book.set_title(title)
+    book.set_language('es')
+    author = args.config.get("author", "No author")
+    book.add_author(author)
+    book.add_metadata('DC', 'description', "This is my private version of '{}' from {}".format(title, author))
+
+    # defube style
+    style = 'abbr {text-decoration: underline; color: blue}'
+    default_css = epub.EpubItem(uid="style_default", file_name="style/default.css", media_type="text/css", content=style)
+    book.add_item(default_css)
+
+    print(book.get_template("chapter"))
+    toclist = []
+    textlist = text.split("\\clearpage")
+    for index, chapter in enumerate(textlist):
+        chaptertitle = 'Capítulo {}'.format(index + 1) if args.config.get("chapterlist", None) is None else args.config["chapterlist"][index]
+        ebookchapter = epub.EpubHtml(title=chaptertitle,
+                   file_name='chapter{:02}.xhtml'.format(index + 1),
+                   lang='es')
+        ebookchapter.set_content(chapter)
+        ebookchapter.add_item(default_css)
+        toclist.append(ebookchapter)
+        book.add_item(ebookchapter)
+
+    book.toc = (
+        tuple(toclist)
+    )
+
+    # add navigation files
+    book.add_item(epub.EpubNcx())
+    book.add_item(epub.EpubNav())
+
+    # create spine
+    toclist.insert(0, 'nav')
+    book.spine = tuple(toclist)
+
+    # create epub file
+    epub.write_epub('book.epub', book, {})
+
+    return "output written to book.epub"
 
 
 if __name__ == '__main__':
+    choicesdict = {
+        "tex": process_tex,
+        "ebook": process_ebook,
+        "dictionary": make_dictionary,
+        "cleanup": make_cleanup
+    }
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    parser.add_argument("infile", help="input file")
-    parser.add_argument("--outfile", "-o", help="output file")
-    parser.add_argument("--cleanup", "-c", action="store_true", help="write dirty input file to clean output file")
+    parser.add_argument("action", choices=choicesdict.keys())
+    parser.add_argument("--with-link", action="store_true", help="create links in dictionary")
+    parser.add_argument("--configfile", "-c", action="store", help="configuration file", dest="configfile")
     args = parser.parse_args()
-    if args.outfile is None:
-        args.outfile = sys.stdout
-    else:
-        args.outfile = open(args.outfile, "w", encoding="utf-8")
-    if args.cleanup:
-        cleanup(args)
-    else:
-        process(args)
-    print("Wrote output to {}".format(args.outfile.name))
+    args.config = {} if args.configfile is None else json.load(open(args.configfile))
+    result = choicesdict[args.action](args)
+    print(result)

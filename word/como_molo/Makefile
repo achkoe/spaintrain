@@ -24,23 +24,26 @@ all := $(addsuffix }\clearpage,$(addprefix \input{,$(texfiles)))
 all: book.tex $(texfiles)
 	$(file > chapters.tex,$(all))
 	latexmk -xelatex -quiet -g book.tex 1> xelatex.log 2>&1
+
 	latexmk -xelatex -quiet -g dictionary.tex 1> xelatex.log 2>&1
 
 
 %.tex: %.txt
-	$(PYTHON) mtxt2tex.py -o $@ $<
-	$(PYTHON) -c "import mtxt2tex as m; m.make_dictionary(withlink=False)"
+	$(PYTHON) mtxt2output.py tex
+	$(PYTHON) mtxt2output.py dictionary
 	# cd $(dir $<) && sh ../encrypt.sh && cd ..
 	cd $(dir $<) && sh ../encrypt2.sh && cd ..
 
+ebook:
+	$(PYTHON) mtxt2output.py ebook --configfile config.json
 
 check:
-	$(PYTHON) mtxt2tex.py -o contents.tex contents.txt
-	$(PYTHON) -c "import mtxt2tex as m; m.make_dictionary()"
+	$(PYTHON) mtxt2output.py tex
+	$(PYTHON) mtxt2output.py dictionary
 
 c: cleanup
 cleanup:
-	$(PYTHON) mtxt2tex.py -c -o $(addsuffix .out.txt,$(basename $(current))) $(addsuffix .in.txt,$(basename $(current)))
+	$(PYTHON) mtxt2output.py cleanup
 
 
 decrypt:
