@@ -339,7 +339,6 @@ def process_ebook(args):
     default_css = epub.EpubItem(uid="style_default", file_name="style/default.css", media_type="text/css", content=style)
     book.add_item(default_css)
 
-    print(book.get_template("chapter"))
     toclist = []
     textlist = text.split("\\clearpage")
     for index, chapter in enumerate(textlist):
