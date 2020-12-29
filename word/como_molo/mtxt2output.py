@@ -66,10 +66,10 @@ def process_replace_tex(text):
         (r"^\.enditemize", {"r": r"\\end{compactitem}", "flags": re.MULTILINE}),
         (r"^\\beginenum", {"r": r"\\begin{compactenum}", "flags": re.MULTILINE}),
         (r"^\\endenum", {"r": r"\\end{compactenum}", "flags": re.MULTILINE}),
-        (r"^\.beginitshape", {"r": r"\\begin{itshape}", "flags": re.MULTILINE}),
-        (r"^\.enditshape", {"r": r"\\end{itshape}", "flags": re.MULTILINE}),
-        (r"^\.beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
-        (r"^\.endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
+        (r"^\\beginitshape", {"r": r"\\begin{itshape}", "flags": re.MULTILINE}),
+        (r"^\\enditshape", {"r": r"\\end{itshape}", "flags": re.MULTILINE}),
+        (r"^\\beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
+        (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
     ])
 
     def replfn(adict, r, matchobj):
