@@ -13,10 +13,15 @@ from functools import partial
 logging.basicConfig(level=logging.INFO, format="%(lineno)d: %(msg)s")
 
 
+# dict telling how special characters are sorted
 SORTDICT = {'á': 'a', chr(195): 'a', 'é': 'e', 'í': 'i', 'ó': 'o', 'ú': 'u'}
 
 
 def check_duplicates(wordlist):
+    """Check for duplicates in wordlist.
+
+    To be improved.
+    """
     comparelist = []
     for word in wordlist:
         item = word[0]
@@ -35,6 +40,8 @@ def check_duplicates(wordlist):
 
 
 def process_replace_tex(text):
+    """Replace special tags with their latex equivalent.
+    """
     adict = {
         "counter": 0,
         "alist": []
@@ -122,6 +129,8 @@ def process_replace_tex(text):
 
 
 def process_replace_html(text):
+    """Replace special tags with their html equivalent.
+    """
     adict = {
         "counter": 0,
         "alist": []
@@ -215,7 +224,10 @@ def process_replace_html(text):
 
     return text
 
+
 def process_dashes(text):
+    """Special handling af dashes indicating verbal speech-
+    """
     s_in, s_out = 0, 1
     state = s_out
     textlist = text.splitlines()
