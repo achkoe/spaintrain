@@ -190,8 +190,8 @@ def process_replace_html(text):
         (r"^\\beginitshape", {"r": r"<i>", "flags": re.MULTILINE}),
         (r"^\\enditshape", {"r": r"</i>", "flags": re.MULTILINE}),
         # quoted
-        (r"^\\beginquote", {"r": r"<q>", "flags": re.MULTILINE}),
-        (r"^\\endquote", {"r": r"</q>", "flags": re.MULTILINE}),
+        (r"^\\beginquote", {"r": r'<div class="quote"><i>', "flags": re.MULTILINE}),
+        (r"^\\endquote", {"r": r"</i></div>", "flags": re.MULTILINE}),
         # important: this has to be last
         (r"<br/>(?:\s*<br/>)+", {"r": "<br/>", "flags": 0})
     ])
