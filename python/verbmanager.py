@@ -3,10 +3,11 @@ import sys
 import sqlite3
 import codecs
 import random
+import pathlib
 from PySide2 import QtWidgets, QtCore
 
-DBFILENAME = "verben.db"
-OUTFILENAME = "verbmanager.out.txt"
+DBFILENAME = pathlib.Path(__file__).parent.joinpath("verben.db")
+OUTFILENAME = pathlib.Path(__file__).parent.joinpath("verbmanager.out.txt")
 
 
 class MainWindow(QtWidgets.QMainWindow):
