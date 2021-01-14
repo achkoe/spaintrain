@@ -324,7 +324,7 @@ def process_tex(args):
         text = fh.read()
     text, alist = process_replace_tex(text)
     text = process_dashes(text)
-    with open("contents.tex", "w") as fh:
+    with open("contents.tex", "w", encoding="utf-8") as fh:
         fh.write(text)
     return "output written to contents.tex"
 
