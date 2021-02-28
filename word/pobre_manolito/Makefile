@@ -1,4 +1,11 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
+ifeq ($(MINGW_CHOST),x86_64-w64-mingw32)
+	PYTHON = python
+	VIEW = "C:\Program Files (x86)\Ghostgum\gsview\gsview64.exe"
+else
+	PYTHON = python3
+	VIEW = xreader
+endif
 
 directories := ./
 
@@ -20,19 +27,25 @@ all: book.tex $(texfiles)
 	$(file > chapters.tex,$(all))
 	latexmk -xelatex -quiet -g book.tex 1> xelatex.log 2>&1
 
+	latexmk -xelatex -quiet -g dictionary.tex 1> xelatex.log 2>&1
+
 
 %.tex: %.txt
-	python mtxt2tex.py -o $@ $<
-	cd $(dir $<) && sh ../encrypt.sh && cd ..
+	$(PYTHON) mtxt2output.py tex
+	$(PYTHON) mtxt2output.py dictionary
+	# cd $(dir $<) && sh ../encrypt.sh && cd ..
 	cd $(dir $<) && sh ../encrypt2.sh && cd ..
 
+ebook:
+	$(PYTHON) mtxt2output.py ebook --configfile config.json
 
 check:
-	python mtxt2tex.py -o contents.tex contents.txt
+	$(PYTHON) mtxt2output.py tex
+	$(PYTHON) mtxt2output.py dictionary
 
 c: cleanup
 cleanup:
-	python mtxt2tex.py -c -o $(addsuffix .out.txt,$(basename $(current))) $(addsuffix .in.txt,$(basename $(current)))
+	$(PYTHON) mtxt2output.py cleanup
 
 
 decrypt:
@@ -42,4 +55,4 @@ decryptall:
 	sh ../decryptall.sh $(directories)
 
 view:
-	xreader book.pdf &
+	$(VIEW) book.pdf &
