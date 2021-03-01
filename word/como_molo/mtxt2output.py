@@ -108,7 +108,7 @@ def process_replace_tex(text):
             a_ = wlist[1]
         for k, r in SORTDICT.items():
             a_ = a_.replace(k, r)
-        return a_
+        return a_.lower()
 
     for key, replacement in subdict.items():
         rf = partial(replfn, adict, replacement['r'])
