@@ -235,8 +235,10 @@ def process_dashes(text):
     for index in range(len(textlist)):
         line = textlist[index].strip()
         if line.startswith("-") and not line.endswith("-"):
+            # it is not a heading, so go into state 's_in'
             state = s_in
             if textlist[index - 1].strip() != "":
+                # if previous line is not empty prepend the current line with //
                 textlist[index] = "\\\\" + textlist[index]
         if state == s_in:
             if line.endswith("~\\\\"):
@@ -247,7 +249,7 @@ def process_dashes(text):
                 textlist[index + 1] = "\\rule{1em}{0pt}" + textlist[index + 1]
             elif textlist[index + 1].strip() == "":
                 state = s_out
-                textlist[index] += "\\\\"
+                # textlist[index] += "\\\\"
             else:
                 textlist[index] += " %"
     return "\n".join(textlist)
