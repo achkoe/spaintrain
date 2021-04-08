@@ -58,12 +58,12 @@ def process_replace_tex(text):
         (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
         (r"\.att", {"r": r"\\danger{}", "flags": 0}),
         (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
-        (r"\.\.\.", {"r": r"\\ndots{}", "flags": 0}),
+        (r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
         (r"//(.+?)//", {"r": r"\\textit{\1}", "flags": 0}),
         (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
         (r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
         (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"\\section{\1}", "flags": re.MULTILINE}),
-        (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\section*{\1}", "flags": 0}),
+        (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\section*{\1}", "flags": re.MULTILINE}),
         (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"\\subsection{\1}", "flags": re.MULTILINE}),
         (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"\\subsection*{\1}", "flags": re.MULTILINE}),
         (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
@@ -235,10 +235,8 @@ def process_dashes(text):
     for index in range(len(textlist)):
         line = textlist[index].strip()
         if line.startswith("-") and not line.endswith("-"):
-            # it is not a heading, so go into state 's_in'
             state = s_in
             if textlist[index - 1].strip() != "":
-                # if previous line is not empty prepend the current line with //
                 textlist[index] = "\\\\" + textlist[index]
         if state == s_in:
             if line.endswith("~\\\\"):
@@ -249,7 +247,7 @@ def process_dashes(text):
                 textlist[index + 1] = "\\rule{1em}{0pt}" + textlist[index + 1]
             elif textlist[index + 1].strip() == "":
                 state = s_out
-                # textlist[index] += "\\\\"
+                textlist[index] += "\\\\"
             else:
                 textlist[index] += " %"
     return "\n".join(textlist)
