@@ -50,6 +50,8 @@ def process_replace_tex(text):
     subdict = OrderedDict([
         (r"“", {"r": r'"', "flags": 0}),
         (r"”", {"r": r'"', "flags": 0}),
+        (u'…', {"r": "\\\\ndots~", "flags": 0}),
+        (u'\.\.\.', {"r": "\\\\ndots~", "flags": 0}),
         (r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
         (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
         (r"\*\*([^*]+)\*\*", {"r": r"\\textbf{\1}", "flags": 0}),
@@ -58,7 +60,7 @@ def process_replace_tex(text):
         (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
         (r"\.att", {"r": r"\\danger{}", "flags": 0}),
         (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
-        (r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
+        ###(r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
         (r"//(.+?)//", {"r": r"\\textit{\1}", "flags": 0}),
         (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
         (r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
@@ -174,6 +176,8 @@ def process_replace_html(text):
         (r"\s*/(\d+)/\s*", {"r": r" ", "flags": 0}),
         # ndots
         (r"\\ndots", {"r": r"&hellip;", "flags": 0}),
+        (r"...", {"r": r"&hellip;", "flags": 0}),
+        (u'…', {"r": r"&hellip;", "flags": 0}),
         # vskip, phantom
         (r"\\vskip([^\s])", {"r": r"<br/>", "flags": 0}),
         (r"\\phantom\{[^\}]*\}", {"r": r"", "flags": 0}),
@@ -268,7 +272,7 @@ def make_cleanup(args):
 
     def prepare(text):
         replacementlist = ((r'\(\s+', '('), (u'“', '"'), (u'”', '"'),
-                           (' {2,}', ' '), (' +" +', ' "'), (u'…', '\\\\ndots'))
+                           (' {2,}', ' '), (' +" +', ' "')) #, (u'…', '\\\\ndots'))
         for replacement in replacementlist:
             text = re.sub(replacement[0], replacement[1], text)
         text = re.sub(r"\.(\n?\s*\w)", lambda m: m.group(0).upper(), text, flags=re.U)
