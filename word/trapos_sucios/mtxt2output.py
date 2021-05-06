@@ -239,22 +239,29 @@ def process_dashes(text):
     for index in range(len(textlist)):
         line = textlist[index].strip()
         if line.startswith("-") and not line.endswith("-"):
+            # it is the first line in verbal speech
             state = s_in
             if textlist[index - 1].strip() != "":
-                textlist[index] = "\\\\" + textlist[index]
+                # previous line in empty
+                textlist[index] = "\\par{}-" + textlist[index][1:]
         if state == s_in:
+            # we are in subsequent lines of verbal speech
             if line.endswith("~\\\\"):
+                # explicit marked end of verbal speech
                 textlist[index] += "\\par"
                 state = s_out
             elif line.endswith("\\\\"):
+                # explicit marked end of verbal speech
                 state = s_out
                 textlist[index + 1] = "\\rule{1em}{0pt}" + textlist[index + 1]
             elif textlist[index + 1].strip() == "":
+                # next line is empty
                 state = s_out
-                textlist[index] += "\\\\"
+                #textlist[index] += "\\\\"
             else:
+                # none of the above
                 textlist[index] += " %"
-    return "\n".join(textlist)
+    return "\n".join(textlist).replace("-", "---")
 
 
 def make_cleanup(args):
