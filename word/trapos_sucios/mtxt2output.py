@@ -69,6 +69,9 @@ def process_replace_tex(text):
         (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"\\subsection{\1}", "flags": re.MULTILINE}),
         (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"\\subsection*{\1}", "flags": re.MULTILINE}),
         (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
+
+        (r"- ", {"r": "---", "flags": 0}),
+
         (r"\s*/(\d+)/\s*", {"r": r"~\\sidenote{\1}", "flags": 0}),
         (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0}),
         (r"^\.beginitemize", {"r": r"\\begin{compactitem}", "flags": re.MULTILINE}),
@@ -230,7 +233,7 @@ def process_replace_html(text):
 
 
 def process_dashes(text):
-    """Special handling af dashes indicating verbal speech-
+    """Special handling af dashes indicating verbal speech
     """
     s_in, s_out = 0, 1
     state = s_out
@@ -261,7 +264,8 @@ def process_dashes(text):
             else:
                 # none of the above
                 textlist[index] += " %"
-    return "\n".join(textlist).replace("-", "---")
+    text = "\n".join(textlist)
+    return text
 
 
 def make_cleanup(args):
