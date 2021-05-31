@@ -62,6 +62,7 @@ def process_replace_tex(text):
         (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
         ###(r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
         (r"//(.+?)//", {"r": r"\\textit{\1}", "flags": 0}),
+        (r"_(.+?)_", {"r": r"\\textit{\1}", "flags": 0}),
         (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
         (r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
         (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"\\section{\1}", "flags": re.MULTILINE}),
