@@ -1,0 +1,86 @@
+% we don't want ae.sty
+\expandafter\def\csname ver@ae.sty\endcsname{}
+
+\documentclass[25pt, a0paper]{tikzposter} % See Section 3
+\usepackage{multirow}
+\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{tikz}
+\usepackage{color}
+\newcommand{\hl}[1]{\textbf{\textcolor{magenta}{#1}}}
+\newcommand{\tb}[1]{\textbf{#1}}
+\title{Subjuntivo 4}
+
+\usetikzlibrary {shapes.geometric}
+\usetikzlibrary{automata,positioning}
+\usetikzlibrary{shapes.multipart}
+\usetikzlibrary{arrows.meta}
+\usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{bending}
+
+
+\settitle{ \centering \vbox{\centering \color{titlefgcolor} {\bfseries \Huge \sc \@title \par} }}
+
+\usecolorpalette{BlueGrayOrange}
+\colorlet{innerblocktitlebgcolor}{colorOne}%
+\colorlet{innerblocktitlefgcolor}{white}%
+%\colorlet{innerblockbodybgcolor}{colorThree!30!white}%
+%\colorlet{innerblockbodyfgcolor}{black}%
+
+
+\begin{document}
+\maketitle % See Section 4.1
+
+
+\block{Zeitenfolge im Subjuntivo}{
+    \Large
+   \centering
+   \begin{tikzpicture}[align=center]
+    \draw (0,25) node[minimum height=1cm] (A0) %
+    {Vergangenheit, vorzeitig};
+    \draw (30,25) node[minimum height=1cm] (B0) %
+    {Hauptsatz};
+    \draw (60,25) node[minimum height=1cm] (C0) %
+    {gleichzeitig, nachzeitig};
+
+    \bfseries
+
+    \draw (0,20) node[fill=yellow!80, fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm=1cm] (A1) %
+    {Perfecto de  Subjuntivo};
+    \draw (30,20) node[fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm] (B1) %
+    {Presente\\[0.2em]Pretérito Perfecto\\[0.2em]Futuro Simple\\[0.2em]Imperativo};
+    \draw (60,20) node[fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm] (C1) %
+    {Presente de  Subjuntivo};
+    \draw[->, blue, -{Stealth[scale=8]}] (B1) edge node[above] {Handlung} (C1);
+    \draw[<-, blue, -{Stealth[scale=8]}] (B1) edge node[above] {Handlung} (A1);
+
+    \draw (0,10) node[fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm] (A2) %
+    {Plusquamperfecto de  Subjuntivo}; %
+    \draw (30,10) node[fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm] (B2) %
+    {Pretérito Indefinido\\[0.2em]Pretérito Imperfecto\\[0.2em]Pretérito Pluscuamperfecto\\[0.2em]Conditional Compuesto}; %
+    \draw (60,10) node[fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm] (C2) %
+    {Imperfecto de  Subjuntivo};
+    \draw[->, blue, -{Stealth[scale=8]}] (B2) -- node[above] {Handlung} (C2);
+    \draw[<-, blue, -{Stealth[scale=8]}] (B2) -- node[above] {Handlung} (A2);
+
+    \draw (0,0) node[fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm] (A3) %
+    {Imperfecto de  Subjuntivo}; %
+    \draw (30,0) node[fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm] (B3) %
+    {Conditional}; %
+    \draw (60,0) node[fill=yellow!80, minimum height=6cm,rectangle,draw,rounded corners=1cm] (C3) %
+    {Imperfecto de  Subjuntivo};
+    \draw[->, blue, -{Stealth[scale=8]}] (B3) -- node[above] {Handlung} (C3);
+    \draw[<-, blue, -{Stealth[scale=8]}] (B3) -- node[above] {Handlung} (A3);
+   \end{tikzpicture}
+}
+
+\end{document}
+
+
+
+
+
+
+
+
