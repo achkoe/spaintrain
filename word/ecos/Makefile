@@ -9,7 +9,6 @@ endif
 
 directories := ./
 srcfiles = ecos_20_13_p11
-srcfiles += ecos_test
 
 txtfiles = $(addsuffix .txt, $(srcfiles))
 texfiles = $(addsuffix .tex, $(srcfiles))
