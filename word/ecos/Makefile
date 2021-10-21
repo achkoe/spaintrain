@@ -19,17 +19,6 @@ dicfiles = $(addprefix d_, $(texfiles))
 current := $(lastword $(texfiles))
 dcurrent := $(lastword $(dicfiles))
 
-test: encrypt
-	echo $(dicfiles)
-
-encrypt:
-	@echo "ENCRYPT"
-	tar -cf contents.tar $(txtfiles)
-	sh ../encryptfile.sh contents.tar contents.aes2
-
-decrypt:
-	sh ../decryptfile.sh contents.aes2 contents.tar
-	tar -xvf contents.tar
 
 current: book.tex $(current) encrypt
 	$(file > chapters.tex,\input{$(current)}) $(file >> chapters.tex,\input{$(dcurrent)})
@@ -43,6 +32,18 @@ all: book.tex $(texfiles) encrypt
 	$(file > chapters.tex,$(all))
 	latexmk -xelatex -quiet -g book.tex # 1> xelatex.log 2>&1
 	#latexmk -xelatex -quiet -g dictionary.tex 1> xelatex.log 2>&1
+
+test: encrypt
+	echo $(dicfiles)
+
+encrypt:
+	@echo "ENCRYPT"
+	tar -cf contents.tar $(txtfiles)
+	sh ../encryptfile.sh contents.tar contents.aes2
+
+decrypt:
+	sh ../decryptfile.sh contents.aes2 contents.tar
+	tar -xvf contents.tar
 
 
 %.tex: %.txt
