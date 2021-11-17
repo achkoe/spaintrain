@@ -1,8 +1,10 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 ifeq ($(MINGW_CHOST),x86_64-w64-mingw32)
 	PYTHON = python
+	VIEW = "C:\Program Files (x86)\Ghostgum\gsview\gsview64.exe"
 else
 	PYTHON = python3
+	VIEW = xreader
 endif
 
 directories := ./
@@ -41,4 +43,4 @@ decryptall:
 	sh ../decryptall.sh $(directories)
 
 view:
-	xreader book.pdf &
+	$(VIEW) book.pdf &
