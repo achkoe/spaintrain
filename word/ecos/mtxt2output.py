@@ -334,12 +334,26 @@ def make_dictionary(args):
     return "output writen to ddictionary.tex"
 
 
+def analyze(text):
+    outlist = []
+    linelist = text.splitlines()
+    for lineno, line in enumerate(linelist):
+        if line.strip().startswith(".g"):
+            outlist.append("\\switchcolumn[1]")
+        elif line.strip().startswith(".e"):
+            outlist.append("\\switchcolumn[0]*")
+        else:
+            outlist.append(line)
+    return "\n".join(outlist)
+
+
 def process_tex(args):
     """Read contents.txt, procooeoss it and write result to content.tex"""
     with open("contents.txt", "r", encoding="utf-8") as fh:
         text = fh.read()
     text, alist = process_replace_tex(text)
     text = process_dashes(text)
+    text = analyze(text)
     with open("contents.tex", "w", encoding="utf-8") as fh:
         fh.write(text)
     return "output written to contents.tex"

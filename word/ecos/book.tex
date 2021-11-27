@@ -8,6 +8,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[german, spanish]{babel}
 \usepackage{setspace}
+\usepackage[]{paracol}
 
 \newcommand{\ndots}{\ldots~}
 
@@ -36,7 +37,11 @@
 
 \newcommand{\mdash}{-}
 \setstretch{1.15}
+
+\begin{paracol}{2}
 \input{chapters}
+\end{paracol}
+
 
 \newgeometry{textwidth=10cm, lmargin=2cm, rmargin=2cm, twocolumn=true, columnsep=2cm}
 \setlength{\parindent}{0em}
