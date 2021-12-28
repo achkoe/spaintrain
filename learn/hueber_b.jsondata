@@ -1089,6 +1089,235 @@
                         "state": 1
                     }
                 ]
+            },
+            {
+                "name": "2021-12-28-1",
+                "textlist": [
+                    {
+                        "x": 598.0,
+                        "y": 526.0,
+                        "text": "la estudiante joven",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 228.0,
+                        "y": 1364.0,
+                        "text": "marrones",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 233.0,
+                        "y": 1333.0,
+                        "text": "amarillos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 307.0,
+                        "y": 1302.0,
+                        "text": "verdes",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 188.0,
+                        "y": 1263.0,
+                        "text": "negro",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 169.0,
+                        "y": 1228.0,
+                        "text": "azul",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 172.0,
+                        "y": 1194.0,
+                        "text": "blanca",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 766.0,
+                        "y": 1063.0,
+                        "text": "gris",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 366.0,
+                        "y": 1066.0,
+                        "text": "negro",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 60.0,
+                        "y": 1028.0,
+                        "text": "fritas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 650.0,
+                        "y": 995.0,
+                        "text": "mixta",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 288.0,
+                        "y": 993.0,
+                        "text": "asado",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 271.0,
+                        "y": 963.0,
+                        "text": "industrial",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 547.0,
+                        "y": 931.0,
+                        "text": "amables",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 309.0,
+                        "y": 896.0,
+                        "text": "f\u00e1ciles",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 369.0,
+                        "y": 859.0,
+                        "text": "c\u00f3modas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 393.0,
+                        "y": 824.0,
+                        "text": "encantadora",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 389.0,
+                        "y": 792.0,
+                        "text": "dulces",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 390.0,
+                        "y": 660.0,
+                        "text": "la madre feliz",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 390.0,
+                        "y": 625.0,
+                        "text": "el profesor bueno",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 390.0,
+                        "y": 596.0,
+                        "text": "la persona mayor",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 387.0,
+                        "y": 562.0,
+                        "text": "la casa vieja",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 388.0,
+                        "y": 525.0,
+                        "text": "la estudiante j\u00f3ven",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 385.0,
+                        "y": 491.0,
+                        "text": "la fruta dulce",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 391.0,
+                        "y": 463.0,
+                        "text": "el ni\u00f1o alegre",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 394.0,
+                        "y": 321.0,
+                        "text": "los hombres fuertes",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 398.0,
+                        "y": 290.0,
+                        "text": "las ciudades grandes",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 399.0,
+                        "y": 262.0,
+                        "text": "las flores amarillas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 398.0,
+                        "y": 226.0,
+                        "text": "los profesores trabajadores",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 396.0,
+                        "y": 187.0,
+                        "text": "los libros interesantes",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 398.0,
+                        "y": 154.0,
+                        "text": "los ejercicios dif\u00edciles",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 395.0,
+                        "y": 120.0,
+                        "text": "las casas modernas",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
