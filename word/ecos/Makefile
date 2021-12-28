@@ -37,10 +37,7 @@ encrypt:
 	sh ../encryptfile.sh contents.txt contents.aes2
 
 decrypt:
-	cd $(dir $(lastword $(aesfiles))) && sh ../../decrypt.sh && cd ..
-
-decryptall:
-	sh ../decryptall.sh $(directories)
+	sh ../decryptfile.sh contents.aes2 contents.txt
 
 view:
 	$(VIEW) book.pdf &
