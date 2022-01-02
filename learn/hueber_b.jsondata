@@ -93,7 +93,286 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2022-01-02-1",
+                "textlist": [
+                    {
+                        "x": 475.0,
+                        "y": 771.0,
+                        "text": "La moto de Luis es m\u00e1s vieja que la de Miguel.",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 65.0,
+                        "y": 770.0,
+                        "text": "La moto de Miguel es m\u00e1s nueva que la de Luis.",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 540.0,
+                        "y": 597.0,
+                        "text": "En la zona peatonal es m\u00e1s tranquila que en la zona industrial.",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 57.0,
+                        "y": 598.0,
+                        "text": "En la zona industrial es m\u00e1s ruidosa que an la zona peatonal.",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 965.0,
+                        "y": 446.0,
+                        "text": "Nuestro jard\u00edn es m\u00e1s peque\u00f1o que el jard\u00edn de mi abuela.",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 671.0,
+                        "y": 1115.0,
+                        "text": "El libro es mejor que la pel\u00edcula.",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 518.0,
+                        "y": 1251.0,
+                        "text": "Sevilla tiene menos habitantes que Barcelona.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 396.0,
+                        "y": 1221.0,
+                        "text": "Juan trabaja m\u00e1s que Felipe.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 435.0,
+                        "y": 1182.0,
+                        "text": "Teresa tiene m\u00e1s de mil libros.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 389.0,
+                        "y": 1148.0,
+                        "text": "Tenemos menos tiempo que vosotros.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 412.0,
+                        "y": 1115.0,
+                        "text": "El libro es mejor que la pelicula.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 429.0,
+                        "y": 1014.0,
+                        "text": "Luisa es mayor que su hermana.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 359.0,
+                        "y": 982.0,
+                        "text": "Hoy est\u00e1 peor que ayer.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 416.0,
+                        "y": 950.0,
+                        "text": "Manuela es m\u00e1s alta que Pedro.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 385.0,
+                        "y": 916.0,
+                        "text": "\u00bfQui\u00e9n trabaja m\u00e1s, t\u00fa o yo?",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 495.0,
+                        "y": 886.0,
+                        "text": "Nuestra vecina tiene m\u00e1s de dez gatos.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 542.0,
+                        "y": 851.0,
+                        "text": "En verano hace menos fr\u00edo que en invierno.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 475.0,
+                        "y": 746.0,
+                        "text": "La moto de Luis es m\u00e1s viejo que la de Miguel.",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 60.0,
+                        "y": 748.0,
+                        "text": "La moto de Miguel es m\u00e1s nuevo que la de Luis.",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 357.0,
+                        "y": 681.0,
+                        "text": "El Teide es m\u00e1s bajo que el Everest.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 59.0,
+                        "y": 681.0,
+                        "text": "El Everest es mas alto que El Teide.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 543.0,
+                        "y": 615.0,
+                        "text": "En la zona peatonal es m\u00e1s tranquilo que en la zona industrial.",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 59.0,
+                        "y": 612.0,
+                        "text": "En la zona industrial es m\u00e1s ruidoso que an la zona peatonal.",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 492.0,
+                        "y": 518.0,
+                        "text": "Paco estudia poco m\u00e1s horas al d\u00eda que Isabel.",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 67.0,
+                        "y": 519.0,
+                        "text": "Isabel estudia mucho m\u00e1s horas al d\u00eda que Paco.",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 514.0,
+                        "y": 447.0,
+                        "text": "Nuestro jard\u00edn es m\u00e1s peque\u00f1o de el jard\u00edn de mi abuela.",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 57.0,
+                        "y": 449.0,
+                        "text": "El jard\u00edn de mi abuela es m\u00e1s grande que el nuestro.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 332.0,
+                        "y": 250.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 175.0,
+                        "y": 252.0,
+                        "text": "m\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 521.0,
+                        "y": 217.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 207.0,
+                        "y": 215.0,
+                        "text": "m\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 548.0,
+                        "y": 183.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 325.0,
+                        "y": 177.0,
+                        "text": "menos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 563.0,
+                        "y": 149.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 406.0,
+                        "y": 147.0,
+                        "text": "m\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 410.0,
+                        "y": 115.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 196.0,
+                        "y": 110.0,
+                        "text": "m\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 433.0,
+                        "y": 84.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 256.0,
+                        "y": 82.0,
+                        "text": "menos",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "l64-p145-PraepositionenDe": {
         "image": "images_hueber/l64-p145-PraepositionenDe.png",
