@@ -371,6 +371,242 @@
                         "state": 1
                     }
                 ]
+            },
+            {
+                "name": "2022-01-22-1",
+                "textlist": [
+                    {
+                        "x": 535.0,
+                        "y": 1251.0,
+                        "text": "Sevilla tiene menos habitantes que Barcelona.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 400.0,
+                        "y": 1218.0,
+                        "text": "Juan trabaja m\u00e1s que Felipe.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 433.0,
+                        "y": 1185.0,
+                        "text": "Teresa tiene m\u00e1s de mil libros.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 391.0,
+                        "y": 1156.0,
+                        "text": "Tenemos menos tiempo que vosotros.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 409.0,
+                        "y": 1119.0,
+                        "text": "El libro es mejor que la pelicula.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 423.0,
+                        "y": 1014.0,
+                        "text": "Luisa es mayor que su hermana.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 364.0,
+                        "y": 981.0,
+                        "text": "Hoy est\u00e1 peor que ayer.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 400.0,
+                        "y": 944.0,
+                        "text": "Manuela es m\u00e1s alta que Pedro.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 395.0,
+                        "y": 915.0,
+                        "text": "\u00bfQui\u00e9n trabaja m\u00e1s, t\u00fa o yo?",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 486.0,
+                        "y": 882.0,
+                        "text": "Nuestra vecina tiene m\u00e1s de diez gatos.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 544.0,
+                        "y": 855.0,
+                        "text": "En verano hace menos fr\u00edo que en invierno.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 503.0,
+                        "y": 753.0,
+                        "text": "La moto de Luis es m\u00e1s vieja que el moto de Miguel.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 63.0,
+                        "y": 752.0,
+                        "text": "La moto de Miguel es m\u00e1s nueva que el moto de Luis.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 445.0,
+                        "y": 684.0,
+                        "text": "El Teide es m\u00e1s bajo que el Everest.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 55.0,
+                        "y": 676.0,
+                        "text": "El Everest es m\u00e1s alto que el Teide.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 538.0,
+                        "y": 611.0,
+                        "text": "El la zona peatonal es m\u00e1s tranquila que en la zona industrial.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 62.0,
+                        "y": 613.0,
+                        "text": "En la zona industrial es m\u00e1s ruidosa que en la zona peatonal.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 355.0,
+                        "y": 515.0,
+                        "text": "Paco estudia poco m\u00e1s que Isabel.",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 50.0,
+                        "y": 518.0,
+                        "text": "Isabel estudia mucho m\u00e1s que Paco.",
+                        "fontindex": 0,
+                        "state": 0
+                    },
+                    {
+                        "x": 490.0,
+                        "y": 448.0,
+                        "text": "Nuestro jard\u00edn es m\u00e1s peque\u00f1o que el de mi abuela.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 57.0,
+                        "y": 449.0,
+                        "text": "El jard\u00edn de mi abuela es m\u00e1s grande que el nuestro.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 339.0,
+                        "y": 250.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 196.0,
+                        "y": 250.0,
+                        "text": "m\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 514.0,
+                        "y": 220.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 224.0,
+                        "y": 218.0,
+                        "text": "m\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 557.0,
+                        "y": 177.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 327.0,
+                        "y": 181.0,
+                        "text": "menos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 564.0,
+                        "y": 150.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 410.0,
+                        "y": 147.0,
+                        "text": "m\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 417.0,
+                        "y": 113.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 197.0,
+                        "y": 113.0,
+                        "text": "m\u00e1s",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 409.0,
+                        "y": 82.0,
+                        "text": "que",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 255.0,
+                        "y": 83.0,
+                        "text": "menos",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
             }
         ]
     },
@@ -902,7 +1138,209 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2022-01-22-1",
+                "textlist": [
+                    {
+                        "x": 331.0,
+                        "y": 281.0,
+                        "text": "tantas",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 324.0,
+                        "y": 244.0,
+                        "text": "tanto",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 397.0,
+                        "y": 1265.0,
+                        "text": "tanto",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 504.0,
+                        "y": 1327.0,
+                        "text": "tanto",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 452.0,
+                        "y": 1326.0,
+                        "text": "tan",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 377.0,
+                        "y": 1299.0,
+                        "text": "tan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 327.0,
+                        "y": 1268.0,
+                        "text": "tan",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 314.0,
+                        "y": 1231.0,
+                        "text": "tantas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 380.0,
+                        "y": 1202.0,
+                        "text": "tantos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 289.0,
+                        "y": 1167.0,
+                        "text": "tanto",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 422.0,
+                        "y": 1069.0,
+                        "text": "T\u00fa no comes tanta fruta como yo.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 445.0,
+                        "y": 1033.0,
+                        "text": "\u00c9l no gasta  tanto en ropa come ella.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 558.0,
+                        "y": 1002.0,
+                        "text": "El padre de Luis trabaja tanto como mi padre.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 550.0,
+                        "y": 968.0,
+                        "text": "Ir en tren no es tan rapido como ir en avi\u00f3n.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 546.0,
+                        "y": 937.0,
+                        "text": "No tenemos tantas vacaciones come vosotros.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 542.0,
+                        "y": 902.0,
+                        "text": "Luisa es tan alta como su hermano Antonio.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 527.0,
+                        "y": 867.0,
+                        "text": "Carlos no tiene tantos a\u00f1os como Teresa.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 72.0,
+                        "y": 738.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 67.0,
+                        "y": 609.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 64.0,
+                        "y": 510.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 76.0,
+                        "y": 445.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 260.0,
+                        "y": 280.0,
+                        "text": "tantos",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 281.0,
+                        "y": 247.0,
+                        "text": "tan",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 314.0,
+                        "y": 219.0,
+                        "text": "tanto",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 126.0,
+                        "y": 180.0,
+                        "text": "tantas",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 153.0,
+                        "y": 149.0,
+                        "text": "tan",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 180.0,
+                        "y": 113.0,
+                        "text": "tantos",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 274.0,
+                        "y": 76.0,
+                        "text": "tanto",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "l19-p49-PrasensUnregelEi": {
         "image": "images_hueber/l19-p49-PrasensUnregelEi.png",
@@ -2272,7 +2710,237 @@
                 "name": "Remark Pen"
             }
         ],
-        "sessionlist": []
+        "sessionlist": [
+            {
+                "name": "2022-01-18-1",
+                "textlist": [
+                    {
+                        "x": 583.0,
+                        "y": 327.0,
+                        "text": "buenos",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 280.0,
+                        "y": 173.0,
+                        "text": "primer",
+                        "fontindex": 1,
+                        "state": 0
+                    },
+                    {
+                        "x": 423.0,
+                        "y": 1330.0,
+                        "text": "lago peruano",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 460.0,
+                        "y": 1300.0,
+                        "text": "m\u00fasica moderna",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 555.0,
+                        "y": 1271.0,
+                        "text": "un medio litro",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 321.0,
+                        "y": 1235.0,
+                        "text": "tercera calle",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 382.0,
+                        "y": 1198.0,
+                        "text": "ciudad interesante",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 471.0,
+                        "y": 1174.0,
+                        "text": "buenas amigas.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 318.0,
+                        "y": 1135.0,
+                        "text": "primer d\u00eda ",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 361.0,
+                        "y": 1040.0,
+                        "text": "\u00bfQuieres otra cerveza?",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 480.0,
+                        "y": 1003.0,
+                        "text": "Medio litro de vino tinto por favor.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 489.0,
+                        "y": 972.0,
+                        "text": "\u00bfHas estado alguna vez ein Guatemala?",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 373.0,
+                        "y": 942.0,
+                        "text": "Esta blusa es muy bonita.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 526.0,
+                        "y": 904.0,
+                        "text": "Vivimos en tercer edifcio a la derecha.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 457.0,
+                        "y": 871.0,
+                        "text": "Paco y Jaime son buenos amigos.",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 335.0,
+                        "y": 840.0,
+                        "text": "Es un libro intersante",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 738.0,
+                        "y": 691.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 737.0,
+                        "y": 607.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 426.0,
+                        "y": 725.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 430.0,
+                        "y": 579.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 87.0,
+                        "y": 722.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 89.0,
+                        "y": 604.0,
+                        "text": "x",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 183.0,
+                        "y": 448.0,
+                        "text": "otra",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 74.0,
+                        "y": 413.0,
+                        "text": "Medio",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 127.0,
+                        "y": 381.0,
+                        "text": "tercera",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 514.0,
+                        "y": 344.0,
+                        "text": "bueno",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 172.0,
+                        "y": 315.0,
+                        "text": "ninguna",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 385.0,
+                        "y": 282.0,
+                        "text": "r\u00e1pido",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 358.0,
+                        "y": 247.0,
+                        "text": "interesante",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 407.0,
+                        "y": 213.0,
+                        "text": "hermosa",
+                        "fontindex": 0,
+                        "state": 1
+                    },
+                    {
+                        "x": 206.0,
+                        "y": 185.0,
+                        "text": "primero",
+                        "fontindex": 0,
+                        "state": 2
+                    },
+                    {
+                        "x": 268.0,
+                        "y": 146.0,
+                        "text": "poco",
+                        "fontindex": 0,
+                        "state": 1
+                    }
+                ]
+            }
+        ]
     },
     "l13-p35-Zahlen3": {
         "image": "images_hueber/l13-p35-Zahlen3.png",
