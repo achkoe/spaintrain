@@ -20,6 +20,11 @@ current: book.tex $(current)
 	$(file > chapters.tex,\input{$(current)})
 	latexmk -xelatex -g book.tex
 
+p: book_p.tex $(current)
+	$(PYTHON) mtxt2output_p.py tex
+	$(PYTHON) mtxt2output_p.py dictionary
+	$(file > chapters.tex,\input{$(current)})
+	latexmk -xelatex -g book_p.tex
 
 all := $(addsuffix }\clearpage,$(addprefix \input{,$(texfiles)))
 
