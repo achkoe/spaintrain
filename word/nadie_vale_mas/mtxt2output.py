@@ -71,7 +71,7 @@ def process_replace_tex(text):
         (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"\\subsection*{\1}", "flags": re.MULTILINE}),
         (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
 
-        (r"- ", {"r": "---", "flags": 0}),
+        (r"^- ", {"r": "---", "flags": re.MULTILINE}),
 
         (r"\s*/(\d+)/\s*", {"r": r"~\\sidenote{\1}", "flags": 0}),
         (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0}),
