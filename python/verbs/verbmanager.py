@@ -18,7 +18,11 @@ class MainWindow(QtWidgets.QMainWindow):
         self.action_save = QtWidgets.QAction("&Export and save...", self, shortcut="Ctrl+S", triggered=self.save, enabled=True)
         self.action_export = QtWidgets.QAction("&Export only...", self, shortcut="Ctrl+Alt+S", triggered=self.export, enabled=True)
         self.action_exit = QtWidgets.QAction("E&xit", self, shortcut="Ctrl+Q", triggered=self.close)
+        self.action_mark = QtWidgets.QAction("&Mark", self, shortcut="Ctrl+M", triggered=self.mark)
+        self.action_unmark = QtWidgets.QAction("&Unmark", self, shortcut="Ctrl+U", triggered=self.unmark)
         self.fileMenu = QtWidgets.QMenu("&File", self)
+        self.fileMenu.addAction(self.action_mark)
+        self.fileMenu.addAction(self.action_unmark)
         self.fileMenu.addAction(self.action_save)
         self.fileMenu.addAction(self.action_export)
         self.fileMenu.addAction(self.action_exit)
@@ -35,6 +39,17 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def export(self):
         self.save_(dosave=False)
+
+    def mark(self, mark=True):
+        print("mark", mark)
+        selectedItem = self.table_widget.currentItem()
+        row = selectedItem.row()
+        for col in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
+            item = self.table_widget.item(row, col)
+            item.setCheckState(QtCore.Qt.Checked if mark else QtCore.Qt.Unchecked)
+
+    def unmark(self):
+        self.mark(False)
 
     def save_(self, dosave):
         linebreak = u"<br/>"
