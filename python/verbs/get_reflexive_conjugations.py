@@ -25,7 +25,7 @@ def get_conjugation(item):
                 conjugation_mode = search.text.strip()
                 break
         tense = conjugation_forms.parent.find("h3").text.strip()
-        conjugations = [conjugation.text.strip() for conjugation in conjugation_forms.find_all("li")]
+        conjugations = [conjugation.text.strip().split(maxsplit=1)[-1].strip() for conjugation in conjugation_forms.find_all("li")]
         item.update({"{}_{}".format(conjugation_mode, tense): conjugations})
         #break
 
@@ -38,7 +38,7 @@ def process_data(data):
 
 def write_output(data):
     with open(outputfile, "w") as fh:
-        json.dump(data, fh, indent=4)
+        json.dump(data, fh, indent=4, ensure_ascii=False)
 
 
 if __name__ == "__main__":
