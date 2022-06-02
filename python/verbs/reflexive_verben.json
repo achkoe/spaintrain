@@ -1,7 +1,7 @@
 [
     {
         "infinitiv": "levantarse",
-        "german": "aufstehen",
+        "german": "sich erheben, aufstehen",
         "_complete": 1,
         "Indicativo Presente": [
             "me levanto",
@@ -343,7 +343,7 @@
     },
     {
         "infinitiv": "quedarse",
-        "german": "bleiben",
+        "german": "bleiben, sich befinden",
         "_complete": 1,
         "Indicativo Presente": [
             "me quedo",
@@ -514,7 +514,7 @@
     },
     {
         "infinitiv": "romperse",
-        "german": "zerbrechen",
+        "german": "kaputt gehen, zerbrechen",
         "_complete": 1,
         "Indicativo Presente": [
             "me rompo",
@@ -685,7 +685,7 @@
     },
     {
         "infinitiv": "sumergirse",
-        "german": "versinken",
+        "german": "versinken, tauchen",
         "_complete": 1,
         "Indicativo Presente": [
             "me sumerjo",
@@ -1027,7 +1027,7 @@
     },
     {
         "infinitiv": "encontrarse",
-        "german": "sich befinden",
+        "german": "sich begegnen, zusammenkommen",
         "_complete": 1,
         "Indicativo Presente": [
             "me encuentro",
@@ -1882,7 +1882,7 @@
     },
     {
         "infinitiv": "tratar",
-        "german": "behandeln",
+        "german": "behandeln, umgehen",
         "_complete": 1,
         "Indicativo Presente": [
             "yo trato",
@@ -2566,7 +2566,7 @@
     },
     {
         "infinitiv": "presentar",
-        "german": "vorstellen",
+        "german": "jmdn. vorstellen",
         "_complete": 1,
         "Indicativo Presente": [
             "yo presento",
@@ -3420,13 +3420,13 @@
         ]
     },
     {
-        "infinitiv": "conventirse",
-        "german": "sich verwandeln in;sich verwirklichen",
+        "infinitiv": "convertirse",
+        "german": "sich verwandeln in, sich verwirklichen",
         "_complete": 0
     },
     {
         "infinitiv": "convenir",
-        "german": "vereinbaren, abmachen",
+        "german": "vereinbaren, abmachen, nützlich sein",
         "_complete": 1,
         "Indicativo Presente": [
             "yo convengo",
@@ -3768,7 +3768,7 @@
     },
     {
         "infinitiv": "llevar",
-        "german": "hinbringen",
+        "german": "etw. mitbringen, etw. anhaben",
         "_complete": 1,
         "Indicativo Presente": [
             "yo llevo",
@@ -3939,7 +3939,7 @@
     },
     {
         "infinitiv": "llevarse",
-        "german": "mitnehmen",
+        "german": "jmdn./etw. mitnehmen, fortbringen",
         "_complete": 1,
         "Indicativo Presente": [
             "me llevo",
