@@ -57,19 +57,13 @@
         "_complete": 0,
         "spain": "irse",
         "infinitivo": "irse",
-        "german": "weggehen"
+        "german": "weggehen, fortgehen"
     },
     {
         "_complete": 0,
         "spain": "componerse de",
         "infinitivo": "componerse",
         "german": "bestehen aus"
-    },
-    {
-        "_complete": 0,
-        "spain": "levantarse",
-        "infinitivo": "levantarse",
-        "german": "aufstehen"
     },
     {
         "_complete": 0,
@@ -331,12 +325,6 @@
     },
     {
         "_complete": 0,
-        "spain": "despertarse",
-        "infinitivo": "despertarse",
-        "german": "aufwachen"
-    },
-    {
-        "_complete": 0,
         "spain": "encender",
         "infinitivo": "encender",
         "german": "anzünden"
@@ -373,27 +361,21 @@
     },
     {
         "_complete": 0,
-        "spain": "hallar",
+        "spain": "hallar algo",
         "infinitivo": "hallar",
-        "german": "finden"
+        "german": "etw. entdecken, etw. erfinden"
     },
     {
         "_complete": 0,
         "spain": "hallarse",
         "infinitivo": "hallarse",
-        "german": "sich befinden"
+        "german": "sich befinden, sich fühlen"
     },
     {
         "_complete": 0,
         "spain": "ir",
         "infinitivo": "ir",
         "german": "gehen"
-    },
-    {
-        "_complete": 0,
-        "spain": "irse",
-        "infinitivo": "irse",
-        "german": "weggehen"
     },
     {
         "_complete": 0,
@@ -412,12 +394,6 @@
         "spain": "llamar",
         "infinitivo": "llamar",
         "german": "rufen/nennen"
-    },
-    {
-        "_complete": 0,
-        "spain": "llamarse",
-        "infinitivo": "llamarse",
-        "german": "heißen"
     },
     {
         "_complete": 0,
@@ -483,7 +459,7 @@
         "_complete": 0,
         "spain": "ponerse + Adj.",
         "infinitivo": "ponerse",
-        "german": "werden"
+        "german": "werden  (plötzlich)"
     },
     {
         "_complete": 0,
@@ -597,7 +573,7 @@
         "_complete": 0,
         "spain": "volverse + Adj.",
         "infinitivo": "volverse",
-        "german": "werden"
+        "german": "werden (Passivität)"
     },
     {
         "_complete": 0,

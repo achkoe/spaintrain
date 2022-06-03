@@ -53,7 +53,7 @@ def main():
                     typefield = "Verb (reziprok)"
                     item["german"] = item["german"][:-2].strip()
                 elif item["german"].endswith("PV"):
-                    typefield = "Verb (pronominale)"
+                    typefield = "Verb (nur reflexive)"
                     item["german"] = item["german"][:-2].strip()
                 else:
                     typefield = "Verb"
@@ -62,7 +62,7 @@ def main():
                         german=item["german"],
                         linebreak=linebreak,
                         tense=replacementdict[tense])
-                    rlist.append([question, "{}{}{}".format(item["spain"], linebreak, item[tense]), typefield])
+                    rlist.append([question, "{}{}{}".format(item["spain"], linebreak, linebreak.join(item[tense])), typefield])
                 elif tense in ['Subjuntivo Pretérito imperfecto']:
                     question = u'<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="#ef2929">{tense}</font></u></b>?'.format(
                         german=item["german"],
