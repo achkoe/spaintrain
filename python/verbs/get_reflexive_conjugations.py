@@ -4,9 +4,9 @@ import requests
 from bs4 import BeautifulSoup
 
 
-URL = "https://conjugador.reverso.net/conjugacion-espanol-verbo-{infinitiv}.html"
+URL = "https://conjugador.reverso.net/conjugacion-espanol-verbo-{infinitivo}.html"
 inputfile = pathlib.Path(__file__).parent.joinpath("reflexive_verben.json")
-outputfile = pathlib.Path(__file__).parent.joinpath("reflexive_verben_out.json")
+outputfile = pathlib.Path(__file__).parent.joinpath("reflexive_verben.out.json")
 print(inputfile)
 
 
@@ -20,7 +20,7 @@ def get_conjugation(item):
     r = requests.get(URL.format(**item))
     soup = BeautifulSoup(r.content, "html.parser")
     for title in soup.find_all(class_="blue-box-wrap"):
-        key = title.attrs["mobile-title"]
+        key = title.attrs["mobile-title"].strip()
         conjugations = [conjugation.text for conjugation in title.find_all("li")]
         item.update({key: conjugations})
 
@@ -28,7 +28,9 @@ def get_conjugation(item):
 def process_data(data):
     for item in data:
         if item["_complete"] == 0:
+            print("processing {infinitivo}".format(**item))
             get_conjugation(item)
+            item["_complete"] = 1
 
 
 def write_output(data):
