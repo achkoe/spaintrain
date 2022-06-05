@@ -19,7 +19,7 @@ replacementdict = {
     'Indicativo Futuro perfecto': None,
     'Indicativo Condicional perfecto': None,
     'Indicativo Condicional': 'Condicional',
-    'Indicativo Pretérito perfecto simple': 'Pretérito perfecto',
+    'Indicativo Pretérito indefinido': 'Pretérito indefinido',
     'Imperativo': 'Imperativo',
     'Subjuntivo Presente': 'Subjuntivo Presente',
     'Subjuntivo Futuro': None,
@@ -44,6 +44,8 @@ def main():
         data = json.load(fh)
     for item in data:
         if item["_complete"] == 0:
+            continue
+        if item["_export"] in [0, 2]:
             continue
         for tense in replacementdict.keys():
             if replacementdict[tense] is None:
