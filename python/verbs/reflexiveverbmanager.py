@@ -1,10 +1,13 @@
+import argparse
 import pathlib
 import json
 import random
 
 
 inputfile = pathlib.Path(__file__).parent.joinpath("reflexive_verben.out.json")
+inputcopyfile = pathlib.Path(__file__).parent.joinpath("reflexive_verben.out.copy.json")
 outputfile = pathlib.Path(__file__).parent.joinpath("reflexiveverbmanager.out.txt")
+selectionfile = pathlib.Path(__file__).parent.joinpath("reflexiveverbmanager.select.json")
 
 replacementdict = {
     'infinitiv': None,
@@ -37,7 +40,36 @@ replacementdict = {
 }
 
 
-def main():
+def write_select():
+    """write all items with '_complete==1' and 'export==0, 2' to selectionfile"""
+    with open(inputfile, "r") as fh:
+        data = json.load(fh)
+    odata = dict()
+    for item in data:
+        if item["_complete"] == 1 and item["_export"] in [0, 2]:
+            odata.update({item["spain"]: item["_export"]})
+    odata = {k: v for k, v in sorted(odata.items(), key=lambda item: item[1])}
+    with selectionfile.open("w") as fh:
+        json.dump(odata, fh, indent=4, ensure_ascii=False)
+    print(f"selection file written to {selectionfile}")
+
+
+def read_select():
+    """transfer settings from selectionfile to inputfile"""
+    with selectionfile.open("r") as fh:
+        sdata = json.load(fh)
+    with open(inputfile, "r") as fh:
+        data = json.load(fh)
+    for item in data:
+        if item["spain"] in sdata and item["_export"] != sdata[item["spain"]]:
+            print(item["spain"])
+            item["_export"] = sdata[item["spain"]]
+    with open(inputcopyfile, "w") as fh:
+        json.dump(data, fh, indent=4, ensure_ascii=False)
+    print(f"updated inputfile written to {inputcopyfile}")
+
+
+def export():
     linebreak = "<br/>"
     rlist = []
     with open(inputfile, "r") as fh:
@@ -45,8 +77,12 @@ def main():
     for item in data:
         if item["_complete"] == 0:
             continue
+        # _export 0: not exported
+        # _export 1: do export
+        # _export 2: already exported
         if item["_export"] in [0, 2]:
             continue
+        item["_export"] == 2
         for tense in replacementdict.keys():
             if replacementdict[tense] is None:
                 continue
@@ -89,8 +125,24 @@ def main():
     with open(outputfile, "w", encoding="utf-8") as fh:
         fh.write(ostr)
     print(f"Written to file {outputfile}")
+    with open(inputcopyfile, "w") as fh:
+        json.dump(data, fh, indent=4, ensure_ascii=False)
+    print(f"updated inputfile written to {inputcopyfile}")
 
 
 
 if __name__ == '__main__':
-    main()
+    parser = argparse.ArgumentParser()
+    group = parser.add_mutually_exclusive_group()
+    group.add_argument("-e", "--export", action="store_true", help=f"export items with '_complete==1' and 'export==1' to {outputfile}")
+    group.add_argument("-w", "--write-select", action="store_true", help=f"write all items with '_complete==1' and 'export==0, 2' to {selectionfile}")
+    group.add_argument("-r", "--read-select", action="store_true", help=f"transfer settings from {selectionfile} to {inputfile}")
+    args = parser.parse_args()
+    if args.export:
+        export()
+    elif args.write_select:
+        write_select()
+    elif args.read_select:
+        read_select()
+    else:
+        print("What should I do?")
