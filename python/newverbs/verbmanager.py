@@ -15,7 +15,17 @@ class Common():
         # print(self.json_db[0].keys())
 
     def save(self):
-        pass
+        print(self.inputfile.with_name(f"{self.inputfile.stem}_c.json"))
+        with self.inputfile.with_name(f"{self.inputfile.stem}_c.json").open("w") as fh:
+            json.dump(self.json_db, fh, indent=4, ensure_ascii=False)
+
+    def searchItem(self, key: str, value: str):
+        for index, item in enumerate(self.json_db):
+            if item[key] == value:
+                break
+        else:
+            index = None
+        return index
 
 
 class NormalVerbs(Common):
@@ -25,13 +35,94 @@ class NormalVerbs(Common):
     # 'subjuntivoimperfecto', 'subjuntivoperfecto', 'subjuntivopluscuamperfecto', 'subjuntivopresente', '_export']
     def __init__(self, inputfile):
         super().__init__(inputfile)
+        self.inputfile = inputfile
         self.display_keys = ["infinitivo", "german"]
+        self.replacement_dict = {
+            'anterior': 'Pretérito anterior',
+            'subjuntivoimperfecto': 'Subjuntivo Imperfecto',
+            'imperativoafirmativo': 'Imperativo afirmativo',
+            'imperativonegativo': 'Imperativo negativo',
+            'A_infinitivo': 'Infinitivo',
+            'gerundio': 'Gerundio',
+            'indefinido': 'Pretérito indefinido',
+            'subjuntivofuturo': 'Subjuntivo Futuro',
+            'subjuntivoperfecto': 'Subjuntivo Perfecto',
+            'participio': 'Participio',
+            'subjuntivopluscuamperfecto': 'Subjuntivo Pluscuamperfecto',
+            'futuroperfecto': 'Futuro perfecto',
+            'condicionalperfecto': 'Condicional perfecto',
+            'imperativoafirmativoreflexiv': 'Imperativo afirmativo reflexivo',
+            'imperfecto': 'Pretérito imperfecto',
+            'condicional': 'Condicional',
+            'pluscuamperfecto': 'Pretérito pluscuamperfecto',
+            'gerundioreflexiv': 'Gerundio reflexivo',
+            'perfecto': 'Pretérito perfecto compuesto',
+            'subjuntivopresente': 'Subjuntivo Presente',
+            'presente': 'Presente',
+            'A_english': 'Ingles',
+            'subjuntivofuturoperfecto': 'Subjuntivo Futuro Perfecto',
+            'A_german': 'Aleman',
+            'futuro': 'Futuro',
+        }
+        self.pronomen_list = [
+            "yo", "tú", "él/ella/usted", "nosotros/-as", "vosotros/-as", "ellos/ellas/ustedes"
+        ]
 
-    def export(self, item):
-        pass
+    def export(self):
+        """Export all items where _export == 1 and set _export = 2
+        """
+        linebreak = "<br/>"
+        rlist = []
+        for index, item in enumerate(self.json_db):
+            if self.get_export_flag(item, 1):
+                for key in item["_export"]:
+                    item["_export"][key] = 1
+            else:
+                continue
+            for key in ["gerundio", "participio"]:
+                question = "<b>{german}</b>{linebreak}Wie lautet das <b>{tense}</b>?".format(
+                    german=item["german"],
+                    linebreak=linebreak,
+                    tense=self.replacement_dict[key])
+                rlist.append([question, "{}{}{}".format(item["infinitivo"], linebreak, item[key])])
+            for key in ["imperativoafirmativo", "indefinido", "imperfecto", "condicional", "subjuntivopresente", "presente", "futuro"]:
+                question = '<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="{color}">{tense}</font></u></b>?'.format(
+                    german=item["german"],
+                    linebreak=linebreak,
+                    tense=self.replacement_dict[key],
+                    color="#000000")
+                tlist = [item["infinitivo"], ""]
+                for pronomen, subkey in zip(self.pronomen_list, item[key]):
+                    if item[key][subkey] is None:
+                        continue
+                    tlist.append("{} {}".format(pronomen, item[key][subkey]))
+                rlist.append([question, linebreak.join(tlist)])
+            for key in ["subjuntivoimperfecto"]:
+                question = '<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="{color}">{tense}</font></u></b>?'.format(
+                    german=item["german"],
+                    linebreak=linebreak,
+                    tense=self.replacement_dict[key],
+                    color="#ef2929")
+                tlist = [item["infinitivo"], ""]
+                for pronomen, subkey in zip(self.pronomen_list, item[key]):
+                    tlist.append("{} {}".format(pronomen, item[key][subkey]))
+                tlist.append("")
+                for pronomen, subkey, repl in zip(self.pronomen_list, item[key], ["se", "ses", "se", "semos", "seis", "sen"]):
+                    conjugation = item[key][subkey]
+                    tlist.append("{} {}{}".format(pronomen, item[key][subkey][:-len(repl)], repl))
+                rlist.append([question, linebreak.join(tlist)])
+        random.shuffle(rlist)
+        ostr = "\n".join(u"{}|{}|{}".format(ritem[0], ritem[1], "Verb") for ritem in rlist)
+        with self.inputfile.with_name(f"{self.inputfile.stem}_out.txt").open("w") as fh:
+            fh.write(ostr)
 
-    def get_export_flag(self, verbitem):
-        return any(item == 2 for item in verbitem["_export"].values())
+    def get_export_flag(self, verbitem, value=2):
+        return any(item == value for item in verbitem["_export"].values())
+
+    def set_export_flag(self, infinitivo: str):
+        index = self.searchItem("infinitivo", infinitivo)
+        for key in self.json_db[index]["_export"]:
+            self.json_db[index]["_export"][key] = 1
 
 
 class ReflexiveVerbs(Common):
@@ -44,13 +135,47 @@ class ReflexiveVerbs(Common):
     # 'Participio Pasado'])
     def __init__(self, inputfile):
         super().__init__(inputfile)
+        self.inputfile = inputfile
         self.display_keys = ["spain", "german"]
+        self.replacement_dict = {
+            'infinitiv': None,
+            'german': None,
+            '_complete': None,
+            'Indicativo Presente': 'Presente',
+            'Indicativo Futuro': 'Futuro',
+            'Indicativo Pretérito imperfecto': 'Pretérito imperfecto',
+            'Indicativo Pretérito perfecto compuesto': None,
+            'Indicativo Pretérito pluscuamperfecto': None,
+            'Indicativo Pretérito anterior': None,
+            'Indicativo Futuro perfecto': None,
+            'Indicativo Condicional perfecto': None,
+            'Indicativo Condicional': 'Condicional',
+            'Indicativo Pretérito indefinido': 'Pretérito indefinido',
+            'Imperativo': 'Imperativo',
+            'Subjuntivo Presente': 'Subjuntivo Presente',
+            'Subjuntivo Futuro': None,
+            'Subjuntivo Pretérito imperfecto': 'Subjuntivo Pretérito imperfecto',
+            'Subjuntivo Pretérito pluscuamperfecto': None,
+            'Subjuntivo Futuro perfecto': None,
+            'Subjuntivo Pretérito imperfecto (2)': 'Subjuntivo Pretérito imperfecto (2)',
+            'Subjuntivo Pretérito pluscuamperfecto (2)': None,
+            'Subjuntivo Pretérito perfecto': None,
+            'Gerundio': 'Gerundio ',
+            'Gerundio compuesto': None,
+            'Infinitivo': None,
+            'Infinitivo compuesto ': None,
+            'Participio Pasado': 'Participio',
+        }
 
     def export(self, item):
         pass
 
     def get_export_flag(self, verbitem):
         return verbitem["_export"] == 2
+
+    def set_export_flag(self, spain: str):
+        index = self.searchItem("spain", spain)
+        self.json_db[index]["_export"] = 1
 
 
 ALLOWED_INPUT_DICT = {
@@ -64,9 +189,16 @@ class MainWindow(QtWidgets.QMainWindow):
         super().__init__()
         self.setWindowTitle(PROGNAME)
         self.setMinimumSize(640, 480)
+        settings = QtCore.QSettings()
+
+        settings.beginGroup("MainWindow");
+        self.resize(settings.value("size", QtCore.QSize(640, 480)))
+        self.move(settings.value("pos", QtCore.QPoint(200, 200)))
+        settings.endGroup();
+
         self.action_open = QtWidgets.QAction("&Open...", self, shortcut="Ctrl+O", triggered=self.openFile, enabled=True)
-        self.action_save = QtWidgets.QAction("&Export and save...", self, shortcut="Ctrl+S", triggered=self.save, enabled=False)
-        self.action_export = QtWidgets.QAction("&Export only...", self, shortcut="Ctrl+Alt+S", triggered=self.export, enabled=False)
+        self.action_save = QtWidgets.QAction("&Export and save...", self, shortcut="Ctrl+S", triggered=self.exportAndSave, enabled=False)
+        self.action_export = QtWidgets.QAction("&Export only...", self, shortcut="Ctrl+Alt+S", triggered=self.exportOnly, enabled=False)
         self.action_exit = QtWidgets.QAction("E&xit", self, shortcut="Ctrl+Q", triggered=self.close)
         self.action_mark = QtWidgets.QAction("&Mark", self, shortcut="Ctrl+M", triggered=self.mark, enabled=False)
         self.action_unmark = QtWidgets.QAction("&Unmark", self, shortcut="Ctrl+U", triggered=self.unmark, enabled=False)
@@ -103,6 +235,9 @@ class MainWindow(QtWidgets.QMainWindow):
     def populateTable(self):
         self.table_widget.setRowCount(len(self.verbsFactory.json_db))
         self.table_widget.setColumnCount(2)
+        self.table_widget.setHorizontalHeaderLabels(self.verbsFactory.display_keys)
+        self.table_widget.horizontalHeader().setStretchLastSection(True)
+
         for row, verbitem in enumerate(self.verbsFactory.json_db):
             for col in [0, 1]:
                 widget = QtWidgets.QTableWidgetItem(verbitem[self.verbsFactory.display_keys[col]])
@@ -115,11 +250,17 @@ class MainWindow(QtWidgets.QMainWindow):
                         widget.setCheckState(QtCore.Qt.Checked)
                 self.table_widget.setItem(row, col, widget)
 
-    def save(self):
-        pass
+    def exportAndSave(self):
+        self.exportOnly()
+        self.verbsFactory.save()
 
-    def export(self):
-        pass
+    def exportOnly(self):
+        for row in range(self.table_widget.rowCount()):
+            widget = self.table_widget.item(row, 0)
+            if not widget or int(widget.flags()) & QtCore.Qt.ItemIsEnabled == 0 or widget.checkState() == 0:
+                continue
+            r = self.verbsFactory.set_export_flag(widget.text())
+        self.verbsFactory.export()
 
     def mark(self):
         pass
@@ -127,13 +268,22 @@ class MainWindow(QtWidgets.QMainWindow):
     def unmark(self):
         pass
 
+    def closeEvent(self, event):
+        settings = QtCore.QSettings()
+        settings.beginGroup("MainWindow");
+        settings.setValue("size", self.size());
+        settings.setValue("pos", self.pos());
+        settings.endGroup();
+        event.accept()
+
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("inputfile", nargs="?", help="JSON input file")
     args = parser.parse_args()
+    QtCore.QCoreApplication.setOrganizationName("achimk")
+    QtCore.QCoreApplication.setApplicationName(PROGNAME)
     app = QtWidgets.QApplication([sys.argv[0]] + ["-style", "Fusion"] + sys.argv[1:])
     mainwin = MainWindow(args.inputfile)
     mainwin.show()
     sys.exit(app.exec_())
-
