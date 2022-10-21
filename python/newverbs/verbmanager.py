@@ -2,6 +2,7 @@ import argparse
 import pathlib
 import json
 import random
+import gzip
 import sys
 from PySide2 import QtWidgets, QtCore
 
@@ -11,13 +12,12 @@ PROGNAME = "verbmanager"
 
 class Common():
     def __init__(self, inputfile):
-        with inputfile.open("r") as fh:
+        self.inputfile = inputfile
+        with gzip.open(str(inputfile), "rt") as fh:
             self.json_db = json.load(fh)
-        # print(self.json_db[0].keys())
 
     def save(self):
-        print(self.inputfile.with_name(f"{self.inputfile.stem}_c.json"))
-        with self.inputfile.with_name(f"{self.inputfile.stem}_c.json").open("w") as fh:
+        with gzip.open(str(self.inputfile), "wt") as fh:
             json.dump(self.json_db, fh, indent=4, ensure_ascii=False)
 
     def searchItem(self, key: str, value: str):
@@ -36,7 +36,6 @@ class NormalVerbs(Common):
     # 'subjuntivoimperfecto', 'subjuntivoperfecto', 'subjuntivopluscuamperfecto', 'subjuntivopresente', '_export']
     def __init__(self, inputfile):
         super().__init__(inputfile)
-        self.inputfile = inputfile
         self.display_keys = ["infinitivo", "german"]
         self.replacement_dict = {
             'anterior': 'Pretérito anterior',
@@ -235,8 +234,8 @@ class ReflexiveVerbs(Common):
 
 
 ALLOWED_INPUT_DICT = {
-    pathlib.Path(__file__).parent.joinpath("normale_verben.json").resolve(): NormalVerbs,
-    pathlib.Path(__file__).parent.joinpath("reflexive_verben.json").resolve(): ReflexiveVerbs
+    pathlib.Path(__file__).parent.joinpath("normale_verben.json.gz").resolve(): NormalVerbs,
+    pathlib.Path(__file__).parent.joinpath("reflexive_verben.json.gz").resolve(): ReflexiveVerbs
 }
 
 
@@ -273,7 +272,7 @@ class MainWindow(QtWidgets.QMainWindow):
 
     def openFile(self, inputfile=None):
         if inputfile is None:
-            inputfile, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open file", str(pathlib.Path(__file__).parent), "JSON (*.json)")
+            inputfile, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open file", str(pathlib.Path(__file__).parent), "Files (*.json.gz)")
             if len(inputfile) == 0:
                 return
         path = pathlib.Path(inputfile).resolve()
