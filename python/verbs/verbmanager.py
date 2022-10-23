@@ -1,8 +1,10 @@
+"""Unified verb manager."""
 import argparse
 import pathlib
 import json
 import random
 import gzip
+import shutil
 import sys
 from PySide2 import QtWidgets, QtCore
 
@@ -15,6 +17,8 @@ class Common():
         self.inputfile = inputfile
         with gzip.open(str(inputfile), "rt") as fh:
             self.json_db = json.load(fh)
+        backupfile = f"{str(inputfile)}.0"
+        shutil.copyfile(inputfile, backupfile)
 
     def save(self):
         with gzip.open(str(self.inputfile), "wt") as fh:
