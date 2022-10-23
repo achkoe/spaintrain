@@ -1,174 +1,337 @@
-#!/usr/bin/python3
-import sys
-import sqlite3
-import codecs
-import random
+import argparse
 import pathlib
+import json
+import random
+import gzip
+import sys
 from PySide2 import QtWidgets, QtCore
 
-DBFILENAME = pathlib.Path(__file__).parent.joinpath("verben.db")
-OUTFILENAME = pathlib.Path(__file__).parent.joinpath("verbmanager.out.txt")
+
+PROGNAME = "verbmanager"
+
+
+class Common():
+    def __init__(self, inputfile):
+        self.inputfile = inputfile
+        with gzip.open(str(inputfile), "rt") as fh:
+            self.json_db = json.load(fh)
+
+    def save(self):
+        with gzip.open(str(self.inputfile), "wt") as fh:
+            json.dump(self.json_db, fh, indent=4, ensure_ascii=False)
+
+    def searchItem(self, key: str, value: str):
+        for index, item in enumerate(self.json_db):
+            if item[key] == value:
+                break
+        else:
+            index = None
+        return index
+
+
+class NormalVerbs(Common):
+    # keys are 'id', 'german', 'english', 'infinitivo', 'priority', 'gerundio', 'gerundioreflexiv', 'participio',
+    # 'anterior', 'condicional', 'condicionalperfecto', 'futuro', 'futuroperfecto', 'imperativoafirmativo', 'imperativoafirmativoreflexiv',
+    # 'imperativonegativo', 'imperfecto', 'indefinido', 'perfecto', 'pluscuamperfecto', 'presente', 'subjuntivofuturo', 'subjuntivofuturoperfecto',
+    # 'subjuntivoimperfecto', 'subjuntivoperfecto', 'subjuntivopluscuamperfecto', 'subjuntivopresente', '_export']
+    def __init__(self, inputfile):
+        super().__init__(inputfile)
+        self.display_keys = ["infinitivo", "german"]
+        self.replacement_dict = {
+            'anterior': 'Pretérito anterior',
+            'subjuntivoimperfecto': 'Subjuntivo Imperfecto',
+            'imperativoafirmativo': 'Imperativo afirmativo',
+            'imperativonegativo': 'Imperativo negativo',
+            'A_infinitivo': 'Infinitivo',
+            'gerundio': 'Gerundio',
+            'indefinido': 'Pretérito indefinido',
+            'subjuntivofuturo': 'Subjuntivo Futuro',
+            'subjuntivoperfecto': 'Subjuntivo Perfecto',
+            'participio': 'Participio',
+            'subjuntivopluscuamperfecto': 'Subjuntivo Pluscuamperfecto',
+            'futuroperfecto': 'Futuro perfecto',
+            'condicionalperfecto': 'Condicional perfecto',
+            'imperativoafirmativoreflexiv': 'Imperativo afirmativo reflexivo',
+            'imperfecto': 'Pretérito imperfecto',
+            'condicional': 'Condicional',
+            'pluscuamperfecto': 'Pretérito pluscuamperfecto',
+            'gerundioreflexiv': 'Gerundio reflexivo',
+            'perfecto': 'Pretérito perfecto compuesto',
+            'subjuntivopresente': 'Subjuntivo Presente',
+            'presente': 'Presente',
+            'A_english': 'Ingles',
+            'subjuntivofuturoperfecto': 'Subjuntivo Futuro Perfecto',
+            'A_german': 'Aleman',
+            'futuro': 'Futuro',
+        }
+        self.pronomen_list = [
+            "yo", "tú", "él/ella/usted", "nosotros/-as", "vosotros/-as", "ellos/ellas/ustedes"
+        ]
+        self.export_list = ["subjuntivoimperfecto", "imperativoafirmativo", "indefinido", "imperfecto",
+            "condicional", "subjuntivopresente", "presente", "futuro", "participio", "gerundio"]
+
+    def export(self):
+        """Export all items where _export == 1 and set _export = 2
+        """
+        linebreak = "<br/>"
+        rlist = []
+        for index, item in enumerate(self.json_db):
+            if self.get_export_flag(item, 1):
+                self.set_export_flag(index, 2)
+            else:
+                continue
+            for key in ["gerundio", "participio"]:
+                question = "<b>{german}</b>{linebreak}Wie lautet das <b>{tense}</b>?".format(
+                    german=item["german"],
+                    linebreak=linebreak,
+                    tense=self.replacement_dict[key])
+                rlist.append([question, "{}{}{}".format(item["infinitivo"], linebreak, item[key])])
+            for key in ["imperativoafirmativo", "indefinido", "imperfecto", "condicional", "subjuntivopresente", "presente", "futuro"]:
+                question = '<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="{color}">{tense}</font></u></b>?'.format(
+                    german=item["german"],
+                    linebreak=linebreak,
+                    tense=self.replacement_dict[key],
+                    color="#000000")
+                tlist = [item["infinitivo"], ""]
+                for pronomen, subkey in zip(self.pronomen_list, item[key]):
+                    if item[key][subkey] is None:
+                        continue
+                    tlist.append("{} {}".format(pronomen, item[key][subkey]))
+                rlist.append([question, linebreak.join(tlist)])
+            for key in ["subjuntivoimperfecto"]:
+                question = '<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="{color}">{tense}</font></u></b>?'.format(
+                    german=item["german"],
+                    linebreak=linebreak,
+                    tense=self.replacement_dict[key],
+                    color="#ef2929")
+                tlist = [item["infinitivo"], ""]
+                for pronomen, subkey in zip(self.pronomen_list, item[key]):
+                    tlist.append("{} {}".format(pronomen, item[key][subkey]))
+                tlist.append("")
+                for pronomen, subkey, repl in zip(self.pronomen_list, item[key], ["se", "ses", "se", "semos", "seis", "sen"]):
+                    conjugation = item[key][subkey]
+                    tlist.append("{} {}{}".format(pronomen, item[key][subkey][:-len(repl)], repl))
+                rlist.append([question, linebreak.join(tlist)])
+        random.shuffle(rlist)
+        ostr = "\n".join(u"{}|{}|{}".format(ritem[0], ritem[1], "Verb") for ritem in rlist)
+        with self.inputfile.with_name(f"{self.inputfile.stem}_out.txt").open("w") as fh:
+            fh.write(ostr)
+        return fh.name
+
+    def get_export_flag(self, verbitem, value=2):
+        return any(item == value for item in verbitem["_export"].values())
+
+    def set_export_flag(self, index: int, value=1):
+        for key in self.export_list:
+            self.json_db[index]["_export"][key] = value
+
+    def searchItem(self, searchkey):
+        return super().searchItem("infinitivo", searchkey)
+
+
+class ReflexiveVerbs(Common):
+    # keys are '_complete', '_export', 'spain', 'infinitivo', 'german',
+    # 'Indicativo Presente', 'Indicativo Futuro', 'Indicativo Pretérito imperfecto', 'Indicativo Pretérito perfecto compuesto',
+    # 'Indicativo Pretérito pluscuamperfecto', 'Indicativo Pretérito anterior', 'Indicativo Futuro perfecto', 'Indicativo Condicional perfecto',
+    # 'Indicativo Condicional', 'Indicativo Pretérito indefinido', 'Imperativo', 'Subjuntivo Presente', 'Subjuntivo Futuro',
+    # 'Subjuntivo Pretérito imperfecto', 'Subjuntivo Pretérito pluscuamperfecto', 'Subjuntivo Futuro perfecto', 'Subjuntivo Pretérito imperfecto (2)',
+    # 'Subjuntivo Pretérito pluscuamperfecto (2)', 'Subjuntivo Pretérito perfecto', 'Gerundio', 'Gerundio compuesto', 'Infinitivo', 'Infinitivo compuesto',
+    # 'Participio Pasado'])
+    def __init__(self, inputfile):
+        super().__init__(inputfile)
+        self.inputfile = inputfile
+        self.display_keys = ["spain", "german"]
+        self.replacement_dict = {
+            'infinitiv': None,
+            'german': None,
+            '_complete': None,
+            'Indicativo Presente': 'Presente',
+            'Indicativo Futuro': 'Futuro',
+            'Indicativo Pretérito imperfecto': 'Pretérito imperfecto',
+            'Indicativo Pretérito perfecto compuesto': None,
+            'Indicativo Pretérito pluscuamperfecto': None,
+            'Indicativo Pretérito anterior': None,
+            'Indicativo Futuro perfecto': None,
+            'Indicativo Condicional perfecto': None,
+            'Indicativo Condicional': 'Condicional',
+            'Indicativo Pretérito indefinido': 'Pretérito indefinido',
+            'Imperativo': 'Imperativo',
+            'Subjuntivo Presente': 'Subjuntivo Presente',
+            'Subjuntivo Futuro': None,
+            'Subjuntivo Pretérito imperfecto': 'Subjuntivo Pretérito imperfecto',
+            'Subjuntivo Pretérito pluscuamperfecto': None,
+            'Subjuntivo Futuro perfecto': None,
+            'Subjuntivo Pretérito imperfecto (2)': 'Subjuntivo Pretérito imperfecto (2)',
+            'Subjuntivo Pretérito pluscuamperfecto (2)': None,
+            'Subjuntivo Pretérito perfecto': None,
+            'Gerundio': 'Gerundio ',
+            'Gerundio compuesto': None,
+            'Infinitivo': None,
+            'Infinitivo compuesto ': None,
+            'Participio Pasado': 'Participio',
+        }
+
+    def export(self):
+        linebreak = "<br/>"
+        rlist = []
+        for index, item in enumerate(self.json_db):
+            if self.get_export_flag(item, 1):
+                self.set_export_flag(index, 2)
+            else:
+                continue
+            for tense in self.replacement_dict.keys():
+                if self.replacement_dict[tense] is None:
+                    continue
+                try:
+                    if item["german"].endswith("RV"):
+                        typefield = "Verb (reziprok)"
+                        item_german = item["german"][:-2].strip()
+                    elif item["german"].endswith("PV"):
+                        typefield = "Verb (nur reflexive)"
+                        item_german = item["german"][:-2].strip()
+                    else:
+                        typefield = "Verb"
+                        item_german = item["german"]
+                    if tense in ["Participio Pasado", "Gerundio"]:
+                        question = u"<b>{german}</b>{linebreak}Wie lautet das <b>{tense}</b>?".format(
+                            german=item_german,
+                            linebreak=linebreak,
+                            tense=self.replacement_dict[tense])
+                        rlist.append([question, "{}{}{}".format(item["spain"], linebreak, linebreak.join(item[tense])), typefield])
+                    elif tense in ['Subjuntivo Pretérito imperfecto']:
+                        question = u'<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="#ef2929">{tense}</font></u></b>?'.format(
+                            german=item_german,
+                            linebreak=linebreak,
+                            tense=self.replacement_dict[tense])
+                        item[tense].insert(0, item["spain"])
+                        rlist.append([question, "{0}{1}{1}{2}".format(linebreak.join(item[tense]), linebreak, linebreak.join(item['Subjuntivo Pretérito imperfecto (2)'])), typefield])
+                    elif tense in ['Subjuntivo Pretérito imperfecto (2)']:
+                        pass
+                    else:
+                        question = u'<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="#000">{tense}</font></u></b>?'.format(
+                            german=item_german,
+                            linebreak=linebreak,
+                            tense=self.replacement_dict[tense])
+                        item[tense].insert(0, item["spain"])
+                        rlist.append([question, linebreak.join(item[tense]), typefield])
+                except Exception:
+                    print(item)
+                    raise
+        random.shuffle(rlist)
+        ostr = "\n".join("{}|{}|{}".format(ritem[0], ritem[1], ritem[2]) for ritem in rlist)
+        with self.inputfile.with_name(f"{self.inputfile.stem}_out.txt").open("w") as fh:
+            fh.write(ostr)
+        return fh.name
+
+    def get_export_flag(self, verbitem, value=2):
+        return verbitem["_export"] == value
+
+    def set_export_flag(self, index: int, value=1):
+        self.json_db[index]["_export"] = value
+
+    def searchItem(self, searchkey):
+        return super().searchItem("spain", searchkey)
+
+
+ALLOWED_INPUT_DICT = {
+    pathlib.Path(__file__).parent.joinpath("normale_verben.json.gz").resolve(): NormalVerbs,
+    pathlib.Path(__file__).parent.joinpath("reflexive_verben.json.gz").resolve(): ReflexiveVerbs
+}
 
 
 class MainWindow(QtWidgets.QMainWindow):
-    def __init__(self):
+    def __init__(self, inputfile=None):
         super().__init__()
-        self.tenselist = [u'presente', u'indefinido', u'imperfecto', u'participio', u'gerundio', u'condicional',
-                          u'futuro', u'subjuntivopresente', u'subjuntivoimperfecto', u'imperativoafirmativo', u'imperativonegativo']
-        self.action_save = QtWidgets.QAction("&Export and save...", self, shortcut="Ctrl+S", triggered=self.save, enabled=True)
-        self.action_export = QtWidgets.QAction("&Export only...", self, shortcut="Ctrl+Alt+S", triggered=self.export, enabled=True)
+        self.setWindowTitle(PROGNAME)
+        self.setMinimumSize(640, 480)
+        settings = QtCore.QSettings()
+        #
+        self.table_widget = QtWidgets.QTableWidget()
+
+        settings.beginGroup("MainWindow");
+        self.resize(settings.value("size", QtCore.QSize(640, 480)))
+        self.move(settings.value("pos", QtCore.QPoint(200, 200)))
+        self.table_widget.horizontalHeader().restoreState(settings.value("twhh"))
+        settings.endGroup();
+
+        self.action_open = QtWidgets.QAction("&Open...", self, shortcut="Ctrl+O", triggered=self.openFile, enabled=True)
+        self.action_save = QtWidgets.QAction("&Export and save...", self, shortcut="Ctrl+S", triggered=self.exportAndSave, enabled=False)
+        self.action_export = QtWidgets.QAction("&Export only...", self, shortcut="Ctrl+Alt+S", triggered=self.exportOnly, enabled=False)
         self.action_exit = QtWidgets.QAction("E&xit", self, shortcut="Ctrl+Q", triggered=self.close)
-        self.action_mark = QtWidgets.QAction("&Mark", self, shortcut="Ctrl+M", triggered=self.mark)
-        self.action_unmark = QtWidgets.QAction("&Unmark", self, shortcut="Ctrl+U", triggered=self.unmark)
         self.fileMenu = QtWidgets.QMenu("&File", self)
-        self.fileMenu.addAction(self.action_mark)
-        self.fileMenu.addAction(self.action_unmark)
+        self.fileMenu.addAction(self.action_open)
         self.fileMenu.addAction(self.action_save)
         self.fileMenu.addAction(self.action_export)
         self.fileMenu.addAction(self.action_exit)
         self.menuBar().addMenu(self.fileMenu)
         #
-        self.table_widget = QtWidgets.QTableWidget()
-        self.populate()
-        #
         self.setCentralWidget(self.table_widget)
-        self.setWindowState(QtCore.Qt.WindowMaximized)
+        # self.setWindowState(QtCore.Qt.WindowMaximized)
+        #
+        self.openFile(inputfile)
 
-    def save(self):
-        self.save_(dosave=True)
+    def openFile(self, inputfile=None):
+        if inputfile is None:
+            inputfile, _ = QtWidgets.QFileDialog.getOpenFileName(self, "Open file", str(pathlib.Path(__file__).parent), "Files (*.json.gz)")
+            if len(inputfile) == 0:
+                return
+        path = pathlib.Path(inputfile).resolve()
+        if path not in ALLOWED_INPUT_DICT:
+            QtWidgets.QMessageBox.critical(self, "File not supported", "Allowed input files are {}".format(", ".join(str(item) for item in ALLOWED_INPUT_DICT)))
+            return
+        self.verbsFactory = ALLOWED_INPUT_DICT[path](path)
+        self.setWindowTitle(f"{PROGNAME} - {str(path.name)}")
+        [action.setEnabled(True) for action in (self.action_save, self.action_export)]
+        self.populateTable()
 
-    def export(self):
-        self.save_(dosave=False)
+    def populateTable(self):
+        self.table_widget.setRowCount(len(self.verbsFactory.json_db))
+        self.table_widget.setColumnCount(2)
+        self.table_widget.setHorizontalHeaderLabels(self.verbsFactory.display_keys)
+        self.table_widget.horizontalHeader().setStretchLastSection(True)
 
-    def mark(self, mark=True):
-        print("mark", mark)
-        selectedItem = self.table_widget.currentItem()
-        row = selectedItem.row()
-        for col in [2, 3, 4, 5, 6, 7, 8, 9, 10, 11]:
-            item = self.table_widget.item(row, col)
-            item.setCheckState(QtCore.Qt.Checked if mark else QtCore.Qt.Unchecked)
-
-    def unmark(self):
-        self.mark(False)
-
-    def save_(self, dosave):
-        linebreak = u"<br/>"
-        replacementdict = {
-            u'anterior': u'Pretérito anterior',
-            u'subjuntivoimperfecto': u'Subjuntivo Imperfecto',
-            u'imperativoafirmativo': u'Imperativo afirmativo',
-            u'imperativonegativo': u'Imperativo negativo',
-            u'A_infinitivo': u'Infinitivo',
-            u'gerundio': u'Gerundio',
-            u'indefinido': u'Pretérito indefinido',
-            u'subjuntivofuturo': u'Subjuntivo Futuro',
-            u'subjuntivoperfecto': u'Subjuntivo Perfecto',
-            u'participio': u'Participio',
-            u'subjuntivopluscuamperfecto': u'Subjuntivo Pluscuamperfecto',
-            u'futuroperfecto': u'Futuro perfecto',
-            u'condicionalperfecto': u'Condicional perfecto',
-            u'imperativoafirmativoreflexiv': u'Imperativo afirmativo reflexivo',
-            u'imperfecto': u'Pretérito imperfecto',
-            u'condicional': u'Condicional',
-            u'pluscuamperfecto': u'Pretérito pluscuamperfecto',
-            u'gerundioreflexiv': u'Gerundio reflexivo',
-            u'perfecto': u'Pretérito perfecto compuesto',
-            u'subjuntivopresente': u'Subjuntivo Presente',
-            u'presente': u'Presente',
-            u'A_english': u'Ingles',
-            u'subjuntivofuturoperfecto': u'Subjuntivo Futuro Perfecto',
-            u'A_german': u'Aleman',
-            u'futuro': u'Futuro',
-        }
-        pronomenlist = [
-            u"yo", u"tú", u"él/ella/usted", u"nosotros/-as", u"vosotros/-as", u"ellos/ellas/ustedes"
-        ]
-        rlist = []
-        con = sqlite3.connect(DBFILENAME)
-        cur = con.cursor()
-        for row in range(self.table_widget.rowCount()):
-            infinitivo = self.table_widget.item(row, 0).text()
-            german = self.table_widget.item(row, 1).text()
-            for col in range(2, self.table_widget.colorCount()):
-                widget = self.table_widget.item(row, col)
-                if not widget or int(widget.flags()) & QtCore.Qt.ItemIsEnabled == 0 or widget.checkState() == 0:
-                    continue
-                tense = self.tenselist[col - 2]
-                verben_id = self.table_widget.item(row, 0)._id
-
-                if tense in ["participio", "gerundio", "gerundioreflexiv"]:
-                    question = u"<b>{german}</b>{linebreak}Wie lautet das <b>{tense}</b>?".format(
-                        german=german,
-                        linebreak=linebreak,
-                        tense=replacementdict[tense])
-                    result = cur.execute("SELECT {} FROM verben WHERE id == ?".format(tense), (verben_id, )).fetchone()
-                    rlist.append([question, "{}{}{}".format(infinitivo, linebreak, result[0])])
-                else:
-                    result = cur.execute("""SELECT s1, s2, s3, p1, p2, p3 FROM {} WHERE id == ?""".format(tense), (verben_id, )).fetchone()
-                    question = u'<b>{german}</b>{linebreak}Konjugation des Verbs im <b><u><font color="{color}">{tense}</font></u></b>?'.format(
-                        german=german,
-                        linebreak=linebreak,
-                        tense=replacementdict[tense],
-                        color="#ef2929" if tense == "subjuntivoimperfecto" else "#000000")
-                    tlist = [infinitivo, ""]
-                    for pronomen, item in zip(pronomenlist, result):
-                        if item is None:
-                            continue
-                        tlist.append("{} {}".format(pronomen, item))
-                    if tense == "subjuntivoimperfecto":
-                        tlist.append("")
-                        for pronomen, result, repl in zip(pronomenlist, result, ["se", "ses", "se", "semos", "seis", "sen"]):
-                            tlist.append("{} {}{}".format(pronomen, result[:-len(repl)], repl))
-                    rlist.append([question, linebreak.join(tlist)])
-                if dosave:
-                    if cur.execute("SELECT id FROM export WHERE id == ?", (verben_id, )).fetchone() is None:
-                        cur.execute("""INSERT INTO export ({}) VALUES ({})""".format("id", verben_id))
-                    cur.execute("""UPDATE export SET {!r} = "2" WHERE id == ?""".format(tense), (verben_id, ))
-
-        random.shuffle(rlist)
-        ostr = "\n".join(u"{}|{}|{}".format(ritem[0], ritem[1], "Verb") for ritem in rlist)
-        with codecs.open(OUTFILENAME, "w", encoding="utf-8") as fh:
-            fh.write(ostr)
-        self.statusBar().showMessage("Exported to {}".format(OUTFILENAME), 3000)
-        if dosave:
-            con.commit()
-            con.close()
-            self.table_widget.clear()
-            self.populate()
-
-    def populate(self):
-        labellist = ['Infinitivo', 'Aleman', u'Presente', u'Indefinido', u'Imperfecto', u'Participio', u'Gerundio', u'Condicional',
-                     u'Futuro', u'Subjuntivo presente', u'Subjuntivo imperfecto', u'Imperativo afirmativo', u'Imperativo negativo']
-        con = sqlite3.connect(DBFILENAME)
-        cur = con.cursor()
-        cur.execute("""SELECT infinitivo, german, id FROM verben""")
-        verbitemlist = cur.fetchall()
-        self.table_widget.setRowCount(len(verbitemlist))
-        self.table_widget.setColumnCount(2 + len(self.tenselist))
-        for row, verbitem in enumerate(verbitemlist):
+        for row, verbitem in enumerate(self.verbsFactory.json_db):
             for col in [0, 1]:
-                widget = QtWidgets.QTableWidgetItem(str(verbitem[col]))
-                widget._id = verbitem[-1]
-                widget.setToolTip(str(verbitem[col]))
-                widget.setFlags(QtCore.Qt.ItemIsEnabled)
+                widget = QtWidgets.QTableWidgetItem(verbitem[self.verbsFactory.display_keys[col]])
+                if col == 0:
+                    if not self.verbsFactory.get_export_flag(verbitem):
+                        widget.setFlags(QtCore.Qt.ItemIsUserCheckable | QtCore.Qt.ItemIsEditable | QtCore.Qt.ItemIsEnabled)
+                        widget.setCheckState(QtCore.Qt.Unchecked)
+                    else:
+                        widget.setFlags(QtCore.Qt.ItemIsUserCheckable)
+                        widget.setCheckState(QtCore.Qt.Checked)
                 self.table_widget.setItem(row, col, widget)
-            for ccol, tense in enumerate(self.tenselist):
-                flag = cur.execute("SELECT {} FROM export WHERE id == ?".format(tense), (verbitem[-1], )).fetchone()
-                widget = QtWidgets.QTableWidgetItem("")
-                if flag is None or flag[0] is None:
-                    widget.setFlags(QtCore.Qt.ItemIsUserCheckable | QtCore.Qt.ItemIsEditable | QtCore.Qt.ItemIsEnabled)
-                    widget.setCheckState(QtCore.Qt.Unchecked)
-                else:
-                    widget.setFlags(QtCore.Qt.ItemIsUserCheckable)
-                    widget.setCheckState(QtCore.Qt.Checked)
-                self.table_widget.setItem(row, 2 + ccol, widget)
-        self.table_widget.setHorizontalHeaderLabels(labellist)
-        for col in range(self.table_widget.columnCount()):
-            self.table_widget.horizontalHeaderItem(col).setToolTip(labellist[col])
+
+    def exportAndSave(self):
+        self.exportOnly()
+        self.verbsFactory.save()
+
+    def exportOnly(self):
+        for row in range(self.table_widget.rowCount()):
+            widget = self.table_widget.item(row, 0)
+            if not widget or int(widget.flags()) & QtCore.Qt.ItemIsEnabled == 0 or widget.checkState() == 0:
+                continue
+            self.verbsFactory.set_export_flag(self.verbsFactory.searchItem(widget.text()))
+        name = self.verbsFactory.export()
+        self.statusBar().showMessage(f"exported to file {name}")
+
+    def closeEvent(self, event):
+        settings = QtCore.QSettings()
+        settings.beginGroup("MainWindow");
+        settings.setValue("size", self.size());
+        settings.setValue("pos", self.pos());
+        settings.setValue("twhh", self.table_widget.horizontalHeader().saveState())
+        settings.endGroup();
+        event.accept()
 
 
 if __name__ == '__main__':
+    parser = argparse.ArgumentParser()
+    parser.add_argument("inputfile", nargs="?", help="JSON input file")
+    args = parser.parse_args()
+    QtCore.QCoreApplication.setOrganizationName("achimk")
+    QtCore.QCoreApplication.setApplicationName(PROGNAME)
     app = QtWidgets.QApplication([sys.argv[0]] + ["-style", "Fusion"] + sys.argv[1:])
-    mainwin = MainWindow()
+    mainwin = MainWindow(args.inputfile)
     mainwin.show()
     sys.exit(app.exec_())
