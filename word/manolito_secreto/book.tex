@@ -1,5 +1,5 @@
-\documentclass[fontsize=11pt]{scrartcl}
-\usepackage[textwidth=10cm, lmargin=2cm, rmargin=5cm ]{geometry}
+\documentclass[fontsize=11pt, twoside]{scrartcl}
+\usepackage[textwidth=10cm, lmargin=4cm, rmargin=3cm ]{geometry}
 \usepackage{paralist}
 \usepackage{perpage} %the perpage package
 \MakePerPage{footnote} %the perpage package command
@@ -24,7 +24,7 @@
 \parskip0pt
 
 
-\newcommand{\sidenote}[1]{\marginpar[#1]{\small\textit{#1}}}
+\newcommand{\sidenote}[1]{\marginpar[\flushright\small\textit{#1}]{\small\textit{#1}}}
 \newcommand{\grammarnote}[1]{\marginpar[#1]{\footnotesize{G#1}}}
 \newcommand{\ul}[1]{\underline{#1}}
 \newcommand{\nwfootnote}[1]{\footnote{#1}}
