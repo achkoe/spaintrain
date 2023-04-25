@@ -371,6 +371,7 @@ def process_tex(args):
         template = re.sub(f"\\\\{search}{{}}", f"\\\\{search}{{{rdict[search]}}}", template, re.M)
     with open("book.tex", "w", encoding="utf-8") as fh:
         fh.write(template)
+        print("book.tex written")
     return "output written to contents.tex"
 
 

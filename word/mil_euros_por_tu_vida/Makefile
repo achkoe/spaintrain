@@ -6,7 +6,8 @@
 export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 ifeq ($(MINGW_CHOST),x86_64-w64-mingw32)
 	PYTHON = python
-	VIEW = "C:\Program Files (x86)\Ghostgum\gsview\gsview64.exe"
+	_VIEW = "C:\Program Files (x86)\Ghostgum\gsview\gsview64.exe"
+	VIEW = "C:\Program Files\Mozilla Firefox\firefox.exe"
 else
 	PYTHON = python3
 	VIEW = xreader
@@ -19,10 +20,9 @@ texfiles = $(addsuffix contents.tex, $(directories))
 aesfiles = $(addsuffix contents.aes, $(directories))
 
 
-current := $(lastword $(texfiles))
+current := contents.tex
 
 current: book.tex $(current)
-	$(file > chapters.tex,\input{$(current)})
 	latexmk -xelatex -g book.tex
 
 p: book_p.tex $(current)
