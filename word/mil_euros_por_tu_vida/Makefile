@@ -7,7 +7,8 @@ export PATH := $(PATH):/usr/local/texlive/2015/bin/x86_64-linux
 ifeq ($(MINGW_CHOST),x86_64-w64-mingw32)
 	PYTHON = python
 	_VIEW = "C:\Program Files (x86)\Ghostgum\gsview\gsview64.exe"
-	VIEW = "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe"
+	__VIEW = "C:\Program Files (x86)\Adobe\Acrobat Reader DC\Reader\AcroRd32.exe"
+	VIEW = "C:\Program Files (x86)\Ghostgum\gsview\gsview64.exe"
 else
 	PYTHON = python3
 	VIEW = xreader
