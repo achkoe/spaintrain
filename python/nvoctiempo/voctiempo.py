@@ -27,8 +27,9 @@ def get_conjugations(word):
                  u'Futuro perfecto', u'Condicional perfecto', u'Pretérito pluscuamperfecto',
                  u'Pretérito pluscuamperfecto (2)', u'Futuro perfecto']
     # read from website
-    URL = "http://konjugator.reverso.net/konjugation-spanisch-verb-{}.html".format(word)
+    URL = "https://konjugator.reverso.net/konjugation-spanisch-verb-{}.html".format(word)
     r = requests.get(URL)
+    print(r.status_code)
     soup = BeautifulSoup(r.text, "lxml")
     entrylist = soup.find_all("div", class_="responsive-sub")
     rlist = []
@@ -188,7 +189,7 @@ wordlist = ["seguir"]
 wordlist = ["pensar", "poder", "sentir", "dormir", "servir", "volver", "empezar", "seguir", "entender", "contar", "preferir"]
 wordlist = ["creer", "seguir"]
 wordlist = ["venir", "hacer", "poner", "salir", "tener", "saber", "caer", "traer", "oír", "construir", "decir", "conocer", "estar", "ir", "haber", "ser"]
-
+wordlist = ["precipitar"]
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description=__doc__.splitlines()[0], epilog="\n".join(__doc__.splitlines()[1:]))
