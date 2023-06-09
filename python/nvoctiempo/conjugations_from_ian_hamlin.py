@@ -1,19 +1,40 @@
-"""Get conjugations from https://github.com/ian-hamlin/verb-data/tree/master/json/spanish/content"""
+"""Get conjugations based on https://github.com/ian-hamlin/verb-data/tree/master/json/spanish/content
+
+Download zip from https://github.com/ian-hamlin/verb-data, extract
+folder verb-data-master/json/spanish/content from downloaded verb-data-master.zip to folder content.
+
+zip 'content' folder to file spanish_conjugations.zip
+"""
 
 import argparse
 import json
 import pathlib
+import zipfile
 import requests
 from bs4 import BeautifulSoup
 
 
 URL = "https://raw.githubusercontent.com/ian-hamlin/verb-data/master/json/spanish/content/{firstletter}/{infinitiv}.json"
+#      https://raw.githubusercontent.com/ian-hamlin/verb-data/master/json/spanish/content/a/arponar.json
 
 prefix = ["yo", "tú", "él/ella/usted", "nosotros/-as", "vosotros/-as", "ellos/ellas/ustedes"]
 replacement = {"Participio pasado": "Participio", "Pretérito perfecto simple": "Pretérito indefinido"}
 
 
 def get_json(infinitiv):
+    firstletter = infinitiv[0]
+    path = pathlib.Path(__file__).parent.joinpath("spanish_conjugations.zip")
+    with zipfile.ZipFile(path, mode="r") as db:
+        namelist = db.namelist()
+        search = f"content/{firstletter}/{infinitiv}.json"
+        assert search in namelist
+        with db.open(search) as fh:
+            dbitem = json.load(fh)
+    assert dbitem.get("conjugations", None) is not None, dbitem
+    return dbitem
+
+
+def _get_json(infinitiv):
     firstletter = infinitiv[0]
     url = URL.format(firstletter=firstletter, infinitiv=infinitiv)
     # print(url)
@@ -67,6 +88,8 @@ def make_output_list(german, conjugations, reflexive):
         elif conjugation["group"] == "indicative/conditional":
             rdict["Condicional simple"][conjugation["form"]] = "{}{}".format(prefix[conjugation["form"]], conjugation["value"])
         elif conjugation["group"] == "subjunctive/present":
+            if conjugation["form"] == "s2":
+                conjugation["value"] = conjugation["value"].split("(")[0].strip()
             rdict["Presente de Subjuntivo"][conjugation["form"]] = "{}{}".format(prefix[conjugation["form"]], conjugation["value"])
         elif conjugation["group"] == "subjunctive/imperfect_ra":
             rdict["Imperfecto de Subjuntivo ra"][conjugation["form"]] = "{}{}".format(prefix[conjugation["form"]], conjugation["value"])
@@ -74,6 +97,8 @@ def make_output_list(german, conjugations, reflexive):
             rdict["Imperfecto de Subjuntivo se"][conjugation["form"]] = "{}{}".format(prefix[conjugation["form"]], conjugation["value"])
         elif conjugation["group"] == "imperative/affirmative":
             if conjugation["form"] != "s1":
+                if conjugation["form"] == "s2":
+                    conjugation["value"] = conjugation["value"].split("(")[0].strip()
                 rdict["Imperativo"][conjugation["form"]] = "{}{}".format(prefix[conjugation["form"]], conjugation["value"])
         elif conjugation["group"] == "imperative/negative":
             # ignored
@@ -87,24 +112,29 @@ def make_output_list(german, conjugations, reflexive):
         else:
             print(conjugation)
     rlist = list()
-    for key in ["Infinitivo", "Gerundium", "Participio"]:
-        question = "<b>{0}</b><br/>Wie lautet das <b>{1}<</b>?".format(rdict["German"], key)
+    for key in ["Infinitivo"]:
+        question = "<b>{0}</b><br/>Wie lautet das <b>{1}</b>?".format(rdict["German"], key)
         answer = rdict[key]
         rlist.append(f"{question}|{answer}")
+    for key in ["Gerundium", "Participio"]:
+        question = "<b>{0}</b><br/>Wie lautet das <b>{1}</b>?".format(rdict["German"], key)
+        answer = "{1}<br/><br/>{0}".format(rdict[key], rdict["Infinitivo"])
+        rlist.append(f"{question}|{answer}")
     for key in ["Presente", "Pretérito indefinido", "Pretérito imperfecto", "Presente de Subjuntivo", "Futuro simple", "Condicional simple"]:
-        question = "<b>{0}</b><br/>Konjugation im <b>{1}<</b>?".format(rdict["German"], key)
-        answer = "<br/>".join(rdict[key][t] for t in ["s1", "s2", "s3", "p1", "p2", "p3"])
+        question = "<b>{0}</b><br/>Konjugation im <b>{1}</b>?".format(rdict["German"], key)
+        answer = "{0}<br/><br/>{1}".format(rdict["Infinitivo"], "<br/>".join(rdict[key][t] for t in ["s1", "s2", "s3", "p1", "p2", "p3"]))
         rlist.append(f"{question}|{answer}")
 
     key = "Imperativo"
-    question = '<b>{0}</b><br/>Konjugation im <b>{1}<</b>?'.format(rdict["German"], key)
-    answer = "<br/>".join(rdict[key][t] for t in ["s2", "s3", "p1", "p2", "p3"])
+    question = '<b>{0}</b><br/>Konjugation im <b>{1}</b>?'.format(rdict["German"], key)
+    answer = answer = "{0}<br/><br/>{1}".format(rdict["Infinitivo"], "<br/>".join(rdict[key][t] for t in ["s2", "s3", "p1", "p2", "p3"]))
     rlist.append(f"{question}|{answer}")
 
     question = '<b>{0}</b><br/>Konjugation im <b><u><font color="#ef2929">{1}</font></u></b>?'.format(rdict["German"], "Imperfecto de Subjuntivo")
-    answer = "<br/>".join(rdict["Imperfecto de Subjuntivo ra"][t] for t in ["s1", "s2", "s3", "p1", "p2", "p3"]) + \
-             "<br/><br/>" + \
-             "<br/>".join(rdict["Imperfecto de Subjuntivo se"][t] for t in ["s1", "s2", "s3", "p1", "p2", "p3"])
+    answer = answer = "{0}<br/><br/>{1}".format(rdict["Infinitivo"],
+             "<br/>".join(rdict["Imperfecto de Subjuntivo ra"][t] for t in ["s1", "s2", "s3", "p1", "p2", "p3"])
+             + "<br/><br/>"
+             + "<br/>".join(rdict["Imperfecto de Subjuntivo se"][t] for t in ["s1", "s2", "s3", "p1", "p2", "p3"]))
     rlist.append(f"{question}|{answer}")
     return rlist
 
@@ -135,6 +165,7 @@ if __name__ == '__main__':
     args = parser.parse_args()
     rlist = list()
     for infinitiv in args.infinitiv:
+        print(infinitiv)
         translation = translate(infinitiv, "esde")
         conjugation = get_json(infinitiv)
         if args.save:
@@ -144,7 +175,7 @@ if __name__ == '__main__':
         print(f"{infinitiv} (reflexive: {reflexive}): {translation}")
         rlist.extend(make_output_list(translation, conjugation, reflexive))
 
-    with pathlib.Path(__file__).with_suffix(".txt").open("w") as fh:
+    with pathlib.Path(__file__).with_suffix(".txt").open("w", encoding="utf-8") as fh:
         for item in rlist:
             print(item, file=fh)
     print(f"\n{fh.name} written")
