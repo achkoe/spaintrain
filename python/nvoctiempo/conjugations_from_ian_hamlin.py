@@ -10,6 +10,7 @@ import argparse
 import json
 import pathlib
 import zipfile
+import random
 import requests
 from bs4 import BeautifulSoup
 
@@ -175,6 +176,7 @@ if __name__ == '__main__':
         print(f"{infinitiv} (reflexive: {reflexive}): {translation}")
         rlist.extend(make_output_list(translation, conjugation, reflexive))
 
+    random.shuffle(rlist)
     with pathlib.Path(__file__).with_suffix(".txt").open("w", encoding="utf-8") as fh:
         for item in rlist:
             print(item, file=fh)
