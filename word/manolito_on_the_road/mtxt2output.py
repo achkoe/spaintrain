@@ -83,6 +83,8 @@ def process_replace_tex(text):
         (r"^\\enditshape", {"r": r"\\end{itshape}", "flags": re.MULTILINE}),
         (r"/~", {"r": r"\\begin{itshape}", "flags": re.MULTILINE}),
         (r"~/", {"r": r"\\end{itshape}", "flags": re.MULTILINE}),
+        (r"/:", {"r": r"\\begin{slshape}", "flags": re.MULTILINE}),
+        (r":/", {"r": r"\\end{slshape}", "flags": re.MULTILINE}),
         (r"^\\beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
         (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
     ])
