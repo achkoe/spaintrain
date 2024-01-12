@@ -66,7 +66,7 @@ def process_replace_tex(text):
         (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
         (r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
         (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"\\section{\1}", "flags": re.MULTILINE}),
-        (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\section*{\1}", "flags": re.MULTILINE}),
+        (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\begin{multicols}{2}[\\section*{\1}]", "flags": re.MULTILINE}),
         (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"\\subsection{\1}", "flags": re.MULTILINE}),
         (r"^--([^-]+)--\s*(label{\w+})?\s*$", {"r": r"\\subsection*{\1}", "flags": re.MULTILINE}),
         (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
@@ -87,6 +87,8 @@ def process_replace_tex(text):
         (r":/", {"r": r"\\end{slshape}", "flags": re.MULTILINE}),
         (r"^\\beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
         (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
+
+        (r"^:::", {"r": r"\\end{multicols}", "flags": re.MULTILINE}),
     ])
 
     def replfn(adict, r, matchobj):
