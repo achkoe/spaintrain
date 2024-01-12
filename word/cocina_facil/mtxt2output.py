@@ -72,6 +72,7 @@ def process_replace_tex(text):
         (r"^---([^-]+)---\s*(label{\w+})?\s*$", {"r": r"\\subsubsection*{\1}", "flags": re.MULTILINE}),
 
         (r"^- ", {"r": "---", "flags": re.MULTILINE}),
+        (r"^\*", {"r": r"\\item", "flags": re.MULTILINE}),
 
         (r"\s*/(\d+)/\s*", {"r": r"~\\sidenote{\1}", "flags": 0}),
         (r"\s*%(\d+)\s*", {"r": r"~\\grammarnote{\1}", "flags": 0}),
@@ -89,6 +90,12 @@ def process_replace_tex(text):
         (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
 
         (r"^:::", {"r": r"\\end{multicols}", "flags": re.MULTILINE}),
+        (r"^::bbox-e", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),
+        (r"^::ebox-e", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),
+        (r"^::bbox-i", {"r": r"\\begin{iitemize}", "flags": re.MULTILINE}),
+        (r"^::ebox-i", {"r": r"\\end{iitemize}", "flags": re.MULTILINE}),
+        (r"^::bbox", {"r": r"\\begin{boxit}", "flags": re.MULTILINE}),
+        (r"^::ebox", {"r": r"\\end{boxit}", "flags": re.MULTILINE}),
     ])
 
     def replfn(adict, r, matchobj):
