@@ -9,12 +9,18 @@
 \usepackage[german, spanish]{babel}
 \usepackage{setspace}
 \usepackage[]{multicol}
+\usepackage[]{endnotes}
 
 \usepackage{tcolorbox}
 % \usepackage[framemethod=TikZ]{mdframed}
 % \usepackage[tikz]{bclogo}
 
 \newcommand{\ndots}{\ldots~}
+
+\let\footnote=\endnote
+\renewcommand{\notesname}{\rule[1em]{\textwidth}{0.4pt}}
+%\renewcommand{\notesname}{--------------------------}
+\def\enotesize{\footnotesize}
 
 \begin{document}
 
@@ -29,7 +35,7 @@
 
 \newenvironment{eitemize}{\begin{tcolorbox}[left=0.1em, right=0.1em, boxsep=0pt]\begin{compactitem}}{\end{compactitem}\end{tcolorbox}}
 \newenvironment{iitemize}{\begin{tcolorbox}[left=0.1em, right=0.1em, boxsep=0pt, colback=white, capture=minipage, colframe=black!50!white]\begin{compactitem}}{\end{compactitem}\end{tcolorbox}}
-\newenvironment{boxit}{\begin{tcolorbox}[left=0.1em, right=0.1em, boxsep=0pt, colback=white, capture=minipage, colframe=black!50!white]}{\end{tcolorbox}}
+\newenvironment{boxit}{\begin{tcolorbox}[left=0.5em, right=0.5em, boxsep=0pt, colback=white, capture=minipage, colframe=black!50!white]}{\end{tcolorbox}}
 %\newenvironment{eitemize}{\begin{mdframed}[]\begin{compactitem}}{\end{compactitem}\end{mdframed}}
 %\newenvironment{iitemize}{\begin{mdframed}[]\begin{compactitem}}{\end{compactitem}\end{mdframed}}
 %\newenvironment{eitemize}{\begin{bclogo}\begin{compactitem}}{\end{compactitem}\end{bclogo}}
@@ -47,7 +53,8 @@
 
 \newcommand{\mdash}{-}
 \setstretch{1.15}
-
+\parindent0pt
+\parskip1ex
 \input{contents}
 
 
