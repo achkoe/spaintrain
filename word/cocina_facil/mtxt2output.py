@@ -89,11 +89,11 @@ def process_replace_tex(text):
         (r"^\\beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
         (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
 
-        (r"^:::", {"r": r"\\end{multicols}\\begin{multicols}{2}\\parskip0pt\\theendnotes\\end{multicols}", "flags": re.MULTILINE}),
-        (r"^::bbox-e", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),
-        (r"^::ebox-e", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),
-        (r"^::bbox-i", {"r": r"\\begin{iitemize}", "flags": re.MULTILINE}),
-        (r"^::ebox-i", {"r": r"\\end{iitemize}", "flags": re.MULTILINE}),
+        (r"^::fin", {"r": r"\\end{multicols}\\begin{multicols}{2}\\parskip0pt\\theendnotes\\end{multicols}\\clearpage", "flags": re.MULTILINE}),
+        (r"^::bintro", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),
+        (r"^::eintro", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),
+        (r"^::blista", {"r": r"\\begin{iitemize}", "flags": re.MULTILINE}),
+        (r"^::elista", {"r": r"\\end{iitemize}", "flags": re.MULTILINE}),
         (r"^::bbox", {"r": r"\\begin{boxit}", "flags": re.MULTILINE}),
         (r"^::ebox", {"r": r"\\end{boxit}", "flags": re.MULTILINE}),
     ])
