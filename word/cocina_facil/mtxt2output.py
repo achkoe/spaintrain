@@ -57,7 +57,7 @@ def process_replace_tex(text):
         (r"\*\*([^*]+)\*\*", {"r": r"\\textbf{\1}", "flags": 0}),
         (r"__([^_]+)__", {"r": r"\\uline{\1}", "flags": 0}),
         (r'\"([^\"]+)\"', {"r": r"\\glqq{}\1\\grqq{}", "flags": 0}),
-        (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
+        # (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
         (r"\.att", {"r": r"\\danger{}", "flags": 0}),
         (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
         ###(r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
@@ -90,12 +90,21 @@ def process_replace_tex(text):
         (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
 
         (r"^::fin", {"r": r"\\end{multicols}\\begin{multicols}{2}\\parskip0pt\\theendnotes\\end{multicols}\\clearpage", "flags": re.MULTILINE}),
+
         (r"^::bintro", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),
         (r"^::eintro", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),
+        (r"^<-+$", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),
+        (r"^-+>$", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),
+
         (r"^::blista", {"r": r"\\begin{iitemize}", "flags": re.MULTILINE}),
         (r"^::elista", {"r": r"\\end{iitemize}", "flags": re.MULTILINE}),
+        (r"^<=+$", {"r": r"\\begin{iitemize}", "flags": re.MULTILINE}),
+        (r"^=+>$", {"r": r"\\end{iitemize}", "flags": re.MULTILINE}),
+
         (r"^::bbox", {"r": r"\\begin{boxit}", "flags": re.MULTILINE}),
         (r"^::ebox", {"r": r"\\end{boxit}", "flags": re.MULTILINE}),
+        (r"^:-+$", {"r": r"\\begin{boxit}", "flags": re.MULTILINE}),
+        (r"^-+:", {"r": r"\\end{boxit}", "flags": re.MULTILINE}),
     ])
 
     def replfn(adict, r, matchobj):
