@@ -93,18 +93,24 @@ def process_replace_tex(text):
 
         (r"^::bintro", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),
         (r"^::eintro", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),
-        (r"^<-+$", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),
-        (r"^-+>$", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),
+        (r"^<-+$", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),         # <-----------------------
+        (r"^-+>$", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),           # ----------------------->
 
         (r"^::blista", {"r": r"\\begin{iitemize}", "flags": re.MULTILINE}),
         (r"^::elista", {"r": r"\\end{iitemize}", "flags": re.MULTILINE}),
-        (r"^<=+$", {"r": r"\\begin{iitemize}", "flags": re.MULTILINE}),
-        (r"^=+>$", {"r": r"\\end{iitemize}", "flags": re.MULTILINE}),
+        (r"^<=+$", {"r": r"\\begin{iitemize}", "flags": re.MULTILINE}),         # <======================
+        (r"^=+>$", {"r": r"\\end{iitemize}", "flags": re.MULTILINE}),           # ======================>
 
         (r"^::bbox", {"r": r"\\begin{boxit}", "flags": re.MULTILINE}),
         (r"^::ebox", {"r": r"\\end{boxit}", "flags": re.MULTILINE}),
-        (r"^:-+$", {"r": r"\\begin{boxit}", "flags": re.MULTILINE}),
-        (r"^-+:", {"r": r"\\end{boxit}", "flags": re.MULTILINE}),
+        (r"^:-+$", {"r": r"\\begin{boxit}", "flags": re.MULTILINE}),            # :----------------------
+        (r"^-+:", {"r": r"\\end{boxit}", "flags": re.MULTILINE}),               # ----------------------:
+
+        (r"(\d+)\s*min(uto)?s?", {"r": r"\1\,min", "flags": 0}),                # 1 min, 2 minuto, 3 minutos
+        (r"(\d+)\s*horas?", {"r": r"\1\,h", "flags": 0}),                       # 1 hora, 2 horas
+        (r"(\d+)\s*ml\s", {"r": r"\1\,ml ", "flags": 0}),                       # 100ml, 100 ml
+        (r"(\d+)\s*g\s", {"r": r"\1\,g ", "flags": 0}),                         # 100g, 100 g
+        (r"(\d+)\s*kg\s", {"r": r"\1\,kg ", "flags": 0})                        # 100kg, 100 kg
     ])
 
     def replfn(adict, r, matchobj):
@@ -315,6 +321,14 @@ def make_cleanup(args):
         text = re.sub(r"!!\s*", "¡", text)
         text = re.sub(r"\s+,", ",", text)
         text = re.sub(r"!\s+([a-z])", lambda m: "! {}".format(m.group(1).upper()), text)
+        text = re.sub(r"\sgramos\s", " g ", text)
+        text = re.sub(r"\skilogramos\s", " kg ", text)
+        text = re.sub(r"\smililitros\s", " ml ", text)
+        replacementlist = (
+            (r"\bcien\b", "100"), (r"\bdos\b", "2"), (r"\bcuatro\b", "4"), (r"\bcuarenta\b", "40"), (r"\bcincuenta\b", "50"), (r"\bcuatrocint[oa]s\b", "400")
+        )
+        for replacement in replacementlist:
+            text = re.sub(replacement[0], replacement[1], text)
         return text
 
     with open("contents.in.txt", encoding="utf-8") as fh:
