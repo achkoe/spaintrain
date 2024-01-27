@@ -325,7 +325,8 @@ def make_cleanup(args):
         text = re.sub(r"\skilogramos\s", " kg ", text)
         text = re.sub(r"\smililitros\s", " ml ", text)
         replacementlist = (
-            (r"\bcien\b", "100"), (r"\bdos\b", "2"), (r"\bcuatro\b", "4"), (r"\bcuarenta\b", "40"), (r"\bcincuenta\b", "50"), (r"\bcuatrocint[oa]s\b", "400")
+            (r"\bcien\b", "100"), (r"\bdos\b", "2"), (r"\bcuatro\b", "4"), (r"\bcuarenta\b", "40"),
+            (r"\bcincuenta\b", "50"), (r"\bcuatrocint[oa]s\b", "400"), (r"\bdoce\b", "12")
         )
         for replacement in replacementlist:
             text = re.sub(replacement[0], replacement[1], text)
