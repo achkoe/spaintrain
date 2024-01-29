@@ -324,6 +324,9 @@ def make_cleanup(args):
         text = re.sub(r"\sgramos\s", " g ", text)
         text = re.sub(r"\skilogramos\s", " kg ", text)
         text = re.sub(r"\smililitros\s", " ml ", text)
+        text = re.sub(r"(\d+)\s*min(uto)?s?", r"\1 min", text)                # 1 min, 2 minuto, 3 minutos
+        text = re.sub(r"\bhoras?\b", r" h ", text)                       # 1 hora, 2 horas
+
         replacementlist = (
             (r"\bcien\b", "100"), (r"\bdos\b", "2"), (r"\bcuatro\b", "4"), (r"\bcuarenta\b", "40"),
             (r"\bcincuenta\b", "50"), (r"\bcuatrocint[oa]s\b", "400"), (r"\bdoce\b", "12")
