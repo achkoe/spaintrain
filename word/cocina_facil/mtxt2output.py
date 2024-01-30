@@ -90,6 +90,7 @@ def process_replace_tex(text):
         (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
 
         (r"^::fin", {"r": r"\\end{multicols}\\begin{multicols}{2}\\parskip0pt\\theendnotes\\end{multicols}\\clearpage", "flags": re.MULTILINE}),
+        (r"^=+$", {"r": r"\\end{multicols}\\begin{multicols}{2}\\parskip0pt\\theendnotes\\end{multicols}\\clearpage", "flags": re.MULTILINE}),
 
         (r"^::bintro", {"r": r"\\begin{eitemize}", "flags": re.MULTILINE}),
         (r"^::eintro", {"r": r"\\end{eitemize}", "flags": re.MULTILINE}),
@@ -108,6 +109,7 @@ def process_replace_tex(text):
 
         (r"(\d+)\s*min(uto)?s?", {"r": r"\1\,min", "flags": 0}),                # 1 min, 2 minuto, 3 minutos
         (r"(\d+)\s*horas?", {"r": r"\1\,h", "flags": 0}),                       # 1 hora, 2 horas
+        (r"(\d+)\s*h", {"r": r"\1\,h", "flags": 0}),                            # 1 h, 2 h
         (r"(\d+)\s*ml\s", {"r": r"\1\,ml ", "flags": 0}),                       # 100ml, 100 ml
         (r"(\d+)\s*g\s", {"r": r"\1\,g ", "flags": 0}),                         # 100g, 100 g
         (r"(\d+)\s*kg\s", {"r": r"\1\,kg ", "flags": 0})                        # 100kg, 100 kg
@@ -322,7 +324,7 @@ def make_cleanup(args):
         text = re.sub(r"\s+,", ",", text)
         text = re.sub(r"!\s+([a-z])", lambda m: "! {}".format(m.group(1).upper()), text)
         text = re.sub(r"\sgramos\s", " g ", text)
-        text = re.sub(r"\skilogramos\s", " kg ", text)
+        text = re.sub(r"\skilogramos*\s", " kg ", text)
         text = re.sub(r"\smililitros\s", " ml ", text)
         text = re.sub(r"(\d+)\s*min(uto)?s?", r"\1 min", text)                # 1 min, 2 minuto, 3 minutos
         text = re.sub(r"\bhoras?\b", r" h ", text)                       # 1 hora, 2 horas
