@@ -55,6 +55,7 @@ def process_replace_tex(text):
         (r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
         (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
         (r"\*\*([^*]+)\*\*", {"r": r"\\textbf{\1}", "flags": 0}),
+        (r"\|([^|]+)\|", {"r": r"\\textsc{\1}", "flags": 0}),
         (r"__([^_]+)__", {"r": r"\\uline{\1}", "flags": 0}),
         (r'\"([^\"]+)\"', {"r": r"\\glqq{}\1\\grqq{}", "flags": 0}),
         # (r"-->", {"r": r"$\\rightarrow$ ", "flags": 0}),
