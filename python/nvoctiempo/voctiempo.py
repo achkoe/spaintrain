@@ -190,6 +190,7 @@ wordlist = ["pensar", "poder", "sentir", "dormir", "servir", "volver", "empezar"
 wordlist = ["creer", "seguir"]
 wordlist = ["venir", "hacer", "poner", "salir", "tener", "saber", "caer", "traer", "oír", "construir", "decir", "conocer", "estar", "ir", "haber", "ser"]
 wordlist = ["precipitar"]
+wordlist = ["merecer", "someter", "actuar", "batir", "considerar", "denegar", "escurrirse", "fiarse", "insistir", "lograrse"]
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(formatter_class=argparse.RawDescriptionHelpFormatter, description=__doc__.splitlines()[0], epilog="\n".join(__doc__.splitlines()[1:]))
