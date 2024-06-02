@@ -1,0 +1,71 @@
+\documentclass[fontsize=11pt, twoside]{scrartcl}
+\usepackage[textwidth=10cm, textheight=23cm, lmargin=4cm, rmargin=3cm ]{geometry}
+\usepackage{paralist}
+%\usepackage{perpage} %the perpage package
+%\MakePerPage{footnote} %the perpage package command
+\usepackage{hyperref}
+\hypersetup{colorlinks, linkcolor=black, citecolor=blue, urlcolor=black}
+\usepackage[utf8]{inputenc}
+\usepackage[german, spanish]{babel}
+\usepackage{setspace}
+\usepackage[]{multicol}
+\usepackage[]{endnotes}
+\usepackage[]{chngcntr}
+\counterwithin*{endnote}{section}
+
+\usepackage{tcolorbox}
+% \usepackage[framemethod=TikZ]{mdframed}
+% \usepackage[tikz]{bclogo}
+
+\newcommand{\ndots}{\ldots~}
+
+\let\footnote=\endnote
+\renewcommand{\notesname}{\rule[1em]{\textwidth}{0.4pt}}
+%\renewcommand{\notesname}{--------------------------}
+\def\enotesize{\footnotesize}
+
+\begin{document}
+
+\title{}
+\author{}
+\date{}
+
+\maketitle
+\clearpage
+
+\parskip0pt
+
+\newenvironment{eitemize}{\begin{tcolorbox}[left=-0.9em, right=0.1em, boxsep=0pt]\begin{compactitem}}{\end{compactitem}\end{tcolorbox}}
+\newenvironment{iitemize}{\begin{tcolorbox}[left=-0.9em, right=0.5em, boxsep=0pt, colback=white, capture=minipage, colframe=black!50!white]\begin{compactitem}}{\end{compactitem}\end{tcolorbox}}
+\newenvironment{boxit}{\begin{tcolorbox}[left=0.5em, right=0.5em, boxsep=0pt, colback=white, capture=minipage, colframe=black!50!white]}{\end{tcolorbox}}
+%\newenvironment{eitemize}{\begin{mdframed}[]\begin{compactitem}}{\end{compactitem}\end{mdframed}}
+%\newenvironment{iitemize}{\begin{mdframed}[]\begin{compactitem}}{\end{compactitem}\end{mdframed}}
+%\newenvironment{eitemize}{\begin{bclogo}\begin{compactitem}}{\end{compactitem}\end{bclogo}}
+%\newenvironment{iitemize}{\begin{bclogo}\begin{compactitem}}{\end{compactitem}\end{bclogo}}
+\newcommand{\sidenote}[1]{\marginpar[\flushright\small\textit{#1}]{\small\textit{#1}}}
+\newcommand{\grammarnote}[1]{\marginpar[#1]{\footnotesize{G#1}}}
+\newcommand{\ul}[1]{\underline{#1}}
+\newcommand{\nwfootnote}[1]{\footnote{#1}}
+\newcommand{\fillmiss}{\rule{2cm}{0.4pt}~}
+\newcommand{\choice}{$\Box$}
+\newcommand{\correctchoice}{\framebox[1em]{\ding{51}}}
+\newcommand{\falsechoice}{\framebox[1em]{\ding{53}}}
+\newcommand{\correction}[1]{~\ding{43}~\textbf{\textsl{#1}}}
+\newcommand{\FIN}{\textbf{--- FIN ---}\clearpage}
+
+\newcommand{\mdash}{-}
+\setstretch{1.15}
+\parindent0pt
+\parskip1ex
+\input{contents}
+
+
+\RedeclareSectionCommand[beforeskip=-0.1\baselineskip, afterskip=.05\baselineskip]{section}
+
+\newgeometry{textwidth=10cm, lmargin=2cm, rmargin=2cm, twocolumn=true, columnsep=2cm}
+\setlength{\parindent}{0em}
+
+\raggedright
+\input{ddictionary}
+
+\end{document}
