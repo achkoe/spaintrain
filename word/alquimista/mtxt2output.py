@@ -64,7 +64,7 @@ def process_replace_tex(text):
         (r"//(.+?)//", {"r": r"\\textit{\1}", "flags": 0}),
         (r"_(.+?)_", {"r": r"\\textit{\1}", "flags": 0}),
         (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
-        (r"<(.+)>", {"r": r"\\begin{small}\1\\end{small}", "flags": 0}),
+        (r"<(.+)>", {"r": r"~\\hfill{}\1", "flags": 0}),
         (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"\\section{\1}", "flags": re.MULTILINE}),
         (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\section*{\1}", "flags": re.MULTILINE}),
         (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"\\subsection{\1}", "flags": re.MULTILINE}),
