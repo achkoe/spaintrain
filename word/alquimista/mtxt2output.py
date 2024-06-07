@@ -61,10 +61,10 @@ def process_replace_tex(text):
         (r"\.att", {"r": r"\\danger{}", "flags": 0}),
         (r"\.rem", {"r": r"\\eye{}", "flags": 0}),
         ###(r"\.\.\.", {"r": r"$\\ndots$ ", "flags": 0}),
-        (r"//(.+?)//", {"r": r"\\textit{\1}", "flags": 0}),
+        (r":(.+?):", {"r": r"\\textsc{\1}", "flags": 0}),
         (r"_(.+?)_", {"r": r"\\textit{\1}", "flags": 0}),
         (r"\|\|([^|]+)\|\|", {"r": r"\\fbox{\1}", "flags": 0}),
-        (r"<(.+)>", {"r": r"~\\hfill{}\1", "flags": 0}),
+        (r"<(.+)>", {"r": r"~\\hfill{}\1", "flags": 0}),    # right justificated
         (r"^=([^=]+)=\s*(label{\w+})?\s*$", {"r": r"\\section{\1}", "flags": re.MULTILINE}),
         (r"^-([^-]+)-\s*(label{\w+})?\s*$", {"r": r"\\section*{\1}", "flags": re.MULTILINE}),
         (r"^==([^=]+)==\s*(label{\w+})?\s*$", {"r": r"\\subsection{\1}", "flags": re.MULTILINE}),
@@ -251,12 +251,12 @@ def process_dashes(text):
             state = s_in
             if textlist[index - 1].strip() != "":
                 # previous line in empty
-                textlist[index] = "\\par{}-" + textlist[index][1:]
+                textlist[index] = "\\\\{}-" + textlist[index][1:]
         if state == s_in:
             # we are in subsequent lines of verbal speech
             if line.endswith("~\\\\"):
                 # explicit marked end of verbal speech
-                textlist[index] += "\\par"
+                textlist[index] += "\\\\"
                 state = s_out
             elif line.endswith("\\\\"):
                 # explicit marked end of verbal speech
