@@ -53,7 +53,8 @@ def process_replace_tex(text):
         (u'…', {"r": "\\\\ndots~", "flags": 0}),
         (r"^---$", {"r": "\\\\newparagraph", "flags": re.MULTILINE}),
         (u'\.\.\.', {"r": "\\\\ndots~", "flags": 0}),
-        (r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
+        #(r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
+        (r"\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
         (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
         (r"\*\*([^*]+)\*\*", {"r": r"\\textbf{\1}", "flags": 0}),
         (r"__([^_]+)__", {"r": r"\\uline{\1}", "flags": 0}),
@@ -101,7 +102,8 @@ def process_replace_tex(text):
                     except Exception:
                         print(tr)
                         raise
-                return ' ' + matchobj.group(1) + "\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
+                #return ' ' + matchobj.group(1) + "\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
+                return '' + matchobj.group(1) + "\\footnote{{{}}}".format(re.sub(r"<br\s*/>", ", ", tr[1]))
             elif matchobj.group(0).count("|") > 1:
                 raise ValueError("invalid translation tag: {}".format(matchobj.group(0)))
         if r.find("section") != -1 and len(matchobj.groups()) > 1 and matchobj.group(2):
