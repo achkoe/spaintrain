@@ -52,7 +52,7 @@ def process_replace_tex(text):
         (r"”", {"r": r'"', "flags": 0}),
         (u'…', {"r": "\\\\ndots~", "flags": 0}),
         (r"^---$", {"r": "\\\\newparagraph", "flags": re.MULTILINE}),
-        (u'\.\.\.', {"r": "\\\\ndots~", "flags": 0}),
+        (r'\.\.\.', {"r": "\\\\ndots~", "flags": 0}),
         #(r"[\s\[\"]\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
         (r"\[([^|]+)\|([^\]]+)\]", {"r": r"\2\\footnote{\1}", "flags": 0}),
         (r"[\s\[\"]\{([^|]+)\|([^\}]+)\}", {"r": r"endnote", "flags": 0}),
