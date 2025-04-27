@@ -85,7 +85,7 @@ class MainWindow(QtWidgets.QMainWindow):
                 if column == 0:
                     widget._id = worditem[-1]
                     if worditem[0] == 0:
-                        widget.setFlags(QtCore.Qt.ItemIsUserCheckable | QtCore.Qt.ItemIsEditable | QtCore.Qt.ItemIsEnabled)
+                        ## widget.setFlags(QtCore.Qt.ItemIsUserCheckable | QtCore.Qt.ItemIsEditable | QtCore.Qt.ItemIsEnabled)
                         widget.setCheckState(QtCore.Qt.Unchecked)
                     elif worditem[0] < 0:
                         pass
