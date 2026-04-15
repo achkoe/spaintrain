@@ -71,7 +71,7 @@ def process_replace_tex(text):
             ),
             (
                 r"^-([^-]+)-\s*(label{\w+})?\s*$",
-                {"r": r"\\section*{\1}", "flags": re.MULTILINE},
+                {"r": r"\\section*{\\centerline{\1}}", "flags": re.MULTILINE},
             ),
             (
                 r"^==([^=]+)==\s*(label{\w+})?\s*$",
