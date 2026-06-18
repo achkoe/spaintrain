@@ -50,6 +50,10 @@ all: book.tex $(texfiles)
 	# cd $(dir $<) && sh ../encrypt.sh && cd ..
 	cd $(dir $<) && sh ../encrypt2.sh && cd ..
 
+dictionary.pdf: dictionary.tex
+	latexmk -xelatex -quiet dictionary.tex
+
+
 ebook:
 	$(PYTHON) mtxt2output.py ebook --configfile config.json
 
