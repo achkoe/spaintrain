@@ -53,6 +53,8 @@ all: book.tex $(texfiles)
 dictionary.pdf: dictionary.tex
 	latexmk -xelatex -quiet dictionary.tex
 
+printdict.pdf: dictionary.pdf
+	pdfjam dictionary.pdf -o $@ --nup 2x1 --landscape --longedge
 
 ebook:
 	$(PYTHON) mtxt2output.py ebook --configfile config.json
