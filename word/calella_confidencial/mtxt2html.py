@@ -159,7 +159,7 @@ def get_dictionary(wordlist):
         text.append(f'<dl>\n<dt id="{item[0].replace(' ', '$').replace('/', '$')}">{item[0]}</dt>\n<dd>{item[1]}</dd>\n</dl>\n')
         links.add(target)
     links = sorted(list(links))
-    links = [f'<a href="#{item}">{item}</a>' for item in links]
+    links = [f'<a href="#{item}">{item}</a>&emsp;' for item in links]
     links.extend(text)
     return "\n".join(links)
 
