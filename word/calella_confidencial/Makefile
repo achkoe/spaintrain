@@ -43,7 +43,6 @@ all: book.tex $(texfiles)
 
 	latexmk -xelatex -quiet -g dictionary.tex 1> xelatex.log 2>&1
 
-
 %.tex: %.txt
 	$(PYTHON) mtxt2output.py tex
 	$(PYTHON) mtxt2output.py dictionary
@@ -58,6 +57,12 @@ printdict.pdf: dictionary.pdf
 
 ebook:
 	$(PYTHON) mtxt2output.py ebook --configfile config.json
+
+html:
+	$(PYTHON) mtxt2html.py
+
+htmlview:
+	 /opt/google/chrome/chrome calella.html
 
 check:
 	$(PYTHON) mtxt2output.py tex
