@@ -61,15 +61,8 @@ main {
 
     background: #e9e9e9;
 }
-hr {
-    border: 10px solid #ccc;
-    border-radius: 5px;
-    width: 2em;
-    margin-right: 0;
-    margin-left: auto;
-}
-hr.highlight {
-    animation: borderFlash 2s ease-in-out;
+.highlight {
+    animation: borderFlash 2s ease-in-out !important;
 }
 dt {
     font-weight: bold;
@@ -84,17 +77,33 @@ dl {
 dd {
     margin-left: 1em;
 }
+p:has(.bookmark) {
+    text-align: right;
+    margin: 0pt;
+}
+.bookmark {
+    text-decoration-line: none;
+    color: #aaa;
+}
+a:hover {
+    background-color: #333;
+    color: #fff;
+    border-radius: 2pt;
+}
 
 @keyframes borderFlash {
     0% {
-        border-color: #aaa;
+        color: #aaa;
     }
 
     50% {
-        border-color: green;
+        color: red;
     }
 
     100% {
-        border-color: #aaa;
+        color: #aaa;
     }
+}
+button {
+    border-radius: 3pt;
 }

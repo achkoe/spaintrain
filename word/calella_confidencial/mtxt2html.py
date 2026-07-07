@@ -5,9 +5,9 @@
 import argparse
 import json
 import logging
-from functools import partial
 import pathlib
 import re
+from functools import partial
 
 TEMPLATE = """
 <!doctype html>
@@ -24,7 +24,7 @@ TEMPLATE = """
     </head>
 
     <body>
-        <header><button id="gotopage">Goto last position</button></header>
+        <header><button id="gotopage">Goto bookmark</button></header>
         <main>
             <section class="left">
             {text}
@@ -41,21 +41,29 @@ SORTDICT = {"á": "a", chr(195): "a", "é": "e", "í": "i", "ó": "o", "ú": "u"
 
 
 def get_script():
-    with (pathlib.Path(__file__).parent.parent.joinpath("html", "script.js").open("r") as fh):
+    with (
+        pathlib.Path(__file__)
+        .parent.parent.joinpath("html", "script.js")
+        .open("r") as fh
+    ):
         script = fh.read()
     return script
 
 
 def get_css():
-    with (pathlib.Path(__file__).parent.parent.joinpath("html", "style.css").open("r") as fh):
+    with (
+        pathlib.Path(__file__)
+        .parent.parent.joinpath("html", "style.css")
+        .open("r") as fh
+    ):
         css = fh.read()
     return css
 
 
 def get_html(text):
     """Replace special tags with their html equivalent."""
-    
-    def replace_function(adict, what, replacement, matchobj):    
+
+    def replace_function(adict, what, replacement, matchobj):
         if what == "word":
             # print(f"what: {what}\nreplacement: {replacement}\nmatchobj: {matchobj}\n{matchobj.expand(replacement)}")
             # [previamente|previamente|zuvor, im Voraus|Adv]
@@ -67,83 +75,78 @@ def get_html(text):
                     try:
                         tr = [item.replace("::", "|") for item in tr]
                         if add_to_wordlist:
-                            wordlist.append((tr[0].strip(), tr[1].strip(), tr[2].strip()))
+                            wordlist.append(
+                                (tr[0].strip(), tr[1].strip(), tr[2].strip())
+                            )
                     except Exception:
                         print(tr)
                         raise
                 return '<a href="#{2}" title="{0}" class="dict">{1}</a>'.format(
-                    tr[1], 
-                    matchobj.group(1), 
-                    tr[0].replace(" ", "$").replace("/", "$"))
+                    tr[1], matchobj.group(1), tr[0].replace(" ", "$").replace("/", "$")
+                )
             elif matchobj.group(0).count("|") > 1:
-                raise ValueError("invalid translation tag: {}".format(matchobj.group(0)))  
+                raise ValueError(
+                    "invalid translation tag: {}".format(matchobj.group(0))
+                )
         elif what == "paragraph":
             adict["counter"] += 1
-            return f'<a href="#" class="bookmark"> <hr id="b{adict["counter"]}" /> </a>'
-            
+            # return f'<a href="#" class="bookmark"> <hr id="b{adict["counter"]}" /> </a>'
+            return f'<p id="b{adict["counter"]}"><a href="#" class="bookmark">&#9733;</a></p>'
+            # &#8962;
+
         return matchobj.expand(replacement)
-        
+
     adict = {"counter": 0, "alist": []}
     wordlist = []
     replacement_map = {
         r"^\s*$": {
             "what": "paragraph",
             "replace": "ZZZZ",  # handled in replace_function
-            "flags": re.MULTILINE
+            "flags": re.MULTILINE,
         },
         r"\[([^|]+)\|([^\]]+)\]": {
             "what": "word",
             "replace": r"",  # handled in replace_function
-            "flags": 0
+            "flags": 0,
         },
         r"^%(.*)": {
             "what": "comment",
             "replace": r"<!-- \1 -->",
-            "flags": re.MULTILINE
+            "flags": re.MULTILINE,
         },
-        r"^-([^-]+)-$": {   
+        r"^-([^-]+)-$": {
             "what": "section",
-            "replace": r"<h1>\1</h1>", 
-            "flags": re.MULTILINE
+            "replace": r"<h1>\1</h1>",
+            "flags": re.MULTILINE,
         },
-        r"_(.+?)_": {
-            "what": "italic",
-            "replace": r"<em>\1</em>", 
-            "flags": 0
-        },
-        r"\s*/(\d+)/\s*": {
-            "what": "pagenumber",
-            "replace": " ",
-            "flags": 0
-        },
-        r"^- ":  {
+        r"_(.+?)_": {"what": "italic", "replace": r"<em>\1</em>", "flags": 0},
+        r"\s*/(\d+)/\s*": {"what": "pagenumber", "replace": " ", "flags": 0},
+        r"^- ": {
             "what": "speech",
-            "replace": "<br/>&ndash;&nbsp;", 
-            "flags": re.MULTILINE
+            "replace": "<br/>&ndash;&nbsp;",
+            "flags": re.MULTILINE,
         },
-        r"---":  {
-            "what": "speech",
-            "replace": "&ndash;", 
-            "flags": re.MULTILINE
-        },
-        r"\\clearpage":  {
-            "what": "tex",
-            "replace": "", 
-            "flags": re.MULTILINE
-        },
+        r"---": {"what": "speech", "replace": "&ndash;", "flags": re.MULTILINE},
+        r"\\clearpage": {"what": "tex", "replace": "", "flags": re.MULTILINE},
     }
     for key, replacement in replacement_map.items():
-        rf = partial(replace_function, adict, replacement["what"], replacement["replace"])
+        rf = partial(
+            replace_function, adict, replacement["what"], replacement["replace"]
+        )
         text = re.sub(key, rf, text, flags=replacement["flags"])
     return text, wordlist
 
 
 def get_dictionary(wordlist):
-    
+
     def keyfn(item):
         printitem = item[0]
         wlist = printitem.split()
-        if (len(wlist) > 1 and wlist[0].startswith("(") or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de")):
+        if (
+            len(wlist) > 1
+            and wlist[0].startswith("(")
+            or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de")
+        ):
             printitem = wlist[1]
         for k, r in SORTDICT.items():
             printitem = printitem.replace(k, r)
@@ -156,7 +159,9 @@ def get_dictionary(wordlist):
         target = keyfn(item)[0].upper()
         if target not in links:
             text.append(f'<h1 id="{target}">{target}</h1>')
-        text.append(f'<dl>\n<dt id="{item[0].replace(' ', '$').replace('/', '$')}">{item[0]}</dt>\n<dd>{item[1]}</dd>\n</dl>\n')
+        text.append(
+            f'<dl>\n<dt id="{item[0].replace(" ", "$").replace("/", "$")}">{item[0]}</dt>\n<dd>{item[1]}</dd>\n</dl>\n'
+        )
         links.add(target)
     links = sorted(list(links))
     links = [f'<a href="#{item}">{item}</a>&emsp;' for item in links]
@@ -183,7 +188,11 @@ def process():
     html, wordlist = get_html(text)
     dictionary = get_dictionary(wordlist)
     with pathlib.Path(f"{rdict['bookname']}.html").open("w") as fh:
-        fh.write(TEMPLATE.format(title=title, script=script, css=css, text=html, dictionary=dictionary))
+        fh.write(
+            TEMPLATE.format(
+                title=title, script=script, css=css, text=html, dictionary=dictionary
+            )
+        )
 
 
 if __name__ == "__main__":
