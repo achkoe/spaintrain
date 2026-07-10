@@ -73,7 +73,7 @@ def get_html(text):
                 add_to_wordlist = len(tr) < 4
                 if matchobj.group(2).count("|") in [2, 3]:
                     try:
-                        tr = [item.replace("::", "|") for item in tr]
+                        tr = [item.replace("::", "; ") for item in tr]
                         if add_to_wordlist:
                             wordlist.append(
                                 (tr[0].strip(), tr[1].strip(), tr[2].strip())
@@ -145,7 +145,7 @@ def get_dictionary(wordlist):
         if (
             len(wlist) > 1
             and wlist[0].startswith("(")
-            or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de")
+            or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de", "el/la")
         ):
             printitem = wlist[1]
         for k, r in SORTDICT.items():

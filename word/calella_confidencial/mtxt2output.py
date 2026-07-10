@@ -3,6 +3,7 @@
 """Postprocessor for text to LaTex."""
 
 import argparse
+from errno import EDEADLK
 import json
 import logging
 import re
@@ -146,7 +147,7 @@ def process_replace_tex(text):
         if (
             len(wlist) > 1
             and wlist[0].startswith("(")
-            or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de")
+            or wlist[0] in ("lo", "la", "los", "las", "el", "a", "de", "el/la")
         ):
             a_ = wlist[1]
         for k, r in SORTDICT.items():
@@ -392,6 +393,7 @@ def make_dictionary(args):
                 or esword.startswith("las ")
                 or esword.startswith("a ")
                 or esword.startswith("de ")
+                or esword.startswith("el/la ")
             ):
                 firstletter = esword.split(" ")[1][0]
             else:
