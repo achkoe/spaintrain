@@ -8,6 +8,7 @@ import logging
 import pathlib
 import re
 from functools import partial
+from sys import flags
 
 TEMPLATE = """
 <!doctype html>
@@ -120,6 +121,7 @@ def get_html(text):
             "flags": re.MULTILINE,
         },
         r"_(.+?)_": {"what": "italic", "replace": r"<em>\1</em>", "flags": 0},
+        r"\.\.\.": {"what": "ellipsis", "replace": "&#8230;", "flags": 0},
         r"\s*/(\d+)/\s*": {"what": "pagenumber", "replace": " ", "flags": 0},
         r"^- ": {
             "what": "speech",
