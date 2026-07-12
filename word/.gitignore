@@ -1,0 +1,15 @@
+*.aux
+*.xdv
+*.tex
+*.fls
+*.fdb_latexmk
+*.dvi
+*.log
+*.out
+.zed/
+*.txt
+*.pdf
+*.sh
+*.html
+*.ps
+*.html
