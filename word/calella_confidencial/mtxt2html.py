@@ -130,7 +130,7 @@ def get_html(text):
         },
         r"---": {"what": "speech", "replace": "&ndash;", "flags": re.MULTILINE},
         r"\\clearpage": {"what": "tex", "replace": "", "flags": re.MULTILINE},
-        r"^>>\s":  {"what": "cont", "replace": r"<br/>\n&nbsp;&nbsp;&#187;", "flags": re.MULTILINE},
+        r"^>>\s*":  {"what": "cont", "replace": r"<br/>\n&nbsp;&nbsp;&#187;", "flags": re.MULTILINE},
     }
     for key, replacement in replacement_map.items():
         rf = partial(

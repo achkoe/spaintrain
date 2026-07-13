@@ -13,3 +13,7 @@
 *.html
 *.ps
 *.html
+*.gz
+*.db
+*.bak
+*.zip

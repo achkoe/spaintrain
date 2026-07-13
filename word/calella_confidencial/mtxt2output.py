@@ -101,7 +101,7 @@ def process_replace_tex(text):
             (r":/", {"r": r"\\end{slshape}", "flags": re.MULTILINE}),
             (r"^\\beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
             (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
-            (r"^>>\s", {"r": r"\\par\n\\frqq{}", "flags": re.MULTILINE}),
+            (r"^>>\s*", {"r": r"\\par\n\\frqq{}", "flags": re.MULTILINE}),
         ]
     )
 
