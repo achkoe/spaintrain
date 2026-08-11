@@ -102,6 +102,7 @@ def process_replace_tex(text):
             (r"^\\beginquote", {"r": r"\\begin{quote}", "flags": re.MULTILINE}),
             (r"^\\endquote", {"r": r"\\end{quote}", "flags": re.MULTILINE}),
             (r"^>>\s*", {"r": r"\\par\n\\frqq{}", "flags": re.MULTILINE}),
+            (r"^\\nnl\s*", {"r": r"\\noindent{}", "flags": re.MULTILINE}),
         ]
     )
 
